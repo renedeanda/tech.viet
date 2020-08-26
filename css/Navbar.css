@@ -1,0 +1,63 @@
+.Navbar {
+    height: 56px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #e8e8e8;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Navbar Menu {
+    width: 100%;
+}
+
+.navbar-text {
+    color: #676767;
+    font-size: 1.5em;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar-text2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar-text2:hover {
+    color: #0C5FFF;
+}
+
+.ui.secondary.menu a.item.button-item {
+    display: none;
+}
+
+.ui.secondary.menu a.item.hamburger-item {
+    display: block;
+}
+
+.ui.secondary.menu a.item.main-item:hover, .ui.secondary.menu a.item.hamburger-item:hover {
+    background: transparent;
+}
+
+@media only screen and (min-width: 720px) {
+    .navbar-text {
+        font-size: 1.8em;
+        display: block;
+    }
+    .ui.secondary.menu a.item.button-item {
+        display: block;
+    }
+    .ui.secondary.menu a.item.hamburger-item {
+        display: none;
+    }
+    .ui.right.sidebar.sidebar-menu {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        visibility: hidden;
+    }
+}

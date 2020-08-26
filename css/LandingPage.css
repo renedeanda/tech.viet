@@ -1,0 +1,21 @@
+.ui.button.cta {
+    background-color: #98ee98;
+    color: #555585;
+    font-size: 1.3em;
+}
+
+.ui.button.cta:hover {
+    background-color: #555585;
+    color: #98ee98;
+}
+
+.ui.button.cta-inverse {
+    background-color: #555585;
+    color: #98ee98;
+    font-size: 1.3em;
+}
+
+.ui.button.cta-inverse:hover {
+    background-color: #98ee98;
+    color: #555585;
+}

@@ -5,11 +5,28 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "now-dev": "npm run semantic:build && next dev",
+    "now-build": "npm run semantic:build && next build",
+    "semantic:build": "cd semantic && gulp build-css build-assets",
+    "semantic:watch": "cd semantic && npm run semantic:build && gulp watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "next": "9.4.4",
+    "@types/react": "^16.9.47",
+    "next": "9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "semantic-ui-react": "^1.2.1",
+    "styled-components": "^5.1.1",
+    "react-markdown": "^4.3.1",
+    "raw-loader": "^4.0.1",
+    "typescript": "^4.0.2",
+    "@mdx-js/loader": "^1.6.16",
+    "@next/mdx": "^9.5.2"
+  },
+  "devDependencies": {
+    "fomantic-ui": "^2.8.6"
   }
 }
