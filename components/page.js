@@ -37,6 +37,14 @@ const Page = (props) => {
                         style={{ padding: '0.5em' }}
                         className='navbar-text2'>Submit</div>
                 </Menu.Item>
+                <Menu.Item
+                    as='a'
+                    href='https://github.com/renedeanda/Tech.Viet'
+                    target='_blank'>
+                    <div
+                        style={{ padding: '0.5em' }}
+                        className='navbar-text2'>GitHub</div>
+                </Menu.Item>
             </Sidebar>
         </main>
     )

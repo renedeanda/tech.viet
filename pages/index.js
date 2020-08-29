@@ -32,7 +32,7 @@ const Home = () => {
               <Grid.Row>
                 <Grid.Column>
                   <Header
-                    style={{ paddingTop: '1.8em', fontSize: '3em', wordWrap: 'break-word' }}
+                    style={{ paddingTop: '1em', fontSize: '3em', wordWrap: 'break-word' }}
                     content='Header #1' />
                   <p
                     style={{ fontSize: '1.5em', wordWrap: 'break-word' }}

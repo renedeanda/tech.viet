@@ -34,6 +34,14 @@ const Navbar = (props) => {
                             <div
                                 className='navbar-text2'>Submit</div>
                         </Menu.Item>
+                        <Menu.Item
+                            as='a'
+                            className='button-item'
+                            href='https://github.com/renedeanda/Tech.Viet'
+                            target='_blank'>
+                            <div
+                                className='navbar-text2'>GitHub</div>
+                        </Menu.Item>
                     </Menu.Menu>
                 </Container>
             </Menu>

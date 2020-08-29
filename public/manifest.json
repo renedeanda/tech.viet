@@ -1,0 +1,16 @@
+{
+  "short_name": "Tech.Viet",
+  "name": "Tech.Viet",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#333333",
+  "background_color": "#ffffff",
+  "description": "An open-source view into the Vietnam Tech ecosystem."
+}
