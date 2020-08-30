@@ -7,11 +7,12 @@ import {
 import Page from '../../components/page';
 import { useRouter } from 'next/router';
 import Meta from '../../components/Meta';
-import companies from '../../public/data/companies.json';
 import LinkButtons from '../../components/linkButtons';
 
-const CompanyPage = () => {
+const CompanyPage = ({ companies }) => {
   const router = useRouter();
+
+  console.log(companies)
 
   //TODO randomize the companies in list & add filtering by industry, also sort by A-Z with filter
   return (
@@ -52,6 +53,19 @@ const CompanyPage = () => {
   )
 }
 
+// export async function getStaticProps() {
+//   // Call an external API endpoint to get posts.
+//   // You can use any data fetching library
+//   const res = await fetch('/data/companies.json')
+//   const companies = await res.json()
 
+//   // By returning { props: posts }, the Blog component
+//   // will receive `posts` as a prop at build time
+//   return {
+//     props: {
+//       companies,
+//     },
+//   }
+// }
 
 export default CompanyPage;

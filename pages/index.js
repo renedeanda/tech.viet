@@ -12,65 +12,14 @@ import { useRouter } from 'next/router';
 import Meta from '../components/Meta';
 //import companies from '../public/data/companies.json';
 import CompanyCard from '../components/companyCard';
+import fs from 'fs'
+import path from 'path'
 
-const tagOptions = [
-  {
-    key: 'Important',
-    text: 'Important',
-    value: 'Important',
-    label: { color: 'red', empty: true, circular: true },
-  },
-  {
-    key: 'Announcement',
-    text: 'Announcement',
-    value: 'Announcement',
-    label: { color: 'blue', empty: true, circular: true },
-  },
-  {
-    key: 'Cannot Fix',
-    text: 'Cannot Fix',
-    value: 'Cannot Fix',
-    label: { color: 'black', empty: true, circular: true },
-  },
-  {
-    key: 'News',
-    text: 'News',
-    value: 'News',
-    label: { color: 'purple', empty: true, circular: true },
-  },
-  {
-    key: 'Enhancement',
-    text: 'Enhancement',
-    value: 'Enhancement',
-    label: { color: 'orange', empty: true, circular: true },
-  },
-  {
-    key: 'Change Declined',
-    text: 'Change Declined',
-    value: 'Change Declined',
-    label: { empty: true, circular: true },
-  },
-  {
-    key: 'Off Topic',
-    text: 'Off Topic',
-    value: 'Off Topic',
-    label: { color: 'yellow', empty: true, circular: true },
-  },
-  {
-    key: 'Interesting',
-    text: 'Interesting',
-    value: 'Interesting',
-    label: { color: 'pink', empty: true, circular: true },
-  },
-  {
-    key: 'Discussion',
-    text: 'Discussion',
-    value: 'Discussion',
-    label: { color: 'green', empty: true, circular: true },
-  },
-]
+const dev = process.env.NODE_ENV !== 'production';
 
-const companies = {
+export const server = dev ? 'http://localhost:3000' : 'https://tech.viet.io';
+
+const companies1 = {
   "company": [
     {
       "name": "247Express",
@@ -304,8 +253,10 @@ const companies = {
     }]
 }
 
-const Home = () => {
+const Home = ({ companies }) => {
   const router = useRouter();
+
+  console.log(companies)
 
   //TODO randomize the companies in list & add filtering by industry, also sort by A-Z with filter
   return (
@@ -315,7 +266,7 @@ const Home = () => {
         desc="An open-source view into the Vietnam Tech ecosystem." />
 
       <Page>
-        <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0 0 0' }}>
+        {/* <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0 0 0' }}>
           <Segment
             textAlign='center'
             vertical>
@@ -372,11 +323,34 @@ const Home = () => {
               </Grid.Row>
             </Grid>
           </Segment>
-        </Container>
+        </Container> */}
       </Page>
 
     </>
   )
+}
+
+export async function getStaticProps() {
+  const companiesDirectory = path.join(process.cwd(), '/public/data/companies')
+  const filenames = fs.readdirSync(companiesDirectory)
+
+  const companies = filenames.map((filename) => {
+    const filePath = path.join(companiesDirectory, filename)
+    const fileContents = fs.readFileSync(filePath, 'utf8')
+
+    // Generally you would parse/transform the contents
+    // For example you can transform markdown to HTML here
+
+    return {
+      filename,
+      data: JSON.parse(fileContents),
+    }
+  })
+  return {
+    props: {
+      companies,
+    },
+  }
 }
 
 export default Home;
