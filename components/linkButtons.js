@@ -53,7 +53,7 @@ const LinkButtons = ({ company, size }) => {
             style={{ display: 'inline-block', margin: '0.2em' }}
             href={company.iosUrl}
             target="_blank"
-            icon='app store'
+            icon='app store ios'
             circular />
           : null}
       </>

@@ -3,9 +3,7 @@ import {
   Grid,
   Header,
   Segment,
-  Container,
-  Dropdown,
-  Input
+  Container
 } from 'semantic-ui-react';
 import Page from '../components/page';
 import { useRouter } from 'next/router';

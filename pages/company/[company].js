@@ -16,7 +16,7 @@ const CompanyPage = ({ company }) => {
   return (
     <>
       <Meta
-        title={company && company.name ? company.name : "404"}
+        title={company && company.name ? company.name + ' Company Page' : "404"}
         desc="An open-source view into the Vietnam Tech ecosystem." />
 
       <Page>
