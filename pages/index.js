@@ -10,255 +10,13 @@ import {
 import Page from '../components/page';
 import { useRouter } from 'next/router';
 import Meta from '../components/Meta';
-//import companies from '../public/data/companies.json';
 import CompanyCard from '../components/companyCard';
-import fs from 'fs'
-import path from 'path'
-
-const dev = process.env.NODE_ENV !== 'production';
-
-export const server = dev ? 'http://localhost:3000' : 'https://tech.viet.io';
-
-const companies1 = {
-  "company": [
-    {
-      "name": "247Express",
-      "website": "247post.vn",
-      "industry": "Logistics / Transport",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/247POST.VN",
-      "linkedin": "",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "9cv9",
-      "website": "9cv9.vn",
-      "industry": "HR / Recruitment",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/9cv9.official",
-      "linkedin": "linkedin.com/company/9cv9",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Alada",
-      "website": "alada.vn",
-      "industry": "Education",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/Alada.vn",
-      "linkedin": "",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "AloTrip",
-      "website": "alotrip.com",
-      "industry": "Travel / Tourism",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/AloTrip.travel",
-      "linkedin": "linkedin.com/company/alotriptravel",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Amanotes",
-      "website": "amanotes.com",
-      "industry": "Gaming",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/Amanotes",
-      "linkedin": "linkedin.com/company/amanotes",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Angisoft.vn",
-      "website": "angisoft.vn",
-      "industry": "Enterprise Software",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": {
-        "en": "fb.com/phanmemketoanangisoft"
-      },
-      "linkedin": "",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Anphabe",
-      "website": "anphabe.com",
-      "industry": "HR / Recruitment",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/anphabe",
-      "linkedin": "linkedin.com/company/anphabe.com",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "AntBuddy",
-      "website": "antbuddy.com",
-      "industry": "Enterprise Software",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/AntBuddy.ab",
-      "linkedin": "linkedin.com/company/antbuddy-jsc",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Antoree",
-      "website": "antoree.com",
-      "industry": "Education",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/antoree.co",
-      "linkedin": "linkedin.com/company/antoree",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Ants.vn",
-      "website": "antsprogrammatic.com",
-      "industry": "Adtech",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/ANTSCorporation",
-      "linkedin": "linkedin.com/company/ants-programmatic",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Appota",
-      "website": "appota.com",
-      "industry": "Media / Entertainment",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/appota",
-      "linkedin": "linkedin.com/company/appota",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    },
-    {
-      "name": "Baolau",
-      "website": "baolau.com",
-      "industry": "Travel / Tourism",
-      "tagline": {
-        "en": ""
-      },
-      "logoUrl": "",
-      "description": {
-        "en": ""
-      },
-      "facebook": "fb.com/baolau.co",
-      "linkedin": "linkedin.com/company/baolau",
-      "blogUrl": "",
-      "androidUrl": "",
-      "iosUrl": "",
-      "demoUrl": "",
-      "hiring": ""
-    }]
-}
+import fs from 'fs';
+import path from 'path';
 
 const Home = ({ companies }) => {
   const router = useRouter();
 
-  console.log(companies)
-
-  //TODO randomize the companies in list & add filtering by industry, also sort by A-Z with filter
   return (
     <>
       <Meta
@@ -266,7 +24,7 @@ const Home = ({ companies }) => {
         desc="An open-source view into the Vietnam Tech ecosystem." />
 
       <Page>
-        {/* <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0 0 0' }}>
+        <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0 0 0' }}>
           <Segment
             textAlign='center'
             vertical>
@@ -289,41 +47,17 @@ const Home = ({ companies }) => {
               </Grid.Row>
               <Grid.Row>
                 <Grid.Column>
-                  <Dropdown
-                    direction='left'
-                    text='Filter Companies'
-                    icon='filter'
-                    floating
-                    labeled
-                    button
-                    className='icon'
-                    upward={false}>
-                    <Dropdown.Menu>
-                      <Input icon='search' iconPosition='left' className='search' />
-                      <Dropdown.Divider />
-                      <Dropdown.Header icon='tags' content='Tag Label' />
-                      <Dropdown.Menu scrolling>
-                        {tagOptions.map((option) => (
-                          <Dropdown.Item key={option.value} {...option} />
-                        ))}
-                      </Dropdown.Menu>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                </Grid.Column>
-              </Grid.Row>
-              <Grid.Row>
-                <Grid.Column>
-                  {companies && companies.company.length > 0 ?
-                    companies.company.map((company, id) =>
+                  {companies && companies.length > 0 ?
+                    companies.map((company, id) =>
                       <CompanyCard
                         key={id}
-                        company={company} />)
+                        company={company.data} />)
                     : <p style={{ textAlign: 'center' }}>Error loading companies!</p>}
                 </Grid.Column>
               </Grid.Row>
             </Grid>
           </Segment>
-        </Container> */}
+        </Container>
       </Page>
 
     </>
@@ -348,7 +82,7 @@ export async function getStaticProps() {
   })
   return {
     props: {
-      companies,
+      companies
     },
   }
 }
