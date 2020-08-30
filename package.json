@@ -14,7 +14,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@types/react": "^16.9.47",
+    "@types/react": "^16.9.48",
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",

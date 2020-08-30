@@ -1,65 +1,57 @@
-import Link from 'next/link';
-import { Card, Icon, Image, Container, Segment, Grid } from 'semantic-ui-react';
-import Footer from '../../components/footer';
+import {
+  Grid,
+  Header,
+  Segment,
+  Container
+} from 'semantic-ui-react';
 import Page from '../../components/page';
 import { useRouter } from 'next/router';
 import Meta from '../../components/Meta';
+import companies from '../../public/data/companies.json';
+import LinkButtons from '../../components/linkButtons';
 
-export default function Home() {
+const CompanyPage = () => {
   const router = useRouter();
 
+  //TODO randomize the companies in list & add filtering by industry, also sort by A-Z with filter
   return (
     <>
       <Meta
-        title="{this.props.meta_title}"
-        desc="{this.props.meta_desc}" />
+        title={companies.company[1].name}
+        desc="An open-source view into the Vietnam Tech ecosystem." />
 
       <Page>
-        <Container style={{ minHeight: '100vh', width: '100vw', margin: '56px 0 0 0', padding: '0 2em' }}>
-          <Segment
-            textAlign='center'
-            vertical>
-            <Grid
-              style={{ minHeight: '72vh' }}
-              container
-              stackable
-              verticalAlign='middle'>
-              <Grid.Row>
-                <Grid.Column>
-                  <Card>
-                    <Image src='https://picsum.photos/200' wrapped ui={false} />
-                    <Card.Content>
-                      <Card.Header>Google</Card.Header>
-                      <Card.Meta>
-                        <span className='date'>Joined in 2015</span>
-                      </Card.Meta>
-                      <Card.Description>
-                        We make the world evil.
-            </Card.Description>
-                    </Card.Content>
-                    <Card.Content extra>
-                      <a>
-                        <Icon name='user' />
-        22 Friends
-      </a>
-                    </Card.Content>
-                  </Card>
-                  <h1 className="title">
-                    Go <a href="/">Home!</a>
-                    <div></div>
-          Go <Link href="/" as="vietnam">
-                      <a>
-                        Vietnam!
-            </a>
-                    </Link>
-                  </h1>
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
+        <Container text style={{ padding: '4.5em 0 1.5em 0', minHeight: '100vh' }}>
+          <Segment textAlign='center' style={{ margin: '0 0 1em 0', background: 'white', borderRadius: '.5em', padding: '1.2em' }}>
+            <Header as='h1' style={{
+              marginBottom: 0,
+              fontSize: '2.3em',
+              wordWrap: 'break-word'
+            }}>{companies.company[1].name}</Header>
+            <p style={{
+              lineHeight: '1.5em',
+              margin: 0,
+              fontSize: '1.5em',
+              wordWrap: 'break-word'
+            }}>{companies.company[1].industry}</p>
+            {companies.company[1].tagline.en ?
+              <p style={{
+                lineHeight: '1em',
+                fontSize: '1.1em',
+                opacity: '0.6',
+                wordWrap: 'break-word'
+              }}>{companies.company[1].tagline.en}</p>
+              : null}
+            <LinkButtons
+              company={companies.company[1]}
+              size='large' />
           </Segment>
-        </Container>
+        </Container >
       </Page>
-      <Footer />
     </>
   )
 }
+
+
+
+export default CompanyPage;

@@ -5,13 +5,10 @@ import {
     Segment,
     Container
 } from 'semantic-ui-react';
-import Footer from '../components/footer';
 import Page from '../components/page';
-import { useRouter } from 'next/router';
 import Meta from '../components/Meta';
 
 const Submit = () => {
-    const router = useRouter();
 
     return (
         <>
@@ -32,25 +29,29 @@ const Submit = () => {
                             <Grid.Row>
                                 <Grid.Column>
                                     <Header
-                                        style={{ paddingTop: '1.8em', fontSize: '3em', wordWrap: 'break-word' }}
-                                        content='Submit #1' />
-                                    <p
-                                        style={{ fontSize: '1.5em', wordWrap: 'break-word' }}
-                                    >
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                      </p>
+                                        style={{ padding: '0.8em', fontSize: '3em', wordWrap: 'break-word' }}
+                                        content='Help improve this list with updates or new Vietnamese Tech companies' />
                                     <Button
-                                        as='a'
-                                        style={{ alignSelf: 'left', alignItems: 'left', justifyContent: 'left', }}
+                                        style={{ margin: '0 1em' }}
+                                        color='purple'
+                                        icon='google'
+                                        content='Add by Form'
                                         size='big'
-                                        onClick={() => { router.push('/company/google') }}>Check it out</Button>
+                                        href='https://forms.gle/Y75CegGFRp6tzdn67'
+                                        target='_blank' />
+                                    <Button
+                                        className='github-button'
+                                        icon='github'
+                                        content='GitHub'
+                                        size='big'
+                                        href='https://github.com/renedeanda/Tech.Viet'
+                                        target='_blank' />
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>
                     </Segment>
                 </Container>
             </Page>
-            <Footer />
         </>
     )
 }

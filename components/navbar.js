@@ -24,12 +24,6 @@ const Navbar = (props) => {
                         </Menu.Item>
                         <Menu.Item
                             className='button-item'
-                            onClick={() => { router.push('/about') }}>
-                            <div
-                                className='navbar-text2'>About</div>
-                        </Menu.Item>
-                        <Menu.Item
-                            className='button-item'
                             onClick={() => { router.push('/submit') }}>
                             <div
                                 className='navbar-text2'>Submit</div>
