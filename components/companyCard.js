@@ -5,6 +5,7 @@ import {
   Icon
 } from 'semantic-ui-react';
 import LinkButtons from '../components/linkButtons';
+import { withHttp } from '../util/urlHelper';
 
 const CompanyCard = ({ id, company }) => {
 
@@ -24,7 +25,7 @@ const CompanyCard = ({ id, company }) => {
         {company.website ?
           <Card.Meta>
             <a
-              href={'http://' + company.website}
+              href={withHttp(company.website)}
               target='_blank'><Icon name='linkify' /> {company.website}</a>
           </Card.Meta> : null}
         {company.tagline ?

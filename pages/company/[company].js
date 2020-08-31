@@ -10,6 +10,7 @@ import Meta from '../../components/Meta';
 import LinkButtons from '../../components/linkButtons';
 import fs from 'fs';
 import path from 'path';
+import { withHttp } from '../../util/urlHelper';
 
 const CompanyPage = ({ company }) => {
 
@@ -48,11 +49,12 @@ const CompanyPage = ({ company }) => {
               : null}
             {company.website ?
               <a
-                href={'http://' + company.website}
+                href={withHttp(company.website)}
                 target='_blank'><Icon name='linkify' />{company.website}</a> : null}
+            {/* TODO update to 'blogUrl' */}
             {company.website ?
               <a
-                href={'http://' + company.website}
+                href={withHttp(company.blogUrl)}
                 target='_blank'><Icon name='rss' />Blog</a> : null}
             <LinkButtons
               company={company}
