@@ -18,8 +18,9 @@ const Home = ({ companies }) => {
   return (
     <>
       <Meta
-        title="Tech.Viet - A View into Vietnam Tech"
-        desc="An open-source view into the Vietnam Tech ecosystem." />
+        title='Tech.Viet - A View into Vietnam Tech'
+        desc='An open-source view into the Vietnam Tech ecosystem. Find tech companies of all sizes from Vietnam.'
+        canonical='https://tech.viet.io/' />
 
       <Page>
         <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0 0 0' }}>

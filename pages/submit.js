@@ -13,8 +13,9 @@ const Submit = () => {
   return (
     <>
       <Meta
-        title="{this.props.meta_title}"
-        desc="{this.props.meta_desc}" />
+        title='Submit to Tech.Viet'
+        desc='Update &amp; add new Vietnamese Tech companies to Tech.Viet, an open-source view into the Vietnam Tech ecosystem'
+        canonical='https://tech.viet.io/submit' />
 
       <Page>
         <Container style={{ minHeight: '100vh', width: '100vw', margin: '56px 0 0 0', padding: '0 2em' }}>
@@ -29,10 +30,10 @@ const Submit = () => {
               <Grid.Row>
                 <Grid.Column>
                   <Header
-                    style={{ padding: '0.8em', fontSize: '3em', wordWrap: 'break-word' }}
-                    content='Help improve this list with updates or new Vietnamese Tech companies' />
+                    style={{ padding: '0.2em', fontSize: '2.7em', wordWrap: 'break-word' }}
+                    content='Help improve this list with updates &amp; new Vietnamese Tech companies' />
                   <Button
-                    style={{ margin: '0 1em' }}
+                    style={{ display: 'inline-block', margin: '0.4em' }}
                     color='purple'
                     icon='google'
                     content='Add by Form'
@@ -40,6 +41,7 @@ const Submit = () => {
                     href='https://forms.gle/Y75CegGFRp6tzdn67'
                     target='_blank' />
                   <Button
+                    style={{ display: 'inline-block', margin: '0.4em' }}
                     className='github-button'
                     icon='github'
                     content='GitHub'

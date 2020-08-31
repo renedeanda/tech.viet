@@ -13,16 +13,21 @@ import path from 'path';
 
 const CompanyPage = ({ company }) => {
 
+  const description = company.name ?
+    company.name + ' on Tech.Viet. An open-source view into the Vietnam Tech ecosystem.'
+    : 'An open-source view into the Vietnam Tech ecosystem.'
+
   return (
     <>
       <Meta
-        title={company && company.name ? company.name + ' Company Page' : "404"}
-        desc="An open-source view into the Vietnam Tech ecosystem." />
+        title={company.name ? company.name + ' Company Page' : 'Company Not Found'}
+        desc={company.tagline ? company.tagline + ' ' + description : description}
+        canonical={'https://tech.viet.io/company/' + company.slug} />
 
       <Page>
         <Container text style={{ padding: '4.5em 0 1.5em 0', minHeight: '100vh' }}>
-          <Segment textAlign='center' style={{ margin: '0 0 1em 0', background: 'white', borderRadius: '.5em', padding: '1.2em' }}>
-            <Header as='h1' style={{
+          <Segment textAlign='center' style={{ background: 'white', padding: '1.2em' }}>
+            <Header style={{
               marginBottom: 0,
               fontSize: '2.3em',
               wordWrap: 'break-word'
@@ -44,11 +49,11 @@ const CompanyPage = ({ company }) => {
             {company.website ?
               <a
                 href={'http://' + company.website}
-                target='_blank'><Icon name='linkify' /> {company.website}</a> : null}
+                target='_blank'><Icon name='linkify' />{company.website}</a> : null}
             {company.website ?
               <a
                 href={'http://' + company.website}
-                target='_blank'><Icon name='newspaper outline' /> {company.website}</a> : null}
+                target='_blank'><Icon name='rss' />Blog</a> : null}
             <LinkButtons
               company={company}
               size='large' />
