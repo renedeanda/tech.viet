@@ -1,68 +1,115 @@
 import React from 'react';
-import { Button, Item, List } from 'semantic-ui-react';
+import { Button, List, Icon } from 'semantic-ui-react';
+import { withHttp } from '../util/urlHelper';
 
 
-const LinkButtons = ({ company, size }) => {
+const LinkButtons = ({ company, size, text }) => {
 
-  //Circular buttons created from profile.social
   const buttons =
     (company && (
       company.facebook ||
       company.linkedin ||
       company.androidUrl ||
       company.iosUrl) ?
-      <>
+      <List>
         {company.facebook ?
           <Button
-            size={size}
             as='a'
+            size={size}
             style={{ display: 'inline-block', margin: '0.2em' }}
-            href={'https://' + company.facebook}
+            href={withHttp(company.facebook)}
             target="_blank"
             icon='facebook'
             color='facebook'
-            circular />
+            circular
+            onClick={(e) => {
+              e.stopPropagation();
+            }} />
           : null}
         {company.linkedin ?
           <Button
-            size={size}
             as='a'
+            size={size}
             style={{ display: 'inline-block', margin: '0.2em' }}
-            href={'https://' + company.linkedin}
+            href={withHttp(company.linkedin)}
             target="_blank"
             icon='linkedin'
             color='linkedin'
-            circular />
+            circular
+            onClick={(e) => {
+              e.stopPropagation();
+            }} />
           : null}
         {company.androidUrl ?
           <Button
-            size={size}
             as='a'
+            size={size}
             color='teal'
             style={{ display: 'inline-block', margin: '0.2em' }}
-            href={company.androidUrl}
+            href={withHttp(company.androidUrl)}
             target="_blank"
             icon='google play'
-            circular />
+            circular
+            onClick={(e) => {
+              e.stopPropagation();
+            }} />
           : null}
         {company.iosUrl ?
           <Button
-            size={size}
             as='a'
+            size={size}
             color='blue'
             style={{ display: 'inline-block', margin: '0.2em' }}
-            href={company.iosUrl}
+            href={withHttp(company.iosUrl)}
             target="_blank"
             icon='app store ios'
-            circular />
+            circular
+            onClick={(e) => {
+              e.stopPropagation();
+            }} />
           : null}
-      </>
+      </List>
       : null)
 
+  const textList = (
+    <List link style={{ fontSize: '1.1em' }}>
+      <List.Item
+        href={withHttp(company.website)}
+        target='_blank'><Icon name='linkify' />{company.website}</List.Item>
+      {company.facebook ?
+        <List.Item
+          href={withHttp(company.facebook)}
+          target='_blank'><Icon name='facebook' />Facebook</List.Item>
+        : null}
+      {company.linkedin ?
+        <List.Item
+          href={withHttp(company.linkedin)}
+          target='_blank'><Icon name='linkedin' />LinkedIn</List.Item>
+        : null}
+      {company.blogUrl ?
+        <List.Item
+          href={withHttp(company.blogUrl)}
+          target='_blank'><Icon name='rss' />Blog</List.Item>
+        : null}
+      {company.demoUrl ?
+        <List.Item
+          href={withHttp(company.demoUrl)}
+          target='_blank'><Icon name='globe' />Product Demo</List.Item>
+        : null}
+      {company.androidUrl ?
+        <List.Item
+          href={withHttp(company.androidUrl)}
+          target='_blank'><Icon name='google play' />Google Play</List.Item>
+        : null}
+      {company.iosUrl ?
+        <List.Item
+          href={withHttp(company.iosUrl)}
+          target='_blank'><Icon name='app store ios' />App Store</List.Item>
+        : null}
+    </List>)
+
   return (
-    <List>
-      {buttons}
-    </List>
+    text ? textList : buttons
   )
 }
 

@@ -31,7 +31,7 @@ const Page = (props) => {
             onClick={() => { router.push('/submit') }}>
             <div
               style={{ padding: '0.5em' }}
-              className='navbar-text2'>Submit</div>
+              className='navbar-text2'><Icon name='plus' />Submit Company</div>
           </Menu.Item>
           <Menu.Item
             as='a'
@@ -39,7 +39,31 @@ const Page = (props) => {
             target='_blank'>
             <div
               style={{ padding: '0.5em' }}
-              className='navbar-text2'>GitHub</div>
+              className='navbar-text2'><Icon name='github' />GitHub</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='https://www.linkedin.com/shareArticle?mini=true&url=https://tech.viet.io&title=Tech.Viet - A View into Vietnam Tech'
+            target='_blank'>
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='linkedin' />Share on LinkedIn</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='https://www.facebook.com/sharer/sharer.php?u=https://tech.viet.io'
+            target='_blank'>
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='facebook' />Share on Facebook</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='https://twitter.com/intent/tweet/?text=Check out the Tech.Viet open-source project&url=https://tech.viet.io&via=redeio'
+            target='_blank'>
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='twitter' />Share on Twitter</div>
           </Menu.Item>
         </Sidebar>
       </main>

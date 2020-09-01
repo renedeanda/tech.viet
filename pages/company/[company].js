@@ -1,66 +1,25 @@
-import {
-  Grid,
-  Header,
-  Segment,
-  Container,
-  Icon
-} from 'semantic-ui-react';
+import React from 'react';
 import Page from '../../components/page';
 import Meta from '../../components/Meta';
-import LinkButtons from '../../components/linkButtons';
 import fs from 'fs';
 import path from 'path';
-import { withHttp } from '../../util/urlHelper';
+import CompanyContainer from '../../components/companyContainer';
 
 const CompanyPage = ({ company }) => {
 
   const description = company.name ?
-    company.name + ' on Tech.Viet. An open-source view into the Vietnam Tech ecosystem.'
+    `${company.name} on Tech.Viet. An open-source view into the Vietnam Tech ecosystem.`
     : 'An open-source view into the Vietnam Tech ecosystem.'
 
   return (
     <>
       <Meta
-        title={company.name ? company.name + ' Company Page' : 'Company Not Found'}
-        desc={company.tagline ? company.tagline + ' ' + description : description}
-        canonical={'https://tech.viet.io/company/' + company.slug} />
+        title={company.name ? `${company.name} Company Page` : 'Company Not Found'}
+        desc={company.tagline ? `${company.tagline} ${description}` : description}
+        canonical={`https://tech.viet.io/company/${company.slug}`} />
 
       <Page>
-        <Container text style={{ padding: '4.5em 0 1.5em 0', minHeight: '100vh' }}>
-          <Segment textAlign='center' style={{ background: 'white', padding: '1.2em' }}>
-            <Header style={{
-              marginBottom: 0,
-              fontSize: '2.3em',
-              wordWrap: 'break-word'
-            }}>{company.name}</Header>
-            <p style={{
-              lineHeight: '1.5em',
-              margin: 0,
-              fontSize: '1.5em',
-              wordWrap: 'break-word'
-            }}>{company.industry}</p>
-            {company.tagline ?
-              <p style={{
-                lineHeight: '1em',
-                fontSize: '1.1em',
-                opacity: '0.6',
-                wordWrap: 'break-word'
-              }}>{company.tagline}</p>
-              : null}
-            {company.website ?
-              <a
-                href={withHttp(company.website)}
-                target='_blank'><Icon name='linkify' />{company.website}</a> : null}
-            {/* TODO update to 'blogUrl' */}
-            {company.website ?
-              <a
-                href={withHttp(company.blogUrl)}
-                target='_blank'><Icon name='rss' />Blog</a> : null}
-            <LinkButtons
-              company={company}
-              size='large' />
-          </Segment>
-        </Container >
+        <CompanyContainer company={company} />
       </Page>
     </>
   )
