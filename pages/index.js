@@ -2,7 +2,6 @@ import {
   Button,
   Grid,
   Header,
-  Segment,
   Container
 } from 'semantic-ui-react';
 import Page from '../components/page';
@@ -11,12 +10,13 @@ import Meta from '../components/Meta';
 import CompanyCard from '../components/companyCard';
 import fs from 'fs';
 import path from 'path';
+import StickyFooter from '../components/stickyFooter';
 
 const Home = ({ companies }) => {
   const router = useRouter();
 
   return (
-    <>
+    <div>
       <Meta
         title='Tech.Viet - A View into Vietnam Tech'
         desc='An open-source view into the Vietnam Tech ecosystem. Find tech companies of all sizes from Vietnam.'
@@ -55,8 +55,8 @@ const Home = ({ companies }) => {
           </Grid>
         </Container>
       </Page>
-
-    </>
+      <StickyFooter />
+    </div>
   )
 }
 
@@ -67,9 +67,6 @@ export async function getStaticProps() {
   const companies = filenames.map((filename) => {
     const filePath = path.join(companiesDirectory, filename)
     const fileContents = fs.readFileSync(filePath, 'utf8')
-
-    // Generally you would parse/transform the contents
-    // For example you can transform markdown to HTML here
 
     return {
       filename,

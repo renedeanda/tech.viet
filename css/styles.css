@@ -1,3 +1,13 @@
+.ui.button.github-button {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.ui.button.github-button:hover {
+    background-color: #111111;
+    color: #ffffff;
+}
+
 .Navbar {
     height: 56px;
     background-color: #FFFFFF;
@@ -14,6 +24,21 @@
 
 .Navbar Menu {
     width: 100%;
+}
+
+.sticky {
+    height: 48px;
+    background-color: #ffffff;
+    width: 72vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    z-index: 90;
+    left: 14%;
+    border-radius: 25px 25px 0px 0px;
+    border: 2px solid #e8e8e8;
 }
 
 .navbar-text {

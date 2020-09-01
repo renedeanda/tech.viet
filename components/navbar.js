@@ -23,6 +23,14 @@ const Navbar = (props) => {
                 className='hamburger' />
             </Menu.Item>
             <Menu.Item
+              as='a'
+              className='button-item'
+              href='https://newsletter.viet.io'
+              target='_blank'>
+              <div
+                className='navbar-text2'>Newsletter</div>
+            </Menu.Item>
+            <Menu.Item
               className='button-item'
               onClick={() => { router.push('/submit') }}>
               <div

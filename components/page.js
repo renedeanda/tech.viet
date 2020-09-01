@@ -43,6 +43,14 @@ const Page = (props) => {
           </Menu.Item>
           <Menu.Item
             as='a'
+            href='https://newsletter.viet.io'
+            target='_blank'>
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='newspaper outline' />Newsletter</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
             href='https://www.linkedin.com/shareArticle?mini=true&url=https://tech.viet.io&title=Tech.Viet - A View into Vietnam Tech'
             target='_blank'>
             <div

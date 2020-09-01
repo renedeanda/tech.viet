@@ -1,6 +1,4 @@
-import '../css/Navbar.css';
-import '../css/LandingPage.css';
-import '../css/ProfilePage.css';
+import '../css/styles.css';
 import '../semantic/dist/semantic.min.css';
 import React from 'react';
 import App from 'next/app';
