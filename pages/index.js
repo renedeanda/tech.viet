@@ -35,7 +35,7 @@ const Home = ({ companies }) => {
         canonical='https://tech.viet.io/' />
 
       <Page>
-        <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0 0 0' }}>
+        <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0' }}>
           <Grid
             container
             stackable
