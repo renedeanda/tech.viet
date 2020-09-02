@@ -1,1 +1,16 @@
-{"name": "Scommerce", "slug": "scommerce", "website": "scommerce.asia", "industry": "Logistics / Transport", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/scommerce.asia", "linkedin": "linkedin.com/company/scommerce.asia", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+    "name": "Scommerce",
+    "slug": "scommerce",
+    "website": "scommerce.asia",
+    "industry": "Logistics / Transport",
+    "tagline": "",
+    "logoUrl": "",
+    "description": "",
+    "facebook": "",
+    "linkedin": "linkedin.com/company/scommerce.asia",
+    "blogUrl": "",
+    "androidUrl": "",
+    "iosUrl": "",
+    "demoUrl": "",
+    "hiring": null
+}
