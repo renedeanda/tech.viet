@@ -1,0 +1,42 @@
+{
+    "name": "The Name of your company",
+    "slug": "slug_of_your_comapny",
+    "website": "mywebsite.com",
+    "industry": "Chose one of following or add new one:
+                Logistics / Transport
+                HR / Recruitment
+                Education
+                Travel / Tourism
+                Gaming
+                Enterprise Software
+                Adtech
+                Media / Entertainment
+                Software
+                Finance
+                Marketplace
+                Ecommerce
+                Web Hosting
+                Telecom
+                Fintech
+                Food & Beverage
+                Real Estate
+                Construction
+                Domain Names
+                Customer Support
+                Agtech
+                Infrastructure
+                Healthcare
+                Social
+                Renewable Energy
+                Marketing",
+    "tagline": "Short description under 120 char",
+    "logoUrl": "https://mycompany.com/logo_300x300.png",
+    "description": "Description of your company to explain what you do",
+    "facebook": "fb.com/mycompany",
+    "linkedin": "linkedin.com/company/mycompany",
+    "blogUrl": "https://myblog.com",
+    "androidUrl": "play.google.com/store/apps/details?id=MY_APP_ID",
+    "iosUrl": " https://apps.apple.com/vn/app/myproduct/ID",
+    "demoUrl": "https://mywebsite.com/demo",
+    "hiring": null | true | false
+}
