@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Container,
   Grid,
-  Header,
   List,
   Segment
 } from 'semantic-ui-react';
@@ -25,7 +24,7 @@ const Footer = () => {
               <Grid.Column
                 width={3}>
                 <p style={{ justifyContent: 'center' }}>
-                  {'© ' + new Date().getFullYear() + ' Made by '}
+                  {`© ${new Date().getFullYear()} Made by `}
                   <a href='https://vina.dev/rene' target='_blank'>René</a></p>
                 <List link inverted>
                   <List.Item
@@ -36,11 +35,7 @@ const Footer = () => {
                     as='a'
                     href='mailto:hi@viet.io'>Get in touch</List.Item>
                   <List.Item style={{ paddingTop: '2em', fontStyle: 'italic' }}>{"* Inclusion of a company on this list is not an endorsement for the company or it\'s products"}</List.Item>
-
                 </List>
-                <p style={{ justifyContent: 'center' }}>
-
-                </p>
               </Grid.Column>
             </Grid.Row>
           </Grid>

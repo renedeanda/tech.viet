@@ -1,15 +1,12 @@
 import React from 'react';
 import {
-  List,
   Header,
   Segment,
-  Icon,
-  Grid,
   Container,
   Button,
   Label
 } from 'semantic-ui-react';
-import { withHttp } from '../util/urlHelper';
+import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
 import LinkButtons from './linkButtons';
 
@@ -24,7 +21,7 @@ const CompanyContainer = ({ company }) => {
 
   return (
     <>
-      <Container style={{ display: 'flex', justifyContent: 'center', minHeight: '72vh', padding: '4.5em 0 1.5em 0' }}>
+      <Container style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh', padding: '4.5em 0 1.5em 0' }}>
         <Segment raised style={{ minWidth: 360, maxWidth: 480, padding: '2em' }}>
           <Container fluid style={{ display: 'flex', justifyContent: 'flex-end' }}>
             <Button
@@ -32,7 +29,6 @@ const CompanyContainer = ({ company }) => {
               basic
               href={gFormLink}
               target="_blank"
-              content='Edit'
               icon='pencil'
               circular />
             <ShareMenu url={`https://tech.viet.io/company/${company.slug}`} />

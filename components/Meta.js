@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+
 const Meta = (props) => (
   <Head>
     <title>{props.title}</title>

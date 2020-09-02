@@ -6,7 +6,7 @@ import {
 } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
 import LinkButtons from '../components/linkButtons';
-import { withHttp } from '../util/urlHelper';
+import { withHttp } from '../util/helpers';
 
 const CompanyCard = ({ id, company }) => {
   const router = useRouter();

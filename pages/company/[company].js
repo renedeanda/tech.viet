@@ -44,7 +44,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const companyFile = path.join(process.cwd(), '/public/data/companies/' + context.params.company + '.json')
+  const companyFile = path.join(process.cwd(), `/public/data/companies/${context.params.company}.json`)
   const fileContents = fs.readFileSync(companyFile, 'utf8')
 
   return {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, List, Icon } from 'semantic-ui-react';
-import { withHttp } from '../util/urlHelper';
+import { withHttp } from '../util/helpers';
 
 
 const LinkButtons = ({ company, size, text }) => {

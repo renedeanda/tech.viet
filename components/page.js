@@ -4,7 +4,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { Menu, Icon, Sidebar } from 'semantic-ui-react';
 
-const Page = (props) => {
+const Page = ({ children }) => {
   const router = useRouter();
   const [visible, setVisible] = useState(false)
 
@@ -13,7 +13,7 @@ const Page = (props) => {
       <main>
         <Navbar
           openDrawer={() => visible ? setVisible(false) : setVisible(true)} />
-        {props.children}
+        {children}
         <Sidebar
           className='sidebar-menu'
           style={{ height: '100vh' }}
