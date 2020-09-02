@@ -2,20 +2,20 @@
 
 ## Introduction
 
-Script to automaticly push the content of a form into github
+Script to automatically push the content of a form into github
 
-## Instalation
+## Installation
 
 ### Requirements
 
 To use you need to have
 
-- a github project with a branch call `gform`
-- a Personal Access Token with scope repo for github - you can created via [https://github.com/settings/tokens](https://github.com/settings/tokens)
+- a github project with a branch called `gform`
+- a Personal Access Token with scope repo for github - you can create via [https://github.com/settings/tokens](https://github.com/settings/tokens)
 
 ### Step 1: create form
 
-Create a google form and a Spreadsheet associated to it with all the question needed
+Create a google form and a Spreadsheet associated to it with all the questions needed
 
 ### Step 2: associate a Google Script to your form
 
@@ -33,7 +33,7 @@ Add a trigger with following values:
   _Select event source_: **From Spreadsheet**
   _Select event type_: **On Form submit**
 
-### Step 5: Test that your data is recieved
+### Step 5: Test that your data is received
 
 ## debug
 
