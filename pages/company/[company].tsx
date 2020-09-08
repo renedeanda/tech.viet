@@ -4,8 +4,10 @@ import Meta from '../../components/Meta';
 import fs from 'fs';
 import path from 'path';
 import CompanyContainer from '../../components/companyContainer';
+import { Company } from '../../types/company.types';
+import { GetStaticProps, GetStaticPaths } from 'next';
 
-const CompanyPage = ({ company }) => {
+export default function CompanyPage({ company }: { company: Company }) {
 
   const description = company.name ?
     `${company.name} on Tech.Viet. An open-source view into the Vietnam Tech ecosystem.`
@@ -25,7 +27,7 @@ const CompanyPage = ({ company }) => {
   )
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
   const companiesDirectory = path.join(process.cwd(), '/public/data/companies')
   const filenames = fs.readdirSync(companiesDirectory)
 
@@ -43,7 +45,7 @@ export async function getStaticPaths() {
   return { paths, fallback: false }
 }
 
-export async function getStaticProps(context) {
+export const getStaticProps: GetStaticProps = async context => {
   const companyFile = path.join(process.cwd(), `/public/data/companies/${context.params.company}.json`)
   const fileContents = fs.readFileSync(companyFile, 'utf8')
 
@@ -53,5 +55,3 @@ export async function getStaticProps(context) {
     },
   }
 }
-
-export default CompanyPage;

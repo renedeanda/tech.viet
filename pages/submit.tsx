@@ -8,7 +8,7 @@ import {
 import Page from '../components/page';
 import Meta from '../components/Meta';
 
-const Submit = () => {
+export default function Submit() {
 
   return (
     <>
@@ -57,5 +57,3 @@ const Submit = () => {
     </>
   )
 }
-
-export default Submit;  

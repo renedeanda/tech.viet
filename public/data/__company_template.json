@@ -1,6 +1,6 @@
 {
     "name": "The Name of your company",
-    "slug": "slug_of_your_comapny",
+    "slug": "company_slug_MATCHING_NAME_OF_JSON_FILE_NO_SPACES" ,
     "website": "mywebsite.com",
     "industry": "Chose one of following or add new one:
                 Logistics / Transport

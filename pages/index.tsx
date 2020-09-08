@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Button,
   Grid,
   Header,
-  Container
+  Container,
+  Card
 } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
 import fs from 'fs';
@@ -14,9 +15,9 @@ import CompanyCard from '../components/companyCard';
 import StickyFooter from '../components/stickyFooter';
 import FilterDropdown from '../components/filterDropdown';
 import { shuffle, filterCompanies } from '../util/helpers';
+import { GetStaticProps } from 'next';
 
-
-const Home = ({ companies }) => {
+export default function Home({ companies }: { companies: any[] }) {
   const router = useRouter();
 
   const [industry, setIndustry] = useState("All");
@@ -62,10 +63,8 @@ const Home = ({ companies }) => {
             <Grid.Row>
               <Grid.Column>
                 {filteredCos && filteredCos.length > 0 ?
-                  filteredCos.map((company, id) =>
-                    <CompanyCard
-                      key={id}
-                      company={company.data} />)
+                  filteredCos.map((item: any) =>
+                    <CompanyCard company={item.data} />)
                   : <p style={{ fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
               </Grid.Column>
             </Grid.Row>
@@ -77,7 +76,7 @@ const Home = ({ companies }) => {
   )
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const companiesDirectory = path.join(process.cwd(), '/public/data/companies')
   const filenames = fs.readdirSync(companiesDirectory)
 
@@ -99,5 +98,3 @@ export async function getStaticProps() {
     },
   }
 }
-
-export default Home;

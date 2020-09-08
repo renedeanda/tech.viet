@@ -1,9 +1,9 @@
-export function withHttp(url) {
+export function withHttp(url: string) {
   return !/^https?:\/\//i.test(url) ? `http://${url}` : url;
 }
 
-export function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+export function shuffle(array: any[]) {
+  var currentIndex = array.length, temporaryValue: any, randomIndex: number;
 
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
@@ -21,13 +21,13 @@ export function shuffle(array) {
   return array;
 }
 
-export function filterCompanies(companies, industry) {
+export function filterCompanies(companies: any[], industry: string) {
 
   if (industry === 'All') {
     return companies;
   } else {
-    const filteredCompanies = companies.filter(company =>
-      company.data.industry == industry
+    const filteredCompanies = companies.filter(item =>
+      item.data.industry == industry
     )
     return filteredCompanies;
   }

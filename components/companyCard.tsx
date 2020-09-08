@@ -1,26 +1,27 @@
-import React from 'react';
 import {
   Card,
   Label,
   Icon
 } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
-import LinkButtons from '../components/linkButtons';
+import LinkButtons from './linkButtons';
 import { withHttp } from '../util/helpers';
+import { Company } from '../types/company.types';
 
-const CompanyCard = ({ id, company }) => {
+export default function CompanyCard(
+  { company }: { company: Company; }) {
   const router = useRouter();
 
   return (
     <Card
       as='div'
-      key={id}
+      key={company.slug}
       color='teal'
       raised
       fluid
       link
       style={{ maxWidth: '320px', display: 'inline-block', margin: '0.5em' }}
-      onClick={(e) => {
+      onClick={() => {
         router.push(`/company/${company.slug}`)
       }}>
       <Card.Content
@@ -41,13 +42,12 @@ const CompanyCard = ({ id, company }) => {
             {company.tagline}</Card.Description> : null}
         <LinkButtons
           company={company}
-          size='tiny' />
+          size='medium' />
       </Card.Content>
       <Card.Content extra textAlign='right'>
+        {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
         <Label circular basic color='teal'>{company.industry}</Label>
       </Card.Content>
     </Card >
   )
 }
-
-export default CompanyCard;

@@ -1,9 +1,13 @@
-import React from 'react';
-import { Button, List, Icon } from 'semantic-ui-react';
+import { Button, List, Icon, SemanticSIZES } from 'semantic-ui-react';
 import { withHttp } from '../util/helpers';
+import { Company } from '../types/company.types';
 
-
-const LinkButtons = ({ company, size, text }) => {
+export default function LinkButtons(
+  { company, size, isTextList }: {
+    company: Company,
+    size?: SemanticSIZES,
+    isTextList?: boolean
+  }) {
 
   const buttons =
     (company && (
@@ -72,7 +76,7 @@ const LinkButtons = ({ company, size, text }) => {
       : null)
 
   const textList = (
-    <List link style={{ fontSize: '1.1em' }}>
+    <List link style={{ fontSize: '1.33em' }}>
       <List.Item
         href={withHttp(company.website)}
         target='_blank'><Icon name='linkify' />{company.website}</List.Item>
@@ -109,8 +113,6 @@ const LinkButtons = ({ company, size, text }) => {
     </List>)
 
   return (
-    text ? textList : buttons
+    isTextList ? textList : buttons
   )
 }
-
-export default LinkButtons;

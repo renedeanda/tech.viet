@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/router';
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
+import Navbar from './navbar';
+import Footer from './footer';
 import { Menu, Icon, Sidebar } from 'semantic-ui-react';
 
-const Page = ({ children }) => {
+export default function Page({ children }: { children: React.ReactNode }) {
   const router = useRouter();
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(false);
 
   return (
     <>
@@ -79,5 +79,3 @@ const Page = ({ children }) => {
     </>
   )
 }
-
-export default Page;

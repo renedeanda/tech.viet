@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Header,
   Segment,
@@ -9,8 +8,11 @@ import {
 import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
 import LinkButtons from './linkButtons';
+import { Company } from '../types/company.types';
 
-const CompanyContainer = ({ company }) => {
+export default function CompanyContainer({ company }: {
+  company: Company;
+}) {
 
   const fbUsername = company.facebook ? new URL(withHttp(company.facebook)).pathname.replace(/\/$/, "") : null;
 
@@ -19,6 +21,7 @@ const CompanyContainer = ({ company }) => {
   const hiringText = company.hiring ? "Yes" : "No";
   const gFormLink = `https://docs.google.com/forms/d/e/1FAIpQLSelgDTevZ0xCrTv9SsWnlpE-vw4gofE-2s-c_tKaYo7HJwVUw/viewform?usp=pp_url&entry.2005620554=${company.name}&entry.1692157935=${company.website}&entry.1045781291=${company.industry}&entry.1065046570=${company.tagline}&entry.564514234=${company.logoUrl}&entry.171074559=${company.description}&entry.1166974658=${company.facebook}&entry.361763259=${company.linkedin}&entry.839337160=${company.blogUrl}&entry.2015302511=${company.androidUrl}&entry.302652646=${company.iosUrl}&entry.1200097343=${company.demoUrl}&entry.190791171=${hiringText}`;
 
+  console.log(avatarUrl)
   return (
     <>
       <Container style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh', padding: '4.5em 0 1.5em 0' }}>
@@ -51,18 +54,22 @@ const CompanyContainer = ({ company }) => {
           >{company.tagline}</p>
             : null}
           <Label style={{ marginTop: '1em' }} circular basic color='teal'>{company.industry}</Label>
-          <LinkButtons company={company} text />
+          {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
+          <LinkButtons company={company} isTextList />
           {company.description ?
             <>
               <Header dividing style={{
                 fontSize: '1.4em'
               }}>About</Header>
-              <p style={{
-                lineHeight: '1.1em',
-                fontSize: '1.33em',
-                opacity: '0.6',
-                wordWrap: 'break-word'
-              }}>{company.description}</p>
+              {company.description.split('\n').map((item, i) => {
+                return <p style={{
+                  lineHeight: '1.1em',
+                  fontSize: '1.33em',
+                  opacity: '0.6',
+                  wordWrap: 'break-word'
+                }}
+                  key={i}>{item}</p>;
+              })}
             </>
             : null}
         </Segment>
@@ -70,5 +77,3 @@ const CompanyContainer = ({ company }) => {
     </>
   )
 }
-
-export default CompanyContainer;

@@ -1,7 +1,6 @@
-import React from 'react';
 import { Button, Dropdown } from 'semantic-ui-react';
 
-const ShareMenu = ({ url }) => {
+export default function ShareMenu({ url }: { url: string }) {
 
   return (
     <Dropdown
@@ -42,5 +41,3 @@ const ShareMenu = ({ url }) => {
     </Dropdown>
   )
 }
-
-export default ShareMenu;
