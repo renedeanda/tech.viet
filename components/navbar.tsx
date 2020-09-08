@@ -1,8 +1,7 @@
-import React from 'react';
 import { useRouter } from 'next/router';
 import { Container, Menu, Icon } from 'semantic-ui-react';
 
-const Navbar = (props) => {
+export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
   const router = useRouter();
 
   return (
@@ -16,7 +15,7 @@ const Navbar = (props) => {
           <Menu.Menu position='right'>
             <Menu.Item
               className='hamburger-item'
-              onClick={() => { props.openDrawer() }}>
+              onClick={() => { openDrawer() }}>
               <Icon
                 size='large'
                 name='bars'
@@ -50,5 +49,3 @@ const Navbar = (props) => {
     </div>
   )
 }
-
-export default Navbar;

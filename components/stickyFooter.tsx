@@ -1,6 +1,4 @@
-import React from 'react';
-
-const StickyFooter = () => {
+export default function StickyFooter() {
 
   return (
     <div className='sticky'>
@@ -11,5 +9,3 @@ const StickyFooter = () => {
     </div>
   )
 }
-
-export default StickyFooter;
