@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Header,
   Segment,
@@ -9,8 +8,11 @@ import {
 import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
 import LinkButtons from './linkButtons';
+import { Company } from '../types/company.types';
 
-const CompanyContainer = ({ company }) => {
+export default function CompanyContainer({ company }: {
+  company: Company;
+}) {
 
   const fbUsername = company.facebook ? new URL(withHttp(company.facebook)).pathname.replace(/\/$/, "") : null;
 
@@ -51,7 +53,7 @@ const CompanyContainer = ({ company }) => {
           >{company.tagline}</p>
             : null}
           <Label style={{ marginTop: '1em' }} circular basic color='teal'>{company.industry}</Label>
-          <LinkButtons company={company} text />
+          <LinkButtons company={company} isTextList />
           {company.description ?
             <>
               <Header dividing style={{
@@ -70,5 +72,3 @@ const CompanyContainer = ({ company }) => {
     </>
   )
 }
-
-export default CompanyContainer;

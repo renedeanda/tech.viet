@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Container,
   Grid,
@@ -6,7 +5,7 @@ import {
   Segment
 } from 'semantic-ui-react';
 
-const Footer = () => {
+export default function Footer() {
 
   return (
     <footer>
@@ -44,5 +43,3 @@ const Footer = () => {
     </footer>
   )
 }
-
-export default Footer;

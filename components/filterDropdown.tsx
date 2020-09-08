@@ -31,7 +31,11 @@ const industryOptions = [
   { key: "Marketing", text: "Marketing", value: "Marketing" }
 ]
 
-const FilterDropdown = ({ industry, filteredLength, setIndustry }) => {
+export default function FilterDropdown({ industry, filteredLength, setIndustry }: {
+  industry: string,
+  filteredLength: number,
+  setIndustry: any
+}) {
 
   return (
     <Dropdown
@@ -50,5 +54,3 @@ const FilterDropdown = ({ industry, filteredLength, setIndustry }) => {
     </Dropdown>
   )
 }
-
-export default FilterDropdown;
