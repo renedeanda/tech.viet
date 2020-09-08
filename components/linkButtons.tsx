@@ -76,7 +76,7 @@ export default function LinkButtons(
       : null)
 
   const textList = (
-    <List link style={{ fontSize: '1.1em' }}>
+    <List link style={{ fontSize: '1.33em' }}>
       <List.Item
         href={withHttp(company.website)}
         target='_blank'><Icon name='linkify' />{company.website}</List.Item>

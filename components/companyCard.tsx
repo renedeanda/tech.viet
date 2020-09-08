@@ -42,9 +42,10 @@ export default function CompanyCard(
             {company.tagline}</Card.Description> : null}
         <LinkButtons
           company={company}
-          size='tiny' />
+          size='medium' />
       </Card.Content>
       <Card.Content extra textAlign='right'>
+        {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
         <Label circular basic color='teal'>{company.industry}</Label>
       </Card.Content>
     </Card >
