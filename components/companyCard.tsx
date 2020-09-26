@@ -1,8 +1,7 @@
 import {
   Card,
   Label,
-  Icon,
-  Button
+  Icon
 } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
 import LinkButtons from './linkButtons';
