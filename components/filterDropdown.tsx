@@ -28,7 +28,8 @@ const industryOptions = [
   { key: "Healthcare", text: "Healthcare", value: "Healthcare" },
   { key: "Social", text: "Social", value: "Social" },
   { key: "Renewable Energy", text: "Renewable Energy", value: "Renewable Energy" },
-  { key: "Marketing", text: "Marketing", value: "Marketing" }
+  { key: "Marketing", text: "Marketing", value: "Marketing" },
+  { key: "Biotech", text: "Biotech", value: "Biotech" }
 ]
 
 export default function FilterDropdown({ industry, filteredLength, setIndustry }: {
