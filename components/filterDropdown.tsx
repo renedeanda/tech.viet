@@ -28,7 +28,8 @@ const industryOptions = [
   { key: "Healthcare", text: "Healthcare", value: "Healthcare" },
   { key: "Social", text: "Social", value: "Social" },
   { key: "Renewable Energy", text: "Renewable Energy", value: "Renewable Energy" },
-  { key: "Marketing", text: "Marketing", value: "Marketing" }
+  { key: "Marketing", text: "Marketing", value: "Marketing" },
+  { key: "Biotech", text: "Biotech", value: "Biotech" }
 ]
 
 export default function FilterDropdown({ industry, filteredLength, setIndustry }: {
@@ -49,7 +50,7 @@ export default function FilterDropdown({ industry, filteredLength, setIndustry }
       options={industryOptions}
       text={industry ? `${industry} (${filteredLength})` : "Filter"}
       placeholder={industry ? `${industry} (${filteredLength})` : "Filter"}
-      defaultValue={industryOptions[0].value}
+      value={industry ? industry : "All"}
       onChange={(e, { value }) => setIndustry(value)}>
     </Dropdown>
   )

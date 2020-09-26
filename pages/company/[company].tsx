@@ -16,7 +16,7 @@ export default function CompanyPage({ company }: { company: Company }) {
   return (
     <>
       <Meta
-        title={company.name ? `${company.name} Company Page` : 'Company Not Found'}
+        title={company.name ? `${company.name} | Tech.Viet` : 'Company Not Found'}
         desc={company.tagline ? `${company.tagline} ${description}` : description}
         canonical={`https://tech.viet.io/company/${company.slug}`} />
 

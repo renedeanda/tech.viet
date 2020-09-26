@@ -8,8 +8,10 @@ import LinkButtons from './linkButtons';
 import { withHttp } from '../util/helpers';
 import { Company } from '../types/company.types';
 
-export default function CompanyCard(
-  { company }: { company: Company; }) {
+export default function CompanyCard({ company, setIndustry }: {
+  company: Company,
+  setIndustry: any
+}) {
   const router = useRouter();
 
   return (
@@ -26,8 +28,7 @@ export default function CompanyCard(
       }}>
       <Card.Content
         textAlign='left'>
-        <Card.Header
-          style={{ fontSize: '1.8em' }}>{company.name}</Card.Header>
+        <h2 className='card-title'>{company.name}</h2>
         {company.website ?
           <Card.Meta>
             <a
@@ -37,16 +38,20 @@ export default function CompanyCard(
                 e.stopPropagation();
               }}><Icon name='linkify' /> {company.website}</a>
           </Card.Meta> : null}
-        {company.tagline ?
-          <Card.Description style={{ fontStyle: 'italic' }}>
-            {company.tagline}</Card.Description> : null}
+        <Card.Description className='tagline'>
+          {company.tagline ? company.tagline : "Add a tagline..."}</Card.Description>
         <LinkButtons
           company={company}
           size='medium' />
       </Card.Content>
       <Card.Content extra textAlign='right'>
         {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
-        <Label circular basic color='teal'>{company.industry}</Label>
+        <Label
+          as='a'
+          onClick={(e) => {
+            e.stopPropagation();
+            setIndustry(company.industry)
+          }} circular basic color='teal'>{company.industry}</Label>
       </Card.Content>
     </Card >
   )

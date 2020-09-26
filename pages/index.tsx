@@ -64,7 +64,7 @@ export default function Home({ companies }: { companies: any[] }) {
               <Grid.Column>
                 {filteredCos && filteredCos.length > 0 ?
                   filteredCos.map((item: any) =>
-                    <CompanyCard company={item.data} />)
+                    <CompanyCard company={item.data} setIndustry={setIndustry} />)
                   : <p style={{ fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
               </Grid.Column>
             </Grid.Row>
