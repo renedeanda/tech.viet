@@ -70,6 +70,25 @@
     background: transparent;
 }
 
+.card-title {
+    font-size: 1.8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
+
+.tagline {
+    height: 36px;
+    font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
+
 @media only screen and (min-width: 720px) {
     .navbar-text {
         font-size: 1.8em;
