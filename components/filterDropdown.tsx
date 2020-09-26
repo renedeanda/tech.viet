@@ -49,7 +49,7 @@ export default function FilterDropdown({ industry, filteredLength, setIndustry }
       options={industryOptions}
       text={industry ? `${industry} (${filteredLength})` : "Filter"}
       placeholder={industry ? `${industry} (${filteredLength})` : "Filter"}
-      defaultValue={industryOptions[0].value}
+      value={industry ? industry : "All"}
       onChange={(e, { value }) => setIndustry(value)}>
     </Dropdown>
   )
