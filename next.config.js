@@ -6,7 +6,7 @@ module.exports = {
             use: 'raw-loader',
         })
         if (isServer) {
-            require('./util/generateSiteMap.ts')
+            require('./util/generateSiteMap')
         }
         return config
     }
