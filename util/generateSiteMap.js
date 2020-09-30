@@ -21,7 +21,7 @@ async function generateSiteMap() {
                     .replace('.tsx', '')
                     .replace('.jsx', '')
                     .replace('.js', '')
-                    .replace('public/data', '')
+                    .replace('public/data/companies', '/company')
                 const route = path === '/index' ? '' : path
 
                 return `
