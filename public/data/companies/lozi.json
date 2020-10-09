@@ -1,16 +1,16 @@
 {
-    "name": "LOZI",
+    "name": "Lozi",
     "slug": "lozi",
     "website": "lozi.vn",
     "industry": "Logistics / Transport",
-    "tagline": "",
+    "tagline": "Lozi is the fastest-growing Tech startup which operates a one-hour-delivery E-commerce platform called Loship.",
     "logoUrl": "",
-    "description": "",
+    "description": "Established in 2014, Lozi is the fastest-growing Tech startup which operates a one-hour-delivery E-commerce platform called Loship.\n\nMade by Vietnamese for Vietnamese, Loship offers the most effective distribution networks in Vietnam, filling the massive demand for immediate deliveries in a bustling and modern life, with a wide range of services including food delivery (Loship), grocery delivery (Lomart), ride-hailing (Lo-xe), medicine delivery (Lomed), laundry service (Lozat), package delivery (Lo-send), flower delivery (Lo-hoa) and B2B supply delivery (Lo-supply).\n\nLoship now has a fleet of more than 50,000 drivers and 200,000 merchants, serving almost 1,500,000 customers across four big cities of Hanoi, Ho Chi Minh City, Da Nang and Can Tho ? all dedicated to fulfilling the Vietnamese consumers? one-hour delivery needs.",
     "facebook": "fb.com/Lozi.vn",
     "linkedin": "linkedin.com/company/lozi",
     "blogUrl": "",
     "androidUrl": "https://play.google.com/store/apps/details?id=lozi.loship_user",
-    "iosUrl": "https://apps.apple.com/vn/app/loship-giao-%C4%91%E1%BB%93-%C4%83n-g%E1%BB%8Di-xe/id1348206645",
+    "iosUrl": "https://apps.apple.com/vn/app/loship-giao-??-?n-g?i-xe/id1348206645",
     "demoUrl": "",
-    "hiring": null
+    "hiring": false
 }
