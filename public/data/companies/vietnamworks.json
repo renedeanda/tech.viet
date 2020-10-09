@@ -3,14 +3,14 @@
     "slug": "vietnamworks",
     "website": "vietnamworks.com",
     "industry": "HR / Recruitment",
-    "tagline": "",
+    "tagline": "We help people and companies achieve their dreams",
     "logoUrl": "",
-    "description": "",
+    "description": "**Our Mission\nTo help people achieve their dreams. That's why we call our employees \"Dream-Makers\"?.\n\n**Our Vision\nDeliver a superior solution for recruiting high quality professionals. We guarantee results, offer fast, flexible, professional service, and we do it with love for our customers and job seekers!\n\n**Our Values\n\n>> Wow! Service\nWe delight our Customers and Job Seekers with extraordinary service! We follow the golden rule: ?Treat others the way we would like to be treated?.\n\n>> Straight Talk!\nWe communicate honestly, openly and directly to strengthen trust and move forward. We don?t gossip or complain behind others? backs, we communicate directly and take responsibility for change.\n\n>> Own It!\nWe take responsibility and take ownership for our actions and for delivering results. We make and keep our commitments. This means we do what we say we will do.\n\n>> Improve It!\nWe achieve excellence through continuous improvement. We develop and grow ourselves and each other through coaching, training and stretching beyond our comfort zone. We take initiative and take action to make improvement.",
     "facebook": "fb.com/VietnamWorksFanpage",
     "linkedin": "linkedin.com/company/vietnamworks",
     "blogUrl": "",
     "androidUrl": "https://play.google.com/store/apps/details?id=com.vietnamworks.vietnamworks",
     "iosUrl": "https://apps.apple.com/vn/app/vietnamworks-job-search/id1180866051",
     "demoUrl": "",
-    "hiring": null
+    "hiring": true
 }
