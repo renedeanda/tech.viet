@@ -1,1 +1,16 @@
-{"name": "VNdirect", "slug": "vndirect", "website": "vndirect.com.vn", "industry": "Finance", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/vndirect", "linkedin": "linkedin.com/company/vndirect", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "VNdirect",
+  "slug": "vndirect",
+  "website": "vndirect.com.vn",
+  "industry": "Finance",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "VNDIRECT Securities (VNDIRECT) was founded in 2006 by a team of dedicated and experienced professionals with track records in a wide range of industries. While team members have diverse backgrounds, we share the same vision of building the best service local brokerage firm in Vietnam. We believe that our own success will come with our customers success. Thus, the teams mission is to maximize shareholders value by providing our customers with the best services and the highest quality products.",
+  "facebook": "fb.com/vndirect",
+  "linkedin": "linkedin.com/company/vndirect",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

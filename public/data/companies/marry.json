@@ -1,1 +1,16 @@
-{"name": "Marry", "slug": "marry", "website": "marry.vn", "industry": "Marketplace", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/Marry.vn", "linkedin": "linkedin.com/company/marry-vietnam", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Marry",
+  "slug": "marry",
+  "website": "marry.vn",
+  "industry": "Marketplace",
+  "tagline": "The NO.1 wedding platform and community in Vietnam",
+  "logoUrl": "",
+  "description": "Marry is the largest wedding planner in Vietnam with the top 1 website Marry.vn and its community, connecting engaged couples with local wedding professionals.\n\nMarry is a portfolio venture of Fram - a Swedish-Vietnamese venture building group listed on Nasdaq First North - Stockholm.",
+  "facebook": "fb.com/Marry.vn",
+  "linkedin": "linkedin.com/company/marry-vietnam",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

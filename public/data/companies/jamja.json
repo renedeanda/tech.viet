@@ -1,1 +1,16 @@
-{"name": "JAMJA", "slug": "jamja", "website": "jamja.vn", "industry": "Ecommerce", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/jamja.vn", "linkedin": "linkedin.com/company/jamja-corp", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.jamjavn.jamja", "iosUrl": "https://apps.apple.com/vn/app/jamja-%C4%91%E1%BA%B7t-ch%E1%BB%97-khuy%E1%BA%BFn-m%C3%A3i/id980165889", "demoUrl": "", "hiring": null}
+{
+  "name": "JAMJA",
+  "slug": "jamja",
+  "website": "jamja.vn",
+  "industry": "Ecommerce",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "JAMJA was established in 2015 with the starting point of the aggregate information discount promotion platform of major brands on the internet such as fan page or website. Over the past 4 years of development, JAMJA has been continuously expanding and integrating more utilities for customers, especially the leading service in Vietnam time-based discount for booking. Because of the customizable hourly price reduction ability (by empty table status or sales status), JAMJA can corporate with many major brands in Vietnam for huge discount up to 70%. Currently, JAMJA has more than 1.5 million active users per month and is now growing rapidly. JAMJA's vision is to become the super daily deal application that customers can use every day when shopping and dining.\n\nAt JAMJA, a startup work environment is awaiting for you: openness, encouragement of individual initiative; cohesive; support individual; pioneering new techniques; flexible working time; result coaching not activity coaching.",
+  "facebook": "fb.com/jamja.vn",
+  "linkedin": "linkedin.com/company/jamja-corp",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.jamjavn.jamja",
+  "iosUrl": "https://apps.apple.com/vn/app/jamja-??t-ch?-khuy?n-m?i/id980165889",
+  "demoUrl": "",
+  "hiring": false
+}

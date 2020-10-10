@@ -1,1 +1,16 @@
-{"name": "Vietnamobile", "slug": "vietnamobile", "website": "vietnamobile.com.vn", "industry": "Telecom", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/VietnamobileVNM", "linkedin": "linkedin.com/company/vietnamobile", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Vietnamobile",
+  "slug": "vietnamobile",
+  "website": "vietnamobile.com.vn",
+  "industry": "Telecom",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Vietnamobile is the fastest growing mobile communications service operator in Vietnam, providing 2G and 3G services on a nationwide basis. Focusing on network quality, competitive tariff plans and best-in-class customer service, the Company is well positioned to rapidly increase market share and set new trends in the Vietnam telecom market.\n\nVietnamobile is a Business Cooperation Contract partnership between Hanoi Telecom and Hutchison Asia Telecom Group (?HAT?) which comprises mobile telecommunications operations in the emerging markets of Indonesia, Vietnam, and Sri Lanka.  HAT is a key part of Hutchison Whampoa Limited's telecommunications division which includes the telecommunications operations in  Austria, Denmark, Hong Kong, Ireland, Italy, Macau, Sweden and the UK.",
+  "facebook": "fb.com/VietnamobileVNM",
+  "linkedin": "linkedin.com/company/vietnamobile",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

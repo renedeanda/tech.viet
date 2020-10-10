@@ -1,1 +1,16 @@
-{"name": "LitExtension", "slug": "litextension", "website": "litextension.com", "industry": "Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/litextension", "linkedin": "linkedin.com/company/litextension", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "LitExtension",
+  "slug": "litextension",
+  "website": "litextension.com",
+  "industry": "Software",
+  "tagline": "#1 Shopping Cart Migration Expert that migrates your e-store to a better platform automatically, accurately & securely.",
+  "logoUrl": "",
+  "description": "The #1 Shopping Cart Migration Expert that helps you migrate your store to a more robust eCommerce platform automatically, accurately and seamlessly.\n\nLitExtension is the world-leading shopping cart migration service for merchants and eCommerce experts. Founded in 2011 by a group of enthusiastic programming experts, we?re proud to have delivered 150,000+ successful migrations for 50,000+ customers all across the globe.\n\nLitExtension has been working hard with an aim to make your shopping cart migration experience as pleasant as possible. Not only do we constantly develop our technology, but we also strive to provide exceptional customer service.\n\nCustomers will never love a company unless the employees love it first. Here at LitExtension we have been creating an environment in which everyone can be themselves while pursuing their ambitions.",
+  "facebook": "fb.com/litextension",
+  "linkedin": "linkedin.com/company/litextension",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

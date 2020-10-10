@@ -1,1 +1,16 @@
-{"name": "Onehost", "slug": "onehost", "website": "onehost.vn", "industry": "Infrastructure", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/onehost.vn", "linkedin": "linkedin.com/company/onehost", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Onehost",
+  "slug": "onehost",
+  "website": "onehost.vn",
+  "industry": "Infrastructure",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Onehost is an Hosting Provider in Vietnam proving Domain, Hosting, Cloud services and Managed Services with following commitment:\n\n- 24/7/365 support guarantees maximum 15 minutes response.\n- Intant Active\n- Free 7 days trial for Hosting and Cloud services",
+  "facebook": "fb.com/onehost.vn",
+  "linkedin": "linkedin.com/company/onehost",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name": "Vnbooking", "slug": "vnbooking", "website": "vnbooking.com", "industry": "Travel / Tourism", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/vnbookingcom", "linkedin": "linkedin.com/company/vnbooking", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Vnbooking",
+  "slug": "vnbooking",
+  "website": "vnbooking.com",
+  "industry": "Travel / Tourism",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Vnbooking provides hotel booking, ticketing in Vietnam. Vnbooking.com does business in all Vietnam region. We focus on best customer service and bring new experiences to our customers. Our office locates in Hanoi but we stay everywhere in Vietnam to bring different experience",
+  "facebook": "fb.com/vnbookingcom",
+  "linkedin": "linkedin.com/company/vnbooking",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

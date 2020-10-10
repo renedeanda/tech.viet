@@ -18,7 +18,6 @@ const industryOptions = [
   { key: "Web Hosting", text: "Web Hosting", value: "Web Hosting" },
   { key: "Telecom", text: "Telecom", value: "Telecom" },
   { key: "Fintech", text: "Fintech", value: "Fintech" },
-  { key: "Food & Beverage", text: "Food & Beverage", value: "Food & Beverage" },
   { key: "Real Estate", text: "Real Estate", value: "Real Estate" },
   { key: "Construction", text: "Construction", value: "Construction" },
   { key: "Domain Names", text: "Domain Names", value: "Domain Names" },

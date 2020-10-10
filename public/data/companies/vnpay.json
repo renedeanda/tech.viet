@@ -1,1 +1,16 @@
-{"name": "VNpay", "slug": "vnpay", "website": "vnpay.vn", "industry": "Fintech", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/VNPAY.Jsc", "linkedin": "linkedin.com/company/vnpay", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "VNpay",
+  "slug": "vnpay",
+  "website": "vnpay.vn",
+  "industry": "Fintech",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Vietnam Payment Solution Joint Stock Company (VNPAY), was founded in 2007, is a top leading company in the field of Electronic Payment in Vietnam.\nWith its core business areas in the sectors of Finance - Banking, Information Technology - Telecommunications, VNPAY provides its services to more than 40 banks in Vietnam, 5 Telcos & over 200 e-commerce enterprises, offering various simple and convenient payment solutions.",
+  "facebook": "fb.com/VNPAY.Jsc",
+  "linkedin": "linkedin.com/company/vnpay",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": true
+}

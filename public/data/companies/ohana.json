@@ -1,1 +1,16 @@
-{"name": "Ohana", "slug": "ohana", "website": "ohanaliving.vn", "industry": "Real Estate", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/ohana.living", "linkedin": "linkedin.com/company/ohana-living", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.bayleaf_mobile", "iosUrl": "https://apps.apple.com/vn/app/ohana-%E1%BB%A9ng-d%E1%BB%A5ng-t%C3%ACm-ph%C3%B2ng-tr%E1%BB%8D/id1236240154", "demoUrl": "", "hiring": null}
+{
+  "name": "Ohana",
+  "slug": "ohana",
+  "website": "ohanaliving.vn",
+  "industry": "Real Estate",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "RECENTLY invested & incubated @Muru-D, a TELSTRA backed accelerator program in SGP, Ohana is a marketplace that helps you find your next home in the city. We hook you up with the right roommate vetted for you by an algorithm, in less than 6 minutes and lets you reserve an available spot in their place - be it in a co-living house or an occupied room for 3 months at a time.",
+  "facebook": "fb.com/ohana.living",
+  "linkedin": "linkedin.com/company/ohana-living",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.bayleaf_mobile",
+  "iosUrl": "https://apps.apple.com/vn/app/ohana-?ng-d?ng-t?m-ph?ng-tr?/id1236240154",
+  "demoUrl": "",
+  "hiring": true
+}

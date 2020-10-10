@@ -1,1 +1,16 @@
-{"name": "MuaBanNhanh", "slug": "muabannhanh", "website": "muabannhanh.com", "industry": "Ecommerce", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/MuaBanNhanh.mbn", "linkedin": "linkedin.com/company/muabannhanh", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "MuaBanNhanh",
+  "slug": "muabannhanh",
+  "website": "muabannhanh.com",
+  "industry": "Ecommerce",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "",
+  "facebook": "fb.com/MuaBanNhanh.mbn",
+  "linkedin": "linkedin.com/company/muabannhanh",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": null
+}

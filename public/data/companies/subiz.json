@@ -1,1 +1,16 @@
-{"name": "Subiz", "slug": "subiz", "website": "Subiz.com", "industry": "Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/subizdotcom", "linkedin": "linkedin.com/company/subiz", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.subiz.mobile4", "iosUrl": "https://apps.apple.com/vn/app/subiz/id1414797772", "demoUrl": "", "hiring": null}
+{
+  "name": "Subiz",
+  "slug": "subiz",
+  "website": "Subiz.com",
+  "industry": "Software",
+  "tagline": "Subiz Live Chat - omnichannel: Live chat; email; Messenger; Facebook Page Comment; Zalo Official Account",
+  "logoUrl": "",
+  "description": "Subiz is a cloud-based service which lets you have live conversations with visitors on your website. We are really serious about simplicity and efficiency because we know ?the simpler, the more effective?. \n\nWe target to engage and turn visitors on your website into loyal customers and improve your online e-commerce revenue. Our utmost goal is your business success.",
+  "facebook": "fb.com/subizdotcom",
+  "linkedin": "linkedin.com/company/subiz",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.subiz.mobile4",
+  "iosUrl": "https://apps.apple.com/vn/app/subiz/id1414797772",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name": "Vietiso", "slug": "vietiso", "website": "vietiso.com", "industry": "Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/vietiso", "linkedin": "linkedin.com/company/vietiso", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Vietiso",
+  "slug": "vietiso",
+  "website": "vietiso.com",
+  "industry": "Software",
+  "tagline": "The Value of Solution",
+  "logoUrl": "",
+  "description": "",
+  "facebook": "fb.com/vietiso",
+  "linkedin": "linkedin.com/company/vietiso",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

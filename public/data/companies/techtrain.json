@@ -1,1 +1,16 @@
-{"name": "TechTrain", "slug": "techtrain", "website": "techtrain.edu.vn", "industry": "Education", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/TechTrain.edu.vn", "linkedin": "linkedin.com/company/techtrainasia", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "TechTrain",
+  "slug": "techtrain",
+  "website": "techtrain.edu.vn",
+  "industry": "Education",
+  "tagline": "Shaping Vietnam's Tech Genius",
+  "logoUrl": "",
+  "description": "TechTrain, the first fully English language STEAM center in Vietnam, is committed to building brighter futures by shaping our children's interaction with technology.\n\nWe start at grassroots, delivering a unique learning experience to students as young as 4, and up to 16, with Robotics, Coding, 3D, App and Game design, and more.\n\nTechTrain's proprietary STEAM classes -at partner campuses, and at our state-of-the-art center in D2, HCMC - teach fundamental tech topics and tools, giving our learners the toolkit to be the problem-solvers of the future, to turn their dreams into reality.\n\nOur CORE VALUES embody a commitment to:\n-the 'Promise of Education': equality of gender accessibility to the STEAM disciplines, the ability of Education to bring vast positive change to livelihoods on local and global scales, and the essential need to deliver on our promise of value to our students and their parents.\n-respect for one another with the responsible use of tech and communication tools\n-actively supporting a number of UN's Sustainable Development Goals within our learning projects, including teaching about Sustainability in general particularly where technological advances bring impactful solutions.",
+  "facebook": "fb.com/TechTrain.edu.vn",
+  "linkedin": "linkedin.com/company/techtrainasia",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

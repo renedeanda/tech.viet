@@ -1,1 +1,16 @@
-{"name": "Pique", "slug": "pique", "website": "pique.ai", "industry": "Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/piqueai", "linkedin": "linkedin.com/company/piqueai", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Pique",
+  "slug": "pique",
+  "website": "pique.ai",
+  "industry": "Software",
+  "tagline": "Pique turbocharges growth with personalization for product recommendations, digital experiences and connected retail.",
+  "logoUrl": "",
+  "description": "Pique turbocharges growth with personalization for product recommendations, digital experiences and connected retail. Pique helps medium-sized businesses turn even first-time web visitors into paying customers, with little to no historical data. With industry-leading AI tuned for your customers and a dynamic data scientist team, Pique has grown ecommerce revenue up to 50%.\n\nOur research team consists of data-scientists with experience from Silicon Valley, Stanford University, and Cambridge University. We published a paper on recommendations that was recognized at RecSys 2017, the world?s most prestigious recommender system conference, featuring sponsors such as Amazon, Spotify, and Netflix among others.",
+  "facebook": "fb.com/piqueai",
+  "linkedin": "linkedin.com/company/piqueai",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name": "VCCorp", "slug": "vccorp", "website": "vccorp.vn", "industry": "Media / Entertainment", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/VCCorp", "linkedin": "linkedin.com/company/vccorpvietnam", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "VCCorp",
+  "slug": "vccorp",
+  "website": "vccorp.vn",
+  "industry": "Media / Entertainment",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "VC Corp (established in 2006) is the leading technology company in Vietnam in developing technology and internet product. The main business models include: e-commerce, online content, online advertising and mobile content. VC Corp is collaborating and holding system of 80 websites with 30 million unique visitors ? about 90% of Vietnam Internet users. The current products of VC Corp have created the largest ecosystem and platform of online and mobile services in Vietnam.",
+  "facebook": "fb.com/VCCorp",
+  "linkedin": "linkedin.com/company/vccorpvietnam",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}
