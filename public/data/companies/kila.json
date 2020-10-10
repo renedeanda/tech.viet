@@ -1,1 +1,16 @@
-{"name": "Kila", "slug": "kila", "website": "kilafun.com", "industry": "Education", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/KilaFun", "linkedin": "linkedin.com/company/kila", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/developer?id=Kila", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Kila",
+  "slug": "kila",
+  "website": "kilafun.com",
+  "industry": "Education",
+  "tagline": "Kila offers fun books to encourage reading.",
+  "logoUrl": "",
+  "description": "",
+  "facebook": "fb.com/KilaFun",
+  "linkedin": "linkedin.com/company/kila",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/developer?id=Kila",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

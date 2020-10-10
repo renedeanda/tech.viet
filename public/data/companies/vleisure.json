@@ -1,1 +1,16 @@
-{"name": "VLeisure", "slug": "vleisure", "website": "vleisure.com", "industry": "Travel / Tourism", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/VLeisureOS", "linkedin": "linkedin.com/company/vleisure", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "VLeisure",
+  "slug": "vleisure",
+  "website": "vleisure.com",
+  "industry": "Travel / Tourism",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "VLeisure is headquartered in Vietnam. We are a multi-cultural and dynamic team of individuals dedicated to serving the online travel industry.\n\nVLeisure offers a unique a comprehensive selection of hotels, transfers, tickets and excursions, and flights with daily availability and guaranteed rates. By using our B2B online travel network portal, agencies can search, compare, and book travel products and services and leverage on our local and regional suppliers? network, including global distribution system (GDS) and other worldwide travel content providers.\n\nOur Products\n   - ACCOMMODATION Benefit from instant access to over 50,000 hotels in 147 countries, covering over 6,000 destinations\n   - OPTIONAL TOURS Our inventory is continuously updated with the most original and value-added attractions, tickets and excursions in the industry.\n   - TRANSFERS We offer the most complete range of transfer services around the world, fully accessible from our online portal.\n   - FLIGHTS Search over 670,000 routes to find both system and consolidators fares on over 400 airlines.\n\nBenefits of using VLeisure\n   - Generates revenue by expanding distribution channels to virtually a global market place on a 24x7 basis.\n   - Increases staff productivity with online tools that reduces the administrative time required for preparing contracts, comparing tariffs, distributing products, and handling of customers? enquiries.\n   - Supports and protects travel agents? distribution channels with ability to provide multi-tier mark-up structures for their customers.\n   - Accesses a comprehensive tariff database with the ability to process complex rules and conditions including cut-off dates.\n   - Tracks and analyzes your customers better through our online report with detailed transaction statistics of your top buyers and best selling products and services.",
+  "facebook": "fb.com/VLeisureOS",
+  "linkedin": "linkedin.com/company/vleisure",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

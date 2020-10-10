@@ -1,11 +1,10 @@
 import { useState } from 'react';
-import { useRouter } from 'next/router';
+import Link from 'next/link';
 import Navbar from './navbar';
 import Footer from './footer';
 import { Menu, Icon, Sidebar } from 'semantic-ui-react';
 
 export default function Page({ children }: { children: React.ReactNode }) {
-  const router = useRouter();
   const [visible, setVisible] = useState(false);
 
   return (
@@ -16,7 +15,6 @@ export default function Page({ children }: { children: React.ReactNode }) {
         {children}
         <Sidebar
           className='sidebar-menu'
-          style={{ height: '100vh' }}
           as={Menu}
           animation='overlay'
           direction='right'
@@ -27,11 +25,12 @@ export default function Page({ children }: { children: React.ReactNode }) {
             <div className='navbar-text2'>
               <Icon name='close' /></div>
           </Menu.Item>
-          <Menu.Item
-            onClick={() => { router.push('/submit') }}>
-            <div
-              style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='plus' />Submit Company</div>
+          <Menu.Item>
+            <Link href='/submit'>
+              <div
+                style={{ padding: '0.5em' }}
+                className='navbar-text2'><Icon name='plus' />Submit Company</div>
+            </Link>
           </Menu.Item>
           <Menu.Item
             as='a'
@@ -40,14 +39,6 @@ export default function Page({ children }: { children: React.ReactNode }) {
             <div
               style={{ padding: '0.5em' }}
               className='navbar-text2'><Icon name='github' />GitHub</div>
-          </Menu.Item>
-          <Menu.Item
-            as='a'
-            href='https://newsletter.viet.io'
-            target='_blank'>
-            <div
-              style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='newspaper outline' />Newsletter</div>
           </Menu.Item>
           <Menu.Item
             as='a'

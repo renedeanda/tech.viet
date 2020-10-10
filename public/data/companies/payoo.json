@@ -1,1 +1,16 @@
-{"name": "Payoo", "slug": "payoo", "website": "payoo.vn", "industry": "Fintech", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/PayooPage", "linkedin": "linkedin.com/company/vietunion", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=vn.payoo", "iosUrl": "https://apps.apple.com/vn/app/payoo/id977004309", "demoUrl": "", "hiring": null}
+{
+  "name": "Payoo",
+  "slug": "payoo",
+  "website": "payoo.vn",
+  "industry": "Fintech",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "As an intermediary payment service provider, VietUnion provides a wide range of services and products to facilitate payments in Vietnam, such as (1) Bill payments for utility bills, tuition fees, insurance bills, public fees, credit card bills, and monthly installments; (2) E-wallet; (3) Payment gateway; (4) Self-serviced kiosks; (5) Mobile POS (PaymPOS); (6) Online purchases with payment at stores; (7) Pick up and Drop off items at stores.\n\nVietUnion?s services and solutions cover both banked and unbanked customers via online channels and physical stores.",
+  "facebook": "fb.com/PayooPage",
+  "linkedin": "linkedin.com/company/vietunion",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=vn.payoo",
+  "iosUrl": "https://apps.apple.com/vn/app/payoo/id977004309",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name": "HotTab", "slug": "hottab", "website": "hottab.net", "industry": "Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/hottabpos", "linkedin": "linkedin.com/company/hottab", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "HotTab",
+  "slug": "hottab",
+  "website": "hottab.net",
+  "industry": "Software",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "#HOTTAB is start-up, based in Hanoi, Vietnam. We provide a multilingual POS for restaurants, cafes or stores that works offline on Android phones or tablets.\n\nThis is where you come in. We need you to help us do it.\n\nYou don?t have to be the most skilled IT or marketing or project management person in the universe (we can teach you that), as long as you are willing to learn.\n\nWhat you do need to be is curious, unafraid to take risks and try new things. You need to be willing to fail. You need to enjoy figuring out a problem until it?s solved. You need to be open-minded and nimble.\n\nWhat you get in return is the opportunity to work in a truly diverse multi-cultural environment (we speak 9 different languages and come from 10 countries). You get to work on exciting projects, building real skills and experience with awesome people just like you. You?ll get to have fun (yes, really), and you?ll be rewarded with a competitive salary, team retreats and other goodies.\n\nSo if you have attitude, #HOTTAB wants you.\n\nAnd you really want us.",
+  "facebook": "fb.com/hottabpos",
+  "linkedin": "linkedin.com/company/hottab",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

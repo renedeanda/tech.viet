@@ -1,1 +1,16 @@
-{"name": "Zotabox", "slug": "zotabox", "website": "zotabox.com", "industry": "Marketing", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/zotaboxmarketingtools", "linkedin": "linkedin.com/company/zotabox", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Zotabox",
+  "slug": "zotabox",
+  "website": "zotabox.com",
+  "industry": "Marketing",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Zotabox provides high quality onsite marketing tools for websites to increase sales and subscribers.\n\nWe offer popular tools such as website popups including our social coupon popup as well as promo bars, social media buttons, do it yourself banners and other original tools to increase your sales.\n\nHalf our tools are Free Forever. All this in ONE complete package. No obligation.",
+  "facebook": "fb.com/zotaboxmarketingtools",
+  "linkedin": "linkedin.com/company/zotabox",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

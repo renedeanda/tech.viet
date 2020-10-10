@@ -1,1 +1,16 @@
-{"name": "Internship", "slug": "internship", "website": "internship.edu.vn", "industry": "HR / Recruitment", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/internship.edu.vn", "linkedin": "linkedin.com/company/internship-edu-vn---a-premier-internship-portal-in-vietnam", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Internship",
+  "slug": "internship",
+  "website": "internship.edu.vn",
+  "industry": "HR / Recruitment",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Internship.edu.vn is the Vietnam largest internship marketplace bringing students, employers and education institutions together in one centralized location. Recognized by Tuoitre Newspaper, Internship.edu.vn provides a wide variety of interactive tools and services to enable every student, employer and educator to better understand and optimize internship opportunities.\n\nOur Mission\nThe Internship.edu.vn mission is to build the premier internships marketplace to strengthen tomorrow's workforce.",
+  "facebook": "fb.com/internship.edu.vn",
+  "linkedin": "linkedin.com/company/internship-edu-vn---a-premier-internship-portal-in-vietnam",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

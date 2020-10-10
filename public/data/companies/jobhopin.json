@@ -3,14 +3,14 @@
     "slug": "jobhopin",
     "website": "jobhopin.com",
     "industry": "HR / Recruitment",
-    "tagline": "",
+    "tagline": "Your Vietnam platform for talent and job market intelligence",
     "logoUrl": "",
-    "description": "",
+    "description": "Vietnam #1 AI-powered platform for job and talent market intelligence:\nJobHopin is the Vietnam 1st career management and recruitment platform powered by AI/ML technology, which automates the sourcing process and helps the recruitment happen FASTER, EASIER, SMARTER.\n\nThe leading HR technology platform in South East Asia:\nJobHopin aims to be the leading HR technology platform in South East Asia, starting with Vietnam.\nVia Bunny AI, JobHopin is shaping the future of work with real-time market analytics and practical recommendations for a smarter recruitment and career management process.",
     "facebook": "fb.com/jobhopin",
     "linkedin": "linkedin.com/company/jobhopinasia",
     "blogUrl": "",
     "androidUrl": "https://play.google.com/store/apps/details?id=vn.jobhop.android",
-    "iosUrl": "https://apps.apple.com/vn/app/jobhopin-t%C3%ACm-vi%E1%BB%87c-l%C3%A0m-nhanh/id1234492588",
+    "iosUrl": "https://apps.apple.com/vn/app/jobhopin-t?m-vi?c-l?m-nhanh/id1234492588",
     "demoUrl": "",
-    "hiring": null
+    "hiring": true
 }

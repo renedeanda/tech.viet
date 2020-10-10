@@ -1,1 +1,16 @@
-{"name": "Vietnix", "slug": "vietnix", "website": "vietnix.vn", "industry": "Infrastructure", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/vietnix.vn", "linkedin": "linkedin.com/company/vietnix", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Vietnix",
+  "slug": "vietnix",
+  "website": "vietnix.vn",
+  "industry": "Infrastructure",
+  "tagline": "Dich Vu May Chu Va Bao Mat Phong Chong Tan Cong Chuyen Nghiep!",
+  "logoUrl": "",
+  "description": "VIETNIX is the first Vietnam hosting provider company that focus on professional online security and anti-attack technologies.\n\nOur credo is \"Online data is the most important asset of every customer\", so the most important mission of all VIETNIX?s services are Data-safe keeping.\n\n100% actual customers are satisfying to the quality and maintenance of VIETNIX.\nAs well as being part of one of VIETNIX, experienced of more than 30 members support for work, contribute to the development of VIETNIX, aiming to provide total hosting solution for all businesses.\n\nServices:\n- Cloud Computing Server\n- Proxy Firewall - Antiddos\n- Domain Name\n- Personal Hosting and Business Hosting\n- Virtual Private Server (VPS)\n- Datacenter Services - Colocation\n- Server Providation - Dedicated Server\n- Online Solution and Program Development\n\nContact us:\nVietnix Solution and Technology Joint Stock Company\nAddress: 14 Song Thao, Ward 2, District Tan Binh, HCMC\nHotline: +84 28 7308 29 29\nEmail: Info@vietnix.vn",
+  "facebook": "fb.com/vietnix.vn",
+  "linkedin": "linkedin.com/company/vietnix",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name": "Mobifone", "slug": "mobifone", "website": "mobifone.vn", "industry": "Telecom", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/mobifone", "linkedin": "linkedin.com/company/vietnam-mobile-telecommunication-service.", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Mobifone",
+  "slug": "mobifone",
+  "website": "mobifone.vn",
+  "industry": "Telecom",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Vietnam Mobile Telecom Services Company ? VMS, a state-owned company under Vietnam Posts and Telecommunications Corporation, was founded in April 16th 1993, VMS has become the first GMS 900/1800 mobile telephony services provider in the brand name MobiFone, marking the beginning momentum of the mobile telephony industry in Vietnam.",
+  "facebook": "fb.com/mobifone",
+  "linkedin": "linkedin.com/company/vietnam-mobile-telecommunication-service.",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name": "UseData", "slug": "usedata", "website": "usedata.vn", "industry": "Enterprise Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/usedata.vn", "linkedin": "linkedin.com/company/usedata", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "UseData",
+  "slug": "usedata",
+  "website": "usedata.vn",
+  "industry": "Enterprise Software",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "UseData offers a big data analytics platform for E-commerce businesses with ability to customize their processing needs and visualization reports, all can be accessed via our highly available dashboard. This infrastructure lets companies keep track of their business performances by analyzing how end-users interact with their services as well as recommending how companies enhance customer experience to optimize their businesses. UseData's insights help companies to make better business decisions, optimize services to increase leads, and give business more sales & profit.",
+  "facebook": "fb.com/usedata.vn",
+  "linkedin": "linkedin.com/company/usedata",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

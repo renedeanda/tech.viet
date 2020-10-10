@@ -18,7 +18,7 @@ export default function Submit() {
         canonical='https://tech.viet.io/submit' />
 
       <Page>
-        <Container style={{ minHeight: '100vh', width: '100vw', margin: '56px 0 0 0', padding: '0 2em' }}>
+        <Container style={{ width: '100vw', margin: '56px 0 0 0', padding: '0 2em' }}>
           <Segment
             textAlign='center'
             vertical>

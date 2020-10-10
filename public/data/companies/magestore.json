@@ -1,1 +1,16 @@
-{"name": "Magestore", "slug": "magestore", "website": "magestore.com", "industry": "Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/magestore", "linkedin": "linkedin.com/company/magestore", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Magestore",
+  "slug": "magestore",
+  "website": "magestore.com",
+  "industry": "Software",
+  "tagline": "Helping Magento retailers connect online and offline business by providing scalable and customizable POS system",
+  "logoUrl": "",
+  "description": "Do you want your Magento store more powerful? Let us lead the way!\n\nMagestore is an expert in Magento eCommerce solutions with more than 10,000 global customers and around 200 partners globally. \n\nOur strategic products include Omnichannel Retail Solutions for Magento Retailers. \nThe solutions are not just our POS integration and Inventory Management alone, but the whole retail management system to help the retailers drive sales and enhance customer experience through all channels.\nOur POS is built with PWA technology and integrates natively into your Magento platform.\n\nWe offer free 1-year support and lifetime update service. With our customization service, your requests will be tailored perfectly no matter where you are from and what you do.",
+  "facebook": "fb.com/magestore",
+  "linkedin": "linkedin.com/company/magestore",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": true
+}

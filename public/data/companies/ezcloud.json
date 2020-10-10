@@ -1,1 +1,16 @@
-{"name": "ezCloud", "slug": "ezcloud", "website": "ezcloud.vn", "industry": "Enterprise Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/ezcloudjsc", "linkedin": "linkedin.com/company/ezcloud-technology-jsc", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "ezCloud",
+  "slug": "ezcloud",
+  "website": "ezcloud.vn",
+  "industry": "Enterprise Software",
+  "tagline": "Founded in 2013, ezCloud aims to help hoteliers simplify the hotel management and grow their business.",
+  "logoUrl": "",
+  "description": "Founded in 2013 by tourism, hospitality and technology experts, ezCloud Technologies Pte. Ltd provides an ecosystem of solutions to help hoteliers manage their operations and room inventory distribution seamlessly.\n\nWe provide web-based applications to manage all tasks in hotel operations including: Property Management System (PMS), Channels Manager (CMS), Mobile Management App, Booking Engine &Hotel Website Design.\nIn addition, our solutions are not just independent operating tools. We integrate our stand-alone tools into one centralized extranet which fully supports your business regarding fields of Marketing, Sales, Operations and Financial Management.\n\nWe aim at developing advanced products that deliver best experience to hotel managers and multiple properties owners. We believe in our customers? satisfaction with the products and services. Having served over 1000 hotels in Vietnam and having begun expanding in Myanmar, Thailand, Indonesia and Malaysia, ezCloud is now striving to become the leading provider of hotel management solutions in Southeast Asia.",
+  "facebook": "fb.com/ezcloudjsc",
+  "linkedin": "linkedin.com/company/ezcloud-technology-jsc",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

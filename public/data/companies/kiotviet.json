@@ -1,1 +1,16 @@
-{"name": "KiotViet", "slug": "kiotviet", "website": "kiotviet.com", "industry": "Software", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/PhanmembanhangKiotViet/", "linkedin": "linkedin.com/company/citigo", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "KiotViet",
+  "slug": "kiotviet",
+  "website": "kiotviet.com",
+  "industry": "Software",
+  "tagline": "We value \"Simplicity- Quality-Fairness-Teamwork\"?Our motivation is \"?More Customers, More Happiness\"?",
+  "logoUrl": "",
+  "description": "Founded in 2010, we desire to deliver cost efficiency technology solutions to improve our customer?s business results. We constantly study, create, and develop to improve ourselves and reach beyond our limits. Citigo is proud of the fact that our products and services are becoming more popular to customers, which has resulted in the company?s average growth rate of 200% per year.",
+  "facebook": "fb.com/PhanmembanhangKiotViet/",
+  "linkedin": "linkedin.com/company/citigo",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": true
+}

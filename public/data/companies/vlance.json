@@ -1,1 +1,16 @@
-{"name": "vLance", "slug": "vlance", "website": "vlance.vn", "industry": "HR / Recruitment", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/vlance.vn", "linkedin": "linkedin.com/company/vlance-vn", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "vLance",
+  "slug": "vlance",
+  "website": "vlance.vn",
+  "industry": "HR / Recruitment",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "With the increase in demand for the reliable, skillful and reasonable-priced outsourcing, vLance helps individual clients/businesses to find, hire and work with the expert local freelancers/providers.\n\nIt is the first online freelance staffing platform in Vietnam and Indochina. It starts with Vietnamese local language (the dual Eng/Viet language version is coming later) to help clients and freelancers easily connect to each other in 4 steps.\nOn another hand, vLance is also created for the talented local freelancers to be found and challenged via different levels.",
+  "facebook": "fb.com/vlance.vn",
+  "linkedin": "linkedin.com/company/vlance-vn",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

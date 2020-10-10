@@ -1,1 +1,16 @@
-{"name": "Movi", "slug": "movi", "website": "movi.vn", "industry": "Fintech", "tagline": "", "logoUrl": "", "description": "", "facebook": "fb.com/movivietnamofficial", "linkedin": "linkedin.com/company/movi-vietnam", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": null}
+{
+  "name": "Movi",
+  "slug": "movi",
+  "website": "movi.vn",
+  "industry": "Fintech",
+  "tagline": "Movi is on a mission to lead the financial services industry and shape a culture of financial literacy in Vietnam.",
+  "logoUrl": "",
+  "description": "Movi is on a mission to lead the financial services industry and shape a culture of financial literacy in Vietnam. We aim to make available financial services by enabling our customers to achieve their dreams in a financially responsible manner. We want to achieve national financial inclusion for all workers in Vietnam by delivering financial services with excellence, innovation and integrity.",
+  "facebook": "fb.com/movivietnamofficial",
+  "linkedin": "linkedin.com/company/movi-vietnam",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}
