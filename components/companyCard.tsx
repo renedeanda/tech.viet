@@ -36,7 +36,10 @@ export default function CompanyCard({ company, setIndustry }: {
                 }}><Icon name='linkify' /> {company.website}</a>
             </Card.Meta> : null}
           <Card.Description className='tagline'>
-            {company.tagline ? company.tagline : "Add a tagline..."}</Card.Description>
+            {company.tagline
+              ? company.tagline
+              : company.description
+                ? company.description : "Add a tagline..."}</Card.Description>
           <LinkButtons
             company={company}
             size='medium' />
