@@ -3,10 +3,9 @@ import {
   Button,
   Grid,
   Header,
-  Container,
-  Card
+  Container
 } from 'semantic-ui-react';
-import { useRouter } from 'next/router';
+import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
 import Page from '../components/page';
@@ -18,7 +17,6 @@ import { shuffle, filterCompanies } from '../util/helpers';
 import { GetStaticProps } from 'next';
 
 export default function Home({ companies }: { companies: any[] }) {
-  const router = useRouter();
 
   const [industry, setIndustry] = useState("All");
   const [filteredCos, setFilteredCos] = useState(companies);
@@ -36,7 +34,7 @@ export default function Home({ companies }: { companies: any[] }) {
         canonical='https://tech.viet.io/' />
 
       <Page>
-        <Container style={{ minHeight: '100vh', width: '100vw', margin: '3em 0' }}>
+        <Container style={{ width: '100vw', margin: '3em 0' }}>
           <Grid
             container
             stackable
@@ -47,12 +45,13 @@ export default function Home({ companies }: { companies: any[] }) {
                 <Header
                   style={{ padding: '0.8em', fontSize: '3em', wordWrap: 'break-word' }}
                   content='An open-source view into the Vietnam Tech ecosystem' />
-                <Button
-                  style={{ margin: '0 1em' }}
-                  color='teal'
-                  content='Contribute'
-                  size='big'
-                  onClick={() => { router.push('/submit') }} />
+                <Link href='/submit'>
+                  <Button
+                    style={{ margin: '0 1em' }}
+                    color='teal'
+                    content='Contribute'
+                    size='big' />
+                </Link>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
