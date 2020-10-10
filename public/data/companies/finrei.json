@@ -3,14 +3,14 @@
     "slug": "finrei",
     "website": "finrei.com",
     "industry": "Fintech",
-    "tagline": "",
+    "tagline": "Reinvent Real Estate Investments in Vietnam.",
     "logoUrl": "",
-    "description": "",
+    "description": "FinREI.com is a wealthtech platform that offers short-term and real estate DEBT investments to retail investors in Vietnam. Our name is the combination of FIN (means fintech, our focus) and REI (in Japanese, REI means exquisite, wise, gratitude, and honor. REI means King in Portuguese).\n\nOur mission is to transform personal investment in emerging markets. Our flagship product is FinHome.com, an online investment platform to help Vietnamese invest into foreign real estate\n\nWe are honored to win the first Digital Prosperity Award from Asia-Pacific Economic Cooperation (APEC). \"The award aims to motivate the region?s creative entrepreneurial spirit to solve the challenges small business players are facing through innovation and technology\"?. The founder of FinREI Investment was invited to partcipate at World Economic Forum ASEAN (2014 and 2016), World Economic Forum Annual Meeting of New Champions / Summer Davos 2018.",
     "facebook": "fb.com/finrei",
     "linkedin": "linkedin.com/company/finrei",
     "blogUrl": "",
     "androidUrl": "",
     "iosUrl": "",
     "demoUrl": "",
-    "hiring": null
+    "hiring": false
 }
