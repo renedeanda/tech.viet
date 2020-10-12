@@ -23,7 +23,7 @@ export default function Footer() {
               <Grid.Column
                 width={3}>
                 <p style={{ justifyContent: 'center' }}>
-                  {`© ${new Date().getFullYear()} Made by `}
+                  {`© ${new Date().getFullYear()} Made in 🇻🇳 by `}
                   <a href='https://vina.dev/rene' target='_blank'>René</a></p>
                 <List link inverted>
                   <List.Item

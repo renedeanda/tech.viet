@@ -11,7 +11,6 @@ import path from 'path';
 import Page from '../components/page';
 import Meta from '../components/Meta';
 import CompanyCard from '../components/companyCard';
-import StickyFooter from '../components/stickyFooter';
 import FilterDropdown from '../components/filterDropdown';
 import { shuffle, filterCompanies } from '../util/helpers';
 import { GetStaticProps } from 'next';
@@ -70,7 +69,6 @@ export default function Home({ companies }: { companies: any[] }) {
           </Grid>
         </Container>
       </Page>
-      <StickyFooter />
     </div >
   )
 }
