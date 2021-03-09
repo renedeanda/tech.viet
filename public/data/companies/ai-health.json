@@ -1,1 +1,16 @@
-{"name":"Ai Health","slug":"ai-health","website":"https://aihealth.vn","industry":"Healthcare","tagline":"B?c s? gia ??nh","logoUrl":"","description":"B?c s? ri?ng l? n?n t?ng tr?c tuy?n cung c?p d?ch v? ??t l?ch kh?m b?nh, l?y m?u t?i nh?, giao thu?c t?n n?i, ? ki?n b?c s? chuy?n gia.","facebook":"https://www.facebook.com/AiHealth.Bacsigiadinh","linkedin":"","blogUrl":"https://aihealth.vn/tin-tuc-aihealth","androidUrl":"https://play.google.com/store/apps/details?id=vn.aipacific.aihealth.ai","iosUrl":"https://apps.apple.com/vn/app/ai-health/id1474742981","demoUrl":"","hiring":false}
+{
+  "name": "Ai Health",
+  "slug": "ai-health",
+  "website": "aihealth.vn",
+  "industry": "Healthcare",
+  "tagline": "Bác sĩ gia đình",
+  "logoUrl": "",
+  "description": "Bác sĩ riêng là nền tảng trực tuyến cung cấp dịch vụ đặt lịch khám bệnh, lấy mẫu tại nhà, giao thuốc tận nơi, ý kiến bác sĩ chuyên gia.",
+  "facebook": "fb.com/AiHealth.Bacsigiadinh",
+  "linkedin": "",
+  "blogUrl": "https://aihealth.vn/tin-tuc-aihealth",
+  "androidUrl": "https://play.google.com/store/apps/details?id=vn.aipacific.aihealth.ai",
+  "iosUrl": "https://apps.apple.com/vn/app/ai-health/id1474742981",
+  "demoUrl": "",
+  "hiring": false
+}
