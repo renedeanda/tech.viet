@@ -18,7 +18,6 @@ export default function CompanyCard({ company, setIndustry }: {
       <Card
         as='div'
         key={company.slug}
-        color='teal'
         raised
         fluid
         link
@@ -48,10 +47,11 @@ export default function CompanyCard({ company, setIndustry }: {
           {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
           <Label
             as='a'
+            style={{ color: '#0C5FFF', borderColor: '#0C5FFF' }}
             onClick={(e) => {
               e.stopPropagation();
               setIndustry(company.industry)
-            }} circular basic color='teal'>{company.industry}</Label>
+            }} circular basic>{company.industry}</Label>
         </Card.Content>
       </Card >
     </Link>
