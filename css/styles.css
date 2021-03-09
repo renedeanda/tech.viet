@@ -8,6 +8,26 @@
     color: #ffffff;
 }
 
+.ui.button.industry-button {
+    background-color: white;
+    border: 1px solid #e8e8e8;
+}
+
+.ui.button.industry-button:hover {
+    background-color: #0C5FFF;
+    color: #ffffff;
+}
+
+.ui.button.active.industry-button {
+    background-color: #0C5FFF;
+    color: #ffffff;
+}
+
+.ui.button.active.industry-button:hover {
+    background-color: #0C5FFF;
+    color: #ffffff;
+}
+
 .Navbar {
     height: 56px;
     background-color: #FFFFFF;
@@ -49,6 +69,14 @@
     font-style: italic;
 }
 
+.navbar-text:hover {
+    color: #0C5FFF;
+    font-size: 1.5em;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .navbar-text2 {
     font-size: 1.2em;
     font-weight: bold;
@@ -75,9 +103,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
     -webkit-box-orient: vertical;
- }
+}
 
 .tagline {
     height: 42px;
@@ -85,12 +114,18 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
     -webkit-box-orient: vertical;
- }
+}
 
 @media only screen and (min-width: 720px) {
     .navbar-text {
+        font-size: 1.8em;
+        display: block;
+    }
+    .navbar-text:hover {
+        color: #0C5FFF;
         font-size: 1.8em;
         display: block;
     }

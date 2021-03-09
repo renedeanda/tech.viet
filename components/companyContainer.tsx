@@ -52,7 +52,7 @@ export default function CompanyContainer({ company }: {
             style={{ marginBottom: 0, fontStyle: 'italic', fontSize: '1.1em', opacity: '0.6', wordWrap: 'break-word' }}
           >{company.tagline}</p>
             : null}
-          <Label style={{ marginTop: '1em' }} circular basic color='teal'>{company.industry}</Label>
+          <Label style={{ marginTop: '1em', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
           {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
           <LinkButtons company={company} isTextList />
           {company.description ?
