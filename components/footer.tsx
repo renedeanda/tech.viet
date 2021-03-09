@@ -33,7 +33,7 @@ export default function Footer() {
                   <List.Item
                     as='a'
                     href='mailto:hi@viet.io'>Get in touch</List.Item>
-                  <List.Item style={{ paddingTop: '2em', fontStyle: 'italic' }}>{"* Inclusion of a company on this list is not an endorsement for the company or it\'s products"}</List.Item>
+                  <List.Item style={{ paddingTop: '2em', fontStyle: 'italic' }}>{"* Inclusion of a company on this list is not an endorsement for the company or its products"}</List.Item>
                 </List>
               </Grid.Column>
             </Grid.Row>
