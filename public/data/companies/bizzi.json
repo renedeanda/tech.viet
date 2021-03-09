@@ -1,0 +1,16 @@
+{
+  "name": "Bizzi",
+  "slug": "bizzi",
+  "website": "bizzi.vn",
+  "industry": "Finance",
+  "tagline": "We provide accounting automation solutions.",
+  "logoUrl": "",
+  "description": "Outsourcing accounting, payroll and tax filing services leveraging technology to empower your business.",
+  "facebook": "fb.com/bizzivietnam",
+  "linkedin": "linkedin.com/company/bizzi-vietnam",
+  "blogUrl": "https://bizzi.vn/bao-chi",
+  "androidUrl": "https://play.google.com/store/apps/details?id=vn.bizzi.expense",
+  "iosUrl": "https://apps.apple.com/vn/app/bizzi-expense/id1552135499",
+  "demoUrl": "",
+  "hiring": false
+}
