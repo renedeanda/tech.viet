@@ -37,20 +37,18 @@ export default function IndustryButtons({ industry, filteredLength, setIndustry 
 }) {
 
   return (
-    <div>
+    <div style={{ padding: '1em 0 1.2em 0' }}>
       {industryOptions.map((option, key) =>
-      (
-        <Button
-          key={key}
-          className='industry-button'
-          content={option.value}
-          circular
-          size='tiny'
-          active={industry == option.value}
-          onClick={() => setIndustry(option.value)}
-          style={{ display: 'inline-block', margin: '0.2em' }} />)
+      (<Button
+        key={key}
+        className='industry-button'
+        content={option.value}
+        circular
+        size='tiny'
+        active={industry == option.value}
+        onClick={() => setIndustry(option.value)}
+        style={{ display: 'inline-block', margin: '0.2em' }} />)
       )}
-      <p style={{ color: '#3D3D3D', fontSize: '1.5em', padding: '0.8em', fontStyle: 'italic' }}>{filteredLength} {filteredLength == 1 ? 'Company' : 'Companies'}</p>
     </div>
   )
 }

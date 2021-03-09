@@ -61,7 +61,7 @@ export default function Home({ companies }: { companies: any[] }) {
                   target='_blank' />
               </Grid.Column>
             </Grid.Row>
-            <Grid.Row style={{ padding: '24px 0 0 0', margin: 0 }}>
+            <Grid.Row style={{ padding: 0, margin: 0 }}>
               <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
