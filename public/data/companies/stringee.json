@@ -1,1 +1,16 @@
-{"name":"Stringee","slug":"stringee","website":"https://stringee.com","industry":"Software","tagline":"","logoUrl":"","description":"Communication APIs - Build Voice/Video Call, Chat & SMS into your web and mobile apps. We provide Cloud Contact Center and Contact Center APIs.","facebook":"https://www.facebook.com/stringee.vietnam","linkedin":"https://www.linkedin.com/company/stringee/","blogUrl":"https://stringee.com/en/blog","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "Stringee",
+  "slug": "stringee",
+  "website": "stringee.com",
+  "industry": "Software",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Communication APIs - Build Voice/Video Call, Chat & SMS into your web and mobile apps. We provide Cloud Contact Center and Contact Center APIs.",
+  "facebook": "fb.com/stringee.vietnam",
+  "linkedin": "linkedin.com/company/stringee",
+  "blogUrl": "https://stringee.com/en/blog",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

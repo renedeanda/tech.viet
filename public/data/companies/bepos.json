@@ -1,1 +1,16 @@
-{"name":"bePOS","slug":"bepos","website":"https://www.bepos.io","industry":"Software","tagline":"Super Point of Sale Platform - Increase your productivity and leverage your business!","logoUrl":"","description":"bePOS is a Vietnamese startup that empowers SMEs in Southeast Asia through a Super Point of Sale Platform.\nOur mission are digitalize the merchants' business to increase their productivity and leverage their resources by providing them the Point of Sale data-related services.\n\nEmpowering 10,000 customer in 15+ countries.","facebook":"https://www.facebook.com/bePOS.HQ","linkedin":"https://www.linkedin.com/company/beposhq","blogUrl":"https://www.bepos.io/academy","androidUrl":"https://play.google.com/store/apps/developer?id=bePOS","iosUrl":"https://apps.apple.com/vn/app/bepos-smarter-point-of-sale/id1271263321","demoUrl":"","hiring":false}
+{
+  "name": "bePOS",
+  "slug": "bepos",
+  "website": "bepos.io",
+  "industry": "Software",
+  "tagline": "Super Point of Sale Platform - Increase your productivity and leverage your business!",
+  "logoUrl": "",
+  "description": "bePOS is a Vietnamese startup that empowers SMEs in Southeast Asia through a Super Point of Sale Platform.\nOur mission are digitalize the merchants' business to increase their productivity and leverage their resources by providing them the Point of Sale data-related services.\n\nEmpowering 10,000 customer in 15+ countries.",
+  "facebook": "fb.com/bePOS.HQ",
+  "linkedin": "linkedin.com/company/beposhq",
+  "blogUrl": "https://www.bepos.io/academy",
+  "androidUrl": "https://play.google.com/store/apps/developer?id=bePOS",
+  "iosUrl": "https://apps.apple.com/vn/app/bepos-smarter-point-of-sale/id1271263321",
+  "demoUrl": "",
+  "hiring": false
+}

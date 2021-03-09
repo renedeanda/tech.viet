@@ -1,1 +1,16 @@
-{"name":"VBee","slug":"vbee","website":"https://vbee.vn","industry":"Software","tagline":"BE your Eyes","logoUrl":"","description":"VBee is a leading company specializing in text-to-speech (TTS) technology in Vietnam. Our output voice is natural, and can be customized by age, gender and region. We are currently developing applications using TTS technologies, such as a virtual assistant, an audio book converting tool, and an audio news service.\n\nFounded by a team of experts from leading universities in Vietnam with a great deal of experience in the field, we are working to bring you products and solutions of outstanding quality.","facebook":"https://www.facebook.com/vbee.aivoicesolutions","linkedin":"https://www.linkedin.com/company/vbee","blogUrl":"https://blogs.vbee.vn","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "VBee",
+  "slug": "vbee",
+  "website": "vbee.vn",
+  "industry": "Software",
+  "tagline": "BE your Eyes",
+  "logoUrl": "",
+  "description": "VBee is a leading company specializing in text-to-speech (TTS) technology in Vietnam. Our output voice is natural, and can be customized by age, gender and region. We are currently developing applications using TTS technologies, such as a virtual assistant, an audio book converting tool, and an audio news service.\n\nFounded by a team of experts from leading universities in Vietnam with a great deal of experience in the field, we are working to bring you products and solutions of outstanding quality.",
+  "facebook": "fb.com/vbee.aivoicesolutions",
+  "linkedin": "linkedin.com/company/vbee",
+  "blogUrl": "https://blogs.vbee.vn",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}
