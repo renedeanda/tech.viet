@@ -5,13 +5,12 @@ import {
   Header,
   Container
 } from 'semantic-ui-react';
-import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
 import Page from '../components/page';
 import Meta from '../components/Meta';
 import CompanyCard from '../components/companyCard';
-import FilterDropdown from '../components/filterDropdown';
+import IndustryButtons from '../components/industryButtons';
 import { shuffle, filterCompanies } from '../util/helpers';
 import { GetStaticProps } from 'next';
 
@@ -39,32 +38,37 @@ export default function Home({ companies }: { companies: any[] }) {
             stackable
             textAlign='center'
             verticalAlign='middle'>
-            <Grid.Row style={{ minHeight: '50vh' }}>
+            <Grid.Row style={{ marginTop: '60px', padding: '0.5em' }}>
               <Grid.Column>
                 <Header
-                  style={{ padding: '0.8em', fontSize: '3em', wordWrap: 'break-word' }}
-                  content='An open-source view into the Vietnam Tech ecosystem' />
-                <Link href='/submit'>
-                  <Button
-                    style={{ margin: '0 1em' }}
-                    color='teal'
-                    content='Contribute'
-                    size='big' />
-                </Link>
+                  style={{ fontSize: '3em', wordWrap: 'break-word' }}>
+                  <div>Vietnam Tech Ecosystem</div>
+                  <div style={{ color: '#0C5FFF' }}>Open-sourced</div>
+                </Header>
+                <Button
+                  style={{ display: 'inline-block', margin: '0.3em' }}
+                  color='purple'
+                  icon='google'
+                  content='Add Company'
+                  href='https://forms.gle/Y75CegGFRp6tzdn67'
+                  target='_blank' />
+                <Button
+                  style={{ display: 'inline-block', margin: '0.3em' }}
+                  className='github-button'
+                  icon='github'
+                  content='GitHub'
+                  href='https://github.com/renedeanda/Tech.Viet'
+                  target='_blank' />
               </Grid.Column>
+            </Grid.Row>
+            <Grid.Row style={{ padding: '24px 0 0 0', margin: 0 }}>
+              <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
-              <Grid.Column>
-                <FilterDropdown setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
-              </Grid.Column>
-            </Grid.Row>
-            <Grid.Row>
-              <Grid.Column>
-                {filteredCos && filteredCos.length > 0 ?
-                  filteredCos.map((item: any) =>
-                    <CompanyCard company={item.data} setIndustry={setIndustry} />)
-                  : <p style={{ fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
-              </Grid.Column>
+              {filteredCos && filteredCos.length > 0 ?
+                filteredCos.map((item: any) =>
+                  <CompanyCard company={item.data} setIndustry={setIndustry} />)
+                : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
             </Grid.Row>
           </Grid>
         </Container>

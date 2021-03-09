@@ -24,10 +24,11 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
             </Menu.Item>
             <Menu.Item
               as='a'
-              className='button-item'>
-              <Link href='/submit'>
-                <div className='navbar-text2'>Submit</div>
-              </Link>
+              className='button-item'
+              href='https://rede.io/why-vietnam-tech-viet/'
+              target='_blank'>
+              <div
+                className='navbar-text2'>Why Vietnam?</div>
             </Menu.Item>
             <Menu.Item
               as='a'
