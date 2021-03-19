@@ -28,7 +28,7 @@ export default function Home({ companies }: { companies: any[] }) {
     <div>
       <Meta
         title='Tech.Viet - A View into Vietnam Tech'
-        desc='An open-source view into the Vietnam Tech ecosystem. Find tech companies of all sizes from Vietnam.'
+        desc='Vietnam Tech Ecosystem open-sourced. Find tech companies of all sizes from Vietnam.'
         canonical='https://tech.viet.io/' />
 
       <Page>
