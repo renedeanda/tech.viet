@@ -36,7 +36,8 @@ def scrape_page_metadata():
 
                 if not os.path.isfile(f'{path}/{slug}-share.png'):
                     if get_image(html, url) != None:
-                        create_image(get_image(html, url), headers, path, slug)
+                        create_share_image(
+                            get_image(html, url), headers, path, slug)
 
                 if not os.path.isfile(f'{path}/{slug}-favicon.png'):
                     if get_favicon(html, url) != None:
@@ -46,7 +47,7 @@ def scrape_page_metadata():
                 continue
 
 
-def create_image(shareImg, headers, path, slug):
+def create_share_image(shareImg, headers, path, slug):
     # The assembled request
     request_ = Request(shareImg, None, headers=headers)
     response = urlopen(request_)  # store the response
@@ -122,7 +123,7 @@ def get_favicon(html, url):
     print(favicon)
 
 
-def get_create_one_favicon(url, slug):
+def get_create_one_image(url, slug, desc):
     path = os.path.abspath("../../public/img/company")
     headers = {
         'Access-Control-Allow-Origin': '*',
@@ -134,28 +135,9 @@ def get_create_one_favicon(url, slug):
     # The assembled request
     request_ = Request(url, None, headers=headers)
     response = urlopen(request_)  # store the response
-    print(f'{path}/{slug}-favicon.png')
+    print(f'{path}/{slug}-{desc}.png')
     # create a new file and write the image
-    f = open(f'{path}/{slug}-favicon.png', 'wb')
-    f.write(response.read())
-    f.close()
-
-
-def get_create_one_share_image(url, slug):
-    path = os.path.abspath("../../public/img/company")
-    headers = {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET',
-        'Access-Control-Allow-Headers': 'Content-Type',
-        'Access-Control-Max-Age': '3600',
-        'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
-    }
-    # The assembled request
-    request_ = Request(url, None, headers=headers)
-    response = urlopen(request_)  # store the response
-    print(f'{path}/{slug}-share.png')
-    # create a new file and write the image
-    f = open(f'{path}/{slug}-share.png', 'wb')
+    f = open(f'{path}/{slug}-{desc}.png', 'wb')
     f.write(response.read())
     f.close()
 
@@ -197,6 +179,29 @@ def get_screenshots():
                 driver.save_screenshot(desktop['output'])
 
 
+def get_fb_avatars():
+    companies = read_json_files()
+    path = os.path.abspath("../../public/img/company")
+
+    for co in companies:
+        slug = co[0]
+        fbUrl = co[2]
+
+        if fbUrl:
+            fbUsername = fbUrl.split("/")[-2:][1]
+            fbAvatarUrl = f'https://graph.facebook.com/{fbUsername}/picture?type=large'
+        else:
+            fbAvatarUrl = None
+
+        print(fbAvatarUrl)
+
+        if not os.path.isfile(f'{path}/{slug}-avatar.png'):
+            try:
+                get_create_one_image(fbAvatarUrl, slug, "avatar")
+            except:
+                continue
+
+
 def read_json_files():
 
     companies = []
@@ -219,9 +224,13 @@ def read_json_files():
 # uncomment to produce screenshots for all Tech.Viet companies
 # get_screenshots()
 
-# get_create_one_favicon("URL", "SLUG")
-# get_create_one_share_image("URL", "SLUG")
+# get_create_one_image("URL", "SLUG", "favicon")
+# get_create_one_image("URL", "SLUG", "share")
+# get_create_one_image("URL", "SLUG", "avatar")
 
 
 # uncomment to scrape available favicon & share images for all Tech.Viet companies
 # scrape_page_metadata()
+
+# uncomment to scrape available FB avatars for all Tech.Viet Companies
+# get_fb_avatars()
