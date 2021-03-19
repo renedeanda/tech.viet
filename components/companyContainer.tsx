@@ -17,7 +17,7 @@ export default function CompanyContainer({ company }: {
   const fbUsername = company.facebook ? new URL(withHttp(company.facebook)).pathname.replace(/\/$/, "") : null;
 
   // Load local image file if exists
-  const avatarSrc = `/img/company/${company.slug}-avatar.png`
+  const avatarSrc = company.facebook ? `/img/company/${company.slug}-avatar.png` : '/company.png'
   // Else load constructed FB url to load remote image
   const avatarUrl = fbUsername ? `https://graph.facebook.com/${fbUsername}/picture?type=large` : '/company.png';
 
