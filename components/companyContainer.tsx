@@ -16,6 +16,9 @@ export default function CompanyContainer({ company }: {
 
   const fbUsername = company.facebook ? new URL(withHttp(company.facebook)).pathname.replace(/\/$/, "") : null;
 
+  // Load local image file if exists
+  const avatarSrc = `/img/company/${company.slug}-avatar.png`
+  // Else load constructed FB url to load remote image
   const avatarUrl = fbUsername ? `https://graph.facebook.com/${fbUsername}/picture?type=large` : '/company.png';
 
   const hiringText = company.hiring ? "Yes" : "No";
@@ -35,14 +38,22 @@ export default function CompanyContainer({ company }: {
               circular />
             <ShareMenu url={`https://tech.viet.io/company/${company.slug}`} />
           </Container>
-          {avatarUrl ?
+          {avatarSrc ?
             <img
               alt={company.name}
               height={100}
               width={100}
-              src={avatarUrl}
+              src={avatarSrc}
               style={{ borderRadius: '50%', boxShadow: '0px 0px 5px 2px rgba(0, 0, 0, 0.05)' }} />
-            : null}
+            :
+            avatarUrl ?
+              <img
+                alt={company.name}
+                height={100}
+                width={100}
+                src={avatarUrl}
+                style={{ borderRadius: '50%', boxShadow: '0px 0px 5px 2px rgba(0, 0, 0, 0.05)' }} /> : null
+          }
           <Header style={{
             marginBottom: 0,
             fontSize: '2.5em',
