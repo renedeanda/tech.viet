@@ -13,12 +13,15 @@ export default function CompanyPage({ company }: { company: Company }) {
     `${company.name} on Tech.Viet. Vietnam Tech Ecosystem open-sourced.`
     : 'Vietnam Tech Ecosystem open-sourced.'
 
+  const screenSrc = `/img/company/${company.slug}-screenshot.png`
+
   return (
     <>
       <Meta
         title={company.name ? `${company.name} | Tech.Viet - Vietnam Tech Ecosystem` : 'Company Not Found'}
         desc={company.tagline ? `${company.tagline} ${description}` : description}
-        canonical={`https://tech.viet.io/company/${company.slug}`} />
+        canonical={`https://tech.viet.io/company/${company.slug}`}
+        image={screenSrc} />
 
       <Page>
         <CompanyContainer company={company} />
