@@ -6,11 +6,11 @@
   "tagline": "",
   "logoUrl": "",
   "description": "",
-  "facebook": "fb.com/langkingdomvn",
+  "facebook": "",
   "linkedin": "",
   "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.langkingdom.langkingdom",
+  "iosUrl": "https://apps.apple.com/vn/app/lang-kingdom/id1353744959",
   "demoUrl": "",
   "hiring": null
 }

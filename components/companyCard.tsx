@@ -1,7 +1,8 @@
 import {
   Card,
   Label,
-  Icon
+  Icon,
+  Image
 } from 'semantic-ui-react';
 import Link from 'next/link';
 import LinkButtons from './linkButtons';
@@ -13,6 +14,10 @@ export default function CompanyCard({ company, setIndustry }: {
   setIndustry: any
 }) {
 
+  // Load local image file if exists
+  const avatarSrc = company.facebook ? `/img/company/${company.slug}-avatar.png` : '/company.png'
+  const screenSrc = `/img/company/${company.slug}-screenshot.png`
+
   return (
     <Link href={`/company/${company.slug}`}>
       <Card
@@ -23,8 +28,40 @@ export default function CompanyCard({ company, setIndustry }: {
         link
         style={{ maxWidth: '320px', display: 'inline-block', margin: '0.5em' }}>
         <Card.Content
-          textAlign='left'>
-          <h2 className='card-title'>{company.name}</h2>
+          style={{ padding: 0, margin: 0 }}>
+          <img
+            alt={company.name}
+            height={200}
+            width={320}
+            src={screenSrc}
+            style={{
+              zIndex: 1,
+              position: 'relative',
+              borderRadius: '4px 4px 0 0',
+              padding: 0,
+              margin: 0
+            }} />
+        </Card.Content>
+        <Card.Content textAlign='left'>
+          <div>
+            {avatarSrc ?
+              <img
+                alt={company.name}
+                height={56}
+                width={56}
+                src={avatarSrc}
+                style={{
+                  zIndex: 2,
+                  marginTop: '-50px',
+                  position: 'relative',
+                  borderRadius: '50%',
+                  border: '2px double #e2e8f0',
+                  boxShadow: '0px 0px 5px 2px rgba(0, 0, 0, 0.05)'
+                }} />
+              : null
+            }
+            <h2 className='card-title' style={{ marginTop: 0 }}>{company.name}</h2>
+          </div>
           {company.website ?
             <Card.Meta>
               <a

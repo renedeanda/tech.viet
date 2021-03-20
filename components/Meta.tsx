@@ -21,7 +21,7 @@ export default function Meta(props: SEOProps) {
       <meta name="HandheldFriendly" content="true" />
       <meta name="theme-color" content="#333333" />
       <link rel="manifest" href="/manifest.json" />
-      <link rel="icon" type="image/png" href="/favicon.ico" />
+      <link rel="icon" type="image/png" href={props.icon ? props.icon : "/favicon.ico"} />
       <link rel="apple-touch-icon" href="/favicon.ico" />
       {
         props.css &&
@@ -31,15 +31,15 @@ export default function Meta(props: SEOProps) {
         props.image ? (
           <meta property="og:image" content={`${props.image}`} />
         ) : (
-            <meta property="og:image" content="/vietnam.jpg" />
-          )
+          <meta property="og:image" content="/vietnam.jpg" />
+        )
       }
       {
         props.image ? (
           <meta name="twitter:image" content={`${props.image}`} />
         ) : (
-            <meta name="twitter:image" content="/vietnam.jpg" />
-          )
+          <meta name="twitter:image" content="/vietnam.jpg" />
+        )
       }
       {
         props.canonical &&
