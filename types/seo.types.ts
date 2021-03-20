@@ -5,4 +5,5 @@ export interface SEOProps {
     css?: string;
     image?: string;
     js?: string;
+    icon?: string;
 }
