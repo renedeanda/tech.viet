@@ -233,4 +233,4 @@ def read_json_files():
 # scrape_page_metadata()
 
 # uncomment to scrape available FB avatars for all Tech.Viet Companies
-get_fb_avatars()
+# get_fb_avatars()
