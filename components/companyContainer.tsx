@@ -1,12 +1,11 @@
 import {
   Header,
-  Segment,
   Container,
   Button,
   Label,
-  Image,
   Card
 } from 'semantic-ui-react';
+import Image from 'next/image';
 import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
 import LinkButtons from './linkButtons';
@@ -20,8 +19,6 @@ export default function CompanyContainer({ company }: {
 
   // Load local image file if exists
   const avatarSrc = company.facebook ? `/img/company/${company.slug}-avatar.png` : '/company.png'
-  // Else load constructed FB url to load remote image
-  const avatarUrl = fbUsername ? `https://graph.facebook.com/${fbUsername}/picture?type=large` : '/company.png';
 
   const hiringText = company.hiring ? "Yes" : "No";
   const gFormLink = `https://docs.google.com/forms/d/e/1FAIpQLSelgDTevZ0xCrTv9SsWnlpE-vw4gofE-2s-c_tKaYo7HJwVUw/viewform?usp=pp_url&entry.2005620554=${company.name}&entry.1692157935=${company.website}&entry.1045781291=${company.industry}&entry.1065046570=${company.tagline}&entry.564514234=${company.logoUrl}&entry.171074559=${company.description}&entry.1166974658=${company.facebook}&entry.361763259=${company.linkedin}&entry.839337160=${company.blogUrl}&entry.2015302511=${company.androidUrl}&entry.302652646=${company.iosUrl}&entry.1200097343=${company.demoUrl}&entry.190791171=${hiringText}`;
@@ -36,19 +33,14 @@ export default function CompanyContainer({ company }: {
           fluid
           style={{ maxWidth: 600 }}>
 
-          <Card.Content style={{ maxHeight: 375, maxWidth: 600, padding: 0, margin: 0 }}>
-            <img
+          <Card.Content style={{ padding: 0, margin: 0 }}>
+            <Image
               alt={company.name}
-              width='100%'
-              height='100%'
+              height={375}
+              width={600}
               src={screenSrc}
-              style={{
-                zIndex: 1,
-                position: 'relative',
-                borderRadius: '4px 4px 0 0',
-                padding: 0,
-                margin: 0
-              }} />
+              className='card-image-header'
+            />
           </Card.Content>
           <Card.Content
             textAlign='left'
@@ -63,35 +55,23 @@ export default function CompanyContainer({ company }: {
                 circular />
               <ShareMenu url={`https://tech.viet.io/company/${company.slug}`} />
             </Container>
-            {avatarSrc ?
-              <img
-                alt={company.name}
-                height={100}
-                width={100}
-                src={avatarSrc}
-                style={{
-                  zIndex: 2,
-                  marginTop: '-120px',
-                  position: 'relative',
-                  borderRadius: '50%',
-                  border: '2px double #e2e8f0',
-                  boxShadow: '0px 0px 5px 2px rgba(0, 0, 0, 0.05)'
-                }} />
-              :
-              avatarUrl ?
-                <img
+            <div style={{ marginTop: '-100px' }}>
+              {avatarSrc ?
+                <Image
                   alt={company.name}
                   height={100}
                   width={100}
-                  src={avatarUrl}
-                  style={{ borderRadius: '50%', boxShadow: '0px 0px 5px 2px rgba(0, 0, 0, 0.05)' }} /> : null
-            }
-            <Header style={{
-              marginTop: 0,
-              marginBottom: 0,
-              fontSize: '2.5em',
-              wordWrap: 'break-word'
-            }}>{company.name}</Header>
+                  src={avatarSrc}
+                  className='card-avatar' />
+                : null
+              }
+              <Header style={{
+                marginTop: 0,
+                marginBottom: 0,
+                fontSize: '2.5em',
+                wordWrap: 'break-word'
+              }}>{company.name}</Header>
+            </div>
             {company.tagline ? <p
               style={{ marginBottom: 0, fontStyle: 'italic', fontSize: '1.1em', opacity: '0.6', wordWrap: 'break-word' }}
             >{company.tagline}</p>

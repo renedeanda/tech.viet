@@ -1,4 +1,7 @@
 module.exports = {
+    future: {
+        webpack5: true,
+    },
     target: 'serverless',
     webpack: function (config, { isServer }) {
         config.module.rules.push({
