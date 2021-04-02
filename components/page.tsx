@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Link from 'next/link';
 import Navbar from './navbar';
 import Footer from './footer';
 import { Menu, Icon, Sidebar } from 'semantic-ui-react';
