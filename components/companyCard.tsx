@@ -37,7 +37,7 @@ export default function CompanyCard({ company, setIndustry }: {
             className='card-image-header' />
         </Card.Content>
         <Card.Content textAlign='left'>
-          <div style={{ position: 'relative', marginTop: '-50px' }}>
+          <div style={{ marginTop: '-50px' }}>
             {avatarSrc ?
               <Image
                 alt={company.name}
