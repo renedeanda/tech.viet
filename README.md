@@ -1,5 +1,3 @@
-![Build gh-pages](https://github.com/renedeanda/Tech.Viet/workflows/Node.js%20CI/badge.svg)
-
 # Introduction
 
 Tech.Viet is an open-source static website built with [Next.js](https://nextjs.org/) listing 150+ technology companies in Vietnam.
