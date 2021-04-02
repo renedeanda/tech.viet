@@ -1,10 +1,10 @@
 import {
   Card,
   Label,
-  Icon,
-  Image
+  Icon
 } from 'semantic-ui-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import LinkButtons from './linkButtons';
 import { withHttp } from '../util/helpers';
 import { Company } from '../types/company.types';
@@ -29,39 +29,26 @@ export default function CompanyCard({ company, setIndustry }: {
         style={{ maxWidth: '320px', display: 'inline-block', margin: '0.5em' }}>
         <Card.Content
           style={{ padding: 0, margin: 0 }}>
-          <img
+          <Image
             alt={company.name}
             height={200}
             width={320}
             src={screenSrc}
-            style={{
-              zIndex: 1,
-              position: 'relative',
-              borderRadius: '4px 4px 0 0',
-              padding: 0,
-              margin: 0
-            }} />
+            className='card-image-header' />
         </Card.Content>
         <Card.Content textAlign='left'>
-          <div>
+          <div style={{ marginTop: '-50px' }}>
             {avatarSrc ?
-              <img
+              <Image
                 alt={company.name}
                 height={56}
                 width={56}
                 src={avatarSrc}
-                style={{
-                  zIndex: 2,
-                  marginTop: '-50px',
-                  position: 'relative',
-                  borderRadius: '50%',
-                  border: '2px double #e2e8f0',
-                  boxShadow: '0px 0px 5px 2px rgba(0, 0, 0, 0.05)'
-                }} />
+                className='card-avatar' />
               : null
             }
-            <h2 className='card-title' style={{ marginTop: 0 }}>{company.name}</h2>
           </div>
+          <h2 className='card-title' style={{ marginTop: 0 }}>{company.name}</h2>
           {company.website ?
             <Card.Meta>
               <a
@@ -91,6 +78,6 @@ export default function CompanyCard({ company, setIndustry }: {
             }} circular basic>{company.industry}</Label>
         </Card.Content>
       </Card >
-    </Link>
+    </Link >
   )
 }
