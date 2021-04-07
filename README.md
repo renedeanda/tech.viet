@@ -1,6 +1,6 @@
 # Introduction
 
-Tech.Viet is an open-source static website built with [Next.js](https://nextjs.org/) listing 150+ technology companies in Vietnam.
+Tech Viet is an open-source static website built with [Next.js](https://nextjs.org/) listing 150+ technology companies in Vietnam.
 
 Special thanks to my friend [Franck](https://github.com/pfranck) helping automate the addition of companies via Google Form with his project [gform-to-github](https://github.com/pfranck/gform-to-github). You can also find the Google Apps Script used for this project in the `scripts` folder.
 
@@ -31,4 +31,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Feel free to connect with me on [LinkedIn](https://linkedin.com/in/renedeanda) & check out my dev profile on [Vina.Dev](https://vina.dev/rene). I'm currently looking for full-time work.
 
 ## License
-Tech.Viet is distributed under the MIT license. See [LICENSE](https://github.com/renedeanda/Tech.Viet/blob/master/LICENSE.md) for details.
+Tech Viet is distributed under the MIT license. See [LICENSE](https://github.com/renedeanda/Tech.Viet/blob/master/LICENSE.md) for details.

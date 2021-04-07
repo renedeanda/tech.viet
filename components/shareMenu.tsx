@@ -15,7 +15,7 @@ export default function ShareMenu({ url }: { url: string }) {
       <Dropdown.Menu>
         <Dropdown.Item
           as='a'
-          href={`mailto:?subject=Company on Tech.Viet&body=Check out this Vietnam company: ${url}`}
+          href={`mailto:?subject=Company on Tech Viet&body=Check out this Vietnam company: ${url}`}
           target="_blank"
           icon={{ name: 'mail' }}
           text='Share by Email' />
@@ -27,13 +27,13 @@ export default function ShareMenu({ url }: { url: string }) {
           text='Share on Facebook' />
         <Dropdown.Item
           as='a'
-          href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=Tech.Viet Company Page`}
+          href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=Tech Viet Company Page`}
           target="_blank"
           icon={{ name: 'linkedin' }}
           text='Share on LinkedIn' />
         <Dropdown.Item
           as='a'
-          href={`https://twitter.com/intent/tweet/?text=Check out this Tech.Viet company page&url=${url}&via=redeio`}
+          href={`https://twitter.com/intent/tweet/?text=Check out this Tech Viet company page&url=${url}&via=redeio`}
           target="_blank"
           icon={{ name: 'twitter' }}
           text='Share on Twitter' />

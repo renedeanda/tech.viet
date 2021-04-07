@@ -42,7 +42,7 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://www.linkedin.com/shareArticle?mini=true&url=https://tech.viet.io&title=Tech.Viet - A View into Vietnam Tech'
+            href='https://www.linkedin.com/shareArticle?mini=true&url=https://tech.viet.io&title=Tech Viet - A View into Vietnam Tech'
             target='_blank'>
             <div
               style={{ padding: '0.5em' }}
@@ -58,7 +58,7 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://twitter.com/intent/tweet/?text=Check out the Tech.Viet open-source project&url=https://tech.viet.io&via=redeio'
+            href='https://twitter.com/intent/tweet/?text=Check out the Tech Viet open-source project&url=https://tech.viet.io&via=redeio'
             target='_blank'>
             <div
               style={{ padding: '0.5em' }}
