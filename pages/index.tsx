@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import {
   Button,
   Grid,
   Header,
-  Container
+  Container,
+  Loader
 } from 'semantic-ui-react';
 import fs from 'fs';
 import path from 'path';
@@ -13,16 +14,58 @@ import CompanyCard from '../components/companyCard';
 import IndustryButtons from '../components/industryButtons';
 import { shuffle, filterCompanies } from '../util/helpers';
 import { GetStaticProps } from 'next';
+import usePagination from "../util/hooks/usePagination";
 
 export default function Home({ companies }: { companies: any[] }) {
 
   const [industry, setIndustry] = useState("All");
   const [filteredCos, setFilteredCos] = useState(companies);
 
+  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 12);
+
   useEffect(() => {
     setIndustry(industry);
-    setFilteredCos(filterCompanies(companies, industry))
+    setFilteredCos(filterCompanies(companies, industry));
+    resetCurrentPage();
   }, [industry])
+
+  const currentCos = currentData();
+  console.log(currentCos)
+  console.log(currentPage)
+  console.log(maxPage)
+  const [element, setElement] = useState(null);
+
+  const observer = useRef<IntersectionObserver>();
+  const prevY = useRef(0);
+  useEffect(() => {
+    observer.current = new IntersectionObserver(
+      (entries) => {
+        const firstEntry = entries[0];
+        const y = firstEntry.boundingClientRect.y;
+
+        if (prevY.current > y) {
+          next();
+        }
+        prevY.current = y;
+      },
+      { threshold: 0.5 }
+    );
+  }, []);
+
+  useEffect(() => {
+    const currentElement = element;
+    const currentObserver = observer.current;
+
+    if (currentElement) {
+      currentObserver.observe(currentElement);
+    }
+
+    return () => {
+      if (currentElement) {
+        currentObserver.unobserve(currentElement);
+      }
+    };
+  }, [element]);
 
   return (
     <div>
@@ -65,11 +108,16 @@ export default function Home({ companies }: { companies: any[] }) {
               <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
-              {filteredCos && filteredCos.length > 0 ?
-                filteredCos.map((item: any) =>
-                  <CompanyCard company={item.data} setIndustry={setIndustry} />)
+              {currentCos && currentCos.length > 0 ?
+                currentCos.map((item: any) =>
+                  <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} />)
                 : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
             </Grid.Row>
+            {currentPage !== maxPage ? (
+              <div ref={setElement}>
+                <Loader active inline='centered' />
+              </div>
+            ) : null}
           </Grid>
         </Container>
       </Page>

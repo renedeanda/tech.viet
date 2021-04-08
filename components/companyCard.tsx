@@ -4,7 +4,6 @@ import {
   Icon
 } from 'semantic-ui-react';
 import Link from 'next/link';
-import Image from 'next/image';
 import LinkButtons from './linkButtons';
 import { withHttp } from '../util/helpers';
 import { Company } from '../types/company.types';
@@ -29,7 +28,7 @@ export default function CompanyCard({ company, setIndustry }: {
         style={{ maxWidth: '320px', display: 'inline-block', margin: '0.5em' }}>
         <Card.Content
           style={{ padding: 0, margin: 0 }}>
-          <Image
+          <img
             alt={company.name}
             height={200}
             width={320}
@@ -39,7 +38,7 @@ export default function CompanyCard({ company, setIndustry }: {
         <Card.Content textAlign='left'>
           <div style={{ marginTop: '-50px' }}>
             {avatarSrc ?
-              <Image
+              <img
                 alt={company.name}
                 height={56}
                 width={56}
