@@ -5,6 +5,7 @@ import {
   Label,
   Card
 } from 'semantic-ui-react';
+import Image from 'next/image';
 import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
 import LinkButtons from './linkButtons';
@@ -33,7 +34,8 @@ export default function CompanyContainer({ company }: {
           style={{ maxWidth: 600 }}>
 
           <Card.Content style={{ padding: 0, margin: 0 }}>
-            <img
+            <Image
+              quality={60}
               alt={company.name}
               height={375}
               width={600}
@@ -56,7 +58,8 @@ export default function CompanyContainer({ company }: {
             </Container>
             <div style={{ marginTop: '-100px' }}>
               {avatarSrc ?
-                <img
+                <Image
+                  quality={60}
                   alt={company.name}
                   height={100}
                   width={100}
