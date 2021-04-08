@@ -29,8 +29,7 @@ export default function CompanyCard({ company, setIndustry }: {
         style={{ maxWidth: '320px', display: 'inline-block', margin: '0.5em' }}>
         <Card.Content
           style={{ padding: 0, margin: 0 }}>
-          <Image
-            quality={60}
+          <img
             alt={company.name}
             height={200}
             width={320}
@@ -40,8 +39,7 @@ export default function CompanyCard({ company, setIndustry }: {
         <Card.Content textAlign='left'>
           <div style={{ marginTop: '-50px' }}>
             {avatarSrc ?
-              <Image
-                quality={60}
+              <img
                 alt={company.name}
                 height={56}
                 width={56}
