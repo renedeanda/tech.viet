@@ -67,7 +67,7 @@ export default function Home({ companies }: { companies: any[] }) {
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               {filteredCos && filteredCos.length > 0 ?
                 filteredCos.map((item: any) =>
-                  <CompanyCard company={item.data} setIndustry={setIndustry} />)
+                  <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} />)
                 : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
             </Grid.Row>
           </Grid>

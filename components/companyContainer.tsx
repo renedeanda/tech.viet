@@ -35,6 +35,7 @@ export default function CompanyContainer({ company }: {
 
           <Card.Content style={{ padding: 0, margin: 0 }}>
             <Image
+              quality={60}
               alt={company.name}
               height={375}
               width={600}
@@ -58,6 +59,7 @@ export default function CompanyContainer({ company }: {
             <div style={{ marginTop: '-100px' }}>
               {avatarSrc ?
                 <Image
+                  quality={60}
                   alt={company.name}
                   height={100}
                   width={100}
