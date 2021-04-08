@@ -21,7 +21,7 @@ export default function Home({ companies }: { companies: any[] }) {
   const [industry, setIndustry] = useState("All");
   const [filteredCos, setFilteredCos] = useState(companies);
 
-  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 12);
+  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 9);
 
   useEffect(() => {
     setIndustry(industry);
