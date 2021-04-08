@@ -5,7 +5,6 @@ import {
   Label,
   Card
 } from 'semantic-ui-react';
-import Image from 'next/image';
 import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
 import LinkButtons from './linkButtons';

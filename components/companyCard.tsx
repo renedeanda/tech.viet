@@ -4,7 +4,6 @@ import {
   Icon
 } from 'semantic-ui-react';
 import Link from 'next/link';
-import Image from 'next/image';
 import LinkButtons from './linkButtons';
 import { withHttp } from '../util/helpers';
 import { Company } from '../types/company.types';
