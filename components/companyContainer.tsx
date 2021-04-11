@@ -45,7 +45,7 @@ export default function CompanyContainer({ company }: {
           </Card.Content>
           <Card.Content
             textAlign='left'
-            style={{ padding: '0px 30px 100px 30px' }}>
+            style={{ padding: '0px 22px 100px 22px' }}>
             <Container fluid style={{ paddingTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
               <Button
                 as='a'
@@ -80,9 +80,11 @@ export default function CompanyContainer({ company }: {
               style={{ color: '#555B66', marginBottom: 0, fontStyle: 'italic', fontSize: '1.1em', opacity: '0.6', wordWrap: 'break-word' }}
             >{company.tagline}</p>
               : null}
-            <Label style={{ marginTop: '1em', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
+            <Label style={{ marginTop: 8, color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
             {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
-            <LinkButtons company={company} isTextList />
+            <div style={{ marginTop: 8 }}>
+              <LinkButtons company={company} isTextList />
+            </div>
             {company.description ?
               <>
                 <Header dividing style={{
