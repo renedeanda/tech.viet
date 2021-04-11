@@ -49,7 +49,7 @@ export default function CompanyCard({ company, setIndustry }: {
               : null
             }
           </div>
-          <h2 className='card-title' style={{ marginTop: 0, marginBottom: 8 }}>{company.name}</h2>
+          <h2 className='card-title' style={{ marginTop: 0, marginBottom: '8px' }}>{company.name}</h2>
           {company.website ?
             <a
               style={{ fontSize: '1.2em' }}
@@ -61,7 +61,7 @@ export default function CompanyCard({ company, setIndustry }: {
                 e.stopPropagation();
               }}><Icon name='linkify' /> {company.website}</a>
             : null}
-          <p style={{ fontSize: '1.1em', marginTop: 8 }} className='tagline'>
+          <p style={{ fontSize: '1.1em', marginTop: '8px' }} className='tagline'>
             {company.tagline
               ? company.tagline
               : company.description
