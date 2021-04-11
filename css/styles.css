@@ -1,16 +1,8 @@
 .card-link {
-    color: #8C99AB;
+    color: #555B66;
 }
 
 .card-link:hover {
-    color: #555B66;
-}
-
-.card-link2 {
-    color: #555B66;
-}
-
-.card-link2:hover {
     color: #0C5FFF;
 }
 
