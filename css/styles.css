@@ -6,6 +6,14 @@
     color: #555B66;
 }
 
+.card-link2 {
+    color: #555B66;
+}
+
+.card-link2:hover {
+    color: #0C5FFF;
+}
+
 .ui.button.github-button {
     background-color: #333333;
     color: #ffffff;

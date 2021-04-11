@@ -53,7 +53,7 @@ export default function CompanyCard({ company, setIndustry }: {
           {company.website ?
             <a
               style={{ fontSize: '1.2em' }}
-              className='card-link'
+              className='card-link2'
               href={withHttp(company.website)}
               target='_blank'
               rel="noopener"
