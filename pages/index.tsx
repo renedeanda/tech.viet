@@ -21,7 +21,7 @@ export default function Home({ companies }: { companies: any[] }) {
   const [industry, setIndustry] = useState("All");
   const [filteredCos, setFilteredCos] = useState(companies);
 
-  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 9);
+  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 6);
 
   useEffect(() => {
     setIndustry(industry);
@@ -30,9 +30,6 @@ export default function Home({ companies }: { companies: any[] }) {
   }, [industry])
 
   const currentCos = currentData();
-  console.log(currentCos)
-  console.log(currentPage)
-  console.log(maxPage)
   const [element, setElement] = useState(null);
 
   const observer = useRef<IntersectionObserver>();
@@ -84,7 +81,7 @@ export default function Home({ companies }: { companies: any[] }) {
             <Grid.Row style={{ marginTop: '60px', padding: '0.5em' }}>
               <Grid.Column>
                 <Header
-                  style={{ fontSize: '3em', wordWrap: 'break-word' }}>
+                  style={{ color: '#1A202C', fontSize: '3em', wordWrap: 'break-word' }}>
                   <div>Vietnam Tech Ecosystem</div>
                   <div style={{ color: '#0C5FFF' }}>Open-sourced</div>
                 </Header>
@@ -138,8 +135,9 @@ export const getStaticProps: GetStaticProps = async () => {
       data: JSON.parse(fileContents),
     }
   })
-  //Shuffle array of companies
-  shuffle(companies);
+
+  // Uncomment to randomize companies on home page - Shuffle array of companies
+  // shuffle(companies);
 
   return {
     props: {

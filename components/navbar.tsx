@@ -26,7 +26,8 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
               as='a'
               className='button-item'
               href='https://rede.io/why-vietnam-tech-viet/'
-              target='_blank'>
+              target='_blank'
+              rel="noopener">
               <div
                 className='navbar-text2'>Why Vietnam?</div>
             </Menu.Item>
@@ -34,7 +35,8 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
               as='a'
               className='button-item'
               href='https://github.com/renedeanda/Tech.Viet'
-              target='_blank'>
+              target='_blank'
+              rel="noopener">
               <div
                 className='navbar-text2'>GitHub</div>
             </Menu.Item>
