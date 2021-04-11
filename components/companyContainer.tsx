@@ -52,6 +52,7 @@ export default function CompanyContainer({ company }: {
                 basic
                 href={gFormLink}
                 target="_blank"
+                rel="noopener"
                 icon='pencil'
                 circular />
               <ShareMenu url={`https://tech.viet.io/company/${company.slug}`} />
@@ -68,6 +69,7 @@ export default function CompanyContainer({ company }: {
                 : null
               }
               <Header style={{
+                color: '#1A202C',
                 marginTop: 0,
                 marginBottom: 0,
                 fontSize: '2.5em',
@@ -75,7 +77,7 @@ export default function CompanyContainer({ company }: {
               }}>{company.name}</Header>
             </div>
             {company.tagline ? <p
-              style={{ marginBottom: 0, fontStyle: 'italic', fontSize: '1.1em', opacity: '0.6', wordWrap: 'break-word' }}
+              style={{ color: '#555B66', marginBottom: 0, fontStyle: 'italic', fontSize: '1.1em', opacity: '0.6', wordWrap: 'break-word' }}
             >{company.tagline}</p>
               : null}
             <Label style={{ marginTop: '1em', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
@@ -84,10 +86,12 @@ export default function CompanyContainer({ company }: {
             {company.description ?
               <>
                 <Header dividing style={{
+                  color: '#1A202C',
                   fontSize: '1.4em'
                 }}>About</Header>
                 {company.description.split('\n').map((item, i) => {
                   return <p style={{
+                    color: '#555B66',
                     lineHeight: '1.1em',
                     fontSize: '1.33em',
                     opacity: '0.6',

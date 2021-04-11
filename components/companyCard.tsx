@@ -23,7 +23,6 @@ export default function CompanyCard({ company, setIndustry }: {
       <Card
         as='div'
         key={company.slug}
-        raised
         fluid
         link
         style={{ maxWidth: '320px', display: 'inline-block', margin: '0.5em' }}>
@@ -50,21 +49,24 @@ export default function CompanyCard({ company, setIndustry }: {
               : null
             }
           </div>
-          <h2 className='card-title' style={{ marginTop: 0 }}>{company.name}</h2>
+          <h2 className='card-title' style={{ marginTop: 0, marginBottom: 8 }}>{company.name}</h2>
           {company.website ?
-            <Card.Meta>
-              <a
-                href={withHttp(company.website)}
-                target='_blank'
-                onClick={(e) => {
-                  e.stopPropagation();
-                }}><Icon name='linkify' /> {company.website}</a>
-            </Card.Meta> : null}
-          <Card.Description className='tagline'>
+            <a
+              style={{ fontSize: '1.2em' }}
+              className='card-link'
+              href={withHttp(company.website)}
+              target='_blank'
+              rel="noopener"
+              onClick={(e) => {
+                e.stopPropagation();
+              }}><Icon name='linkify' /> {company.website}</a>
+            : null}
+          <p style={{ fontSize: '1.1em', marginTop: 8 }} className='tagline'>
             {company.tagline
               ? company.tagline
               : company.description
-                ? company.description : "Add a tagline..."}</Card.Description>
+                ? company.description : "Add a tagline..."}
+          </p>
           <LinkButtons
             company={company}
             size='medium' />
