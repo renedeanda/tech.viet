@@ -80,9 +80,9 @@ export default function CompanyContainer({ company }: {
               style={{ color: '#555B66', marginBottom: 0, fontStyle: 'italic', fontSize: '1.1em', opacity: '0.6', wordWrap: 'break-word' }}
             >{company.tagline}</p>
               : null}
-            <Label style={{ marginTop: 8, color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
+            <Label style={{ marginTop: '8px', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
             {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
-            <div style={{ marginTop: 8 }}>
+            <div style={{ marginTop: '8px' }}>
               <LinkButtons company={company} isTextList />
             </div>
             {company.description ?
