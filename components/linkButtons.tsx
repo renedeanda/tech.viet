@@ -122,7 +122,7 @@ export default function LinkButtons(
       {company.blogUrl ?
         <List.Item>
           <a
-            style={{ fontSize: '1.15sem' }}
+            style={{ fontSize: '1.15em' }}
             className='card-link'
             href={withHttp(company.blogUrl)}
             target='_blank'
