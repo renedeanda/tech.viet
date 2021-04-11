@@ -86,6 +86,7 @@ export default function CompanyContainer({ company }: {
             {company.description ?
               <>
                 <Header dividing style={{
+                  color: '#1A202C',
                   fontSize: '1.4em'
                 }}>About</Header>
                 {company.description.split('\n').map((item, i) => {

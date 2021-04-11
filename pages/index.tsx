@@ -81,7 +81,7 @@ export default function Home({ companies }: { companies: any[] }) {
             <Grid.Row style={{ marginTop: '60px', padding: '0.5em' }}>
               <Grid.Column>
                 <Header
-                  style={{ fontSize: '3em', wordWrap: 'break-word' }}>
+                  style={{ color: '#1A202C', fontSize: '3em', wordWrap: 'break-word' }}>
                   <div>Vietnam Tech Ecosystem</div>
                   <div style={{ color: '#0C5FFF' }}>Open-sourced</div>
                 </Header>
