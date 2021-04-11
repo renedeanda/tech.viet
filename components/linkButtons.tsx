@@ -15,100 +15,142 @@ export default function LinkButtons(
       company.linkedin ||
       company.androidUrl ||
       company.iosUrl) ?
-      <List>
+      <List horizontal>
         {company.facebook ?
-          <Button
-            as='a'
-            size={size}
-            style={{ display: 'inline-block', margin: '0.2em' }}
-            href={withHttp(company.facebook)}
-            target="_blank"
-            icon='facebook'
-            color='facebook'
-            circular
-            onClick={(e) => {
-              e.stopPropagation();
-            }} />
+          <List.Item style={{ margin: '0 0.33em 0 0' }}>
+            <Button
+              as='a'
+              title='Facebook'
+              size={size}
+              href={withHttp(company.facebook)}
+              target="_blank"
+              rel="noopener"
+              icon='facebook'
+              color='facebook'
+              circular
+              onClick={(e) => {
+                e.stopPropagation();
+              }} />
+          </List.Item>
           : null}
         {company.linkedin ?
-          <Button
-            as='a'
-            size={size}
-            style={{ display: 'inline-block', margin: '0.2em' }}
-            href={withHttp(company.linkedin)}
-            target="_blank"
-            icon='linkedin'
-            color='linkedin'
-            circular
-            onClick={(e) => {
-              e.stopPropagation();
-            }} />
+          <List.Item style={{ margin: '0 0.33em 0 0' }}>
+            <Button
+              as='a'
+              title='LinkedIn'
+              size={size}
+              href={withHttp(company.linkedin)}
+              target="_blank"
+              rel="noopener"
+              icon='linkedin'
+              color='linkedin'
+              circular
+              onClick={(e) => {
+                e.stopPropagation();
+              }} />
+          </List.Item>
           : null}
         {company.androidUrl ?
-          <Button
-            as='a'
-            size={size}
-            color='teal'
-            style={{ display: 'inline-block', margin: '0.2em' }}
-            href={withHttp(company.androidUrl)}
-            target="_blank"
-            icon='google play'
-            circular
-            onClick={(e) => {
-              e.stopPropagation();
-            }} />
+          <List.Item style={{ margin: '0 0.33em 0 0' }}>
+            <Button
+              as='a'
+              title='Google Play Store'
+              size={size}
+              color='teal'
+              href={withHttp(company.androidUrl)}
+              target="_blank"
+              rel="noopener"
+              icon='google play'
+              circular
+              onClick={(e) => {
+                e.stopPropagation();
+              }} />
+          </List.Item>
           : null}
         {company.iosUrl ?
-          <Button
-            as='a'
-            size={size}
-            color='blue'
-            style={{ display: 'inline-block', margin: '0.2em' }}
-            href={withHttp(company.iosUrl)}
-            target="_blank"
-            icon='app store ios'
-            circular
-            onClick={(e) => {
-              e.stopPropagation();
-            }} />
+          <List.Item style={{ margin: '0 0.33em 0 0' }}>
+            <Button
+              as='a'
+              title='Apple App Store'
+              size={size}
+              color='blue'
+              href={withHttp(company.iosUrl)}
+              target="_blank"
+              rel="noopener"
+              icon='app store ios'
+              circular
+              onClick={(e) => {
+                e.stopPropagation();
+              }} />
+          </List.Item>
+
           : null}
       </List>
       : null)
 
   const textList = (
-    <List link style={{ fontSize: '1.33em' }}>
-      <List.Item
-        href={withHttp(company.website)}
-        target='_blank'><Icon name='linkify' />{company.website}</List.Item>
+    <List style={{ fontSize: '1.33em' }}>
+      <List.Item>
+        <a
+          className='card-link'
+          href={withHttp(company.website)}
+          target='_blank'
+          rel="noopener">
+          <Icon name='linkify' />{company.website}</a>
+      </List.Item>
       {company.facebook ?
-        <List.Item
-          href={withHttp(company.facebook)}
-          target='_blank'><Icon name='facebook' />Facebook</List.Item>
+        <List.Item>
+          <a
+            className='card-link'
+            href={withHttp(company.facebook)}
+            target='_blank'
+            rel="noopener">
+            <Icon name='facebook' />Facebook</a></List.Item>
         : null}
       {company.linkedin ?
-        <List.Item
-          href={withHttp(company.linkedin)}
-          target='_blank'><Icon name='linkedin' />LinkedIn</List.Item>
+        <List.Item>
+          <a
+            className='card-link'
+            href={withHttp(company.linkedin)}
+            target='_blank'
+            rel="noopener">
+            <Icon name='linkedin' />LinkedIn</a></List.Item>
         : null}
       {company.blogUrl ?
-        <List.Item
-          href={withHttp(company.blogUrl)}
-          target='_blank'><Icon name='rss' />Blog</List.Item>
+        <List.Item>
+          <a
+            className='card-link'
+            href={withHttp(company.blogUrl)}
+            target='_blank'
+            rel="noopener">
+            <Icon name='rss' />Blog</a></List.Item>
         : null}
       {company.demoUrl ?
-        <List.Item
-          href={withHttp(company.demoUrl)}
-          target='_blank'><Icon name='globe' />Product Demo</List.Item>
+        <List.Item>
+          <a
+            className='card-link'
+            href={withHttp(company.demoUrl)}
+            target='_blank'
+            rel="noopener">
+            <Icon name='globe' />Product Demo</a></List.Item>
         : null}
       {company.androidUrl ?
-        <List.Item
-          href={withHttp(company.androidUrl)}
-          target='_blank'><Icon name='google play' />Google Play</List.Item>
+        <List.Item>
+          <a
+            className='card-link'
+            href={withHttp(company.androidUrl)}
+            target='_blank'
+            rel="noopener">
+            <Icon name='google play' />Google Play</a></List.Item>
         : null}
       {company.iosUrl ?
-        <List.Item
-          href={withHttp(company.iosUrl)}
-          target='_blank'><Icon name='app store ios' />App Store</List.Item>
+        <List.Item>
+          <a
+            className='card-link'
+            href={withHttp(company.iosUrl)}
+            target='_blank'
+            rel="noopener">
+            <Icon name='app store ios' />App Store</a></List.Item>
         : null}
     </List>)
 
