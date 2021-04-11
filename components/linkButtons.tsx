@@ -89,9 +89,10 @@ export default function LinkButtons(
       : null)
 
   const textList = (
-    <List style={{ fontSize: '1.33em' }}>
+    <List horizontal>
       <List.Item>
         <a
+          style={{ fontSize: '1.15em' }}
           className='card-link'
           href={withHttp(company.website)}
           target='_blank'
@@ -101,6 +102,7 @@ export default function LinkButtons(
       {company.facebook ?
         <List.Item>
           <a
+            style={{ fontSize: '1.15em' }}
             className='card-link'
             href={withHttp(company.facebook)}
             target='_blank'
@@ -110,6 +112,7 @@ export default function LinkButtons(
       {company.linkedin ?
         <List.Item>
           <a
+            style={{ fontSize: '1.15em' }}
             className='card-link'
             href={withHttp(company.linkedin)}
             target='_blank'
@@ -119,6 +122,7 @@ export default function LinkButtons(
       {company.blogUrl ?
         <List.Item>
           <a
+            style={{ fontSize: '1.15sem' }}
             className='card-link'
             href={withHttp(company.blogUrl)}
             target='_blank'
@@ -128,6 +132,7 @@ export default function LinkButtons(
       {company.demoUrl ?
         <List.Item>
           <a
+            style={{ fontSize: '1.15em' }}
             className='card-link'
             href={withHttp(company.demoUrl)}
             target='_blank'
@@ -137,6 +142,7 @@ export default function LinkButtons(
       {company.androidUrl ?
         <List.Item>
           <a
+            style={{ fontSize: '1.15em' }}
             className='card-link'
             href={withHttp(company.androidUrl)}
             target='_blank'
@@ -146,6 +152,7 @@ export default function LinkButtons(
       {company.iosUrl ?
         <List.Item>
           <a
+            style={{ fontSize: '1.2em' }}
             className='card-link'
             href={withHttp(company.iosUrl)}
             target='_blank'
