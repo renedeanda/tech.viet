@@ -91,14 +91,16 @@ export default function Home({ companies }: { companies: any[] }) {
                   icon='google'
                   content='Add Company'
                   href='https://forms.gle/Y75CegGFRp6tzdn67'
-                  target='_blank' />
+                  target='_blank' 
+                  rel="noopener"/>
                 <Button
                   style={{ display: 'inline-block', margin: '0.3em' }}
                   className='github-button'
                   icon='github'
                   content='GitHub'
                   href='https://github.com/renedeanda/Tech.Viet'
-                  target='_blank' />
+                  target='_blank' 
+                  rel="noopener"/>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
