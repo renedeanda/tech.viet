@@ -5,6 +5,7 @@ export default function ShareMenu({ url }: { url: string }) {
   return (
     <Dropdown
       as={Button}
+      title='Share Button'
       basic
       icon='share alternate'
       className='icon'
