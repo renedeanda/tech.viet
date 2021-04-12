@@ -3,7 +3,8 @@ import {
   Container,
   Button,
   Label,
-  Card
+  Card,
+  Icon
 } from 'semantic-ui-react';
 import Image from 'next/image';
 import { withHttp } from '../util/helpers';
@@ -14,8 +15,6 @@ import { Company } from '../types/company.types';
 export default function CompanyContainer({ company }: {
   company: Company;
 }) {
-
-  const fbUsername = company.facebook ? new URL(withHttp(company.facebook)).pathname.replace(/\/$/, "") : null;
 
   // Load local image file if exists
   const avatarSrc = company.facebook ? `/img/company/${company.slug}-avatar.png` : '/company.png'
@@ -29,7 +28,6 @@ export default function CompanyContainer({ company }: {
     <>
       <Container style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh', padding: '5em 0 1.5em 0' }}>
         <Card
-          raised
           fluid
           style={{ maxWidth: 600 }}>
 
@@ -49,6 +47,7 @@ export default function CompanyContainer({ company }: {
             <Container fluid style={{ paddingTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
               <Button
                 as='a'
+                title='Google Forms Edit Button'
                 basic
                 href={gFormLink}
                 target="_blank"
@@ -71,17 +70,26 @@ export default function CompanyContainer({ company }: {
               <Header style={{
                 color: '#1A202C',
                 marginTop: 0,
-                marginBottom: 0,
+                marginBottom: '8px',
                 fontSize: '2.5em',
                 wordWrap: 'break-word'
               }}>{company.name}</Header>
             </div>
+            <a
+              style={{ fontSize: '1.5em' }}
+              className='card-link'
+              href={withHttp(company.website)}
+              target='_blank'
+              rel="noopener">
+              <Icon name='linkify' />{company.website}</a>
             {company.tagline ? <p
-              style={{ color: '#555B66', marginBottom: 0, fontStyle: 'italic', fontSize: '1.1em', opacity: '0.6', wordWrap: 'break-word' }}
+              style={{ color: '#555B66', marginTop: '8px', fontStyle: 'italic', fontSize: '1.1em', wordWrap: 'break-word' }}
             >{company.tagline}</p>
               : null}
-            <Label style={{ marginTop: '8px', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
-            {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
+            <div>
+              {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
+              <Label style={{ marginTop: '8px', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
+            </div>
             <div style={{ marginTop: '8px' }}>
               <LinkButtons company={company} isTextList />
             </div>
@@ -96,7 +104,6 @@ export default function CompanyContainer({ company }: {
                     color: '#555B66',
                     lineHeight: '1.1em',
                     fontSize: '1.33em',
-                    opacity: '0.6',
                     wordWrap: 'break-word'
                   }}
                     key={i}>{item}</p>;
