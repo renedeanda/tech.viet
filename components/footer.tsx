@@ -19,7 +19,7 @@ export default function Footer() {
             style={{ fontSize: '1.2em' }}
             className='card-link'
             href='https://www.linkedin.com/in/renedeanda' target='_blank' rel="noopener">
-            {`© ${new Date().getFullYear()} Open-source Project by René DeAnda`}</a>
+            {`© ${new Date().getFullYear()} Open-source Project by `}<b>René DeAnda</b></a>
         </Container>
       </Segment>
     </footer>

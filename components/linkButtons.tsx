@@ -89,9 +89,9 @@ export default function LinkButtons(
       : null)
 
   const textList = (
-    <List horizontal size='large'>
+    <List>
       {company.blogUrl ?
-        <List.Item>
+        <List.Item style={{ padding: '8px 0' }}>
           <a
             style={{ fontSize: '1.33em' }}
             className='card-link'
@@ -101,7 +101,7 @@ export default function LinkButtons(
             <Icon name='rss' />Blog</a></List.Item>
         : null}
       {company.facebook ?
-        <List.Item>
+        <List.Item style={{ padding: '8px 0' }}>
           <a
             style={{ fontSize: '1.33em' }}
             className='card-link'
@@ -111,7 +111,7 @@ export default function LinkButtons(
             <Icon name='facebook' />Facebook</a></List.Item>
         : null}
       {company.linkedin ?
-        <List.Item>
+        <List.Item style={{ padding: '8px 0' }}>
           <a
             style={{ fontSize: '1.33em' }}
             className='card-link'
@@ -121,7 +121,7 @@ export default function LinkButtons(
             <Icon name='linkedin' />LinkedIn</a></List.Item>
         : null}
       {company.demoUrl ?
-        <List.Item>
+        <List.Item style={{ padding: '8px 0' }}>
           <a
             style={{ fontSize: '1.33em' }}
             className='card-link'
@@ -131,7 +131,7 @@ export default function LinkButtons(
             <Icon name='globe' />Product Demo</a></List.Item>
         : null}
       {company.androidUrl ?
-        <List.Item>
+        <List.Item style={{ padding: '8px 0' }}>
           <a
             style={{ fontSize: '1.33em' }}
             className='card-link'
@@ -141,7 +141,7 @@ export default function LinkButtons(
             <Icon name='google play' />Google Play</a></List.Item>
         : null}
       {company.iosUrl ?
-        <List.Item>
+        <List.Item style={{ padding: '8px 0' }}>
           <a
             style={{ fontSize: '1.33em' }}
             className='card-link'
