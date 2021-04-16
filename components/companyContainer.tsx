@@ -29,18 +29,16 @@ export default function CompanyContainer({ company }: {
       <Container style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh', padding: '5em 0 1.5em 0' }}>
         <Card
           fluid
-          style={{ maxWidth: 600 }}>
+          style={{ maxWidth: 720 }}>
 
-          <Card.Content style={{ padding: 0, margin: 0 }}>
-            <Image
-              quality={60}
-              alt={company.name}
-              height={375}
-              width={600}
-              src={screenSrc}
-              className='card-image-header'
-            />
-          </Card.Content>
+          <Image
+            quality={60}
+            alt={company.name}
+            height={300}
+            width={720}
+            src={screenSrc}
+            className='card-image-header'
+          />
           <Card.Content
             textAlign='left'
             style={{ padding: '0px 22px 100px 22px' }}>
@@ -56,7 +54,7 @@ export default function CompanyContainer({ company }: {
                 circular />
               <ShareMenu url={`https://tech.viet.io/company/${company.slug}`} />
             </Container>
-            <div style={{ marginTop: '-100px' }}>
+            <div className='card-avatar-big' style={{ marginTop: '-100px' }}>
               {avatarSrc ?
                 <Image
                   quality={60}
@@ -64,17 +62,17 @@ export default function CompanyContainer({ company }: {
                   height={100}
                   width={100}
                   src={avatarSrc}
-                  className='card-avatar' />
+                  className='card-avatar-big' />
                 : null
               }
-              <Header style={{
-                color: '#1A202C',
-                marginTop: 0,
-                marginBottom: '8px',
-                fontSize: '2.5em',
-                wordWrap: 'break-word'
-              }}>{company.name}</Header>
             </div>
+            <Header style={{
+              color: '#1A202C',
+              marginTop: 0,
+              marginBottom: '8px',
+              fontSize: '2.5em',
+              wordWrap: 'break-word'
+            }}>{company.name}</Header>
             <a
               style={{ fontSize: '1.5em' }}
               className='card-link'
