@@ -25,19 +25,16 @@ export default function CompanyCard({ company, setIndustry }: {
         key={company.slug}
         fluid
         link
-        style={{ maxWidth: '320px', display: 'inline-block', margin: '0.5em' }}>
-        <Card.Content
-          style={{ padding: 0, margin: 0 }}>
-          <Image
-            quality={60}
-            alt={company.name}
-            height={200}
-            width={320}
-            src={screenSrc}
-            className='card-image-header' />
-        </Card.Content>
+        style={{ maxWidth: '360px', margin: '0.5em' }}>
+        <Image
+          quality={60}
+          alt={company.name}
+          height={160}
+          width={360}
+          src={screenSrc}
+          className='card-image-header' />
         <Card.Content textAlign='left'>
-          <div style={{ marginTop: '-50px' }}>
+          <div className='card-avatar' style={{ marginTop: '-50px' }}>
             {avatarSrc ?
               <Image
                 quality={60}

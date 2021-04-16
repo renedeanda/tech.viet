@@ -1,10 +1,10 @@
 import Page from '../components/page';
 import Meta from '../components/Meta';
 
-export default function Custom404() {
+export default function Custom500() {
   return (
     <>
-      <Meta title='404 | Page Not Found' />
+      <Meta title='500 | Server-side error occurred' />
       <Page>
         <div style={{ minHeight: '70vh' }}>
           <h1 style={{
@@ -14,7 +14,7 @@ export default function Custom404() {
             left: '50%',
             msTransform: 'translate(-50%, -50%)',
             transform: 'translate(-50%, -50%)'
-          }}>404 | Page Not Found</h1>
+          }}>500 | Server-side error occurred</h1>
         </div>
       </Page>
     </>
