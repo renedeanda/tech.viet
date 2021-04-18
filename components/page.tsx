@@ -31,7 +31,7 @@ export default function Page({ children }: { children: React.ReactNode }) {
             rel="noopener">
             <div
               style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='asterisk' />Why Vietnam?</div>
+              className='navbar-text2'><Icon name='linkify' />Why Vietnam?</div>
           </Menu.Item>
           <Menu.Item
             as='a'
@@ -68,6 +68,15 @@ export default function Page({ children }: { children: React.ReactNode }) {
             <div
               style={{ padding: '0.5em' }}
               className='navbar-text2'><Icon name='twitter' />Share on Twitter</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='https://www.linkedin.com/in/renedeanda'
+            target='_blank'
+            rel="noopener">
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='linkify' />Project by René</div>
           </Menu.Item>
         </Sidebar>
       </main>
