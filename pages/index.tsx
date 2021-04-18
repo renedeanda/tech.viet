@@ -12,14 +12,32 @@ import Page from '../components/page';
 import Meta from '../components/Meta';
 import CompanyCard from '../components/companyCard';
 import IndustryButtons from '../components/industryButtons';
-import { shuffle, filterCompanies } from '../util/helpers';
+import { filterCompanies } from '../util/helpers';
 import { GetStaticProps } from 'next';
+import { useRouter } from 'next/router';
 import usePagination from "../util/hooks/usePagination";
+import CompanyModal from '../components/companyModal';
+import { Company } from '../types/company.types';
 
 export default function Home({ companies }: { companies: any[] }) {
+  const router = useRouter();
 
   const [industry, setIndustry] = useState("All");
   const [filteredCos, setFilteredCos] = useState(companies);
+  const [companyModalOpen, setCompanyModalOpen] = useState(false);
+  const [selectedCompany, setSelectedCompany] = useState(null);
+
+  const openCompanyModal = (company: Company) => {
+    router.push(`/`, `/company/${company.slug}`, { shallow: true })
+    setSelectedCompany(company)
+    setCompanyModalOpen(true)
+  }
+
+  const closeCompanyModal = () => {
+    router.push(`/`, `/`, { shallow: true })
+    setCompanyModalOpen(false)
+    setSelectedCompany(null)
+  }
 
   const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 6);
 
@@ -111,7 +129,7 @@ export default function Home({ companies }: { companies: any[] }) {
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               {currentCos && currentCos.length > 0 ?
                 currentCos.map((item: any) =>
-                  <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} />)
+                  <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} openCompanyModal={openCompanyModal} />)
                 : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
             </Grid.Row>
             {currentPage !== maxPage ? (
@@ -122,7 +140,14 @@ export default function Home({ companies }: { companies: any[] }) {
           </Grid>
         </Container>
       </Page>
-    </div >
+      {companyModalOpen ?
+        <CompanyModal
+          company={selectedCompany}
+          open={companyModalOpen}
+          onClose={() => closeCompanyModal()}
+        /> : null
+      }
+    </div>
   )
 }
 
@@ -139,9 +164,6 @@ export const getStaticProps: GetStaticProps = async () => {
       data: JSON.parse(fileContents),
     }
   })
-
-  // Uncomment to randomize companies on home page - Shuffle array of companies
-  // shuffle(companies);
 
   return {
     props: {

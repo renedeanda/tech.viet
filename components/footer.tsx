@@ -1,7 +1,5 @@
 import {
   Container,
-  Grid,
-  List,
   Segment
 } from 'semantic-ui-react';
 
@@ -10,7 +8,6 @@ export default function Footer() {
   return (
     <footer>
       <Segment
-
         inverted
         vertical
         style={{ width: '100vw', backgroundColor: '#F5F5F7', padding: '5em 0em' }}>
