@@ -12,8 +12,9 @@ import ShareMenu from './shareMenu';
 import LinkButtons from './linkButtons';
 import { Company } from '../types/company.types';
 
-export default function CompanyContainer({ company }: {
-  company: Company;
+export default function CompanyContainer({ company, modal }: {
+  company: Company,
+  modal: boolean
 }) {
 
   // Load local image file if exists
@@ -24,9 +25,11 @@ export default function CompanyContainer({ company }: {
 
   const screenSrc = `/img/company/${company.slug}-screenshot.png`
 
+  const contPadding = modal ? '3em 0 0.5em 0' : '5em 0 0.5em 0'
+
   return (
     <>
-      <Container style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh', padding: '5em 0 1.5em 0' }}>
+      <Container style={{ display: 'flex', justifyContent: 'center', minHeight: '80vh', padding: contPadding }}>
         <Card
           fluid
           style={{ maxWidth: 720 }}>
