@@ -15,7 +15,7 @@ export default function CompanyModal({ company, open, onClose }: {
       closeOnDimmerClick={true}
       onClose={onClose}
       closeIcon>
-      <CompanyContainer company={company} />
+      <CompanyContainer modal company={company} />
     </Modal>
   )
 }
