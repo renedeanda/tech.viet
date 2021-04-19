@@ -14,7 +14,7 @@ import { Company } from '../types/company.types';
 
 export default function CompanyContainer({ company, modal }: {
   company: Company,
-  modal: boolean
+  modal?: boolean
 }) {
 
   // Load local image file if exists
