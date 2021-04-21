@@ -222,7 +222,7 @@ def read_json_files():
 
 
 # uncomment to produce screenshots for all Tech Viet companies
-# get_screenshots()
+get_screenshots()
 
 # get_create_one_image("URL", "SLUG", "favicon")
 # get_create_one_image("URL", "SLUG", "share")
@@ -233,4 +233,4 @@ def read_json_files():
 # scrape_page_metadata()
 
 # uncomment to scrape available FB avatars for all Tech Viet Companies
-# get_fb_avatars()
+get_fb_avatars()
