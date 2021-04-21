@@ -1,1 +1,16 @@
-{"name":"EcoTruck","slug":"ecotruck","website":"https://ecotruck.vn","industry":"Logistics / Transport","tagline":"","logoUrl":"","description":"EcoTruck is a tech start-up in logistics industry.\n\nMission: Increase the efficiency of the industry. The goal is to decrease logistics costs by 1% of GDP (saving >US$2bn for the whole economy) in 5 years\n\nSolution: Bring the efficiency to a very outdated industry by:\n- A Sharing Economy model with a total transparency and a lot of operational localization for Vietnam market.\n- Cutting-edge Technologies with data to streamline operations and save costs for both merchants and vendors\n- Customer Services to handle issues that need human interaction","facebook":"https://www.facebook.com/ecotruck.vn","linkedin":"https://www.linkedin.com/company/ecotruck-vietnam","blogUrl":"","androidUrl":"https://play.google.com/store/apps/details?id=vn.ecotruck.vendor2.production","iosUrl":"https://apps.apple.com/vn/app/ecotruck-nh%C3%A0-xe/id1405365688","demoUrl":"","hiring":true}
+{
+  "name": "EcoTruck",
+  "slug": "ecotruck",
+  "website": "ecotruck.vn",
+  "industry": "Logistics / Transport",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "EcoTruck is a tech start-up in logistics industry.\n\nMission: Increase the efficiency of the industry. The goal is to decrease logistics costs by 1% of GDP (saving >US$2bn for the whole economy) in 5 years\n\nSolution: Bring the efficiency to a very outdated industry by:\n- A Sharing Economy model with a total transparency and a lot of operational localization for Vietnam market.\n- Cutting-edge Technologies with data to streamline operations and save costs for both merchants and vendors\n- Customer Services to handle issues that need human interaction",
+  "facebook": "fb.com/ecotruck.vn",
+  "linkedin": "linkedin.com/company/ecotruck-vietnam",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=vn.ecotruck.vendor2.production",
+  "iosUrl": "https://apps.apple.com/vn/app/ecotruck-nh%C3%A0-xe/id1405365688",
+  "demoUrl": "",
+  "hiring": true
+}

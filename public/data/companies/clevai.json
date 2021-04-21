@@ -1,1 +1,16 @@
-{"name":"Clevai","slug":"clevai","website":"https://clevai.edu.vn","industry":"Education","tagline":"","logoUrl":"","description":"Clevai is an AI-enabled after school tutoring platform for K-12 students, delivering quality education to underserved students across Vietnam and South East Asia.","facebook":"https://www.facebook.com/clevaivietnam","linkedin":"","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "Clevai",
+  "slug": "clevai",
+  "website": "clevai.edu.vn",
+  "industry": "Education",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Clevai is an AI-enabled after school tutoring platform for K-12 students, delivering quality education to underserved students across Vietnam and South East Asia.",
+  "facebook": "fb.com/clevaivietnam",
+  "linkedin": "",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name":"KAMEREO","slug":"kamereo","website":"https://kamereo.vn","industry":"Food & Beverage","tagline":"All-in-one supplier powered by technology","logoUrl":"","description":"KAMEREO is the first B2B food supplier using the power of technology in Vietnam, which is the best solution to optimize purchasing & sourcing process for F&B store owner. We have a wide range of products for your restaurant with the best price on the market.","facebook":"https://www.facebook.com/kamereo.vn","linkedin":"https://www.linkedin.com/company/kamereo","blogUrl":"https://blog.kamereo.vn","androidUrl":"https://play.google.com/store/apps/details?id=vn.kamereo.buyer","iosUrl":"https://apps.apple.com/vn/app/kamereo/id1469505654","demoUrl":"","hiring":true}
+{
+  "name": "KAMEREO",
+  "slug": "kamereo",
+  "website": "kamereo.vn",
+  "industry": "Food & Beverage",
+  "tagline": "All-in-one supplier powered by technology",
+  "logoUrl": "",
+  "description": "KAMEREO is the first B2B food supplier using the power of technology in Vietnam, which is the best solution to optimize purchasing & sourcing process for F&B store owner. We have a wide range of products for your restaurant with the best price on the market.",
+  "facebook": "fb.com/kamereo.vn",
+  "linkedin": "linkedin.com/company/kamereo",
+  "blogUrl": "https://blog.kamereo.vn",
+  "androidUrl": "https://play.google.com/store/apps/details?id=vn.kamereo.buyer",
+  "iosUrl": "https://apps.apple.com/vn/app/kamereo/id1469505654",
+  "demoUrl": "",
+  "hiring": true
+}
