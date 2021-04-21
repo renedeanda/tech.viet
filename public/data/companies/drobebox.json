@@ -1,1 +1,16 @@
-{"name":"Drobebox","slug":"drobebox","website":"https://www.drobebox.com","industry":"Ecommerce","tagline":"We are a Sai Gon based tech startup with a self-imposed mission - make Fashion fun again.","logoUrl":"","description":"\nDrobebox is a tech startup company based in Viet Nam aim to provide \"Fashion as a service\" which allow user to subscribe to a cloud closet and enjoy fashion products without the hassle of ownership.","facebook":"https://www.facebook.com/Drobebox","linkedin":"https://www.linkedin.com/company/drobebox","blogUrl":"https://blog.drobebox.com","androidUrl":"https://play.google.com/store/apps/details?id=com.drobebox.drobebox","iosUrl":"https://apps.apple.com/vn/app/drobebox/id1497642900","demoUrl":"","hiring":false}
+{
+  "name": "Drobebox",
+  "slug": "drobebox",
+  "website": "drobebox.com",
+  "industry": "Fashion",
+  "tagline": "We are a Sai Gon based tech startup with a self-imposed mission - make Fashion fun again.",
+  "logoUrl": "",
+  "description": "\nDrobebox is a tech startup company based in Viet Nam aim to provide \"Fashion as a service\" which allow user to subscribe to a cloud closet and enjoy fashion products without the hassle of ownership.",
+  "facebook": "fb.com/Drobebox",
+  "linkedin": "linkedin.com/company/drobebox",
+  "blogUrl": "https://blog.drobebox.com",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.drobebox.drobebox",
+  "iosUrl": "https://apps.apple.com/vn/app/drobebox/id1497642900",
+  "demoUrl": "",
+  "hiring": false
+}
