@@ -13,6 +13,7 @@ const industryOptions = [
   { key: "Ecommerce", text: "Ecommerce", value: "Ecommerce" },
   { key: "Education", text: "Education", value: "Education" },
   { key: "Enterprise Software", text: "Enterprise Software", value: "Enterprise Software" },
+  { key: "Fashion", text: "Fashion", value: "Fashion" },
   { key: "Finance", text: "Finance", value: "Finance" },
   { key: "Gaming", text: "Gaming", value: "Gaming" },
   { key: "Healthcare", text: "Healthcare", value: "Healthcare" },
