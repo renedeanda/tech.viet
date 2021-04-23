@@ -5,6 +5,8 @@ async function generateSiteMap() {
   const pages = await globby([
     'pages/**/*.tsx',
     '!pages/_*.tsx',
+    '!pages/404.tsx',
+    '!pages/500.tsx',
     '!pages/**/[company].tsx',
     '!pages/api',
     'public/data/companies/*.json'
