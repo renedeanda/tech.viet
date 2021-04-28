@@ -73,7 +73,6 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
       <Card.Content extra textAlign='right'>
         {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
         <Label
-          as='a'
           style={{ color: '#0C5FFF', borderColor: '#0C5FFF' }}
           onClick={(e) => {
             e.stopPropagation();
