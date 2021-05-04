@@ -1,1 +1,16 @@
-{"name":"Gamejam","slug":"gamejam","website":"https://gamejam.com","industry":"Gaming","tagline":"Let's make games together!","logoUrl":"","description":"Gamejam is a mobile game developer with huge ambitions based in Vietnam. Since we began in 2019, we've achieved 50m+ downloads worldwide by launching top free mobile games such as Marshmello Music Dance, Draw Story, Date the Girl 3D, Get the Girl, Cooking Games 3D, Toilet Games 3D and many more.\n\nOur mission is to collaborate to make games for everyone, played by as many people as possible around the world.\n\nIf you love to collaborate, Gamejam is the place for you. Our company of small entrepreneurial teams operate with the freedom to develop their own ideas, games and the company at large. We believe small teams, collaborating to create value through synergies, can make top free games.\n\nIf you love games and are passionate about playing and crafting them, and you?re looking for a team that supports your independence and entrepreneurial growth, you?re in the right place.\n\nGamejam is a small team of 10 people. We believe in transparency, having fun and the freedom to grow. Join us in our global expansion and let's make games together!","facebook":"https://www.facebook.com/gamejamco","linkedin":"https://www.linkedin.com/company/gamejam","blogUrl":"","androidUrl":"https://play.google.com/store/apps/dev?id=7607779422266139562","iosUrl":"https://apps.apple.com/us/developer/gamejam-co/id1439906403","demoUrl":"","hiring":false}
+{
+  "name": "Gamejam",
+  "slug": "gamejam",
+  "website": "gamejam.com",
+  "industry": "Gaming",
+  "tagline": "Let's make games together!",
+  "logoUrl": "",
+  "description": "Gamejam is a mobile game developer with huge ambitions based in Vietnam. Since we began in 2019, we've achieved 50m+ downloads worldwide by launching top free mobile games such as Marshmello Music Dance, Draw Story, Date the Girl 3D, Get the Girl, Cooking Games 3D, Toilet Games 3D and many more.\n\nOur mission is to collaborate to make games for everyone, played by as many people as possible around the world.\n\nIf you love to collaborate, Gamejam is the place for you. Our company of small entrepreneurial teams operate with the freedom to develop their own ideas, games and the company at large. We believe small teams, collaborating to create value through synergies, can make top free games.\n\nIf you love games and are passionate about playing and crafting them, and you?re looking for a team that supports your independence and entrepreneurial growth, you?re in the right place.\n\nGamejam is a small team of 10 people. We believe in transparency, having fun and the freedom to grow. Join us in our global expansion and let's make games together!",
+  "facebook": "fb.com/gamejamco",
+  "linkedin": "linkedin.com/company/gamejam",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/dev?id=7607779422266139562",
+  "iosUrl": "https://apps.apple.com/us/developer/gamejam-co/id1439906403",
+  "demoUrl": "",
+  "hiring": false
+}
