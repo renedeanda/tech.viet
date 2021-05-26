@@ -1,0 +1,16 @@
+{
+  "name": "Go2Joy",
+  "slug": "go2joy",
+  "website": "go2joy.vn",
+  "industry": "Travel / Tourism",
+  "tagline": "No.1 real-time hotel reservation service for Vietnamese youth. Go2Joy provides the most 1-2 star hotel DB in Vietnam.",
+  "logoUrl": "",
+  "description": "Go2Joy is an application that allows you to easily search for accommodations around you using location information and make quick reservations, providing the largest database of 1-2 star hotels in Vietnam.\nIn addition, we are operating a service for 2030 households by introducing the hourly/half-day accommodation reservation function for the first time in Vietnam.",
+  "facebook": "fb.com/go2joy.hotels",
+  "linkedin": "linkedin.com/company/go2joy",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.appromobile.hotel",
+  "iosUrl": "https://apps.apple.com/vn/app/apple-store/id1185445287",
+  "demoUrl": "",
+  "hiring": true
+}
