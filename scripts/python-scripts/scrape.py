@@ -1,11 +1,9 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-import pprint
 from urllib.request import Request, urlopen
 from re import search
 from selenium import webdriver  # for screenshot web crawler
-import platform
 import time
 import json  # for reading json file
 from glob import glob  # for reading folder of json files
