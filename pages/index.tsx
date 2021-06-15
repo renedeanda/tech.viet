@@ -85,8 +85,8 @@ export default function Home({ companies }: { companies: any[] }) {
   return (
     <div>
       <Meta
-        title='Tech Viet - A View into Vietnam Tech'
-        desc='Vietnam Tech Ecosystem open-sourced. Find tech companies of all sizes from Vietnam.'
+        title='Tech Viet - Vietnam Startup Ecosystem'
+        desc='List of 200+ Vietnam startups &amp; large tech companies. Tech Viet is an open-source website built with React &amp; Next.js listing 200+ technology companies in Vietnam.'
         canonical='https://tech.viet.io/' />
 
       <Page>
@@ -100,7 +100,7 @@ export default function Home({ companies }: { companies: any[] }) {
               <Grid.Column>
                 <Header
                   style={{ color: '#1A202C', fontSize: '3em', wordWrap: 'break-word' }}>
-                  <div>Vietnam Tech Ecosystem</div>
+                  <div>Vietnam Startup Ecosystem</div>
                   <div style={{ color: '#0C5FFF' }}>Open-sourced</div>
                 </Header>
                 <Button
