@@ -15,7 +15,7 @@ export default function Footer() {
           <a
             style={{ fontSize: '1.2em' }}
             className='card-link'
-            href='https://www.linkedin.com/in/renedeanda' target='_blank' rel="noopener">
+            href='https://www.linkedin.com/in/renedeanda' target='_blank' rel="noreferrer">
             {`© ${new Date().getFullYear()} Open-source Project by `}<b>René DeAnda</b></a>
         </Container>
       </Segment>
