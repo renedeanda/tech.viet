@@ -86,7 +86,7 @@ export default function Home({ companies }: { companies: any[] }) {
     <div>
       <Meta
         title='Tech Viet - Vietnam Startup Ecosystem'
-        desc='List of 200+ Vietnam startups &amp; large tech companies. Tech Viet is an open-source website built with React &amp; Next.js listing 200+ technology companies in Vietnam.'
+        desc='List of 200+ Vietnam startups and big tech companies. Tech Viet is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
         canonical='https://tech.viet.io/' />
 
       <Page>
