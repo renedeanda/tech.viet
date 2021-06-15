@@ -55,7 +55,7 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
             className='card-link'
             href={withHttp(company.website)}
             target='_blank'
-            rel="noopener"
+            rel="noreferrer"
             onClick={(e) => {
               e.stopPropagation();
             }}><Icon name='linkify' /> {company.website}</a>

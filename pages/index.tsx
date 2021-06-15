@@ -65,7 +65,7 @@ export default function Home({ companies }: { companies: any[] }) {
       },
       { threshold: 0.5 }
     );
-  }, []);
+  });
 
   useEffect(() => {
     const currentElement = element;

@@ -97,7 +97,7 @@ export default function LinkButtons(
             className='card-link'
             href={withHttp(company.blogUrl)}
             target='_blank'
-            rel="noopener">
+            rel="noreferrer">
             <Icon name='rss' />Blog</a></List.Item>
         : null}
       {company.facebook ?
@@ -107,7 +107,7 @@ export default function LinkButtons(
             className='card-link'
             href={withHttp(company.facebook)}
             target='_blank'
-            rel="noopener">
+            rel="noreferrer">
             <Icon name='facebook' />Facebook</a></List.Item>
         : null}
       {company.linkedin ?
@@ -117,7 +117,7 @@ export default function LinkButtons(
             className='card-link'
             href={withHttp(company.linkedin)}
             target='_blank'
-            rel="noopener">
+            rel="noreferrer">
             <Icon name='linkedin' />LinkedIn</a></List.Item>
         : null}
       {company.demoUrl ?
@@ -127,7 +127,7 @@ export default function LinkButtons(
             className='card-link'
             href={withHttp(company.demoUrl)}
             target='_blank'
-            rel="noopener">
+            rel="noreferrer">
             <Icon name='globe' />Product Demo</a></List.Item>
         : null}
       {company.androidUrl ?
@@ -137,7 +137,7 @@ export default function LinkButtons(
             className='card-link'
             href={withHttp(company.androidUrl)}
             target='_blank'
-            rel="noopener">
+            rel="noreferrer">
             <Icon name='google play' />Google Play</a></List.Item>
         : null}
       {company.iosUrl ?
@@ -147,7 +147,7 @@ export default function LinkButtons(
             className='card-link'
             href={withHttp(company.iosUrl)}
             target='_blank'
-            rel="noopener">
+            rel="noreferrer">
             <Icon name='app store ios' />App Store</a></List.Item>
         : null}
     </List>)
