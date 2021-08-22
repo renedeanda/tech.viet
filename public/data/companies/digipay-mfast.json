@@ -1,1 +1,16 @@
-{"name":"DigiPay (MFast)","slug":"digipay-mfast","website":"https://mfast.vn","industry":"Finance","tagline":"","logoUrl":"","description":"After more than 10 years, Digipay JSC. has broadened its geographical footprint in nationwide with offices in most of the major cities in Vietnam. Our people are dedicated to developing innovative solutions and strategies that produce remarkable results. We dig deep, tackle complex issues to provide a truly customer-centric approach.\n\nDigipay JSC. is considered in the Top 10 best BPO providers in Vietnam, not only because we are the best player in Financial Field and Insurance BPO, but also the very few that got certified with Information Security Management System Certification ISO/IEC 27001:2013 by Bureau Veritas to minimize security breaches and ensure data confidentiality in our system.","facebook":"https://www.facebook.com/mfastvn","linkedin":"https://www.linkedin.com/company/digipay-jsc/","blogUrl":"https://mfast.vn/tin-tuc/","androidUrl":"https://play.google.com/store/apps/details?id=com.digipay.mfast","iosUrl":"https://apps.apple.com/vn/app/mfast/id1494079210","demoUrl":"","hiring":false}
+{
+  "name": "DigiPay (MFast)",
+  "slug": "digipay-mfast",
+  "website": "mfast.vn",
+  "industry": "Finance",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "After more than 10 years, Digipay JSC. has broadened its geographical footprint in nationwide with offices in most of the major cities in Vietnam. Our people are dedicated to developing innovative solutions and strategies that produce remarkable results. We dig deep, tackle complex issues to provide a truly customer-centric approach.\n\nDigipay JSC. is considered in the Top 10 best BPO providers in Vietnam, not only because we are the best player in Financial Field and Insurance BPO, but also the very few that got certified with Information Security Management System Certification ISO/IEC 27001:2013 by Bureau Veritas to minimize security breaches and ensure data confidentiality in our system.",
+  "facebook": "facebook.com/mfastvn",
+  "linkedin": "https://www.linkedin.com/company/digipay-jsc/",
+  "blogUrl": "https://mfast.vn/tin-tuc/",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.digipay.mfast",
+  "iosUrl": "https://apps.apple.com/vn/app/mfast/id1494079210",
+  "demoUrl": "",
+  "hiring": false
+}
