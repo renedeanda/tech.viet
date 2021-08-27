@@ -62,7 +62,7 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://twitter.com/intent/tweet/?text=Check out the Tech Viet open-source project&url=https://tech.viet.io&via=redeio'
+            href='https://twitter.com/intent/tweet/?text=Check out the Tech Viet open-source project&url=https://tech.viet.io'
             target='_blank'
             rel="noopener">
             <div

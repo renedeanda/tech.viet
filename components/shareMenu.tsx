@@ -37,7 +37,7 @@ export default function ShareMenu({ url }: { url: string }) {
           text='Share on LinkedIn' />
         <Dropdown.Item
           as='a'
-          href={`https://twitter.com/intent/tweet/?text=Check out this Tech Viet company page&url=${url}&via=redeio`}
+          href={`https://twitter.com/intent/tweet/?text=Check out this Tech Viet company page&url=${url}`}
           target="_blank"
           rel="noopener"
           icon={{ name: 'twitter' }}
