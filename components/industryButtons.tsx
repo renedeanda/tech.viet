@@ -19,6 +19,7 @@ const industryOptions = [
   { key: "Healthcare", text: "Healthcare", value: "Healthcare" },
   { key: "HR / Recruitment", text: "HR / Recruitment", value: "HR / Recruitment" },
   { key: "Infrastructure", text: "Infrastructure", value: "Infrastructure" },
+  { key: "Insurance", text: "Insurance", value: "Insurance" },
   { key: "Logistics / Transport", text: "Logistics / Transport", value: "Logistics / Transport" },
   { key: "Marketing", text: "Marketing", value: "Marketing" },
   { key: "Marketplace", text: "Marketplace", value: "Marketplace" },
