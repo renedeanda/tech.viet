@@ -1,5 +1,5 @@
-const fs = require('fs');
-const globby = require('globby');
+import { writeFileSync } from 'fs';
+import globby from 'globby';
 
 async function generateSiteMap() {
   const pages = await globby([
@@ -35,7 +35,7 @@ async function generateSiteMap() {
       .join('')}
       </urlset>`
 
-  fs.writeFileSync('public/sitemap.xml', sitemap);
+  writeFileSync('public/sitemap.xml', sitemap);
 }
 
 generateSiteMap();

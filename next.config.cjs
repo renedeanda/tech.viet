@@ -1,5 +1,4 @@
 module.exports = {
-    target: 'serverless',
     webpack: function (config, { isServer }) {
         config.module.rules.push({
             test: /\.md$/,
