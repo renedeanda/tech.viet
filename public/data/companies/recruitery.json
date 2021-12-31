@@ -1,1 +1,16 @@
-{"name":"Recruitery","slug":"recruitery","website":"https://recruitery.co","industry":"HR / Recruitment","tagline":"We love recruitment, and we want to make it better by connecting network of recruiters and businesses.","logoUrl":"https://example.com","description":"Recruitery is a referral platform that offers your company access to a network of Top Recruiters in Southeast Asia that have direct relationships with the Talents you are looking for.\n\nOur unique values:\n\nHIRE BETTER\nInstantly notified all or selective recruiters your hiring needs\n\nHIRE FASTER\nGet a pipeline of Top Talents within 48 hours\n\nHIRE AT HALF PRICE\nSpend half of your hiring fee and get the better results\n\nHIRE SMARTER\nSign one contract to work with all Recruiters\n\nWe're helping you hire qualified candidates at a price that makes sense!","facebook":"https://www.facebook.com/Recruitery.co","linkedin":"https://www.linkedin.com/company/recruitery","blogUrl":"https://recruitery.co/blog","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "Recruitery",
+  "slug": "recruitery",
+  "website": "recruitery.co",
+  "industry": "HR / Recruitment",
+  "tagline": "We love recruitment, and we want to make it better by connecting network of recruiters and businesses.",
+  "logoUrl": "",
+  "description": "Recruitery is a referral platform that offers your company access to a network of Top Recruiters in Southeast Asia that have direct relationships with the Talents you are looking for.\n\nOur unique values:\n\nHIRE BETTER\nInstantly notified all or selective recruiters your hiring needs\n\nHIRE FASTER\nGet a pipeline of Top Talents within 48 hours\n\nHIRE AT HALF PRICE\nSpend half of your hiring fee and get the better results\n\nHIRE SMARTER\nSign one contract to work with all Recruiters\n\nWe're helping you hire qualified candidates at a price that makes sense!",
+  "facebook": "fb.com/Recruitery.co",
+  "linkedin": "https://www.linkedin.com/company/recruitery",
+  "blogUrl": "https://recruitery.co/blog",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

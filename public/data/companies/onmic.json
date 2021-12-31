@@ -1,1 +1,16 @@
-{"name":"OnMic","slug":"onmic","website":"https://getonmic.com","industry":"Social","tagline":"The audio-only social network which brings authenticity back to content creation through voice","logoUrl":"","description":"","facebook":"https://www.facebook.com/getonmic","linkedin":"https://www.linkedin.com/company/onmic","blogUrl":"","androidUrl":"https://play.google.com/store/apps/details?id=com.onmic.onmic","iosUrl":"https://apps.apple.com/vn/app/onmic/id1558658665","demoUrl":"","hiring":false}
+{
+  "name": "OnMic",
+  "slug": "onmic",
+  "website": "getonmic.com",
+  "industry": "Social",
+  "tagline": "The audio-only social network which brings authenticity back to content creation through voice",
+  "logoUrl": "",
+  "description": "",
+  "facebook": "fb.com/getonmic",
+  "linkedin": "https://www.linkedin.com/company/onmic",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.onmic.onmic",
+  "iosUrl": "https://apps.apple.com/vn/app/onmic/id1558658665",
+  "demoUrl": "",
+  "hiring": false
+}
