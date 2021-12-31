@@ -1,0 +1,16 @@
+{
+  "name": "TripHunter",
+  "slug": "triphunter",
+  "website": "triphunter.vn",
+  "industry": "Travel / Tourism",
+  "tagline": "Personalize & optimize your dream trips.",
+  "logoUrl": "",
+  "description": "TripHunter is an application that helps tourists to self-schedule smart and convenient travel. Users can find destination information, airline tickets, hotels, tours / activities and book tickets online.",
+  "facebook": "fb.com/TripHunter.vn",
+  "linkedin": "https://www.linkedin.com/company/triphunter",
+  "blogUrl": "https://triphunter.vn/blog",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.gow.app",
+  "iosUrl": "https://apps.apple.com/vn/app/triphunter-du-l%E1%BB%8Bch-kh%C3%A1m-ph%C3%A1/id1084355148",
+  "demoUrl": "",
+  "hiring": false
+}
