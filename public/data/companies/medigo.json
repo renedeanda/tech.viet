@@ -1,1 +1,16 @@
-{"name":"Medigo","slug":"medigo","website":"medigoapp.com","industry":"Healthcare","tagline":"","logoUrl":"","description":"Medigo is a technology platform that connects high-quality medical services to users for providing remote medical consultations.","facebook":"facebook.com/medigoApp","linkedin":"https://www.linkedin.com/company/medigo-software/","blogUrl":"","androidUrl":"https://play.google.com/store/apps/details?id=xyz.medigo.user","iosUrl":"https://apps.apple.com/vn/app/medigo-??t-thu?c-c?-ngay/id1476660376","demoUrl":"","hiring":false}
+{
+  "name": "Medigo",
+  "slug": "medigo",
+  "website": "medigoapp.com",
+  "industry": "Healthcare",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Medigo is a technology platform that connects high-quality medical services to users for providing remote medical consultations.",
+  "facebook": "facebook.com/medigoApp",
+  "linkedin": "https://www.linkedin.com/company/medigo-software/",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=xyz.medigo.user",
+  "iosUrl": "https://apps.apple.com/vn/app/medigo-??t-thu?c-c?-ngay/id1476660376",
+  "demoUrl": "",
+  "hiring": false
+}

@@ -1,1 +1,16 @@
-{"name":"Telio","slug":"telio","website":"https://telio.vn","industry":"Ecommerce","tagline":"Empowering small local retailers","logoUrl":"","description":"Founded in 2019, we are a B2B e-commerce platform, connecting brands & producers directly with retailers cross multiple verticals. By aggregating demand, TELIO is able to provide small retailers with more choice, better pricing and more efficient logistics through economies of scale. For brands and producers, we offers more efficient turnover, reduced costs and better end-customer level data.. \n\nOur founder, SyPhong founded two other companies in Vietnam before starting TELIO. SyPhong drew inspiration for TELIO after being selected for the Alibaba Leadership Program in 2018 and learning about the much-advanced B2B landscape in China and India. TELIO is one of the first investments of Sequoia Capital in Vietnam's soil, and has raised a total of USD 26.5 million from Tiger Global Management, Sequoia Capital India, GGV Capital and RTP Global in two financing rounds.\n \nTELIO team is rapidly expanding across the nationwide and we are constantly on the lookout for talents who have the passion and drive to become part of a fast-moving and dynamic team.","facebook":"https://fb.com/Telio.vn","linkedin":"https://www.linkedin.com/company/telio-viet-nam","blogUrl":"","androidUrl":"https://play.google.com/store/apps/details?id=vn.telio","iosUrl":"https://apps.apple.com/vn/app/telio-nh%E1%BA%ADp-h%C3%A0ng-gi%C3%A1-t%E1%BB%91t/id1472497039","demoUrl":"","hiring":true}
+{
+  "name": "Telio",
+  "slug": "telio",
+  "website": "telio.vn",
+  "industry": "Ecommerce",
+  "tagline": "Empowering small local retailers",
+  "logoUrl": "",
+  "description": "Founded in 2019, we are a B2B e-commerce platform, connecting brands & producers directly with retailers cross multiple verticals. By aggregating demand, TELIO is able to provide small retailers with more choice, better pricing and more efficient logistics through economies of scale. For brands and producers, we offers more efficient turnover, reduced costs and better end-customer level data.. \n\nOur founder, SyPhong founded two other companies in Vietnam before starting TELIO. SyPhong drew inspiration for TELIO after being selected for the Alibaba Leadership Program in 2018 and learning about the much-advanced B2B landscape in China and India. TELIO is one of the first investments of Sequoia Capital in Vietnam's soil, and has raised a total of USD 26.5 million from Tiger Global Management, Sequoia Capital India, GGV Capital and RTP Global in two financing rounds.\n \nTELIO team is rapidly expanding across the nationwide and we are constantly on the lookout for talents who have the passion and drive to become part of a fast-moving and dynamic team.",
+  "facebook": "fb.com/Telio.vn",
+  "linkedin": "https://www.linkedin.com/company/telio-viet-nam",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=vn.telio",
+  "iosUrl": "https://apps.apple.com/vn/app/telio-nh%E1%BA%ADp-h%C3%A0ng-gi%C3%A1-t%E1%BB%91t/id1472497039",
+  "demoUrl": "",
+  "hiring": true
+}

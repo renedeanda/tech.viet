@@ -1,1 +1,16 @@
-{"name":"Sipher","slug":"sipher","website":"https://sipher.xyz","industry":"Gaming","tagline":"Sipher was born to embrace blockchain technology to tackle the NFT space","logoUrl":"","description":"Sipher is a blockchain-powered gaming studio in Vietnam.\n\nBlockchain technology continues to dominate headlines, NFTs and especially their recent valuations, are of increasing interest. However, the average consumer doesn?t understand what blockchain is, what an NFT is or why they matter, let alone how the technology behind it works.?\n\nGiven that backdrop, Sipher was born to embrace blockchain technology to tackle the NFT space. we will make blockchain technology accessible to the average consumer through four main pillars:?\n\n- Entertainment and Game creation that leverage blockchain?s unique applications\n- An approachable, consumer-facing oriented approach based on a genuine passion for blockchain technology and seamless user experience\n- An open and education friendly platform inclusive to users of all levels of technical knowledge\n- A sustainable revenue-based model based on sound financial foundations","facebook":"https://www.facebook.com/SIPHERxyz","linkedin":"https://www.linkedin.com/company/sipherxyz","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":true}
+{
+  "name": "Sipher",
+  "slug": "sipher",
+  "website": "sipher.xyz",
+  "industry": "Gaming",
+  "tagline": "Sipher was born to embrace blockchain technology to tackle the NFT space",
+  "logoUrl": "",
+  "description": "Sipher is a blockchain-powered gaming studio in Vietnam.\n\nBlockchain technology continues to dominate headlines, NFTs and especially their recent valuations, are of increasing interest. However, the average consumer doesn't understand what blockchain is, what an NFT is or why they matter, let alone how the technology behind it works.\n\nGiven that backdrop, Sipher was born to embrace blockchain technology to tackle the NFT space. we will make blockchain technology accessible to the average consumer through four main pillars:\n\n- Entertainment and Game creation that leverage blockchain's unique applications\n- An approachable, consumer-facing oriented approach based on a genuine passion for blockchain technology and seamless user experience\n- An open and education friendly platform inclusive to users of all levels of technical knowledge\n- A sustainable revenue-based model based on sound financial foundations",
+  "facebook": "fb.com/SIPHERxyz",
+  "linkedin": "https://www.linkedin.com/company/sipherxyz",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": true
+}
