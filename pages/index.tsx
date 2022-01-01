@@ -21,8 +21,14 @@ import { Company } from '../types/company.types';
 
 export default function Home({ companies }: { companies: any[] }) {
   const router = useRouter();
+  let queryIndustry: string | string[];
+  useEffect(() => {
+    if (!router.isReady) return;
+    queryIndustry = router.query['industry'];
+    setIndustry(queryIndustry);
+  }, [router.isReady]);
 
-  const [industry, setIndustry] = useState("All");
+  const [industry, setIndustry] = useState(queryIndustry ? queryIndustry : "all");
   const [filteredCos, setFilteredCos] = useState(companies);
   const [companyModalOpen, setCompanyModalOpen] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState(null);

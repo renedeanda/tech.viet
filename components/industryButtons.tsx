@@ -34,12 +34,22 @@ const industryOptions = [
 ]
 
 export default function IndustryButtons({ industry, filteredLength, setIndustry }: {
-  industry: string,
+  industry: string | string[],
   filteredLength: number,
   setIndustry: any
 }) {
 
+  let validOption: boolean = false;
+  {
+    industryOptions.forEach((option, key) => {
+      if (industry.toString().toLowerCase() == option.value.toLowerCase()) {
+        validOption = true
+        return validOption
+      }
+    })
+  }
   return (
+
     <div style={{ padding: '1em 0 1.2em 0' }}>
       {industryOptions.map((option, key) =>
       (<Button
@@ -48,7 +58,7 @@ export default function IndustryButtons({ industry, filteredLength, setIndustry 
         content={option.value}
         circular
         size='tiny'
-        active={industry == option.value}
+        active={!validOption && (option.value.toLowerCase() == "all") ? true : industry.toString().toLowerCase() == option.value.toLowerCase()}
         onClick={() => setIndustry(option.value)}
         style={{ display: 'inline-block', margin: '0.2em' }} />)
       )}
