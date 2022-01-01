@@ -39,12 +39,10 @@ export default function CompanySearch({ companies, openCompanyModal }: {
   const [state, dispatch] = React.useReducer(exampleReducer, initialState)
   const { loading, results, value } = state
 
-  const timeoutRef = React.useRef();
   const handleSearchChange = React.useCallback((e, data) => {
-    clearTimeout(timeoutRef.current)
     dispatch({ type: 'START_SEARCH', query: data.value })
 
-    timeoutRef.current = setTimeout(() => {
+    const timer = setTimeout(() => {
       if (data.value.length === 0) {
         dispatch({ type: 'CLEAN_QUERY' })
         return
@@ -58,11 +56,7 @@ export default function CompanySearch({ companies, openCompanyModal }: {
         results: _.filter(companies, isMatch),
       })
     }, 300)
-  }, []);
-  React.useEffect(() => {
-    return () => {
-      clearTimeout(timeoutRef.current)
-    }
+    return () => clearTimeout(timer);
   }, []);
 
   return (
