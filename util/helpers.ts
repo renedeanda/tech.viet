@@ -21,14 +21,20 @@ export function shuffle(array: any[]) {
   return array;
 }
 
-export function filterCompanies(companies: any[], industry: string) {
+export function filterCompanies(companies: any[], i: string | string[]) {
 
-  if (industry === 'All') {
+  const industry = i.toString().toLowerCase();
+
+  if (industry === 'all') {
     return companies;
   } else {
     const filteredCompanies = companies.filter(item =>
-      item.data.industry == industry
+      item.data.industry.toLowerCase() == industry
     )
-    return filteredCompanies;
+    return filteredCompanies.length > 0 ? filteredCompanies : companies;
   }
+}
+
+export function capitalize(string: string) {
+  return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
