@@ -8,6 +8,7 @@ export interface Investor {
     website: string;
     facebook: string;
     linkedin: string;
+    highlights: [];
     industries: [];
     investments:[];
 }
