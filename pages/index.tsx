@@ -4,7 +4,8 @@ import {
   Grid,
   Header,
   Container,
-  Loader
+  Loader,
+  Search
 } from 'semantic-ui-react';
 import fs from 'fs';
 import path from 'path';
@@ -18,6 +19,7 @@ import { useRouter } from 'next/router';
 import usePagination from "../util/hooks/usePagination";
 import CompanyModal from '../components/companyModal';
 import { Company } from '../types/company.types';
+import CompanySearch from '../components/companySearch';
 
 export default function Home({ companies }: { companies: any[] }) {
   const router = useRouter();
@@ -130,6 +132,7 @@ export default function Home({ companies }: { companies: any[] }) {
               </Grid.Column>
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
+              <CompanySearch companies={companies} openCompanyModal={openCompanyModal} />
               <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
