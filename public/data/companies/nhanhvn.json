@@ -1,1 +1,16 @@
-{"name":"Nhanh.vn","slug":"nhanhvn","website":"nhanh.vn","industry":"Enterprise Software","tagline":"","logoUrl":"","description":"Established in 2014, Nhanh specializes in cloud-based solutions for omnichannel sales management. This includes online sales, website design, and features that link sellers to logistics providers and add ecommerce integration for platforms such as Lazada, Tiki, and Facebook.\n\nNhanh?s services are used by over 80,000 businesses in Vietnam.","facebook":"fb.com/nhanh.vn","linkedin":"linkedin.com/company/nhanh-ltd","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "Nhanh.vn",
+  "slug": "nhanhvn",
+  "website": "nhanh.vn",
+  "industry": "Enterprise Software",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Established in 2014, Nhanh specializes in cloud-based solutions for omnichannel sales management. This includes online sales, website design, and features that link sellers to logistics providers and add ecommerce integration for platforms such as Lazada, Tiki, and Facebook.\n\nNhanh's services are used by over 80,000 businesses in Vietnam.",
+  "facebook": "fb.com/nhanh.vn",
+  "linkedin": "linkedin.com/company/nhanh-ltd",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}
