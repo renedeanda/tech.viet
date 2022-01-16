@@ -5,7 +5,7 @@ module.exports = {
             use: 'raw-loader',
         })
         if (isServer) {
-            require('./util/generateSiteMap')
+            import('./util/generateSiteMap.mjs')
         }
         return config
     }

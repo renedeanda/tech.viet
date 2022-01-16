@@ -26,6 +26,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "util/generateSiteMap.js"
+    "util/generateSiteMap.mjs"
   ]
 }
