@@ -20,7 +20,7 @@ export default function InvestorPage({ investor }: { investor: Investor }) {
       <Meta
         title={investor.name ? `${investor.name} | Tech Viet - Vietnam Startup Ecosystem` : 'Investor Not Found'}
         desc={investor.about ? `${investor.about} ${description}` : description}
-        canonical={`https://tech.viet.io/investor/${investor.slug}`}
+        canonical={`https://tech.viet.io/investors/${investor.slug}`}
         image={screenSrc} />
 
       <Page>
