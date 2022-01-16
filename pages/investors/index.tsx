@@ -1,21 +1,32 @@
 import Page from '../../components/page';
 import Meta from '../../components/Meta';
+import { Container, Grid, Button } from 'semantic-ui-react';
 
-export default function () {
+export default function Investors() {
   return (
     <>
-      <Meta title='Investors' />
+      <Meta title='Vietnam Investors' />
       <Page>
-        <div style={{ minHeight: '70vh' }}>
-          <h1 style={{
-            margin: '0',
-            position: 'absolute',
-            top: '35%',
-            left: '50%',
-            msTransform: 'translate(-50%, -50%)',
-            transform: 'translate(-50%, -50%)'
-          }}>Investors</h1>
-        </div>
+        <Container style={{ width: '100vw', margin: '3em 0' }}>
+          <Grid
+            container
+            stackable
+            textAlign='center'
+            verticalAlign='middle'>
+            <Grid.Row style={{ marginTop: '100px' }}>
+              <Grid.Column style={{ minHeight: '50vh' }}>
+                <h1>🚧 Coming soon</h1>
+                <Button
+                  as='a'
+                  style={{ display: 'inline-block', margin: '0.3em' }}
+                  color='teal'
+                  content='Check out companies'
+                  href='https://tech.viet.io'
+                  rel="noopener" />
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Container>
       </Page>
     </>
   )
