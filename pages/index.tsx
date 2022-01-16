@@ -4,8 +4,7 @@ import {
   Grid,
   Header,
   Container,
-  Loader,
-  Search
+  Loader
 } from 'semantic-ui-react';
 import fs from 'fs';
 import path from 'path';
