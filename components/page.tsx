@@ -35,6 +35,14 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
           <Menu.Item
             as='a'
+            href='https://tech.viet.io/investors'
+            rel="noopener">
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='chart line' />Investors</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
             href='https://github.com/renedeanda/Tech.Viet'
             target='_blank'
             rel="noopener">
