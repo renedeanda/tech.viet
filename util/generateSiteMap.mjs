@@ -1,5 +1,5 @@
 import { writeFileSync } from 'fs';
-import globby from 'globby';
+import { globby } from 'globby';
 
 async function generateSiteMap() {
   const pages = await globby([
