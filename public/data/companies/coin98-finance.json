@@ -1,1 +1,16 @@
-{"name":"Coin98 Finance","slug":"coin98-finance","website":"https://coin98.com","industry":"Finance","tagline":"Crypto-focused software company.","logoUrl":"","description":"Crypto-Focused Software Company. Made in Vietnam.","facebook":"https://www.facebook.com/Coin98Finance","linkedin":"https://www.linkedin.com/company/coin98","blogUrl":"https://blog.coin98.com","androidUrl":"https://play.google.com/store/apps/details?id=coin98.crypto.finance.media","iosUrl":"https://apps.apple.com/vn/app/coin98-wallet/id1561969966","demoUrl":"","hiring":false}
+{
+  "name": "Coin98 Finance",
+  "slug": "coin98-finance",
+  "website": "coin98.com",
+  "industry": "Finance",
+  "tagline": "Crypto-focused software company.",
+  "logoUrl": "",
+  "description": "Crypto-Focused Software Company. Made in Vietnam.",
+  "facebook": "fb.com/Coin98Finance",
+  "linkedin": "https://www.linkedin.com/company/coin98",
+  "blogUrl": "https://blog.coin98.com",
+  "androidUrl": "https://play.google.com/store/apps/details?id=coin98.crypto.finance.media",
+  "iosUrl": "https://apps.apple.com/vn/app/coin98-wallet/id1561969966",
+  "demoUrl": "",
+  "hiring": false
+}

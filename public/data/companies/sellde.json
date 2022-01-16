@@ -1,1 +1,16 @@
-{"name":"Sellde","slug":"sellde","website":"https://sellde.vn","industry":"Software","tagline":"Making it easier for Online Beauty Sellers to grow their business","logoUrl":"","description":"Sellde aims to be a rapidly growing Tech Startup that helps small online sellers in Vietnam to grow efficiently via free & tailored Tools and a convenient Supply solution, starting with the Beauty category.","facebook":"https://www.facebook.com/sellde.vn","linkedin":"https://www.linkedin.com/company/sellde","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":true}
+{
+  "name": "Sellde",
+  "slug": "sellde",
+  "website": "sellde.vn",
+  "industry": "Software",
+  "tagline": "Making it easier for Online Beauty Sellers to grow their business",
+  "logoUrl": "",
+  "description": "Sellde aims to be a rapidly growing Tech Startup that helps small online sellers in Vietnam to grow efficiently via free & tailored Tools and a convenient Supply solution, starting with the Beauty category.",
+  "facebook": "fb.com/sellde.vn",
+  "linkedin": "https://www.linkedin.com/company/sellde",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": true
+}
