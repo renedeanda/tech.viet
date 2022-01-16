@@ -1,0 +1,74 @@
+{
+    "name": "Cool investor",
+    "slug": "cool_investor_MATCHING_NAME_OF_JSON_FILE_NO_SPACES",
+    "type": "VC, PE, Angel, Accelerator, Corp",
+    "about": "Description of your company to explain what you do & invest in",
+    "location": "HCMC, Vietnam",
+    "founded": "2002",
+    "website": "coolinvestor.vc",
+    "facebook": "fb.com/mycompany",
+    "linkedin": "linkedin.com/company/mycompany",
+    "highlights": [
+        {
+            "title": "Cool Highlight 1",
+            "description": "Description 1",
+            "url": "coolhighlight1.com"
+        },
+        {
+            "title": "Cool Highlight 2",
+            "description": "Description 2",
+            "url": "coolhighlight2.com"
+        },
+        {
+            "title": "Cool Highlight 3",
+            "description": "Description 3",
+            "url": "coolhighlight3.com"
+        }
+    ],
+    "industries": [
+        "Chose any of the following or add new one:",
+        "Logistics / Transport",
+        "HR / Recruitment",
+        "Education",
+        "Travel / Tourism",
+        "Gaming",
+        "Enterprise Software",
+        "Adtech",
+        "Media / Entertainment",
+        "Software",
+        "Finance",
+        "Marketplace",
+        "Ecommerce",
+        "Web Hosting",
+        "Telecom",
+        "Real Estate",
+        "Construction",
+        "Domain Names",
+        "Customer Support",
+        "Agtech",
+        "Infrastructure",
+        "Insurance",
+        "Healthcare",
+        "Social",
+        "Renewable Energy",
+        "Marketing",
+        "Biotech"
+    ],
+    "investments": [
+        {
+            "company": "Company 1",
+            "website": "company1.com",
+            "funding": "Series A"
+        },
+        {
+            "company": "Company 2",
+            "website": "company2.com",
+            "funding": "Seed"
+        },
+        {
+            "company": "Company 3",
+            "website": "company3.com",
+            "funding": "Series B"
+        }
+    ]
+}

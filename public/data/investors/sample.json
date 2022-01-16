@@ -1,0 +1,48 @@
+{
+    "name": "Sample Investor",
+    "slug": "sample",
+    "type": "VC",
+    "about": "We invest in Vietnam startups",
+    "location": "Vietnam",
+    "founded": "1999",
+    "website": "tech.viet.io/investors/sample",
+    "facebook": "fb.com/sampleinvestor",
+    "linkedin": "linkedin.com/company/sampleinvestor",
+    "highlights": [
+        {
+            "title": "Cool Highlight 1",
+            "description": "Description 1",
+            "url": "coolhighlight1.com"
+        },
+        {
+            "title": "Cool Highlight 2",
+            "description": "Description 2",
+            "url": "coolhighlight2.com"
+        },
+        {
+            "title": "Cool Highlight 3",
+            "description": "Description 3",
+            "url": "coolhighlight3.com"
+        }
+    ],
+    "industries": [
+        "Technology"
+    ],
+    "investments": [
+        {
+            "company": "Company 1",
+            "website": "company1.com",
+            "funding": "Series A"
+        },
+        {
+            "company": "Company 2",
+            "website": "company2.com",
+            "funding": "Seed"
+        },
+        {
+            "company": "Company 3",
+            "website": "company3.com",
+            "funding": "Series B"
+        }
+    ]
+}

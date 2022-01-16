@@ -9,7 +9,9 @@ async function generateSiteMap() {
     '!pages/500.tsx',
     '!pages/**/[company].tsx',
     '!pages/api',
-    'public/data/companies/*.json'
+    '!pages/**/[investor].tsx',
+    'public/data/companies/*.json',
+    'public/data/investors/*.json'
   ])
 
   const sitemap =
@@ -24,6 +26,9 @@ async function generateSiteMap() {
           .replace('.jsx', '')
           .replace('.js', '')
           .replace('public/data/companies', '/company')
+          .replace('public/data/investors', '/investors')
+          .replace('investors/index', 'investors')
+
         const route = path === '/index' ? '' : path
 
         return `
