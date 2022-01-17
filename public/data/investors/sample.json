@@ -2,7 +2,7 @@
     "name": "Sample Investor",
     "slug": "sample",
     "type": "VC",
-    "about": "We invest in Vietnam startups",
+    "description": "We invest in Vietnam startups",
     "location": "Vietnam",
     "founded": "1999",
     "website": "tech.viet.io/investors/sample",
