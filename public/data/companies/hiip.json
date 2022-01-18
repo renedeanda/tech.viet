@@ -1,1 +1,16 @@
-{"name":"Hiip","slug":"hiip","website":"https://hiip.asia","industry":"Marketing","tagline":"The leading influencer platform in Southeast Asia, empowered by big data & AI.","logoUrl":"","description":"","facebook":"https://www.facebook.com/Hiip.Asia","linkedin":"https://www.linkedin.com/company/hiip-asia","blogUrl":"https://hiip.asia/blog","androidUrl":"https://play.google.com/store/apps/details?id=com.hiipasia","iosUrl":"https://apps.apple.com/vn/app/hiip/id1314856739","demoUrl":"","hiring":false}
+{
+  "name": "Hiip",
+  "slug": "hiip",
+  "website": "hiip.asia",
+  "industry": "Marketing",
+  "tagline": "The leading influencer platform in Southeast Asia, empowered by big data & AI.",
+  "logoUrl": "",
+  "description": "",
+  "facebook": "fb.com/Hiip.Asia",
+  "linkedin": "https://www.linkedin.com/company/hiip-asia",
+  "blogUrl": "https://hiip.asia/blog",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.hiipasia",
+  "iosUrl": "https://apps.apple.com/vn/app/hiip/id1314856739",
+  "demoUrl": "",
+  "hiring": false
+}
