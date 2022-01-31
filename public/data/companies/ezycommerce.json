@@ -1,1 +1,16 @@
-{"name":"EZYcommerce","slug":"ezycommerce","website":"https://ezycommerce.app","industry":"Ecommerce","tagline":"All-in-one market intelligence platform for brands, online sellers to optimize and expand their businesses effectively","logoUrl":"","description":"Building all-in-one market intelligence platform, with powerful insights and training resources, for new and existing e-commerce sellers to start, grow and scale their businesses on marketplaces.","facebook":"fb.com","linkedin":"https://www.linkedin.com/company/ezycommerce","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "EZYcommerce",
+  "slug": "ezycommerce",
+  "website": "ezycommerce.app",
+  "industry": "Ecommerce",
+  "tagline": "All-in-one market intelligence platform for brands, online sellers to optimize and expand their businesses effectively",
+  "logoUrl": "",
+  "description": "Building all-in-one market intelligence platform, with powerful insights and training resources, for new and existing e-commerce sellers to start, grow and scale their businesses on marketplaces.",
+  "facebook": "",
+  "linkedin": "https://www.linkedin.com/company/ezycommerce",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}
