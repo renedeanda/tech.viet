@@ -163,7 +163,7 @@ def get_screenshots():
             desktop = {'output': f'{path}/{co[0]}-screenshot.png',
                        'width': 1280,
                        'height': 800}
-            linkWithProtocol = f'http://{co[1]}'
+            linkWithProtocol = f'https://{co[1]}'
 
             # set the window size for desktop
             driver.set_window_size(desktop['width'], desktop['height'])
