@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Connect
 
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/renedeanda) & check out my dev profile on [Vina.Dev](https://vina.dev/rene). I'm currently looking for full-time work.
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/renedeanda).
 
 ## License
 Tech Viet is distributed under the MIT license. See [LICENSE](https://github.com/renedeanda/Tech.Viet/blob/master/LICENSE.md) for details.
