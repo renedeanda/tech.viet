@@ -88,7 +88,7 @@ export default function CompanyContainer({ company, modal }: {
             >{company.tagline}</p>
               : null}
             <div>
-              {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
+              {company.hiring ? <Label circular basic color='green'>Hiring</Label> : null}
               <Label style={{ marginTop: '8px', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
             </div>
             <div style={{ marginTop: '8px' }}>

@@ -27,7 +27,7 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
       key={company.slug}
       fluid
       link
-      color='teal'
+      color='yellow'
       style={{ maxWidth: '360px', margin: '0.5em' }}>
       <Image
         quality={60}
@@ -72,7 +72,7 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
           size='medium' />
       </Card.Content>
       <Card.Content extra textAlign='right'>
-        {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
+        {company.hiring ? <Label circular basic color='green'>Hiring</Label> : null}
         <Label
           style={{ color: '#0C5FFF', borderColor: '#0C5FFF' }}
           onClick={(e) => {
