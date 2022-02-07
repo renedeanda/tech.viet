@@ -2,7 +2,7 @@ export interface Investor {
     name: string;
     slug: string;
     type: string;
-    about: string;
+    description: string;
     location: string;
     founded: string;
     website: string;

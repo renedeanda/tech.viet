@@ -55,13 +55,13 @@ export default function InvestorContainer({ investor, modal }: {
             {/* <div style={{ marginTop: '8px' }}>
               <LinkButtons investor={investor} isTextList />
             </div> */}
-            {investor.about ?
+            {investor.description ?
               <>
                 <Header dividing style={{
                   color: '#1A202C',
                   fontSize: '1.4em'
                 }}>About</Header>
-                {investor.about.split('\n').map((item, i) => {
+                {investor.description.split('\n').map((item, i) => {
                   return <p style={{
                     color: '#555B66',
                     lineHeight: '1.1em',
