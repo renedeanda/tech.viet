@@ -34,7 +34,7 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
             <Menu.Item
               as='a'
               className='button-item'
-              href='https://tech.viet.io/investors'
+              href='/investors'
               rel="noopener">
               <div
                 className='navbar-text2'>Investors</div>

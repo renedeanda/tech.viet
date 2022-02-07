@@ -1,8 +1,12 @@
 import Page from '../../components/page';
 import Meta from '../../components/Meta';
-import { Container, Grid, Button } from 'semantic-ui-react';
+import { Container, Grid, Button, Message } from 'semantic-ui-react';
+import { GetStaticProps } from 'next';
+import fs from 'fs';
+import path from 'path';
+import InvestorCard from '../../components/investorCard';
 
-export default function Investors() {
+export default function Investors({ investors }: { investors: any[] }) {
   return (
     <>
       <Meta title='Vietnam Investors' />
@@ -13,21 +17,42 @@ export default function Investors() {
             stackable
             textAlign='center'
             verticalAlign='middle'>
-            <Grid.Row style={{ marginTop: '100px' }}>
-              <Grid.Column style={{ minHeight: '50vh' }}>
-                <h1>🚧 Coming soon</h1>
-                <Button
-                  as='a'
-                  style={{ display: 'inline-block', margin: '0.3em' }}
-                  color='teal'
-                  content='Check out companies'
-                  href='https://tech.viet.io'
-                  rel="noopener" />
-              </Grid.Column>
+            <Message
+              style={{ marginTop: '32px', color: 'black' }}
+              color='yellow'
+              size='large'
+              header='🚧 WIP'
+              content="This page is under development. Reach out if you'd like to contribute." />
+            <Grid.Row style={{ padding: 0, margin: 0 }}>
+              {investors && investors.length > 0 ?
+                investors.map((item: any) =>
+                  <InvestorCard key={item.data.slug} investor={item.data} />)
+                : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No investors listed</p>}
             </Grid.Row>
           </Grid>
         </Container>
       </Page>
     </>
   )
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  const investorsDirectory = path.join(process.cwd(), '/public/data/investors')
+  const filenames = fs.readdirSync(investorsDirectory)
+
+  const investors = filenames.map((filename) => {
+    const filePath = path.join(investorsDirectory, filename)
+    const fileContents = fs.readFileSync(filePath, 'utf8')
+
+    return {
+      filename,
+      data: JSON.parse(fileContents),
+    }
+  })
+
+  return {
+    props: {
+      investors
+    },
+  }
 }
