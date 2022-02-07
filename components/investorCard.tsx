@@ -17,9 +17,9 @@ export default function InvestorCard({ investor }: {
       as='a'
       href={`/investors/${investor.slug}`}
       key={investor.slug}
-      rel='noreferrer'
       fluid
       link
+      color='yellow'
       style={{ maxWidth: '360px', margin: '0.5em' }}>
       <Card.Content textAlign='left'>
         <h2 className='card-title' style={{ marginTop: 0, marginBottom: '8px' }}>{investor.name}</h2>
