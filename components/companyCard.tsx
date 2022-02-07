@@ -59,13 +59,13 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
             rel="noreferrer"
             onClick={(e) => {
               e.stopPropagation();
-            }}><Icon name='linkify' /> {company.website}</a>
+            }}><Icon name='external' /> {company.website}</a>
           : null}
         <p style={{ fontSize: '1.1em', marginTop: '8px' }} className='tagline'>
           {company.tagline
             ? company.tagline
             : company.description
-              ? company.description : "Add a tagline..."}
+              ? company.description : null}
         </p>
         <LinkButtons
           company={company}
