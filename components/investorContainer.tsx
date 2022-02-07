@@ -50,7 +50,7 @@ export default function InvestorContainer({ investor, modal }: {
               href={withHttp(investor.website)}
               target='_blank'
               rel="noreferrer">
-              <Icon name='linkify' />{investor.website}</a>
+              <Icon name='external' />{investor.website}</a>
             {/* //TODO update LinkButtons component to accept investor object */}
             {/* <div style={{ marginTop: '8px' }}>
               <LinkButtons investor={investor} isTextList />

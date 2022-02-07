@@ -82,13 +82,13 @@ export default function CompanyContainer({ company, modal }: {
               href={withHttp(company.website)}
               target='_blank'
               rel="noreferrer">
-              <Icon name='linkify' />{company.website}</a>
+              <Icon name='external' />{company.website}</a>
             {company.tagline ? <p
               style={{ color: '#555B66', marginTop: '8px', fontStyle: 'italic', fontSize: '1.1em', wordWrap: 'break-word' }}
             >{company.tagline}</p>
               : null}
             <div>
-              {company.hiring ? <Label circular basic color='red'>Hiring</Label> : null}
+              {company.hiring ? <Label circular basic color='green'>Hiring</Label> : null}
               <Label style={{ marginTop: '8px', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
             </div>
             <div style={{ marginTop: '8px' }}>
