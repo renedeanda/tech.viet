@@ -35,7 +35,15 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://tech.viet.io/investors'
+            href='/'
+            rel="noopener">
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='building outline' />Companies</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='/investors'
             rel="noopener">
             <div
               style={{ padding: '0.5em' }}

@@ -27,6 +27,7 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
       key={company.slug}
       fluid
       link
+      color='teal'
       style={{ maxWidth: '360px', margin: '0.5em' }}>
       <Image
         quality={60}

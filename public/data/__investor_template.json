@@ -2,7 +2,7 @@
     "name": "Cool investor",
     "slug": "cool_investor_MATCHING_NAME_OF_JSON_FILE_NO_SPACES",
     "type": "VC, PE, Angel, Accelerator, Corp",
-    "about": "Description of your company to explain what you do & invest in",
+    "description": "Description of your company to explain what you do & invest in",
     "location": "HCMC, Vietnam",
     "founded": "2002",
     "website": "coolinvestor.vc",
