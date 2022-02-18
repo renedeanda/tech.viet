@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "fomantic-ui": "^2.8.8",
-    "next": "12.0.10",
+    "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-markdown": "^8.0.0",
