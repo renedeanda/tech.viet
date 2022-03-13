@@ -1,1 +1,16 @@
-{"name":"Azota","slug":"azota","website":"https://azota.vn","industry":"Education","tagline":"N?n t?ng t?o ?? thi, b?i t?p online","logoUrl":"","description":"","facebook":"https://www.facebook.com/azotavn","linkedin":"","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":true}
+{
+  "name": "Azota",
+  "slug": "azota",
+  "website": "https://azota.vn",
+  "industry": "Education",
+  "tagline": "Nền tảng tạo đề thi, bài tập online",
+  "logoUrl": "",
+  "description": "",
+  "facebook": "https://www.facebook.com/azotavn",
+  "linkedin": "",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": true
+}
