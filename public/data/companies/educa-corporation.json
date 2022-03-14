@@ -1,1 +1,16 @@
-{"name":"Educa Corporation","slug":"educa-corporation","website":"https://edupia.vn","industry":"Education","tagline":"A generation of students with a better future","logoUrl":"","description":"Educa Corporation is a leading organization in the Edtech field in Vietnam. Established in 2018, featuring main products: Edupia (online English for primary and secondary school students), Babilala (English for preschool students), etc. After more than 3 years of operation, Educa now has a scale of more than 800 employees and hundreds of thousands of students across Vietnam. Educa is honored with the award of the Best Digital App 2018 in the training field and Top 50 ASEAN Gold Brands in 2019.\n\nEduca's mission is ?a generation of students with a better future\" through ground-breaking innovations in technology that will help millions of students, regardless of their economic backgrounds, have an opportunity to access high quality English lessons. Thereby helping students have a good English foundation, contributing to their better future.","facebook":"https://www.facebook.com/Edupia.vn","linkedin":"https://www.linkedin.com/company/educacorp","blogUrl":"","androidUrl":"https://play.google.com/store/apps/developer?id=EDUPIA+CORP","iosUrl":"https://apps.apple.com/vn/app/edupia-h%E1%BB%8Dc-ti%E1%BA%BFng-anh-ti%E1%BB%83u-h%E1%BB%8Dc/id1427111599","demoUrl":"","hiring":true}
+{
+  "name": "Educa Corporation",
+  "slug": "educa-corporation",
+  "website": "edupia.vn",
+  "industry": "Education",
+  "tagline": "A generation of students with a better future",
+  "logoUrl": "",
+  "description": "Educa Corporation is a leading organization in the Edtech field in Vietnam. Established in 2018, featuring main products: Edupia (online English for primary and secondary school students), Babilala (English for preschool students), etc. After more than 3 years of operation, Educa now has a scale of more than 800 employees and hundreds of thousands of students across Vietnam. Educa is honored with the award of the Best Digital App 2018 in the training field and Top 50 ASEAN Gold Brands in 2019.\n\nEduca's mission is \"a generation of students with a better future\" through ground-breaking innovations in technology that will help millions of students, regardless of their economic backgrounds, have an opportunity to access high quality English lessons. Thereby helping students have a good English foundation, contributing to their better future.",
+  "facebook": "fb.com/Edupia.vn",
+  "linkedin": "https://www.linkedin.com/company/educacorp",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/developer?id=EDUPIA+CORP",
+  "iosUrl": "https://apps.apple.com/vn/app/edupia-h%E1%BB%8Dc-ti%E1%BA%BFng-anh-ti%E1%BB%83u-h%E1%BB%8Dc/id1427111599",
+  "demoUrl": "",
+  "hiring": true
+}

@@ -1,1 +1,16 @@
-{"name":"Buy2Sell","slug":"buy2sell","website":"https://buy2sell.vn","industry":"Ecommerce","tagline":"B2B Ecommerce Platform","logoUrl":"","description":"Buy2Sell has been founded to maximize opportunities in Vietnam, whether it is in the branding, the distribution market or any other B2B sector. We make all processes seamless by handling all digital promotion, importation & distribution processes until product registration.\n\nSince 2015,  we supplied goods for more 120,000 Vietnamese wholesalers/retailers.\n\nBuy2sell got a showroom and more than 200 retail locations across the country. More than 1000 international suppliers worked with Buy2sell from 2018 to 2020.\n\nBuy2Sell is also operating in Hong Kong and Singapore.","facebook":"https://www.facebook.com/Buy2SellVietnam","linkedin":"https://www.linkedin.com/company/amultiply-buy2sell","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "Buy2Sell",
+  "slug": "buy2sell",
+  "website": "buy2sell.vn",
+  "industry": "Ecommerce",
+  "tagline": "B2B Ecommerce Platform",
+  "logoUrl": "",
+  "description": "Buy2Sell has been founded to maximize opportunities in Vietnam, whether it is in the branding, the distribution market or any other B2B sector. We make all processes seamless by handling all digital promotion, importation & distribution processes until product registration.\n\nSince 2015,  we supplied goods for more 120,000 Vietnamese wholesalers/retailers.\n\nBuy2sell got a showroom and more than 200 retail locations across the country. More than 1000 international suppliers worked with Buy2sell from 2018 to 2020.\n\nBuy2Sell is also operating in Hong Kong and Singapore.",
+  "facebook": "fb.com/Buy2SellVietnam",
+  "linkedin": "https://www.linkedin.com/company/amultiply-buy2sell",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

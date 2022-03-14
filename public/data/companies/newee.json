@@ -1,1 +1,16 @@
-{"name":"Newee","slug":"newee","website":"https://newee.asia","industry":"Ecommerce","tagline":"Happy seller, easy selling","logoUrl":"","description":"Newee is a One-Stop-Service & platform to support the development of E-commerce operation on omni-channel (Social Commerce and E-commerce platforms) through Centralized Fulfillment model and develop a new personal selling system (E-retail partners). ","facebook":"https://www.facebook.com/newee.social","linkedin":"","blogUrl":"https://ecomenabler.newee.asia/blog-newee-ecommerce-enabler","androidUrl":"https://play.google.com/store/apps/details?id=com.asia.newee","iosUrl":"https://apps.apple.com/vn/app/newee/id1579488337","demoUrl":"","hiring":false}
+{
+  "name": "Newee",
+  "slug": "newee",
+  "website": "newee.asia",
+  "industry": "Ecommerce",
+  "tagline": "Happy seller, easy selling",
+  "logoUrl": "",
+  "description": "Newee is a One-Stop-Service & platform to support the development of E-commerce operation on omni-channel (Social Commerce and E-commerce platforms) through Centralized Fulfillment model and develop a new personal selling system (E-retail partners). ",
+  "facebook": "fb.com/newee.social",
+  "linkedin": "",
+  "blogUrl": "https://ecomenabler.newee.asia/blog-newee-ecommerce-enabler",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.asia.newee",
+  "iosUrl": "https://apps.apple.com/vn/app/newee/id1579488337",
+  "demoUrl": "",
+  "hiring": false
+}

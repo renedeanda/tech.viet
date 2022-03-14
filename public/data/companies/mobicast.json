@@ -1,1 +1,16 @@
-{"name":"Mobicast","slug":"mobicast","website":"https://mobicast.vn","industry":"Telecom","tagline":"Keep you ON","logoUrl":"","description":"Mobicast is a start-up company in the field of MVNO, based in Vietnam. With a customer-centric orientation, the Mobicast team focuses on researching and designing telecommunication solutions and useful technologies for users, towards user-friendly experience and optimal performance.","facebook":"https://www.facebook.com/mobicast.vn","linkedin":"https://www.linkedin.com/company/mobicast-jsc","blogUrl":"https://mobicast.vn/tin-tuc","androidUrl":"https://play.google.com/store/apps/details?id=com.reddi","iosUrl":"https://apps.apple.com/vn/app/reddi/id1495002378","demoUrl":"","hiring":false}
+{
+  "name": "Mobicast",
+  "slug": "mobicast",
+  "website": "mobicast.vn",
+  "industry": "Telecom",
+  "tagline": "Keep you ON",
+  "logoUrl": "",
+  "description": "Mobicast is a start-up company in the field of MVNO, based in Vietnam. With a customer-centric orientation, the Mobicast team focuses on researching and designing telecommunication solutions and useful technologies for users, towards user-friendly experience and optimal performance.",
+  "facebook": "fb.com/mobicast.vn",
+  "linkedin": "https://www.linkedin.com/company/mobicast-jsc",
+  "blogUrl": "https://mobicast.vn/tin-tuc",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.reddi",
+  "iosUrl": "https://apps.apple.com/vn/app/reddi/id1495002378",
+  "demoUrl": "",
+  "hiring": false
+}
