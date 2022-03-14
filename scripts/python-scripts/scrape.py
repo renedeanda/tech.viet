@@ -155,7 +155,7 @@ def get_screenshots():
     options.add_argument("--no-sandbox")  # Bypass OS security model
     options.add_argument("--hide-scrollbars")  # hide scrollbars in screenshot
 
-    with webdriver.Chrome(path, chrome_options=options) as driver:
+    with webdriver.Chrome(path, options=options) as driver:
         # these values represent the sizes of the entire browser window and not the viewport.
         path = os.path.abspath("../../public/img/company")
         for co in companies:
