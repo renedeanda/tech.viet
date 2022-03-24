@@ -92,8 +92,8 @@ export default function Home({ companies }: { companies: any[] }) {
   return (
     <div>
       <Meta
-        title='Tech Viet - Vietnam Startup Ecosystem'
-        desc='List of 200+ Vietnam startups and big tech companies. Tech Viet is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
+        title='Viet.io - Vietnam Startup Ecosystem'
+        desc='List of 200+ Vietnam startups and big tech companies. Viet.io is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
         canonical='https://tech.viet.io/' />
 
       <Page>
@@ -108,7 +108,7 @@ export default function Home({ companies }: { companies: any[] }) {
                 <Header
                   style={{ color: '#1A202C', fontSize: '3em', wordWrap: 'break-word' }}>
                   <div>Vietnam Startup Ecosystem</div>
-                  <div style={{ color: '#0C5FFF' }}>Open-sourced</div>
+                  <div style={{ color: '#5131F7' }}>Open-sourced</div>
                 </Header>
                 <Button
                   as='a'

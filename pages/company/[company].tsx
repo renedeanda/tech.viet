@@ -10,7 +10,7 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 export default function CompanyPage({ company }: { company: Company }) {
 
   const description = company.name ?
-    `${company.name} on Tech Viet. Vietnam Startup Ecosystem open-sourced.`
+    `${company.name} on Viet.io. Vietnam Startup Ecosystem open-sourced.`
     : 'Vietnam Startup Ecosystem.'
 
   const screenSrc = `/img/company/${company.slug}-screenshot.png`
@@ -18,7 +18,7 @@ export default function CompanyPage({ company }: { company: Company }) {
   return (
     <>
       <Meta
-        title={company.name ? `${company.name} | Tech Viet - Vietnam Startup Ecosystem` : 'Company Not Found'}
+        title={company.name ? `${company.name} | Viet.io - Vietnam Startup Ecosystem` : 'Company Not Found'}
         desc={company.tagline ? `${company.tagline} ${description}` : description}
         canonical={`https://tech.viet.io/company/${company.slug}`}
         image={screenSrc} />

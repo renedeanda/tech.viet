@@ -1,14 +1,16 @@
 .card-link {
     color: #555B66;
+    font-family: Nunito;
 }
 
 .card-link:hover {
-    color: #0C5FFF;
+    color: #5131F7;
 }
 
 .ui.button.github-button {
     background-color: #333333;
     color: #ffffff;
+    font-family: Nunito;
 }
 
 .ui.button.github-button:hover {
@@ -20,20 +22,21 @@
     color: #555B66;
     background-color: white;
     border: 1px solid #CECECF;
+    font-family: Nunito;
 }
 
 .ui.button.industry-button:hover {
-    background-color: #0C5FFF;
+    background-color: #5131F7;
     color: #ffffff;
 }
 
 .ui.button.active.industry-button {
-    background-color: #0C5FFF;
+    background-color: #5131F7;
     color: #ffffff;
 }
 
 .ui.button.active.industry-button:hover {
-    background-color: #0C5FFF;
+    background-color: #5131F7;
     color: #ffffff;
 }
 
@@ -60,25 +63,24 @@
     font-size: 1.5em;
     display: block;
     font-weight: bold;
-    font-style: italic;
+    font-family: Nunito;
 }
 
 .navbar-text:hover {
-    color: #0C5FFF;
+    color: #5131F7;
     font-size: 1.5em;
     display: block;
-    font-weight: bold;
-    font-style: italic;
 }
 
 .navbar-text2 {
     color: #555B66;
     font-size: 1.2em;
     font-weight: bold;
+    font-family: Nunito;
 }
 
 .navbar-text2:hover {
-    color: #0C5FFF;
+    color: #5131F7;
 }
 
 .ui.secondary.menu a.item.button-item {
@@ -138,6 +140,7 @@
     color: #555B66;
     height: 42px;
     font-style: italic;
+    font-family: Nunito;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -150,9 +153,10 @@
     .navbar-text {
         font-size: 1.8em;
         display: block;
+        font-family: Nunito;
     }
     .navbar-text:hover {
-        color: #0C5FFF;
+        color: #5131F7;
         font-size: 1.8em;
         display: block;
     }

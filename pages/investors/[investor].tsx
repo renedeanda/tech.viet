@@ -10,7 +10,7 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 export default function InvestorPage({ investor }: { investor: Investor }) {
 
   const description = investor.name ?
-    `${investor.name} on Tech Viet. Vietnam Startup Ecosystem open-sourced.`
+    `${investor.name} on Viet.io. Vietnam Startup Ecosystem open-sourced.`
     : 'Vietnam Startup Ecosystem.'
 
   const screenSrc = `/img/investor/${investor.slug}-screenshot.png`
@@ -18,7 +18,7 @@ export default function InvestorPage({ investor }: { investor: Investor }) {
   return (
     <>
       <Meta
-        title={investor.name ? `${investor.name} | Tech Viet - Vietnam Startup Ecosystem` : 'Investor Not Found'}
+        title={investor.name ? `${investor.name} | Viet.io - Vietnam Startup Ecosystem` : 'Investor Not Found'}
         desc={investor.description ? `${investor.description} ${description}` : description}
         canonical={`https://tech.viet.io/investors/${investor.slug}`}
         image={screenSrc} />

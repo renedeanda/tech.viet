@@ -13,10 +13,11 @@ export default function ShareMenu({ url }: { url: string }) {
       direction='left'
       circular
       floating>
-      <Dropdown.Menu>
+      <Dropdown.Menu
+        style={{ fontFamily: "Nunito" }}>
         <Dropdown.Item
           as='a'
-          href={`mailto:?subject=Tech Viet&body=Check out this Tech Viet page: ${url}`}
+          href={`mailto:?subject=Viet.io&body=Check out this Viet.io page: ${url}`}
           target="_blank"
           rel="noopener"
           icon={{ name: 'mail' }}
@@ -30,14 +31,14 @@ export default function ShareMenu({ url }: { url: string }) {
           text='Share on Facebook' />
         <Dropdown.Item
           as='a'
-          href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=Tech Viet Page`}
+          href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=Viet.io Page`}
           target="_blank"
           rel="noopener"
           icon={{ name: 'linkedin' }}
           text='Share on LinkedIn' />
         <Dropdown.Item
           as='a'
-          href={`https://twitter.com/intent/tweet/?text=Check out this Tech Viet page&url=${url}`}
+          href={`https://twitter.com/intent/tweet/?text=Check out this Viet.io page&url=${url}`}
           target="_blank"
           rel="noopener"
           icon={{ name: 'twitter' }}
