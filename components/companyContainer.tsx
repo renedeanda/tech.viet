@@ -84,12 +84,14 @@ export default function CompanyContainer({ company, modal }: {
               rel="noreferrer">
               <Icon name='external' />{company.website}</a>
             {company.tagline ? <p
-              style={{ color: '#555B66', marginTop: '8px', fontStyle: 'italic', fontSize: '1.1em', wordWrap: 'break-word' }}
+              style={{ color: '#555B66', marginTop: '8px', fontStyle: 'italic', fontSize: '1.1em', wordWrap: 'break-word', fontFamily: 'Nunito' }}
             >{company.tagline}</p>
               : null}
             <div>
-              {company.hiring ? <Label circular basic color='green'>Hiring</Label> : null}
-              <Label style={{ marginTop: '8px', color: '#0C5FFF', borderColor: '#0C5FFF' }} circular basic >{company.industry}</Label>
+              {company.hiring ? <Label
+                style={{ fontFamily: 'Nunito' }}
+                circular basic color='green'>Hiring</Label> : null}
+              <Label style={{ marginTop: '8px', color: '#0C5FFF', borderColor: '#0C5FFF', fontFamily: 'Nunito' }} circular basic >{company.industry}</Label>
             </div>
             <div style={{ marginTop: '8px' }}>
               <LinkButtons company={company} isTextList />
@@ -105,7 +107,8 @@ export default function CompanyContainer({ company, modal }: {
                     color: '#555B66',
                     lineHeight: '1.1em',
                     fontSize: '1.33em',
-                    wordWrap: 'break-word'
+                    wordWrap: 'break-word',
+                    fontFamily: 'Nunito'
                   }}
                     key={i}>{item}</p>;
                 })}

@@ -72,9 +72,11 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
           size='medium' />
       </Card.Content>
       <Card.Content extra textAlign='right'>
-        {company.hiring ? <Label circular basic color='green'>Hiring</Label> : null}
+        {company.hiring ? <Label
+          style={{ fontFamily: 'Nunito' }}
+          circular basic color='green'>Hiring</Label> : null}
         <Label
-          style={{ color: '#0C5FFF', borderColor: '#0C5FFF' }}
+          style={{ color: '#0C5FFF', borderColor: '#0C5FFF', fontFamily: 'Nunito' }}
           onClick={(e) => {
             e.stopPropagation();
             setIndustry(company.industry)

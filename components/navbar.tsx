@@ -10,7 +10,7 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
         <Container>
           <Menu.Item className='main-item'>
             <Link href='/'>
-              <a className='navbar-text'>Tech Viet</a>
+              <a className='navbar-text'>Viet.io</a>
             </Link>
           </Menu.Item>
           <Menu.Menu position='right'>

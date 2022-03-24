@@ -66,7 +66,8 @@ export default function InvestorContainer({ investor, modal }: {
                     color: '#555B66',
                     lineHeight: '1.1em',
                     fontSize: '1.33em',
-                    wordWrap: 'break-word'
+                    wordWrap: 'break-word',
+                    fontFamily: 'Nunito'
                   }}
                     key={i}>{item}</p>;
                 })}

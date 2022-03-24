@@ -18,7 +18,7 @@ export default function Investors({ investors }: { investors: any[] }) {
             textAlign='center'
             verticalAlign='middle'>
             <Message
-              style={{ marginTop: '25px', color: 'black' }}
+              style={{ marginTop: '25px', color: 'black', fontFamily: 'Nunito' }}
               color='yellow'
               size='large'
               header='🚧 WIP'
