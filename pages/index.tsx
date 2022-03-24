@@ -112,7 +112,7 @@ export default function Home({ companies }: { companies: any[] }) {
                 </Header>
                 <Button
                   as='a'
-                  style={{ display: 'inline-block', margin: '0.3em' }}
+                  style={{ display: 'inline-block', margin: '0.3em', fontFamily: 'Nunito' }}
                   color='purple'
                   icon='google'
                   content='Add Company'
