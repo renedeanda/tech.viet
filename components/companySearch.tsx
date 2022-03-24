@@ -49,7 +49,7 @@ export default function CompanySearch({ companies, openCompanyModal }: {
       }
 
       const re = new RegExp(_.escapeRegExp(data.value), 'i')
-      const isMatch = (result) => re.test(result.data.slug)
+      const isMatch = (result) => re.test(result.data.name)
 
       dispatch({
         type: 'FINISH_SEARCH',
