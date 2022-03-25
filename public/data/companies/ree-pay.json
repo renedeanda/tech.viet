@@ -9,8 +9,8 @@
   "facebook": "",
   "linkedin": "linkedin.com/company/ree-pay",
   "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.reepay.consumer",
+  "iosUrl": "https://apps.apple.com/vn/app/ree-pay/id1607128679",
   "demoUrl": "",
   "hiring": true
 }

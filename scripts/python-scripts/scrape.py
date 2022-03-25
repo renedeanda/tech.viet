@@ -164,6 +164,7 @@ def get_screenshots():
                        'width': 1280,
                        'height': 800}
             linkWithProtocol = f'https://{co[1]}'
+            linkWithHttp = f'http://{co[1]}'
 
             # set the window size for desktop
             driver.set_window_size(desktop['width'], desktop['height'])
@@ -172,9 +173,16 @@ def get_screenshots():
                 # skips saving screenshot if file exists, comment out to produce new screenshots
                 continue
             else:
-                driver.get(linkWithProtocol)
-                time.sleep(3)
-                driver.save_screenshot(desktop['output'])
+                try:
+                    driver.get(linkWithProtocol)
+                    time.sleep(3)
+                    driver.save_screenshot(desktop['output'])
+                except:
+                    driver.get(linkWithHttp)
+                    time.sleep(3)
+                    driver.save_screenshot(desktop['output'])
+                    print("THIS IS HTTP")
+
 
 
 def get_fb_avatars():
