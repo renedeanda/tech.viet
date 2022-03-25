@@ -46,7 +46,7 @@ export default function Home({ companies }: { companies: any[] }) {
     setSelectedCompany(null)
   }
 
-  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 6);
+  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 10);
 
   useEffect(() => {
     setIndustry(industry);
