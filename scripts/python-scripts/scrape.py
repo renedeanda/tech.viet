@@ -11,7 +11,7 @@ from glob import glob  # for reading folder of json files
 
 def scrape_page_metadata():
     companies = read_json_files()
-    path = os.path.abspath("../../public/img/updated")
+    path = os.path.abspath("../../public/img/company")
 
     for co in companies:
         slug = co[0]
@@ -157,7 +157,7 @@ def get_screenshots():
 
     with webdriver.Chrome(path, options=options) as driver:
         # these values represent the sizes of the entire browser window and not the viewport.
-        path = os.path.abspath("../../public/img/updated")
+        path = os.path.abspath("../../public/img/company")
         for co in companies:
             # use company slug to name file
             desktop = {'output': f'{path}/{co[0]}-screenshot.png',
@@ -187,7 +187,7 @@ def get_screenshots():
 
 def get_fb_avatars():
     companies = read_json_files()
-    path = os.path.abspath("../../public/img/updated")
+    path = os.path.abspath("../../public/img/company")
 
     for co in companies:
         slug = co[0]
