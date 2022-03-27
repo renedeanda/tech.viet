@@ -3,12 +3,12 @@ import Navbar from './navbar';
 import Footer from './footer';
 import { Menu, Icon, Sidebar } from 'semantic-ui-react';
 
-export default function Page({ children }: { children: React.ReactNode }) {
+export default function Page({ children, inverted, footerHidden }: { children: React.ReactNode, inverted?: boolean, footerHidden?: boolean }) {
   const [visible, setVisible] = useState(false);
 
   return (
     <>
-      <main style={{ backgroundColor: '#F5F5F7' }}>
+      <main style={{ backgroundColor: inverted ? 'transparent' : '#F5F5F7' }}>
         <Navbar
           openDrawer={() => visible ? setVisible(false) : setVisible(true)} />
         {children}
@@ -26,12 +26,21 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://rede.io/why-vietnam-tech-viet/'
+            href='https://forms.gle/Y75CegGFRp6tzdn67'
             target='_blank'
             rel="noopener">
             <div
               style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='external' />Why Vietnam?</div>
+              className='navbar-text2'><Icon name='plus' />Add Company</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='https://github.com/renedeanda/Tech.Viet'
+            target='_blank'
+            rel="noopener">
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='github' />GitHub</div>
           </Menu.Item>
           <Menu.Item
             as='a'
@@ -51,21 +60,21 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://github.com/renedeanda/Tech.Viet'
-            target='_blank'
-            rel="noopener">
-            <div
-              style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='github' />GitHub</div>
-          </Menu.Item>
-          <Menu.Item
-            as='a'
             href='https://www.linkedin.com/company/vietio'
             target='_blank'
             rel="noopener">
             <div
               style={{ padding: '0.5em' }}
               className='navbar-text2'><Icon name='linkedin' />LinkedIn</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='https://rede.io/why-vietnam-tech-viet/'
+            target='_blank'
+            rel="noopener">
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='external' />Why Vietnam?</div>
           </Menu.Item>
           <Menu.Item
             as='a'
@@ -78,7 +87,7 @@ export default function Page({ children }: { children: React.ReactNode }) {
           </Menu.Item>
         </Sidebar>
       </main>
-      <Footer />
+      <Footer inverted={inverted} hidden={footerHidden} />
     </>
   )
 }
