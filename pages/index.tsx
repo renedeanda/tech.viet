@@ -34,7 +34,7 @@ export default function Home() {
                 </Header>
                 <Button
                   as='a'
-                  style={{ display: 'inline-block', margin: '0.3em', fontFamily: 'Nunito' }}
+                  style={{ display: 'inline-block', margin: '0.3em' }}
                   color='violet'
                   icon='building outline'
                   content='Find Companies'

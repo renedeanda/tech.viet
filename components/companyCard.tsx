@@ -8,10 +8,10 @@ import LinkButtons from './linkButtons';
 import { withHttp } from '../util/helpers';
 import { Company } from '../types/company.types';
 
-export default function CompanyCard({ company, setIndustry, openCompanyModal }: {
+export default function CompanyCard({ company, setIndustry, openCompany }: {
   company: Company,
   setIndustry: any,
-  openCompanyModal: any
+  openCompany: any
 }) {
 
   // Load local image file if exists
@@ -22,7 +22,7 @@ export default function CompanyCard({ company, setIndustry, openCompanyModal }: 
     <Card
       as='div'
       onClick={(e) => {
-        openCompanyModal(company);
+        openCompany(company);
       }}
       key={company.slug}
       fluid
