@@ -25,16 +25,25 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
             <Menu.Item
               as='a'
               className='button-item'
-              href='https://rede.io/why-vietnam-tech-viet/'
+              href='https://forms.gle/Y75CegGFRp6tzdn67'
               target='_blank'
               rel="noopener">
               <div
-                className='navbar-text2'>Why Vietnam?</div>
+                className='navbar-text2'><Icon name='plus' />Add Company</div>
             </Menu.Item>
             <Menu.Item
               as='a'
               className='button-item'
-              href='/'
+              href='https://github.com/renedeanda/Tech.Viet'
+              target='_blank'
+              rel="noopener">
+              <div
+                className='navbar-text2'>GitHub</div>
+            </Menu.Item>
+            <Menu.Item
+              as='a'
+              className='button-item'
+              href='/companies'
               rel="noopener">
               <div
                 className='navbar-text2'>Companies</div>
@@ -46,15 +55,6 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
               rel="noopener">
               <div
                 className='navbar-text2'>Investors</div>
-            </Menu.Item>
-            <Menu.Item
-              as='a'
-              className='button-item'
-              href='https://github.com/renedeanda/Tech.Viet'
-              target='_blank'
-              rel="noopener">
-              <div
-                className='navbar-text2'>GitHub</div>
             </Menu.Item>
           </Menu.Menu>
         </Container>

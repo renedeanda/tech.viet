@@ -149,23 +149,38 @@
     -webkit-box-orient: vertical;
 }
 
+/* The hero image */
+
+.hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../public/vietnam.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
 @media only screen and (min-width: 720px) {
     .navbar-text {
         font-size: 1.8em;
         display: block;
         font-family: Nunito;
     }
+
     .navbar-text:hover {
         color: #5131F7;
         font-size: 1.8em;
         display: block;
     }
+
     .ui.secondary.menu a.item.button-item {
         display: block;
     }
+
     .ui.secondary.menu a.item.hamburger-item {
         display: none;
     }
+
     .ui.right.sidebar.sidebar-menu {
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;

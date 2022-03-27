@@ -28,6 +28,7 @@ async function generateSiteMap() {
           .replace('public/data/companies', '/company')
           .replace('public/data/investors', '/investors')
           .replace('investors/index', 'investors')
+          .replace('companies/index', 'companies')
 
         const route = path === '/index' ? '' : path
 
