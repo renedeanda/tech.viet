@@ -34,13 +34,7 @@ export default function Home({ companies }: { companies: any[] }) {
   const [companyModalOpen, setCompanyModalOpen] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState(null);
 
-  // const openCompanyModal = (company: Company) => {
-  //   router.push(`/companies`, `/company/${company.slug}`, { shallow: true })
-  //   setSelectedCompany(company)
-  //   setCompanyModalOpen(true)
-  // }
-
-  const openCompanyModal = (company: Company) => {
+  const openCompany = (company: Company) => {
     window.open(`https://tech.viet.io/company/${company.slug}`, '_blank')
   }
 
@@ -116,13 +110,13 @@ export default function Home({ companies }: { companies: any[] }) {
               </Grid.Column>
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
-              <CompanySearch companies={companies} openCompanyModal={openCompanyModal} />
+              <CompanySearch companies={companies} openCompany={openCompany} />
               <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               {currentCos && currentCos.length > 0 ?
                 currentCos.map((item: any) =>
-                  <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} openCompanyModal={openCompanyModal} />)
+                  <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} openCompany={openCompany} />)
                 : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
             </Grid.Row>
             {currentPage !== maxPage ? (

@@ -32,9 +32,9 @@ const resultRenderer = (data) =>
     </List.Content>
   </List.Item>)
 
-export default function CompanySearch({ companies, openCompanyModal }: {
+export default function CompanySearch({ companies, openCompany }: {
   companies: any[],
-  openCompanyModal: any
+  openCompany: any
 }) {
   const [state, dispatch] = React.useReducer(exampleReducer, initialState)
   const { loading, results, value } = state
@@ -64,7 +64,7 @@ export default function CompanySearch({ companies, openCompanyModal }: {
       placeholder='Search companies'
       loading={loading}
       onResultSelect={(e, data) => {
-        openCompanyModal(data.result.data);
+        openCompany(data.result.data);
         dispatch({ type: 'UPDATE_SELECTION', selection: data.result.data.name });
       }}
       resultRenderer={resultRenderer}
