@@ -34,10 +34,14 @@ export default function Home({ companies }: { companies: any[] }) {
   const [companyModalOpen, setCompanyModalOpen] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState(null);
 
+  // const openCompanyModal = (company: Company) => {
+  //   router.push(`/companies`, `/company/${company.slug}`, { shallow: true })
+  //   setSelectedCompany(company)
+  //   setCompanyModalOpen(true)
+  // }
+
   const openCompanyModal = (company: Company) => {
-    router.push(`/companies`, `/company/${company.slug}`, { shallow: true })
-    setSelectedCompany(company)
-    setCompanyModalOpen(true)
+    window.open(`https://tech.viet.io/company/${company.slug}`, '_blank')
   }
 
   const closeCompanyModal = () => {
