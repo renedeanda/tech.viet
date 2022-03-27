@@ -65,7 +65,7 @@ export default function CompanySearch({ companies, openCompanyModal }: {
       loading={loading}
       onResultSelect={(e, data) => {
         openCompanyModal(data.result.data);
-        dispatch({ type: 'UPDATE_SELECTION', selection: data.result.data.slug });
+        dispatch({ type: 'UPDATE_SELECTION', selection: data.result.data.name });
       }}
       resultRenderer={resultRenderer}
       onSearchChange={handleSearchChange}
