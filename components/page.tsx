@@ -44,7 +44,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='/'
+            href='/companies'
             rel="noopener">
             <div
               style={{ padding: '0.5em' }}
