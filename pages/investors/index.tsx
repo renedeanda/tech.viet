@@ -9,7 +9,9 @@ import InvestorCard from '../../components/investorCard';
 export default function Investors({ investors }: { investors: any[] }) {
   return (
     <>
-      <Meta title='Vietnam Investors' />
+      <Meta title='Viet.io - Vietnam Investors'
+        desc='List of 200+ Vietnam startups and big tech companies. Viet.io is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
+        canonical='https://viet.io/investors' />
       <Page>
         <Container style={{ width: '100vw', margin: '3em 0' }}>
           <Grid
