@@ -35,7 +35,7 @@ export default function Home({ companies }: { companies: any[] }) {
   const [selectedCompany, setSelectedCompany] = useState(null);
 
   const openCompany = (company: Company) => {
-    window.open(`https://tech.viet.io/company/${company.slug}`, '_blank')
+    window.open(`/company/${company.slug}`, '_blank')
   }
 
   const closeCompanyModal = () => {
@@ -92,7 +92,7 @@ export default function Home({ companies }: { companies: any[] }) {
       <Meta
         title='Viet.io - Vietnam Startup Ecosystem'
         desc='List of 200+ Vietnam startups and big tech companies. Viet.io is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
-        canonical='https://tech.viet.io/' />
+        canonical={`${process.env.PUBLIC_URL}/companies`} />
 
       <Page>
         <Container style={{ width: '100vw', margin: '3em 0' }}>

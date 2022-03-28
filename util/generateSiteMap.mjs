@@ -34,7 +34,7 @@ async function generateSiteMap() {
 
         return `
                       <url>
-                          <loc>${`https://tech.viet.io${route}`}</loc>
+                          <loc>${`${process.env.PUBLIC_URL}${route}`}</loc>
                       </url>
                   `
       })

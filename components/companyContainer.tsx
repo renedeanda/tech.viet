@@ -55,7 +55,7 @@ export default function CompanyContainer({ company, modal }: {
                 rel="noopener"
                 icon='pencil'
                 circular />
-              <ShareMenu url={`https://tech.viet.io/company/${company.slug}`} />
+              <ShareMenu url={`${process.env.PUBLIC_URL}/company/${company.slug}`} />
             </Container>
             <div className='card-avatar-big' style={{ marginTop: '-100px' }}>
               {avatarSrc ?
