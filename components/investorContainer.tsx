@@ -35,7 +35,7 @@ export default function InvestorContainer({ investor, modal }: {
                 rel="noopener"
                 icon='pencil'
                 circular /> */}
-              <ShareMenu url={`https://tech.viet.io/investors/${investor.slug}`} />
+              <ShareMenu url={`${process.env.PUBLIC_URL}/investors/${investor.slug}`} />
             </Container>
             <Header style={{
               color: '#1A202C',
