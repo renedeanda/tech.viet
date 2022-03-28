@@ -20,7 +20,7 @@ export default function CompanyPage({ company }: { company: Company }) {
       <Meta
         title={company.name ? `${company.name} | Viet.io - Vietnam Startup Ecosystem` : 'Company Not Found'}
         desc={company.tagline ? `${company.tagline} ${description}` : description}
-        canonical={`${process.env.PUBLIC_URL}/company/${company.slug}`}
+        canonical={`https://viet.io/company/${company.slug}`}
         image={screenSrc} />
 
       <Page>
