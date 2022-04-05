@@ -35,6 +35,15 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           </Menu.Item>
           <Menu.Item
             as='a'
+            href='https://forms.gle/QYmZC4HctQZSSR9x6'
+            target='_blank'
+            rel="noopener">
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'><Icon name='plus' />Add Investor</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
             href='https://github.com/renedeanda/Tech.Viet'
             target='_blank'
             rel="noopener">

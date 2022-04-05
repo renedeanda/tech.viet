@@ -1,6 +1,6 @@
 import Page from '../../components/page';
 import Meta from '../../components/Meta';
-import { Container, Grid, Button, Message, Header } from 'semantic-ui-react';
+import { Container, Grid, Button, Message, Header, Loader } from 'semantic-ui-react';
 import { GetStaticProps } from 'next';
 import fs from 'fs';
 import path from 'path';
@@ -23,7 +23,7 @@ export default function Investors({ investors }: { investors: any[] }) {
 
   const [invType, setInvType] = useState(queryInvType ? queryInvType : "all");
   const [filteredInvs, setFilteredInvs] = useState(investors);
-  
+
   const openInvestor = (investor: Investor) => {
     window.open(`/investors/${investor.slug}`, '_blank')
   }
@@ -70,10 +70,11 @@ export default function Investors({ investors }: { investors: any[] }) {
       }
     };
   }, [element]);
-  
+
   return (
     <>
-      <Meta title='Viet.io - Vietnam Investors'
+      <Meta
+        title='Viet.io - Vietnam Investors'
         desc='List of 200+ Vietnam startups and big tech companies. Viet.io is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
         canonical='https://viet.io/investors' />
       <Page>
@@ -93,13 +94,19 @@ export default function Investors({ investors }: { investors: any[] }) {
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               <MySearch items={investors} openItem={openInvestor} type='investors' />
+              {/* <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} /> */}
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
-              {investors && investors.length > 0 ?
-                investors.map((item: any) =>
+              {currentInvs && currentInvs.length > 0 ?
+                currentInvs.map((item: any) =>
                   <InvestorCard key={item.data.slug} investor={item.data} setInvType={setInvType} openInvestor={openInvestor} />)
                 : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No investors</p>}
             </Grid.Row>
+            {currentPage !== maxPage ? (
+              <div ref={setElement}>
+                <Loader active inline='centered' />
+              </div>
+            ) : null}
           </Grid>
         </Container>
       </Page>
