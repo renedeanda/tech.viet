@@ -16,7 +16,7 @@ import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import usePagination from "../../util/hooks/usePagination";
 import { Company } from '../../types/company.types';
-import CompanySearch from '../../components/companySearch';
+import MySearch from '../../components/mySearch';
 
 export default function Home({ companies }: { companies: any[] }) {
   const router = useRouter();
@@ -100,7 +100,7 @@ export default function Home({ companies }: { companies: any[] }) {
               </Grid.Column>
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
-              <CompanySearch companies={companies} openCompany={openCompany} />
+              <MySearch items={companies} openItem={openCompany} type='companies' />
               <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>

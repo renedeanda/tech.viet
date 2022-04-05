@@ -10,6 +10,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Investor } from '../../types/investor.types';
 import { filterInvestors } from '../../util/helpers';
 import usePagination from '../../util/hooks/usePagination';
+import MySearch from '../../components/mySearch';
 
 export default function Investors({ investors }: { investors: any[] }) {
   const router = useRouter();
@@ -82,12 +83,6 @@ export default function Investors({ investors }: { investors: any[] }) {
             stackable
             textAlign='center'
             verticalAlign='middle'>
-            <Message
-              style={{ marginTop: '25px', color: 'black', fontFamily: 'Nunito' }}
-              color='yellow'
-              size='large'
-              header='🚧 WIP'
-              content="This page is under development. Reach out if you'd like to contribute." />
             <Grid.Row style={{ marginTop: '60px', padding: '0.5em' }}>
               <Grid.Column>
                 <Header
@@ -95,6 +90,9 @@ export default function Investors({ investors }: { investors: any[] }) {
                   Find <text style={{ color: '#5131F7' }}>Vietnam Investors</text>
                 </Header>
               </Grid.Column>
+            </Grid.Row>
+            <Grid.Row style={{ padding: 0, margin: 0 }}>
+              <MySearch items={investors} openItem={openInvestor} type='investors' />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               {investors && investors.length > 0 ?
