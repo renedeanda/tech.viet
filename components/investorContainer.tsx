@@ -2,7 +2,8 @@ import {
   Header,
   Container,
   Card,
-  Icon
+  Icon,
+  Button
 } from 'semantic-ui-react';
 import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
@@ -12,6 +13,8 @@ export default function InvestorContainer({ investor, modal }: {
   investor: Investor,
   modal?: boolean
 }) {
+
+  const gFormLink = `https://docs.google.com/forms/d/e/1FAIpQLSdosIZ09MqBJhvoQPQx3isiTCS1C1PiXmIynVVmpHBwISlg-w/viewform?usp=pp_url&entry.2005620554=${investor.name}&entry.650199451=${investor.type}&entry.1692157935=${investor.website}&entry.171074559=${investor.description}&entry.885563122=${investor.location}&entry.2113193133=${investor.founded}&entry.1166974658=${investor.facebook}&entry.361763259=${investor.linkedin}`;
 
   const contPadding = modal ? '3em 0 0.5em 0' : '5em 0 0.5em 0'
 
@@ -26,15 +29,15 @@ export default function InvestorContainer({ investor, modal }: {
             textAlign='left'
             style={{ padding: '0px 22px 100px 22px' }}>
             <Container fluid style={{ paddingTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
-              {/* <Button
+              <Button
                 as='a'
                 title='Google Forms Edit Button'
                 basic
-                //href={gFormLink}
+                href={gFormLink}
                 target="_blank"
                 rel="noopener"
                 icon='pencil'
-                circular /> */}
+                circular />
               <ShareMenu url={`${process.env.PUBLIC_URL}/investors/${investor.slug}`} />
             </Container>
             <Header style={{

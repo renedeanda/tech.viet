@@ -35,6 +35,20 @@ export function filterCompanies(companies: any[], i: string | string[]) {
   }
 }
 
+export function filterInvestors(investors: any[], t: string | string[]) {
+
+  const invType = t.toString().toLowerCase();
+
+  if (invType === 'all') {
+    return investors;
+  } else {
+    const filteredInvestors = investors.filter(item =>
+      item.data.type.toLowerCase() == invType
+    )
+    return filteredInvestors.length > 0 ? filteredInvestors : investors;
+  }
+}
+
 export function capitalize(string: string) {
   return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }

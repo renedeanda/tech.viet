@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import {
-  Button,
   Grid,
   Header,
   Container,
@@ -16,7 +15,6 @@ import { filterCompanies } from '../../util/helpers';
 import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import usePagination from "../../util/hooks/usePagination";
-import CompanyModal from '../../components/companyModal';
 import { Company } from '../../types/company.types';
 import CompanySearch from '../../components/companySearch';
 
@@ -31,17 +29,9 @@ export default function Home({ companies }: { companies: any[] }) {
 
   const [industry, setIndustry] = useState(queryIndustry ? queryIndustry : "all");
   const [filteredCos, setFilteredCos] = useState(companies);
-  const [companyModalOpen, setCompanyModalOpen] = useState(false);
-  const [selectedCompany, setSelectedCompany] = useState(null);
 
   const openCompany = (company: Company) => {
     window.open(`/company/${company.slug}`, '_blank')
-  }
-
-  const closeCompanyModal = () => {
-    router.push(`/companies`, `/companies`, { shallow: true })
-    setCompanyModalOpen(false)
-    setSelectedCompany(null)
   }
 
   const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 10);
@@ -117,7 +107,7 @@ export default function Home({ companies }: { companies: any[] }) {
               {currentCos && currentCos.length > 0 ?
                 currentCos.map((item: any) =>
                   <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} openCompany={openCompany} />)
-                : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies!</p>}
+                : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies</p>}
             </Grid.Row>
             {currentPage !== maxPage ? (
               <div ref={setElement}>
@@ -127,13 +117,6 @@ export default function Home({ companies }: { companies: any[] }) {
           </Grid>
         </Container>
       </Page>
-      {companyModalOpen ?
-        <CompanyModal
-          company={selectedCompany}
-          open={companyModalOpen}
-          onClose={() => closeCompanyModal()}
-        /> : null
-      }
     </div>
   )
 }
