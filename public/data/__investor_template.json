@@ -1,7 +1,7 @@
 {
     "name": "Cool investor",
     "slug": "cool_investor_MATCHING_NAME_OF_JSON_FILE_NO_SPACES",
-    "type": "VC, PE, Angel, Accelerator, Corp",
+    "type": "Accelerator / Incubator, Angel, Corp Dev, VC",
     "website": "coolinvestor.vc",
     "description": "Description of your company to explain what you do & invest in",
     "location": "Vietnam",

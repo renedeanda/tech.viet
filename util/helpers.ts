@@ -31,7 +31,21 @@ export function filterCompanies(companies: any[], i: string | string[]) {
     const filteredCompanies = companies.filter(item =>
       item.data.industry.toLowerCase() == industry
     )
-    return filteredCompanies.length > 0 ? filteredCompanies : companies;
+    return filteredCompanies.length > 0 ? filteredCompanies : [];
+  }
+}
+
+export function filterInvestors(investors: any[], t: string | string[]) {
+
+  const invType = t.toString().toLowerCase();
+
+  if (invType === 'all') {
+    return investors;
+  } else {
+    const filteredInvestors = investors.filter(item =>
+      item.data.type.toLowerCase() == invType
+    )
+    return filteredInvestors.length > 0 ? filteredInvestors : [];
   }
 }
 

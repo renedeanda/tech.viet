@@ -1,28 +1,12 @@
 {
-    "name": "Sample Investor",
+    "name": "Sample",
     "slug": "sample",
-    "type": "VC",
+    "type": "Angel",
     "website": "viet.io/investors/sample",
     "description": "We invest in Vietnam startups",
     "location": "Vietnam",
     "founded": "1999",
     "facebook": "fb.com/sampleinvestor",
     "linkedin": "linkedin.com/company/sampleinvestor",
-    "portfolio": [
-        {
-            "company": "Company 1",
-            "website": "company1.com",
-            "funding": "Series A"
-        },
-        {
-            "company": "Company 2",
-            "website": "company2.com",
-            "funding": "Seed"
-        },
-        {
-            "company": "Company 3",
-            "website": "company3.com",
-            "funding": "Series B"
-        }
-    ]
+    "portfolio": []
 }

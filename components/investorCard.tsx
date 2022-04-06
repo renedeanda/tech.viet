@@ -1,21 +1,21 @@
 import {
   Card,
-  Label,
-  Icon
+  Label
 } from 'semantic-ui-react';
-import Image from 'next/image';
-import LinkButtons from './linkButtons';
-import { withHttp } from '../util/helpers';
 import { Investor } from '../types/investor.types';
 
-export default function InvestorCard({ investor }: {
-  investor: Investor
+export default function InvestorCard({ investor, setInvType, openInvestor }: {
+  investor: Investor,
+  setInvType: any,
+  openInvestor: any
 }) {
 
   return (
     <Card
       as='a'
-      href={`/investors/${investor.slug}`}
+      onClick={(e) => {
+        openInvestor(investor);
+      }}
       key={investor.slug}
       fluid
       link
@@ -26,6 +26,14 @@ export default function InvestorCard({ investor }: {
         <p style={{ fontSize: '1.1em', marginTop: '8px' }} className='tagline'>
           {investor.description}
         </p>
+      </Card.Content>
+      <Card.Content extra textAlign='right'>
+        <Label
+          style={{ color: '#0C5FFF', borderColor: '#0C5FFF', fontFamily: 'Nunito' }}
+          onClick={(e) => {
+            e.stopPropagation();
+            setInvType(investor.type)
+          }} circular basic>{investor.type}</Label>
       </Card.Content>
     </Card >
   )
