@@ -28,13 +28,14 @@ const resultRenderer = (data) =>
   <List.Item>
     <List.Content>
       <List.Header>{data.data.name}</List.Header>
-      <List.Description>{data.data.tagline}</List.Description>
+      {data.data.tagline ? <List.Description>{data.data.tagline}</List.Description> : null}
     </List.Content>
   </List.Item>)
 
-export default function CompanySearch({ companies, openCompany }: {
-  companies: any[],
-  openCompany: any
+export default function MySearch({ items, openItem, type }: {
+  items: any[],
+  openItem: any,
+  type: string
 }) {
   const [state, dispatch] = React.useReducer(exampleReducer, initialState)
   const { loading, results, value } = state
@@ -53,7 +54,7 @@ export default function CompanySearch({ companies, openCompany }: {
 
       dispatch({
         type: 'FINISH_SEARCH',
-        results: _.filter(companies, isMatch),
+        results: _.filter(items, isMatch),
       })
     }, 300)
     return () => clearTimeout(timer);
@@ -61,10 +62,10 @@ export default function CompanySearch({ companies, openCompany }: {
 
   return (
     <Search
-      placeholder='Search companies'
+      placeholder={`Search ${type}`}
       loading={loading}
       onResultSelect={(e, data) => {
-        openCompany(data.result.data);
+        openItem(data.result.data);
         dispatch({ type: 'UPDATE_SELECTION', selection: data.result.data.name });
       }}
       resultRenderer={resultRenderer}

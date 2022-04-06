@@ -50,26 +50,12 @@ export default function CompanyCard({ company, setIndustry, openCompany }: {
           }
         </div>
         <h2 className='card-title' style={{ marginTop: 0, marginBottom: '8px' }}>{company.name}</h2>
-        {company.website ?
-          <a
-            style={{ fontSize: '1.2em' }}
-            className='card-link'
-            href={withHttp(company.website)}
-            target='_blank'
-            rel="noreferrer"
-            onClick={(e) => {
-              e.stopPropagation();
-            }}><Icon name='external' /> {company.website}</a>
-          : null}
         <p style={{ fontSize: '1.1em', marginTop: '8px' }} className='tagline'>
           {company.tagline
             ? company.tagline
             : company.description
               ? company.description : null}
         </p>
-        <LinkButtons
-          company={company}
-          size='medium' />
       </Card.Content>
       <Card.Content extra textAlign='right'>
         {company.hiring ? <Label

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Dropdown } from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
 
 const industryOptions = [
   { key: "All", text: "All", value: "All" },
