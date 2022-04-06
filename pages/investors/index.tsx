@@ -1,6 +1,6 @@
 import Page from '../../components/page';
 import Meta from '../../components/Meta';
-import { Container, Grid, Button, Message, Header, Loader } from 'semantic-ui-react';
+import { Container, Grid, Header, Loader } from 'semantic-ui-react';
 import { GetStaticProps } from 'next';
 import fs from 'fs';
 import path from 'path';
@@ -11,6 +11,7 @@ import { Investor } from '../../types/investor.types';
 import { filterInvestors } from '../../util/helpers';
 import usePagination from '../../util/hooks/usePagination';
 import MySearch from '../../components/mySearch';
+import InvTypeButtons from '../../components/invTypeButtons';
 
 export default function Investors({ investors }: { investors: any[] }) {
   const router = useRouter();
@@ -94,17 +95,19 @@ export default function Investors({ investors }: { investors: any[] }) {
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               <MySearch items={investors} openItem={openInvestor} type='investors' />
-              {/* <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} /> */}
+            </Grid.Row>
+            <Grid.Row style={{ padding: 0, margin: 0 }}>
+              <InvTypeButtons setInvType={setInvType} invType={invType} filteredLength={filteredInvs.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               {currentInvs && currentInvs.length > 0 ?
                 currentInvs.map((item: any) =>
                   <InvestorCard key={item.data.slug} investor={item.data} setInvType={setInvType} openInvestor={openInvestor} />)
-                : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No investors</p>}
+                : <p style={{ margin: '3em', color: '#5131F7', fontSize: '2em', textAlign: 'center' }}>{`No ${invType} investors`}</p>}
             </Grid.Row>
-            {currentPage !== maxPage ? (
+            {filteredInvs.length > 0 && currentPage !== maxPage ? (
               <div ref={setElement}>
-                <Loader active inline='centered' />
+                <Loader style={{ margin: '3em', color: '#5131F7' }} active inline='centered' />
               </div>
             ) : null}
           </Grid>

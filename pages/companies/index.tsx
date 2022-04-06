@@ -101,17 +101,19 @@ export default function Home({ companies }: { companies: any[] }) {
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               <MySearch items={companies} openItem={openCompany} type='companies' />
+            </Grid.Row>
+            <Grid.Row style={{ padding: 0, margin: 0 }}>
               <IndustryButtons setIndustry={setIndustry} industry={industry} filteredLength={filteredCos.length} />
             </Grid.Row>
             <Grid.Row style={{ padding: 0, margin: 0 }}>
               {currentCos && currentCos.length > 0 ?
                 currentCos.map((item: any) =>
                   <CompanyCard key={item.data.slug} company={item.data} setIndustry={setIndustry} openCompany={openCompany} />)
-                : <p style={{ color: '#0C5FFF', fontSize: '2em', textAlign: 'center' }}>No companies</p>}
+                : <p style={{ margin: '3em', color: '#5131F7', fontSize: '2em', textAlign: 'center' }}>{`No ${industry} companies`}</p>}
             </Grid.Row>
-            {currentPage !== maxPage ? (
+            {filteredCos.length > 0 && currentPage !== maxPage ? (
               <div ref={setElement}>
-                <Loader active inline='centered' />
+                <Loader style={{ margin: '3em', color: '#5131F7' }} active inline='centered' />
               </div>
             ) : null}
           </Grid>

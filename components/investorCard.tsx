@@ -1,11 +1,7 @@
 import {
   Card,
-  Label,
-  Icon
+  Label
 } from 'semantic-ui-react';
-import Image from 'next/image';
-import LinkButtons from './linkButtons';
-import { withHttp } from '../util/helpers';
 import { Investor } from '../types/investor.types';
 
 export default function InvestorCard({ investor, setInvType, openInvestor }: {
