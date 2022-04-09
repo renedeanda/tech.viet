@@ -1066,10 +1066,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/investors/sample-investor</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/investors/sample</loc>
                       </url>
                   

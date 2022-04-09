@@ -8,6 +8,7 @@
     "founded": "2002",
     "facebook": "fb.com/mycompany",
     "linkedin": "linkedin.com/company/mycompany",
+    "crunchbase": "https://www.crunchbase.com/organization/mycompany",
     "portfolio": [
         {
             "company": "Company 1",
