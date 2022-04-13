@@ -175,6 +175,16 @@ export default function LinkButtons(
                 rel="noreferrer">
                 <Icon name='linkedin' />LinkedIn</a></List.Item>
             : null}
+          {investor.crunchbase ?
+            <List.Item style={{ padding: '8px 0' }}>
+              <a
+                style={{ fontSize: '1.33em' }}
+                className='card-link'
+                href={withHttp(investor.crunchbase)}
+                target='_blank'
+                rel="noreferrer">
+                <Icon name='globe' />Crunchbase</a></List.Item>
+            : null}
         </List>) : null
       )
   )
