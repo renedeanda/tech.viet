@@ -1,1 +1,16 @@
-{"name":"Vigo Retail","slug":"vigo-retail","website":"https://vigoretail.com","industry":"Ecommerce","tagline":"Social Commerce & Hyper-local Delivery powering FMCG B2B across Vietnam","logoUrl":"","description":"A Technology-driven Service platform that democratizes brand access to Mom&Pop stores by empowering women to become micro-entrepreneurs by playing a pivotal role in driving distribution.","facebook":"https://www.facebook.com/Vigoretail","linkedin":"https://www.linkedin.com/company/vigoretail","blogUrl":"","androidUrl":"","iosUrl":"","demoUrl":"","hiring":false}
+{
+  "name": "Vigo Retail",
+  "slug": "vigo-retail",
+  "website": "vigoretail.com",
+  "industry": "Ecommerce",
+  "tagline": "Social Commerce & Hyper-local Delivery powering FMCG B2B across Vietnam",
+  "logoUrl": "",
+  "description": "A Technology-driven Service platform that democratizes brand access to Mom&Pop stores by empowering women to become micro-entrepreneurs by playing a pivotal role in driving distribution.",
+  "facebook": "fb.com/Vigoretail",
+  "linkedin": "https://www.linkedin.com/company/vigoretail",
+  "blogUrl": "",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": false
+}

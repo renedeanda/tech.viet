@@ -1,1 +1,16 @@
-{"name":"Hasu","slug":"hasu","website":"https://hasuapp.vn","industry":"Healthcare","tagline":"","logoUrl":"","description":"Hasu is proud to be the first Health, Training and Entertainment application for people over 50 years old in Vietnam. With a simple interface, diverse features, watching health news, entertainment or studying has never been easier!","facebook":"https://www.facebook.com/hasuapp","linkedin":"https://www.linkedin.com/company/hasuapp","blogUrl":"","androidUrl":"https://play.google.com/store/apps/details?id=com.aligo.hasu","iosUrl":"https://apps.apple.com/vn/app/hasu/id1494094595","demoUrl":"","hiring":false}
+{
+  "name": "Hasu",
+  "slug": "hasu",
+  "website": "hasuapp.vn",
+  "industry": "Healthcare",
+  "tagline": "",
+  "logoUrl": "",
+  "description": "Hasu is proud to be the first Health, Training and Entertainment application for people over 50 years old in Vietnam. With a simple interface, diverse features, watching health news, entertainment or studying has never been easier!",
+  "facebook": "fb.com/hasuapp",
+  "linkedin": "https://www.linkedin.com/company/hasuapp",
+  "blogUrl": "",
+  "androidUrl": "https://play.google.com/store/apps/details?id=com.aligo.hasu",
+  "iosUrl": "https://apps.apple.com/vn/app/hasu/id1494094595",
+  "demoUrl": "",
+  "hiring": false
+}
