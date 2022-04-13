@@ -1,0 +1,16 @@
+{
+  "name": "Kyber Network",
+  "slug": "kyber-network",
+  "website": "kyber.network",
+  "industry": "Finance",
+  "tagline": "Blockchain-powered liquidity hub enabling the efficient trading and utilisation of digital assets at the best rates.",
+  "logoUrl": "",
+  "description": "As a liquidity hub, Kyber connects liquidity from a wide range of blockchain sources to provide the best crypto prices for traders and decentralized applications.\n\nThrough Kyber, anyone can contribute or access crypto liquidity, and developers can build innovative financial applications, including token trading services, decentralized payments, and asset management platforms - helping to build a world where any token is usable anywhere. \n\nKyber is powering more than 100 integrated projects and has facilitated over US$7 billion worth of transactions for thousands of users since its inception.",
+  "facebook": "fb.com/kybernetwork",
+  "linkedin": "https://www.linkedin.com/company/kybernetwork",
+  "blogUrl": "https://blog.kyber.network",
+  "androidUrl": "",
+  "iosUrl": "",
+  "demoUrl": "",
+  "hiring": true
+}
