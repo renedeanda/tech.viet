@@ -9,21 +9,5 @@
     "facebook": "fb.com/mycompany",
     "linkedin": "linkedin.com/company/mycompany",
     "crunchbase": "https://www.crunchbase.com/organization/mycompany",
-    "portfolio": [
-        {
-            "company": "Company 1",
-            "website": "company1.com",
-            "funding": "Series A"
-        },
-        {
-            "company": "Company 2",
-            "website": "company2.com",
-            "funding": "Seed"
-        },
-        {
-            "company": "Company 3",
-            "website": "company3.com",
-            "funding": "Series B"
-        }
-    ]
+    "portfolio": "coolinvestor.vc/portfolio"
 }

@@ -1,1 +1,13 @@
-{"name":"test","slug":"test","type":"Corp Dev","website":"test.com","description":"","location":"","founded":"1992","facebook":"","linkedin":"","crunchbase":"","portfolio":"portfolio.com"}
+{
+  "name": "test",
+  "slug": "test",
+  "type": "Corp Dev",
+  "website": "test.com",
+  "description": "",
+  "location": "",
+  "founded": "1992",
+  "facebook": "",
+  "linkedin": "",
+  "crunchbase": "",
+  "portfolio": "portfolio.com"
+}
