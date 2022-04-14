@@ -9,5 +9,5 @@ export interface Investor {
     facebook: string;
     linkedin: string;
     crunchbase: string;
-    portfolio:[];
+    portfolio: string;
 }
