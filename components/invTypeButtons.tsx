@@ -6,7 +6,8 @@ const invTypeOptions = [
   { key: "Accelerator / Incubator", text: "Accelerator / Incubator", value: "Accelerator / Incubator" },
   { key: "Angel", text: "Angel", value: "Angel" },
   { key: "Corp Dev", text: "Corp Dev", value: "Corp Dev" },
-  { key: "VC", text: "VC", value: "VC" }
+  { key: "Private Equity", text: "Private Equity", value: "Private Equity" },
+  { key: "Venture Capital", text: "Venture Capital", value: "Venture Capital" }
 ]
 
 export default function InvTypeButtons({ invType, filteredLength, setInvType }: {
