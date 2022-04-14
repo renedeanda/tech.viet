@@ -1,7 +1,7 @@
 {
     "name": "Cool investor",
     "slug": "cool_investor_MATCHING_NAME_OF_JSON_FILE_NO_SPACES",
-    "type": "Accelerator / Incubator, Angel, Corp Dev, VC",
+    "type": "Accelerator / Incubator, Angel, Corp Dev, Private Equity, Venture Capital",
     "website": "coolinvestor.vc",
     "description": "Description of your company to explain what you do & invest in",
     "location": "Vietnam",
@@ -9,21 +9,5 @@
     "facebook": "fb.com/mycompany",
     "linkedin": "linkedin.com/company/mycompany",
     "crunchbase": "https://www.crunchbase.com/organization/mycompany",
-    "portfolio": [
-        {
-            "company": "Company 1",
-            "website": "company1.com",
-            "funding": "Series A"
-        },
-        {
-            "company": "Company 2",
-            "website": "company2.com",
-            "funding": "Seed"
-        },
-        {
-            "company": "Company 3",
-            "website": "company3.com",
-            "funding": "Series B"
-        }
-    ]
+    "portfolio": "coolinvestor.vc/portfolio"
 }
