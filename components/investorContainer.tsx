@@ -66,7 +66,7 @@ export default function InvestorContainer({ investor, modal }: {
                 }}>About</Header>
                 {investor.description ? investor.description.split('\n').map((item, i) => {
                   return <p style={{
-                    marginBottom: '2.2em',
+                    marginBottom: '1em',
                     color: '#555B66',
                     lineHeight: '1.1em',
                     fontSize: '1.33em',

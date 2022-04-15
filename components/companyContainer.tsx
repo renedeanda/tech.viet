@@ -104,6 +104,7 @@ export default function CompanyContainer({ company, modal }: {
                 }}>About</Header>
                 {company.description.split('\n').map((item, i) => {
                   return <p style={{
+                    marginBottom: '1em',
                     color: '#555B66',
                     lineHeight: '1.1em',
                     fontSize: '1.33em',

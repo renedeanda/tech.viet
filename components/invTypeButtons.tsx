@@ -5,7 +5,7 @@ const invTypeOptions = [
   { key: "All", text: "All", value: "All" },
   { key: "Accelerator / Incubator", text: "Accelerator / Incubator", value: "Accelerator / Incubator" },
   { key: "Angel", text: "Angel", value: "Angel" },
-  { key: "Corp Dev", text: "Corp Dev", value: "Corp Dev" },
+  { key: "Corporate Venture Capital", text: "Corporate Venture Capital", value: "Corporate Venture Capital" },
   { key: "Private Equity", text: "Private Equity", value: "Private Equity" },
   { key: "Venture Capital", text: "Venture Capital", value: "Venture Capital" }
 ]
