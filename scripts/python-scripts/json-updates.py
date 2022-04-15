@@ -3,7 +3,7 @@ import json
 from slugify import slugify
 
 def create_investor_json_files():
-    file = '../../public/data/vc_test_json.json'
+    file = '../../public/data/vcv_json.json'
     invPath = os.path.abspath("../../public/data/investors")
 
     with open(file, 'r', encoding='utf-8') as f:
