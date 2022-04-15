@@ -414,6 +414,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/hasu</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/heroes-empires</loc>
                       </url>
                   
@@ -506,6 +510,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/kardiachain</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/kidpod</loc>
                       </url>
                   
@@ -515,6 +523,10 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/kiotviet</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/kyber-network</loc>
                       </url>
                   
                       <url>
@@ -614,6 +626,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/mystorage</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/mytour-vietnam</loc>
                       </url>
                   
@@ -670,6 +686,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/oyster</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/papaya</loc>
                       </url>
                   
@@ -678,7 +698,23 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/phenikaa-maas</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/piktina</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/pixie</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/poc-pharma</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/point-avenue</loc>
                       </url>
                   
                       <url>
@@ -698,11 +734,19 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/rainbowsvn</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/recruitery</loc>
                       </url>
                   
                       <url>
                           <loc>https://localhost:3000/company/ree-pay</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/resident</loc>
                       </url>
                   
                       <url>
@@ -850,6 +894,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/tepbac</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/thi_truong_si</loc>
                       </url>
                   
@@ -878,11 +926,19 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/tomochain</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/topcv</loc>
                       </url>
                   
                       <url>
                           <loc>https://localhost:3000/company/topdev</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/tradezi</loc>
                       </url>
                   
                       <url>
@@ -966,6 +1022,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/vigo-retail</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/vill-viet-nam</loc>
                       </url>
                   
@@ -979,6 +1039,10 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/vinahost</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/vinfast</loc>
                       </url>
                   
                       <url>
@@ -1066,7 +1130,43 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/investors/sample</loc>
+                          <loc>https://localhost:3000/investors/500-startups-vietnam</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/access-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/affirma-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/alpha-jwc-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/antler</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/ascend-vietnam-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/beacon-fund</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/beenext</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/blauwpark-partners</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/captii-ventures</loc>
                       </url>
                   
       </urlset>
