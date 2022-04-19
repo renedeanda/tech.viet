@@ -3,9 +3,9 @@ import {
   Container,
   Card,
   Icon,
-  Button,
-  Label
+  Button
 } from 'semantic-ui-react';
+import Image from 'next/image';
 import { withHttp } from '../util/helpers';
 import ShareMenu from './shareMenu';
 import { Investor } from '../types/investor.types';
@@ -15,6 +15,9 @@ export default function InvestorContainer({ investor, modal }: {
   investor: Investor,
   modal?: boolean
 }) {
+
+  // Load local image file if exists
+  const avatarSrc = investor.facebook ? `/img/investor/${investor.slug}-avatar.png` : '/company.png'
 
   const gFormLink = `https://docs.google.com/forms/d/e/1FAIpQLSdosIZ09MqBJhvoQPQx3isiTCS1C1PiXmIynVVmpHBwISlg-w/viewform?usp=pp_url&entry.2005620554=${investor.name}&entry.650199451=${investor.type}&entry.1692157935=${investor.website}&entry.171074559=${investor.description}&entry.885563122=${investor.location}&entry.2113193133=${investor.founded}&entry.1166974658=${investor.facebook}&entry.361763259=${investor.linkedin}`;
 
@@ -41,6 +44,18 @@ export default function InvestorContainer({ investor, modal }: {
                 circular />
               <ShareMenu url={`${process.env.PUBLIC_URL}/investors/${investor.slug}`} />
             </Container>
+            <div className='card-avatar-big'>
+              {avatarSrc ?
+                <Image
+                  quality={60}
+                  alt={investor.name}
+                  height={100}
+                  width={100}
+                  src={avatarSrc}
+                  className='card-avatar-big' />
+                : null
+              }
+            </div>
             <Header style={{
               color: '#1A202C',
               marginTop: 0,

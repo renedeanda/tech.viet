@@ -1130,6 +1130,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/investors/1982-ventures</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/investors/500-startups-vietnam</loc>
                       </url>
                   
@@ -1167,6 +1171,262 @@
                   
                       <url>
                           <loc>https://localhost:3000/investors/captii-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/cocoon-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/cyberagent-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/do-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/dragon-capital-group</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/east-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/esp-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/expara</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/febe-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/fpt-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/funverse-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/genesia-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/ggv-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/gic</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/global-founders-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/go-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/golden-gate-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/goodwater-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/granite-oak</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/hustle-fund</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/idg-capital-vietnam</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/insignia-ventures-partners</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/inspire-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/integra-partners</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/iseed-sea</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/january-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/jungle-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/kkr</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/kusto-vietnam</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/megala-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/mekong-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/monk-s-hill-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/nextrans-vietnam</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/nexttech-group</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/north-base-media</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/openspace-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/patamar-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/pavilion-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/phoenix-holdings</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/reapra</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/resolution-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/rtp-global</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/saison-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/seedcom</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/smilegate-investment</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/softbank-investment-advisers</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/softbank-ventures-asia</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/square-peg-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/summit-media</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/surge</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/thinkzone-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/tiger-global-management</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/tnb-aura</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/touchstone-partners</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/venturra-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/vic-partners</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/viet-capital-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/viisa</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/vinacapital-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/vnv-global</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/vsv-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/vulpes-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/wavemaker-partners</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/z-venture-capital</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/zone-startups-vietnam</loc>
                       </url>
                   
       </urlset>

@@ -2,6 +2,7 @@ import {
   Card,
   Label
 } from 'semantic-ui-react';
+import Image from 'next/image';
 import { Investor } from '../types/investor.types';
 
 export default function InvestorCard({ investor, setInvType, openInvestor }: {
@@ -9,6 +10,9 @@ export default function InvestorCard({ investor, setInvType, openInvestor }: {
   setInvType: any,
   openInvestor: any
 }) {
+
+  // Load local image file if exists
+  const avatarSrc = investor.facebook ? `/img/investor/${investor.slug}-avatar.png` : '/company.png'
 
   return (
     <Card
@@ -22,6 +26,18 @@ export default function InvestorCard({ investor, setInvType, openInvestor }: {
       color='yellow'
       style={{ maxWidth: '360px', margin: '0.5em' }}>
       <Card.Content textAlign='left'>
+      <div className='card-avatar'>
+          {avatarSrc ?
+            <Image
+              quality={60}
+              alt={investor.name}
+              height={56}
+              width={56}
+              src={avatarSrc}
+              className='card-avatar' />
+            : null
+          }
+        </div>
         <h2 className='card-title' style={{ marginTop: 0, marginBottom: '8px' }}>{investor.name}</h2>
         <p style={{ fontSize: '1.1em', marginTop: '8px' }} className='tagline'>
           {investor.description}
