@@ -34,7 +34,7 @@ export default function Home({ companies }: { companies: any[] }) {
     window.open(`/company/${company.slug}`, '_blank')
   }
 
-  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 10);
+  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredCos, 12);
 
   useEffect(() => {
     setIndustry(industry);
