@@ -140,6 +140,7 @@ def get_create_one_image(url, slug, desc):
     f.write(response.read())
     f.close()
 
+
 def get_create_one_inv_image(url, slug, desc):
     path = os.path.abspath("../../public/img/investor")
     headers = {
@@ -157,6 +158,7 @@ def get_create_one_inv_image(url, slug, desc):
     f = open(f'{path}/{slug}-{desc}.png', 'wb')
     f.write(response.read())
     f.close()
+
 
 def get_screenshots():
     path = '/usr/local/bin/chromedriver'
@@ -216,10 +218,13 @@ def get_inv_fb_avatars():
             fbAvatarUrl = f'https://graph.facebook.com/{fbUsername}/picture?type=large'
         else:
             fbAvatarUrl = None
-
+            
         print(fbAvatarUrl)
-
-        if not os.path.isfile(f'{path}/{slug}-avatar.png'):
+        
+        if os.path.isfile(f'{path}/{slug}-avatar.png'):
+            # skips creating image if file exists
+            continue
+        else:
             try:
                 get_create_one_inv_image(fbAvatarUrl, slug, "avatar")
             except:
@@ -242,7 +247,10 @@ def get_fb_avatars():
 
         print(fbAvatarUrl)
 
-        if not os.path.isfile(f'{path}/{slug}-avatar.png'):
+        if os.path.isfile(f'{path}/{slug}-avatar.png'):
+            # skips creating image if file exists
+            continue
+        else:
             try:
                 get_create_one_image(fbAvatarUrl, slug, "avatar")
             except:
@@ -266,6 +274,7 @@ def read_json_files():
             ])
 
     return companies
+
 
 def read_inv_json_files():
 
