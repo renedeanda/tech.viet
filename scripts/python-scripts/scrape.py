@@ -7,6 +7,7 @@ from selenium import webdriver  # for screenshot web crawler
 import time
 import json  # for reading json file
 from glob import glob  # for reading folder of json files
+from urllib.parse import ParseResult, urlparse
 
 
 def scrape_page_metadata():
@@ -139,6 +140,23 @@ def get_create_one_image(url, slug, desc):
     f.write(response.read())
     f.close()
 
+def get_create_one_inv_image(url, slug, desc):
+    path = os.path.abspath("../../public/img/investor")
+    headers = {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET',
+        'Access-Control-Allow-Headers': 'Content-Type',
+        'Access-Control-Max-Age': '3600',
+        'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    }
+    # The assembled request
+    request_ = Request(url, None, headers=headers)
+    response = urlopen(request_)  # store the response
+    print(f'{path}/{slug}-{desc}.png')
+    # create a new file and write the image
+    f = open(f'{path}/{slug}-{desc}.png', 'wb')
+    f.write(response.read())
+    f.close()
 
 def get_screenshots():
     path = '/usr/local/bin/chromedriver'
@@ -184,6 +202,29 @@ def get_screenshots():
                     print("THIS IS HTTP")
 
 
+def get_inv_fb_avatars():
+    investors = read_inv_json_files()
+    path = os.path.abspath("../../public/img/company")
+
+    for inv in investors:
+        slug = inv[0]
+        fbUrl = inv[1]
+
+        if fbUrl:
+            fbPath = urlparse(fbUrl).path
+            fbUsername = fbPath.split("/")[1]
+            fbAvatarUrl = f'https://graph.facebook.com/{fbUsername}/picture?type=large'
+        else:
+            fbAvatarUrl = None
+
+        print(fbAvatarUrl)
+
+        if not os.path.isfile(f'{path}/{slug}-avatar.png'):
+            try:
+                get_create_one_inv_image(fbAvatarUrl, slug, "avatar")
+            except:
+                continue
+
 
 def get_fb_avatars():
     companies = read_json_files()
@@ -226,6 +267,23 @@ def read_json_files():
 
     return companies
 
+def read_inv_json_files():
+
+    investors = []
+
+    files = glob('../../public/data/investors/*', recursive=True)
+
+    # Loop through files
+    for single_file in files:
+        with open(single_file, 'r') as f:
+            json_file = json.load(f)
+            investors.append([
+                json_file['slug'],
+                json_file['facebook']
+            ])
+
+    return investors
+
 
 # uncomment to produce screenshots for all Viet.io companies
 get_screenshots()
@@ -240,3 +298,4 @@ get_screenshots()
 
 # uncomment to scrape available FB avatars for all Viet.io Companies
 get_fb_avatars()
+get_inv_fb_avatars()

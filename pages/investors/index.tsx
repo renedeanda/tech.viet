@@ -29,7 +29,7 @@ export default function Investors({ investors }: { investors: any[] }) {
     window.open(`/investors/${investor.slug}`, '_blank')
   }
 
-  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredInvs, 10);
+  const { next, currentPage, currentData, maxPage, resetCurrentPage } = usePagination(filteredInvs, 12);
 
   useEffect(() => {
     setInvType(invType);

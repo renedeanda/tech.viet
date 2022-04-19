@@ -1,11 +1,8 @@
 import {
   Card,
-  Label,
-  Icon
+  Label
 } from 'semantic-ui-react';
 import Image from 'next/image';
-import LinkButtons from './linkButtons';
-import { withHttp } from '../util/helpers';
 import { Company } from '../types/company.types';
 
 export default function CompanyCard({ company, setIndustry, openCompany }: {
