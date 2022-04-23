@@ -1,16 +1,1 @@
-{
-  "name": "Propzy",
-  "slug": "propzy",
-  "website": "propzy.vn",
-  "industry": "Real Estate",
-  "tagline": "The PLATFORM for consumers across the SEA region for all things REAL estate.",
-  "logoUrl": "",
-  "description": "Propzy is a full-stack real estate platform that originates and facilitates property sale and leasing transactions in Vietnam.\n\nBy combining a real estate marketplace on the front end with logistics, documentation, and transaction services on the backend, Propzy has created a strong value proposition for consumers and has established a clear competitive advantage in Vietnam.",
-  "facebook": "fb.com/propzyvietnam",
-  "linkedin": "https://www.linkedin.com/company/propzy",
-  "blogUrl": "https://propzy.vn/tin-tuc",
-  "androidUrl": "https://play.google.com/store/apps/details?id=vn.propzy.sam",
-  "iosUrl": "https://apps.apple.com/vn/app/propzy-d%E1%BB%8Bch-v%E1%BB%A5-b%E1%BA%A5t-%C4%91%E1%BB%99ng-s%E1%BA%A3n/id1437366845",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Propzy", "slug": "propzy", "website": "propzy.vn", "industry": "Real Estate", "tagline": "The PLATFORM for consumers across the SEA region for all things REAL estate.", "logoUrl": "/img/company/propzy-avatar.png", "description": "Propzy is a full-stack real estate platform that originates and facilitates property sale and leasing transactions in Vietnam.\n\nBy combining a real estate marketplace on the front end with logistics, documentation, and transaction services on the backend, Propzy has created a strong value proposition for consumers and has established a clear competitive advantage in Vietnam.", "facebook": "fb.com/propzyvietnam", "linkedin": "https://www.linkedin.com/company/propzy", "blogUrl": "https://propzy.vn/tin-tuc", "androidUrl": "https://play.google.com/store/apps/details?id=vn.propzy.sam", "iosUrl": "https://apps.apple.com/vn/app/propzy-d%E1%BB%8Bch-v%E1%BB%A5-b%E1%BA%A5t-%C4%91%E1%BB%99ng-s%E1%BA%A3n/id1437366845", "demoUrl": "", "hiring": true}

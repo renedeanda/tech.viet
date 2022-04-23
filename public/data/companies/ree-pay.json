@@ -1,16 +1,1 @@
-{
-  "name": "Ree-Pay",
-  "slug": "ree-pay",
-  "website": "ree-pay.com",
-  "industry": "Finance",
-  "tagline": "A shopping company offering Buy Now Pay Later (BNPL) technology and services in Vietnam.",
-  "logoUrl": "",
-  "description": "Ree-Pay is a shopping company. We provide technology services that modernise shopping and financial services by providing an integrated digital user experience to shoppers.\n\nThese are our goals:\n\n1) accelerate the advent of digital transactions in a country where more than 90% of people still pay cash. We do that by offering better technology financial products and services\n\n2) improve and modernise the shopping experience\n\n3) offer underbanked consumers the best payment options at low cost\n\n4) Increase consumer creditworthiness",
-  "facebook": "",
-  "linkedin": "linkedin.com/company/ree-pay",
-  "blogUrl": "",
-  "androidUrl": "https://play.google.com/store/apps/details?id=com.reepay.consumer",
-  "iosUrl": "https://apps.apple.com/vn/app/ree-pay/id1607128679",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Ree-Pay", "slug": "ree-pay", "website": "ree-pay.com", "industry": "Finance", "tagline": "A shopping company offering Buy Now Pay Later (BNPL) technology and services in Vietnam.", "logoUrl": "/img/company/ree-pay-avatar.png", "description": "Ree-Pay is a shopping company. We provide technology services that modernise shopping and financial services by providing an integrated digital user experience to shoppers.\n\nThese are our goals:\n\n1) accelerate the advent of digital transactions in a country where more than 90% of people still pay cash. We do that by offering better technology financial products and services\n\n2) improve and modernise the shopping experience\n\n3) offer underbanked consumers the best payment options at low cost\n\n4) Increase consumer creditworthiness", "facebook": "https://www.facebook.com/reepayvietnam", "linkedin": "linkedin.com/company/ree-pay", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.reepay.consumer", "iosUrl": "https://apps.apple.com/vn/app/ree-pay/id1607128679", "demoUrl": "", "hiring": true}

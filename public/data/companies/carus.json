@@ -1,16 +1,1 @@
-{
-  "name": "CARUS",
-  "slug": "carus",
-  "website": "carus.vn",
-  "industry": "Automotive",
-  "tagline": "Car Service Ecosystem",
-  "logoUrl": "",
-  "description": "CARUS - Car service ecosystem.\n\nCarus was kicked off in July 2020 in the combination of solid technology capabilities and an in-depth understanding of the auto service industry. Carus aims to digitize and link the values for the auto service industry, bringing the highest standards of quality and satisfaction of the services provided, completely changing the traditional communication method of the car service industry to technology platforms.",
-  "facebook": "fb.com/carus.vn",
-  "linkedin": "https://www.linkedin.com/company/carusvietnam",
-  "blogUrl": "",
-  "androidUrl": "https://play.google.com/store/apps/details?id=com.canext.carus",
-  "iosUrl": "https://apps.apple.com/vn/app/id1528492505",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "CARUS", "slug": "carus", "website": "carus.vn", "industry": "Automotive", "tagline": "Car Service Ecosystem", "logoUrl": "/img/company/carus-avatar.png", "description": "CARUS - Car service ecosystem.\n\nCarus was kicked off in July 2020 in the combination of solid technology capabilities and an in-depth understanding of the auto service industry. Carus aims to digitize and link the values for the auto service industry, bringing the highest standards of quality and satisfaction of the services provided, completely changing the traditional communication method of the car service industry to technology platforms.", "facebook": "fb.com/carus.vn", "linkedin": "https://www.linkedin.com/company/carusvietnam", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.canext.carus", "iosUrl": "https://apps.apple.com/vn/app/id1528492505", "demoUrl": "", "hiring": false}

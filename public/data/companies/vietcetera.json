@@ -1,16 +1,1 @@
-{
-  "name": "Vietcetera",
-  "slug": "vietcetera",
-  "website": "vietcetera.com",
-  "industry": "Media / Entertainment",
-  "tagline": "New perspectives about Vietnam",
-  "logoUrl": "",
-  "description": "Bringing Vietnam to the world, and the world to Vietnam.",
-  "facebook": "fb.com/vietcetera",
-  "linkedin": "linkedin.com/company/vietcetera",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Vietcetera", "slug": "vietcetera", "website": "vietcetera.com", "industry": "Media / Entertainment", "tagline": "New perspectives about Vietnam", "logoUrl": "/img/company/vietcetera-avatar.png", "description": "Bringing Vietnam to the world, and the world to Vietnam.", "facebook": "fb.com/vietcetera", "linkedin": "linkedin.com/company/vietcetera", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": true}

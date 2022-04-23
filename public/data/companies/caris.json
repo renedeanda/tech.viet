@@ -1,16 +1,1 @@
-{
-  "name": "Caris",
-  "slug": "caris",
-  "website": "caris.vn",
-  "industry": "Automotive",
-  "tagline": "Trợ lý ảo giao thông",
-  "logoUrl": "",
-  "description": "",
-  "facebook": "fb.com/caris.vn",
-  "linkedin": "https://www.linkedin.com/company/carisvn",
-  "blogUrl": "",
-  "androidUrl": "https://play.google.com/store/apps/details?id=dev.caris.vn",
-  "iosUrl": "https://apps.apple.com/vn/app/caris/id1557439748",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Caris", "slug": "caris", "website": "caris.vn", "industry": "Automotive", "tagline": "Trợ lý ảo giao thông", "logoUrl": "/img/company/caris-avatar.png", "description": "", "facebook": "fb.com/caris.vn", "linkedin": "https://www.linkedin.com/company/carisvn", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=dev.caris.vn", "iosUrl": "https://apps.apple.com/vn/app/caris/id1557439748", "demoUrl": "", "hiring": false}

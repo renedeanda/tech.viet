@@ -1,13 +1,1 @@
-{
-  "name": "Beenext",
-  "slug": "beenext",
-  "type": "Venture Capital",
-  "website": "https://www.beenext.com/",
-  "description": "BEENEXT is a venture capital fund managed by serial entrepreneurs that focuses on assisting founders with its operational experience, network, trust, unique perspectives, and the capital. The team invests in early-stage tech start-ups that are focused on building the new digital platforms driven by the data network. \n\nBEENEXT aims to establish a platform of founders, by the founders and for the founders across the globe, primarily in Southeast Asia, India and Japan. Since its establishment in 2015, the team has invested in over 180 companies globally.",
-  "location": "Singapore",
-  "founded": "2015",
-  "facebook": "https://www.facebook.com/beenextVC",
-  "linkedin": "https://www.linkedin.com/company/beenext-pte--ltd",
-  "crunchbase": "https://www.crunchbase.com/organization/bee-next",
-  "portfolio": "https://www.beenext.com/portfolio/"
-}
+{"name": "Beenext", "slug": "beenext", "type": "Venture Capital", "website": "https://www.beenext.com/", "description": "BEENEXT is a venture capital fund managed by serial entrepreneurs that focuses on assisting founders with its operational experience, network, trust, unique perspectives, and the capital. The team invests in early-stage tech start-ups that are focused on building the new digital platforms driven by the data network. \n\nBEENEXT aims to establish a platform of founders, by the founders and for the founders across the globe, primarily in Southeast Asia, India and Japan. Since its establishment in 2015, the team has invested in over 180 companies globally.", "location": "Singapore", "founded": "2015", "facebook": "https://www.facebook.com/beenextVC", "linkedin": "https://www.linkedin.com/company/beenext-pte--ltd", "crunchbase": "https://www.crunchbase.com/organization/bee-next", "portfolio": "https://www.beenext.com/portfolio/", "logoUrl": "/img/investor/beenext-avatar.png"}

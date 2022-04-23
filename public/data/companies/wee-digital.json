@@ -1,16 +1,1 @@
-{
-  "name": "Wee Digital",
-  "slug": "wee-digital",
-  "website": "weedigital.vn",
-  "industry": "Finance",
-  "tagline": "We believe digital banking should be simpler, safer and more intuitive.",
-  "logoUrl": "",
-  "description": "Wee Digital creates new digital banking experience with user-centric designs, biometric security technology and deep data analytics.",
-  "facebook": "fb.com/WeeMegaApp",
-  "linkedin": "linkedin.com/company/wee-digital",
-  "blogUrl": "",
-  "androidUrl": "https://play.google.com/store/apps/details?id=vn.wee.app",
-  "iosUrl": "https://apps.apple.com/vn/app/wee/id1475725125",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Wee Digital", "slug": "wee-digital", "website": "weedigital.vn", "industry": "Finance", "tagline": "We believe digital banking should be simpler, safer and more intuitive.", "logoUrl": "/img/company/wee-digital-avatar.png", "description": "Wee Digital creates new digital banking experience with user-centric designs, biometric security technology and deep data analytics.", "facebook": "fb.com/WeeMegaApp", "linkedin": "linkedin.com/company/wee-digital", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=vn.wee.app", "iosUrl": "https://apps.apple.com/vn/app/wee/id1475725125", "demoUrl": "", "hiring": false}

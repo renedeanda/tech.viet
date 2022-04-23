@@ -1,13 +1,1 @@
-{
-  "name": "Captii Ventures",
-  "slug": "captii-ventures",
-  "type": "Venture Capital",
-  "website": "https://captii.vc/",
-  "description": "Captii Ventures invests in technology and innovation. We are a multi-stage investor in Southeast Asian start-ups.\n\nWe invest in marketplaces that facilitates better matching of supply and demand, new media publishers that disrupt traditional channels of communications, and start-ups that use technology to solve age-old enterprise problems.",
-  "location": "Malaysia",
-  "founded": "2014",
-  "facebook": "https://www.facebook.com/captiiventures/",
-  "linkedin": "https://www.linkedin.com/company/captii-ventures/",
-  "crunchbase": "https://www.crunchbase.com/organization/captii-ventures",
-  "portfolio": "https://captii.vc/portfolio/"
-}
+{"name": "Captii Ventures", "slug": "captii-ventures", "type": "Venture Capital", "website": "https://captii.vc/", "description": "Captii Ventures invests in technology and innovation. We are a multi-stage investor in Southeast Asian start-ups.\n\nWe invest in marketplaces that facilitates better matching of supply and demand, new media publishers that disrupt traditional channels of communications, and start-ups that use technology to solve age-old enterprise problems.", "location": "Malaysia", "founded": "2014", "facebook": "https://www.facebook.com/captiiventures/", "linkedin": "https://www.linkedin.com/company/captii-ventures/", "crunchbase": "https://www.crunchbase.com/organization/captii-ventures", "portfolio": "https://captii.vc/portfolio/", "logoUrl": "/img/investor/captii-ventures-avatar.png"}

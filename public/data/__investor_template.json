@@ -9,5 +9,6 @@
     "facebook": "fb.com/mycompany",
     "linkedin": "linkedin.com/company/mycompany",
     "crunchbase": "https://www.crunchbase.com/organization/mycompany",
-    "portfolio": "coolinvestor.vc/portfolio"
+    "portfolio": "coolinvestor.vc/portfolio",
+    "logoUrl": "/cool-investor-avatar.png"
 }

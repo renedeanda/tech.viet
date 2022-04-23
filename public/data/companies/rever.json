@@ -1,16 +1,1 @@
-{
-  "name": "REVER",
-  "slug": "rever",
-  "website": "rever.vn",
-  "industry": "Real Estate",
-  "tagline": "Empower Real Estate Agent Career",
-  "logoUrl": "",
-  "description": "",
-  "facebook": "fb.com/rever.vn",
-  "linkedin": "linkedin.com/company/rever-real-estate",
-  "blogUrl": "",
-  "androidUrl": "https://play.google.com/store/apps/details?id=com.rever.app.android",
-  "iosUrl": "https://apps.apple.com/vn/app/rever/id1101768201",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "REVER", "slug": "rever", "website": "rever.vn", "industry": "Real Estate", "tagline": "Empower Real Estate Agent Career", "logoUrl": "/img/company/rever-avatar.png", "description": "", "facebook": "fb.com/rever.vn", "linkedin": "linkedin.com/company/rever-real-estate", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.rever.app.android", "iosUrl": "https://apps.apple.com/vn/app/rever/id1101768201", "demoUrl": "", "hiring": false}

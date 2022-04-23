@@ -1,13 +1,1 @@
-{
-  "name": "Square Peg Capital",
-  "slug": "square-peg-capital",
-  "type": "Venture Capital",
-  "website": "https://www.squarepegcap.com/",
-  "description": "Square Peg is a venture capital fund that invests in Australia, Israel, and Southeast Asia with a focus on Series A and Series B.\n\nSquare Peg is a global investment firm on a mission to empower exceptional founders. Square Peg was founded in 2012 and has grown into a global investment firm with teams in Sydney, Melbourne, Tel Aviv, and Singapore. \n\nSquare Peg invests in emerging technology companies across the internet economy. So far, Square Peg has over US$1 billion in assets under management across multiple funds and has invested in companies including Fiverr, Canva, StashAway, Airwallex, Kredivo and Tomorrow. In 2021, Square Peg expanded into global listed equities, with the launch of the Global Tech Fund.",
-  "location": "Australia",
-  "founded": "2012",
-  "facebook": "https://www.facebook.com/squarepegvc/",
-  "linkedin": "https://www.linkedin.com/company/square-peg-capital/",
-  "crunchbase": "https://www.crunchbase.com/organization/square-peg-capital",
-  "portfolio": "https://www.squarepegcap.com/companies"
-}
+{"name": "Square Peg Capital", "slug": "square-peg-capital", "type": "Venture Capital", "website": "https://www.squarepegcap.com/", "description": "Square Peg is a venture capital fund that invests in Australia, Israel, and Southeast Asia with a focus on Series A and Series B.\n\nSquare Peg is a global investment firm on a mission to empower exceptional founders. Square Peg was founded in 2012 and has grown into a global investment firm with teams in Sydney, Melbourne, Tel Aviv, and Singapore. \n\nSquare Peg invests in emerging technology companies across the internet economy. So far, Square Peg has over US$1 billion in assets under management across multiple funds and has invested in companies including Fiverr, Canva, StashAway, Airwallex, Kredivo and Tomorrow. In 2021, Square Peg expanded into global listed equities, with the launch of the Global Tech Fund.", "location": "Australia", "founded": "2012", "facebook": "https://www.facebook.com/squarepegvc/", "linkedin": "https://www.linkedin.com/company/square-peg-capital/", "crunchbase": "https://www.crunchbase.com/organization/square-peg-capital", "portfolio": "https://www.squarepegcap.com/companies", "logoUrl": "/img/investor/square-peg-capital-avatar.png"}

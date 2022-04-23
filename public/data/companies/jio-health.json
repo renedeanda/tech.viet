@@ -1,16 +1,1 @@
-{
-  "name": "Jio Health",
-  "slug": "jio-health",
-  "website": "jiohealth.com",
-  "industry": "Healthcare",
-  "tagline": "",
-  "logoUrl": "",
-  "description": "Jio Health is a life empowerment company. We are a global team of innovators, physicians and technologists working to make healthcare more open and connected. We work with leading physicians and healthcare organizations to engage patients and improve care through cutting edge technology.\n\nWe believe in life's unlimited potential and are committed to inspiring this generation to lead more healthy and enriched lives.",
-  "facebook": "fb.com/JioHealthVietnam",
-  "linkedin": "https://www.linkedin.com/company/jio-health",
-  "blogUrl": "https://jiohealth.com/tin-tuc",
-  "androidUrl": "https://play.google.com/store/apps/details?id=com.jiohealth.patient",
-  "iosUrl": "https://apps.apple.com/vn/app/jio-health/id933157797",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Jio Health", "slug": "jio-health", "website": "jiohealth.com", "industry": "Healthcare", "tagline": "", "logoUrl": "/img/company/jio-health-avatar.png", "description": "Jio Health is a life empowerment company. We are a global team of innovators, physicians and technologists working to make healthcare more open and connected. We work with leading physicians and healthcare organizations to engage patients and improve care through cutting edge technology.\n\nWe believe in life's unlimited potential and are committed to inspiring this generation to lead more healthy and enriched lives.", "facebook": "fb.com/JioHealthVietnam", "linkedin": "https://www.linkedin.com/company/jio-health", "blogUrl": "https://jiohealth.com/tin-tuc", "androidUrl": "https://play.google.com/store/apps/details?id=com.jiohealth.patient", "iosUrl": "https://apps.apple.com/vn/app/jio-health/id933157797", "demoUrl": "", "hiring": true}

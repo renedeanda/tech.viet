@@ -1,16 +1,1 @@
-{
-  "name": "Kilo",
-  "slug": "kilo",
-  "website": "kilo.vn",
-  "industry": "Software",
-  "tagline": "Next-Generation Retail Platform",
-  "logoUrl": "",
-  "description": "Kilo gives retailers public access to selling prices, product classification and inventory management systems.",
-  "facebook": "fb.com/kilo.vn",
-  "linkedin": "linkedin.com/company/kilojobs",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Kilo", "slug": "kilo", "website": "kilo.vn", "industry": "Software", "tagline": "Next-Generation Retail Platform", "logoUrl": "/img/company/kilo-avatar.png", "description": "Kilo gives retailers public access to selling prices, product classification and inventory management systems.", "facebook": "fb.com/kilo.vn", "linkedin": "linkedin.com/company/kilojobs", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": true}

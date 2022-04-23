@@ -1,16 +1,1 @@
-{
-  "name": "Fonos",
-  "slug": "fonos",
-  "website": "fonos.vn",
-  "industry": "Media / Entertainment",
-  "tagline": "Ứng dụng Sách nói, Thiền định, Truyện ngủ, Tóm tắt sách &amp; nhiều hơn nữa",
-  "logoUrl": "",
-  "description": "Lắng nghe những nội dung âm thanh chất lượng nhất bất kể bạn ở đâu: từ sách nói bán chạy nhất có bản quyền của các tác giả Việt Nam và quốc tế; đến hướng dẫn thiền định, Truyện ngủ, tóm tắt sách, và còn nhiều hơn thế nữa!",
-  "facebook": "fb.com/fonosvietnam",
-  "linkedin": "linkedin.com/company/fonosvn",
-  "blogUrl": "https://blog.fonos.vn",
-  "androidUrl": "https://play.google.com/store/apps/details?id=vn.fonos.mobile",
-  "iosUrl": "https://apps.apple.com/vn/app/fonos/id1491002000",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Fonos", "slug": "fonos", "website": "fonos.vn", "industry": "Media / Entertainment", "tagline": "Ứng dụng Sách nói, Thiền định, Truyện ngủ, Tóm tắt sách &amp; nhiều hơn nữa", "logoUrl": "/img/company/fonos-avatar.png", "description": "Lắng nghe những nội dung âm thanh chất lượng nhất bất kể bạn ở đâu: từ sách nói bán chạy nhất có bản quyền của các tác giả Việt Nam và quốc tế; đến hướng dẫn thiền định, Truyện ngủ, tóm tắt sách, và còn nhiều hơn thế nữa!", "facebook": "fb.com/fonosvietnam", "linkedin": "linkedin.com/company/fonosvn", "blogUrl": "https://blog.fonos.vn", "androidUrl": "https://play.google.com/store/apps/details?id=vn.fonos.mobile", "iosUrl": "https://apps.apple.com/vn/app/fonos/id1491002000", "demoUrl": "", "hiring": false}

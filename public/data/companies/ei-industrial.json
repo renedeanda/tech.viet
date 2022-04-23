@@ -1,16 +1,1 @@
-{
-  "name": "EI Industrial",
-  "slug": "ei-industrial",
-  "website": "eiindustrial.com",
-  "industry": "Marketplace",
-  "tagline": "The first B2B E-commerce platform",
-  "logoUrl": "",
-  "description": "The 1st online B2B marketplace in Vietnam focusing on industrial sectors (Manufacturing - Construction - Retailers) to sell & purchase any industrial demands and digitally manage with SaaS WMS (Warehouse Management System) and E-Procurement.",
-  "facebook": "facebook.com/eiindustrial",
-  "linkedin": "https://www.linkedin.com/company/eiindustrial",
-  "blogUrl": "https://we.eiindustrial.com",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "EI Industrial", "slug": "ei-industrial", "website": "eiindustrial.com", "industry": "Marketplace", "tagline": "The first B2B E-commerce platform", "logoUrl": "/img/company/ei-industrial-avatar.png", "description": "The 1st online B2B marketplace in Vietnam focusing on industrial sectors (Manufacturing - Construction - Retailers) to sell & purchase any industrial demands and digitally manage with SaaS WMS (Warehouse Management System) and E-Procurement.", "facebook": "facebook.com/eiindustrial", "linkedin": "https://www.linkedin.com/company/eiindustrial", "blogUrl": "https://we.eiindustrial.com", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": true}

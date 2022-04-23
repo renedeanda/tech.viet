@@ -1,16 +1,1 @@
-{
-  "name": "Nano Technologies",
-  "slug": "nano-technologies",
-  "website": "vuiapp.vn",
-  "industry": "Finance",
-  "tagline": "",
-  "logoUrl": "",
-  "description": "Nano provides an early-wage access platform, allowing people to take low-cost small loans collateralized by their earned monthly income. The company aims to deliver inclusive financial wellness solutions for millions mass Vietnamese, and empower companies to care for and engage their employees in the most effective way.",
-  "facebook": "fb.com/vuiapp",
-  "linkedin": "linkedin.com/company/vuiappbynanotechnologies",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Nano Technologies", "slug": "nano-technologies", "website": "vuiapp.vn", "industry": "Finance", "tagline": "", "logoUrl": "/img/company/nano-technologies-avatar.png", "description": "Nano provides an early-wage access platform, allowing people to take low-cost small loans collateralized by their earned monthly income. The company aims to deliver inclusive financial wellness solutions for millions mass Vietnamese, and empower companies to care for and engage their employees in the most effective way.", "facebook": "fb.com/vuiapp", "linkedin": "linkedin.com/company/vuiappbynanotechnologies", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": true}

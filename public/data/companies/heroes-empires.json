@@ -1,16 +1,1 @@
-{
-  "name": "Heroes & Empires",
-  "slug": "heroes-empires",
-  "website": "heroesempires.com",
-  "industry": "Gaming",
-  "tagline": "Heroes & Empires is a next-gen NFT gaming project combining RPG and autobattler gameplay.",
-  "logoUrl": "",
-  "description": "Heroes & Empires is the next-gen NFT game.\n\nThe cooperation of CryptoViet Labs x Imba Game Studio",
-  "facebook": "fb.com/HeroesEmpires",
-  "linkedin": "https://www.linkedin.com/company/heroes-empires",
-  "blogUrl": "https://blog.heroesempires.com",
-  "androidUrl": "https://play.google.com/store/apps/details?id=co.imba.empirespuzzles",
-  "iosUrl": "https://apps.apple.com/vn/app/heroes-empires-play-to-earn/id1572226324",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Heroes & Empires", "slug": "heroes-empires", "website": "heroesempires.com", "industry": "Gaming", "tagline": "Heroes & Empires is a next-gen NFT gaming project combining RPG and autobattler gameplay.", "logoUrl": "/img/company/heroes-empires-avatar.png", "description": "Heroes & Empires is the next-gen NFT game.\n\nThe cooperation of CryptoViet Labs x Imba Game Studio", "facebook": "fb.com/HeroesEmpires", "linkedin": "https://www.linkedin.com/company/heroes-empires", "blogUrl": "https://blog.heroesempires.com", "androidUrl": "https://play.google.com/store/apps/details?id=co.imba.empirespuzzles", "iosUrl": "https://apps.apple.com/vn/app/heroes-empires-play-to-earn/id1572226324", "demoUrl": "", "hiring": false}

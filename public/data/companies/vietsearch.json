@@ -1,16 +1,1 @@
-{
-  "name": "VietSearch",
-  "slug": "vietsearch",
-  "website": "vietsearch.org",
-  "industry": "Software",
-  "tagline": "We help individual or business communities utilizing AI & ML & RPA to drive positive business outcomes!",
-  "logoUrl": "",
-  "description": "VietSearch is an intelligent data searching platform that helps users to quickly search and connect the Vietnamese community at domestic and abroad with the goal of building a large data ecosystem and processing their data 4.0.",
-  "facebook": "fb.com/vietsearch.org",
-  "linkedin": "https://www.linkedin.com/company/vietsearch",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "VietSearch", "slug": "vietsearch", "website": "vietsearch.org", "industry": "Software", "tagline": "We help individual or business communities utilizing AI & ML & RPA to drive positive business outcomes!", "logoUrl": "/img/company/vietsearch-avatar.png", "description": "VietSearch is an intelligent data searching platform that helps users to quickly search and connect the Vietnamese community at domestic and abroad with the goal of building a large data ecosystem and processing their data 4.0.", "facebook": "fb.com/vietsearch.org", "linkedin": "https://www.linkedin.com/company/vietsearch", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

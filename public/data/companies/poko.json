@@ -1,16 +1,1 @@
-{
-  "name": "Poko",
-  "slug": "poko",
-  "website": "poko.vn",
-  "industry": "Ecommerce",
-  "tagline": "Put a Digital Supermarket in Every Community",
-  "logoUrl": "",
-  "description": "",
-  "facebook": "fb.com/poko.vn",
-  "linkedin": "https://www.linkedin.com/company/pokovn",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Poko", "slug": "poko", "website": "poko.vn", "industry": "Ecommerce", "tagline": "Put a Digital Supermarket in Every Community", "logoUrl": "/img/company/poko-avatar.png", "description": "", "facebook": "fb.com/poko.vn", "linkedin": "https://www.linkedin.com/company/pokovn", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

@@ -1,13 +1,1 @@
-{
-  "name": "GIC",
-  "slug": "gic",
-  "type": "Private Equity",
-  "website": "https://www.gic.com.sg/",
-  "description": "GIC is a global investment firm established in 1981 to manage Singapore's foreign reserves. A disciplined long-term value investor, GIC is uniquely positioned for investments across a wide range of asset classes, including equities, fixed income, private equity, real estate, and infrastructure. GIC invests through funds and directly in companies, partnering with its fund managers and management teams to help world-class businesses achieve their objectives.\n\nIn tech investing, GIC seeks to be a lifetime partner to the companies it invests in. GIC has investments in over 40 countries around the world.",
-  "location": "Singapore",
-  "founded": "1981",
-  "facebook": "https://www.facebook.com/gicpossibilities",
-  "linkedin": "https://www.linkedin.com/company/gic/",
-  "crunchbase": "https://www.crunchbase.com/organization/gic",
-  "portfolio": ""
-}
+{"name": "GIC", "slug": "gic", "type": "Private Equity", "website": "https://www.gic.com.sg/", "description": "GIC is a global investment firm established in 1981 to manage Singapore's foreign reserves. A disciplined long-term value investor, GIC is uniquely positioned for investments across a wide range of asset classes, including equities, fixed income, private equity, real estate, and infrastructure. GIC invests through funds and directly in companies, partnering with its fund managers and management teams to help world-class businesses achieve their objectives.\n\nIn tech investing, GIC seeks to be a lifetime partner to the companies it invests in. GIC has investments in over 40 countries around the world.", "location": "Singapore", "founded": "1981", "facebook": "https://www.facebook.com/gicpossibilities", "linkedin": "https://www.linkedin.com/company/gic/", "crunchbase": "https://www.crunchbase.com/organization/gic", "portfolio": "", "logoUrl": "/img/investor/gic-avatar.png"}

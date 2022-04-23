@@ -1,16 +1,1 @@
-{
-  "name": "Pixie",
-  "slug": "pixie",
-  "website": "gotpixie.com",
-  "industry": "Education",
-  "tagline": "Pixie: to love, connect, learn from everyone on planet Earth (and outer space if exists)",
-  "logoUrl": "",
-  "description": "Pixie is a peer-to-peer and group consulting platform, proudly made in Vietnam. We believe in a world in which anyone can love, connect & learn from everyone on planet Earth to inspire love, connection & learning from everyone on planet Earth, and having fun while doing it.\n\nAt Pixie, we strive to help people reach their fullest potential through meaningful connections & easy to learn from each other in real time.\n\nVia Pixie marketplace, users will be connected with real experts who are always available to listen and share user's concerns, to consult them with applicable solutions for the blocking points. And more than that, such an experience with lively voices and friendly smiles is a bonus. ",
-  "facebook": "fb.com/gotpixie",
-  "linkedin": "https://www.linkedin.com/company/pixiegroup",
-  "blogUrl": "https://gotpixie.com/blogs",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Pixie", "slug": "pixie", "website": "gotpixie.com", "industry": "Education", "tagline": "Pixie: to love, connect, learn from everyone on planet Earth (and outer space if exists)", "logoUrl": "/img/company/pixie-avatar.png", "description": "Pixie is a peer-to-peer and group consulting platform, proudly made in Vietnam. We believe in a world in which anyone can love, connect & learn from everyone on planet Earth to inspire love, connection & learning from everyone on planet Earth, and having fun while doing it.\n\nAt Pixie, we strive to help people reach their fullest potential through meaningful connections & easy to learn from each other in real time.\n\nVia Pixie marketplace, users will be connected with real experts who are always available to listen and share user's concerns, to consult them with applicable solutions for the blocking points. And more than that, such an experience with lively voices and friendly smiles is a bonus. ", "facebook": "fb.com/gotpixie", "linkedin": "https://www.linkedin.com/company/pixiegroup", "blogUrl": "https://gotpixie.com/blogs", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

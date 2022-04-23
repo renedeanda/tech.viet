@@ -1,13 +1,1 @@
-{
-  "name": "Global Founders Capital",
-  "slug": "global-founders-capital",
-  "type": "Venture Capital",
-  "website": "https://www.globalfounderscapital.com/",
-  "description": "Global Founders Capital is a globally oriented, stage agnostic venture capital firm that empowers gifted entrepreneurs worldwide.\n\n01 - Global. We support founders in all geographies.\n02 - Stage agnostic. We back companies across all stages and throughout the lifecycle.\n03 - Operational. Our platform offers founders all the support they need to scale.",
-  "location": "Germany",
-  "founded": "2013",
-  "facebook": "",
-  "linkedin": "https://www.linkedin.com/company/global-founders-capital/",
-  "crunchbase": "https://www.crunchbase.com/organization/global-founders-capital",
-  "portfolio": "https://www.globalfounderscapital.com/companies"
-}
+{"name": "Global Founders Capital", "slug": "global-founders-capital", "type": "Venture Capital", "website": "https://www.globalfounderscapital.com/", "description": "Global Founders Capital is a globally oriented, stage agnostic venture capital firm that empowers gifted entrepreneurs worldwide.\n\n01 - Global. We support founders in all geographies.\n02 - Stage agnostic. We back companies across all stages and throughout the lifecycle.\n03 - Operational. Our platform offers founders all the support they need to scale.", "location": "Germany", "founded": "2013", "facebook": "", "linkedin": "https://www.linkedin.com/company/global-founders-capital/", "crunchbase": "https://www.crunchbase.com/organization/global-founders-capital", "portfolio": "https://www.globalfounderscapital.com/companies", "logoUrl": "/img/investor/global-founders-capital-avatar.png"}
