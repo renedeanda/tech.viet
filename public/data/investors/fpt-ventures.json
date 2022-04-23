@@ -1,13 +1,1 @@
-{
-  "name": "FPT Ventures",
-  "slug": "fpt-ventures",
-  "type": "Corporate Venture Capital",
-  "website": "http://fptventures.com/",
-  "description": "FPT Ventures is the VC arm of FPT Corporation, Vietnam's largest ICT enterprise.\n\nFPT Ventures aims to bring technology startups in Vietnam an opportunity to bring their startup products to new heights. Startups have access to investment capital, workplaces, advisory boards, experience in market expansion, customer collection, technical infrastructure, marketing & PR capabilities, and relationships with funds.",
-  "location": "Vietnam",
-  "founded": "2015",
-  "facebook": "https://www.facebook.com/FsoftGlobal",
-  "linkedin": "https://www.linkedin.com/company/fpt-corporation/",
-  "crunchbase": "https://www.crunchbase.com/organization/fpt-ventures",
-  "portfolio": "https://fptventures.com/portfolio.html"
-}
+{"name": "FPT Ventures", "slug": "fpt-ventures", "type": "Corporate Venture Capital", "website": "http://fptventures.com/", "description": "FPT Ventures is the VC arm of FPT Corporation, Vietnam's largest ICT enterprise.\n\nFPT Ventures aims to bring technology startups in Vietnam an opportunity to bring their startup products to new heights. Startups have access to investment capital, workplaces, advisory boards, experience in market expansion, customer collection, technical infrastructure, marketing & PR capabilities, and relationships with funds.", "location": "Vietnam", "founded": "2015", "facebook": "https://www.facebook.com/FsoftGlobal", "linkedin": "https://www.linkedin.com/company/fpt-corporation/", "crunchbase": "https://www.crunchbase.com/organization/fpt-ventures", "portfolio": "https://fptventures.com/portfolio.html", "logoUrl": "/img/investor/fpt-ventures-avatar.png"}

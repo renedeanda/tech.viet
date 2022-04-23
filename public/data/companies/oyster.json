@@ -1,16 +1,1 @@
-{
-  "name": "Oyster",
-  "slug": "oyster",
-  "website": "join-oyster.com",
-  "industry": "HR / Recruitment",
-  "tagline": "Oyster is your go-to hospitality growth partner. Think valuable skills, rewarding jobs and community.",
-  "logoUrl": "",
-  "description": "Launching in 2022 under Antler VC's inaugural cohort in Vietnam. \n\nOyster is Vietnam's dedicated hospitality talent hub that provides individuals access to rewarding jobs by leading employers as well as valuable skills and resources to help them ace the interview and excel in the job. Thus allowing them to unleash their full potential.\n\nFor hospitality partners, we provide and suggest quality candidates that are job-ready and best-suited for the role. This allows our partners to find talent and significantly save time, money and effort.",
-  "facebook": "",
-  "linkedin": "https://www.linkedin.com/company/join-oyster",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Oyster", "slug": "oyster", "website": "join-oyster.com", "industry": "HR / Recruitment", "tagline": "Oyster is your go-to hospitality growth partner. Think valuable skills, rewarding jobs and community.", "logoUrl": "/img/company/oyster-avatar.png", "description": "Launching in 2022 under Antler VC's inaugural cohort in Vietnam. \n\nOyster is Vietnam's dedicated hospitality talent hub that provides individuals access to rewarding jobs by leading employers as well as valuable skills and resources to help them ace the interview and excel in the job. Thus allowing them to unleash their full potential.\n\nFor hospitality partners, we provide and suggest quality candidates that are job-ready and best-suited for the role. This allows our partners to find talent and significantly save time, money and effort.", "facebook": "", "linkedin": "https://www.linkedin.com/company/join-oyster", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

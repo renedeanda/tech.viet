@@ -1,13 +1,1 @@
-{
-  "name": "Goodwater Capital",
-  "slug": "goodwater-capital",
-  "type": "Venture Capital",
-  "website": "https://www.goodwatercap.com/",
-  "description": "Goodwater Capital is a next generation venture capital firm.\n\nWe believe consumer technology is revolutionizing the world, and we are devoted to entrepreneurs who are furiously building products and platforms that consumers love.\n\nOur mission is to empower exceptional entrepreneurs who are changing the world through consumer technology.",
-  "location": "United States",
-  "founded": "2014",
-  "facebook": "https://www.facebook.com/goodwatercap",
-  "linkedin": "https://www.linkedin.com/company/goodwater-capital/",
-  "crunchbase": "https://www.crunchbase.com/organization/goodwater-capital",
-  "portfolio": "https://www.goodwatercap.com/companies"
-}
+{"name": "Goodwater Capital", "slug": "goodwater-capital", "type": "Venture Capital", "website": "https://www.goodwatercap.com/", "description": "Goodwater Capital is a next generation venture capital firm.\n\nWe believe consumer technology is revolutionizing the world, and we are devoted to entrepreneurs who are furiously building products and platforms that consumers love.\n\nOur mission is to empower exceptional entrepreneurs who are changing the world through consumer technology.", "location": "United States", "founded": "2014", "facebook": "https://www.facebook.com/goodwatercap", "linkedin": "https://www.linkedin.com/company/goodwater-capital/", "crunchbase": "https://www.crunchbase.com/organization/goodwater-capital", "portfolio": "https://www.goodwatercap.com/companies", "logoUrl": "/img/investor/goodwater-capital-avatar.png"}

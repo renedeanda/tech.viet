@@ -1,13 +1,1 @@
-{
-  "name": "RTP Global",
-  "slug": "rtp-global",
-  "type": "Venture Capital",
-  "website": "https://www.rtp.vc/",
-  "description": "RTP Global is a venture capital firm focused on early-stage technology investments. It supports young companies with strategic know-how and a broad global network. \n\nRTP Global has invested in companies founded in more than ten countries across Europe, Asia, and North America. Six early-stage investments became multi-billion public companies: Yandex, EPAM, Delivery Hero, RingCentral, Datadog, and Ozon. RTP Global has offices in New York, London, and Bangalore.",
-  "location": "United Kingdom",
-  "founded": "2000",
-  "facebook": "https://www.facebook.com/rtpglobalvc/",
-  "linkedin": "https://www.linkedin.com/company/rtp-global-vc/",
-  "crunchbase": "https://www.crunchbase.com/organization/rtp-global",
-  "portfolio": "https://rtp.vc/portfolio/"
-}
+{"name": "RTP Global", "slug": "rtp-global", "type": "Venture Capital", "website": "https://www.rtp.vc/", "description": "RTP Global is a venture capital firm focused on early-stage technology investments. It supports young companies with strategic know-how and a broad global network. \n\nRTP Global has invested in companies founded in more than ten countries across Europe, Asia, and North America. Six early-stage investments became multi-billion public companies: Yandex, EPAM, Delivery Hero, RingCentral, Datadog, and Ozon. RTP Global has offices in New York, London, and Bangalore.", "location": "United Kingdom", "founded": "2000", "facebook": "https://www.facebook.com/rtpglobalvc/", "linkedin": "https://www.linkedin.com/company/rtp-global-vc/", "crunchbase": "https://www.crunchbase.com/organization/rtp-global", "portfolio": "https://rtp.vc/portfolio/", "logoUrl": "/img/investor/rtp-global-avatar.png"}

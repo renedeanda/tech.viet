@@ -1,13 +1,1 @@
-{
-  "name": "Summit Media",
-  "slug": "summit-media",
-  "type": "Corporate Venture Capital",
-  "website": "https://www.summitmedia.com.ph/",
-  "description": "Summit Media is the leading magazine publisher and one of the biggest digital publishers in the Philippines.",
-  "location": "Philippines",
-  "founded": "1995",
-  "facebook": "https://www.facebook.com/SummitMediaPH",
-  "linkedin": "https://www.linkedin.com/company/summit-media-publishing/",
-  "crunchbase": "https://www.crunchbase.com/organization/summit-media-interactive-editions",
-  "portfolio": ""
-}
+{"name": "Summit Media", "slug": "summit-media", "type": "Corporate Venture Capital", "website": "https://www.summitmedia.com.ph/", "description": "Summit Media is the leading magazine publisher and one of the biggest digital publishers in the Philippines.", "location": "Philippines", "founded": "1995", "facebook": "https://www.facebook.com/SummitMediaPH", "linkedin": "https://www.linkedin.com/company/summit-media-publishing/", "crunchbase": "https://www.crunchbase.com/organization/summit-media-interactive-editions", "portfolio": "", "logoUrl": "/img/investor/summit-media-avatar.png"}

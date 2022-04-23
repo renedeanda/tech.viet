@@ -51,8 +51,6 @@ def update_inv_json():
             print(f'Image exists - {slug}')
             try:
                 inv["logoUrl"] = f'/img/investor/{slug}-avatar.png'
-                print(f'/img/investor/{slug}.json')
-                print(inv)
                 with open(f'{jsonPath}/{slug}.json', 'w') as f:
                     json.dump(inv, f, ensure_ascii=False)
             except:
@@ -77,8 +75,6 @@ def update_co_json():
             print(f'Image exists - {slug}')
             try:
                 co["logoUrl"] = f'/img/company/{slug}-avatar.png'
-                print(f'/img/company/{slug}.json')
-                print(co)
                 with open(f'{jsonPath}/{slug}.json', 'w') as f:
                     json.dump(co, f, ensure_ascii=False)
             except:
@@ -115,3 +111,4 @@ def read_inv_json_files():
 
 # create_investor_json_files()
 update_co_json()
+update_inv_json()

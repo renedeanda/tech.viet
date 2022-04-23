@@ -1,13 +1,1 @@
-{
-  "name": "Cocoon Capital",
-  "slug": "cocoon-capital",
-  "type": "Venture Capital",
-  "website": "https://cocooncap.com/",
-  "description": "Cocoon Capital is a Singapore-based venture capital firm focusing on early-stage enterprise tech companies across Southeast Asia. With its slogan “Dare to Change™”, it differentiates itself by working closely with its portfolio founders to unleash their potential to change the world. \n\nLeveraging the Managing Partners' combined 34 years of experience in guiding tech entrepreneurs to build successful businesses, Cocoon Capital funds and mentors companies from seed though to Series A with the support of its global network of investors and advisors.\n\nSpecifically focused on B2B enterprise and deep tech, the fund typically invests up to SGD1m per deal. Cocoon Capital prefers to act as lead investor and normally takes a board seat.",
-  "location": "Singapore",
-  "founded": "2016",
-  "facebook": "https://www.facebook.com/cocooncapital",
-  "linkedin": "https://www.linkedin.com/company/cocoon-capital/",
-  "crunchbase": "https://www.crunchbase.com/organization/cocoon-capital",
-  "portfolio": "https://cocooncap.com/portfolio/"
-}
+{"name": "Cocoon Capital", "slug": "cocoon-capital", "type": "Venture Capital", "website": "https://cocooncap.com/", "description": "Cocoon Capital is a Singapore-based venture capital firm focusing on early-stage enterprise tech companies across Southeast Asia. With its slogan “Dare to Change™”, it differentiates itself by working closely with its portfolio founders to unleash their potential to change the world. \n\nLeveraging the Managing Partners' combined 34 years of experience in guiding tech entrepreneurs to build successful businesses, Cocoon Capital funds and mentors companies from seed though to Series A with the support of its global network of investors and advisors.\n\nSpecifically focused on B2B enterprise and deep tech, the fund typically invests up to SGD1m per deal. Cocoon Capital prefers to act as lead investor and normally takes a board seat.", "location": "Singapore", "founded": "2016", "facebook": "https://www.facebook.com/cocooncapital", "linkedin": "https://www.linkedin.com/company/cocoon-capital/", "crunchbase": "https://www.crunchbase.com/organization/cocoon-capital", "portfolio": "https://cocooncap.com/portfolio/", "logoUrl": "/img/investor/cocoon-capital-avatar.png"}

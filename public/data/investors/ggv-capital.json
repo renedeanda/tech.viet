@@ -1,13 +1,1 @@
-{
-  "name": "GGV Capital",
-  "slug": "ggv-capital",
-  "type": "Venture Capital",
-  "website": "https://www.ggvc.com/",
-  "description": "GGV Capital is a global venture capital firm focused on multi-stage, sector-focused investments. Recognizing that the talent to build great companies can come from anywhere, the firm invests in founders building category-leading companies around the world. \n\nFounded in 2000 with roots in Singapore and Silicon Valley, GGV has expanded with additional offices in San Francisco, Shanghai, and Beijing. The firm manages $9.2 billion in investments across the United States, Canada, China, Southeast Asia, India, Latin America, and Israel.\n\nOver the past two decades, the firm has backed more than 400 companies, including Affirm, Airbnb, Alibaba, BigCommerce, Boss Zhipin, Grab, HashiCorp, Hello, JD MRO, Keep, Kujiale, Manbang, NIU, Opendoor Technologies, Peloton, Poshmark, Qunar/Ctrip, Slack, Square, StockX, Udaan, Wish, XPeng, Zendesk, Zuoyebang, and more.",
-  "location": "United States",
-  "founded": "2000",
-  "facebook": "https://www.facebook.com/ggvcapital/",
-  "linkedin": "https://www.linkedin.com/company/ggv-capital/",
-  "crunchbase": "https://www.crunchbase.com/organization/ggv-capital",
-  "portfolio": "https://www.ggvc.com/companies/"
-}
+{"name": "GGV Capital", "slug": "ggv-capital", "type": "Venture Capital", "website": "https://www.ggvc.com/", "description": "GGV Capital is a global venture capital firm focused on multi-stage, sector-focused investments. Recognizing that the talent to build great companies can come from anywhere, the firm invests in founders building category-leading companies around the world. \n\nFounded in 2000 with roots in Singapore and Silicon Valley, GGV has expanded with additional offices in San Francisco, Shanghai, and Beijing. The firm manages $9.2 billion in investments across the United States, Canada, China, Southeast Asia, India, Latin America, and Israel.\n\nOver the past two decades, the firm has backed more than 400 companies, including Affirm, Airbnb, Alibaba, BigCommerce, Boss Zhipin, Grab, HashiCorp, Hello, JD MRO, Keep, Kujiale, Manbang, NIU, Opendoor Technologies, Peloton, Poshmark, Qunar/Ctrip, Slack, Square, StockX, Udaan, Wish, XPeng, Zendesk, Zuoyebang, and more.", "location": "United States", "founded": "2000", "facebook": "https://www.facebook.com/ggvcapital/", "linkedin": "https://www.linkedin.com/company/ggv-capital/", "crunchbase": "https://www.crunchbase.com/organization/ggv-capital", "portfolio": "https://www.ggvc.com/companies/", "logoUrl": "/img/investor/ggv-capital-avatar.png"}

@@ -213,7 +213,7 @@ def get_inv_fb_avatars():
         fbUrl = inv[1]
 
         fbUsername = ""
-        
+
         if fbUrl:
             fbPath = urlparse(fbUrl).path
             fbUsername = fbPath.split("/")[1]
