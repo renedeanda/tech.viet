@@ -1,13 +1,1 @@
-{
-  "name": "Hustle Fund",
-  "slug": "hustle-fund",
-  "type": "Venture Capital",
-  "website": "https://www.hustlefund.vc/",
-  "description": "We invest in hilariously early startups.\n\nHustle Fund is a venture capital fund that invests in pre-seed software startups (in the US, Canada and Southeast Asia). We are often the first check into a startup or in the first round of funding. Beyond the usual criteria that VCs typically look for, we prioritize founders' speed of execution above all else. Per our name, we also make a fast decision after speaking with a company.",
-  "location": "United States",
-  "founded": "2017",
-  "facebook": "https://www.facebook.com/hustlefundvc/",
-  "linkedin": "https://www.linkedin.com/company/hustle-fund/",
-  "crunchbase": "https://www.crunchbase.com/organization/hustle-fund",
-  "portfolio": "https://www.hustlefund.vc/founders"
-}
+{"name": "Hustle Fund", "slug": "hustle-fund", "type": "Venture Capital", "website": "https://www.hustlefund.vc/", "description": "We invest in hilariously early startups.\n\nHustle Fund is a venture capital fund that invests in pre-seed software startups (in the US, Canada and Southeast Asia). We are often the first check into a startup or in the first round of funding. Beyond the usual criteria that VCs typically look for, we prioritize founders' speed of execution above all else. Per our name, we also make a fast decision after speaking with a company.", "location": "United States", "founded": "2017", "facebook": "https://www.facebook.com/hustlefundvc/", "linkedin": "https://www.linkedin.com/company/hustle-fund/", "crunchbase": "https://www.crunchbase.com/organization/hustle-fund", "portfolio": "https://www.hustlefund.vc/founders", "logoUrl": "/img/investor/hustle-fund-avatar.png"}

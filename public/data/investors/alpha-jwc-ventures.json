@@ -1,13 +1,1 @@
-{
-  "name": "Alpha JWC Ventures",
-  "slug": "alpha-jwc-ventures",
-  "type": "Venture Capital",
-  "website": "https://www.alphajwc.com/en/",
-  "description": "Alpha JWC Ventures is an Indonesia-focused value-adding early stage to growth stage venture capital firm with expertise in FinTech and the Consumer tech sector.\n\nAlpha JWC Ventures is an independent and institutional firm that believes in investing in a disciplined manner combined with an active portfolio management approach.",
-  "location": "Indonesia",
-  "founded": "2015",
-  "facebook": "https://www.facebook.com/AlphaJWC",
-  "linkedin": "https://www.linkedin.com/company/ajwc/",
-  "crunchbase": "https://www.crunchbase.com/organization/alpha-jwc-ventures",
-  "portfolio": "https://www.alphajwc.com/en/portfolio-companies/"
-}
+{"name": "Alpha JWC Ventures", "slug": "alpha-jwc-ventures", "type": "Venture Capital", "website": "https://www.alphajwc.com/en/", "description": "Alpha JWC Ventures is an Indonesia-focused value-adding early stage to growth stage venture capital firm with expertise in FinTech and the Consumer tech sector.\n\nAlpha JWC Ventures is an independent and institutional firm that believes in investing in a disciplined manner combined with an active portfolio management approach.", "location": "Indonesia", "founded": "2015", "facebook": "https://www.facebook.com/AlphaJWC", "linkedin": "https://www.linkedin.com/company/ajwc/", "crunchbase": "https://www.crunchbase.com/organization/alpha-jwc-ventures", "portfolio": "https://www.alphajwc.com/en/portfolio-companies/", "logoUrl": "/img/investor/alpha-jwc-ventures-avatar.png"}

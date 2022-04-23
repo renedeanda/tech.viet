@@ -7,7 +7,7 @@ from selenium import webdriver  # for screenshot web crawler
 import time
 import json  # for reading json file
 from glob import glob  # for reading folder of json files
-from urllib.parse import ParseResult, urlparse
+from urllib.parse import urlparse
 
 
 def scrape_page_metadata():
@@ -134,7 +134,7 @@ def get_create_one_image(url, slug, desc):
     # The assembled request
     request_ = Request(url, None, headers=headers)
     response = urlopen(request_)  # store the response
-    print(f'{path}/{slug}-{desc}.png')
+    # print(f'{path}/{slug}-{desc}.png')
     # create a new file and write the image
     f = open(f'{path}/{slug}-{desc}.png', 'wb')
     f.write(response.read())
@@ -153,7 +153,7 @@ def get_create_one_inv_image(url, slug, desc):
     # The assembled request
     request_ = Request(url, None, headers=headers)
     response = urlopen(request_)  # store the response
-    print(f'{path}/{slug}-{desc}.png')
+    # print(f'{path}/{slug}-{desc}.png')
     # create a new file and write the image
     f = open(f'{path}/{slug}-{desc}.png', 'wb')
     f.write(response.read())
@@ -206,11 +206,13 @@ def get_screenshots():
 
 def get_inv_fb_avatars():
     investors = read_inv_json_files()
-    path = os.path.abspath("../../public/img/company")
+    path = os.path.abspath("../../public/img/investor")
 
     for inv in investors:
         slug = inv[0]
         fbUrl = inv[1]
+
+        fbUsername = ""
 
         if fbUrl:
             fbPath = urlparse(fbUrl).path
@@ -219,14 +221,16 @@ def get_inv_fb_avatars():
         else:
             fbAvatarUrl = None
             
-        print(fbAvatarUrl)
+        # print(fbAvatarUrl)
         
         if os.path.isfile(f'{path}/{slug}-avatar.png'):
             # skips creating image if file exists
+            print(f'Skipped - {fbUsername}')
             continue
         else:
             try:
                 get_create_one_inv_image(fbAvatarUrl, slug, "avatar")
+                print(f'Not skipped - {fbUsername}')
             except:
                 continue
 
@@ -239,20 +243,25 @@ def get_fb_avatars():
         slug = co[0]
         fbUrl = co[2]
 
+        fbUsername = ""
+
         if fbUrl:
-            fbUsername = fbUrl.split("/")[-2:][1]
+            fbPath = urlparse(fbUrl).path
+            fbUsername = fbPath.split("/")[1]
             fbAvatarUrl = f'https://graph.facebook.com/{fbUsername}/picture?type=large'
         else:
             fbAvatarUrl = None
 
-        print(fbAvatarUrl)
+        # print(fbAvatarUrl)
 
         if os.path.isfile(f'{path}/{slug}-avatar.png'):
             # skips creating image if file exists
+            print(f'Skipped - {fbUsername}')
             continue
         else:
             try:
                 get_create_one_image(fbAvatarUrl, slug, "avatar")
+                print(f'Not skipped - {fbUsername}')
             except:
                 continue
 
@@ -295,7 +304,7 @@ def read_inv_json_files():
 
 
 # uncomment to produce screenshots for all Viet.io companies
-get_screenshots()
+# get_screenshots()
 
 # get_create_one_image("URL", "SLUG", "favicon")
 # get_create_one_image("URL", "SLUG", "share")

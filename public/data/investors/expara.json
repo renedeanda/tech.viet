@@ -1,13 +1,1 @@
-{
-  "name": "Expara",
-  "slug": "expara",
-  "type": "Venture Capital",
-  "website": "https://www.expara.com/",
-  "description": "Leading venture creation in Singapore since 2003, Expara takes pride in the ethos embodied in our logo - we help you turn risk into opportunities for success. Douglas Abrams, the company's founder and CEO is a venture capitalist, entrepreneur, angel investor and educator who has been investing, venturing, and teaching in Singapore since 2000. \n\nWe work alongside entrepreneurs and leaders in public and private organizations to create entrepreneurial successes through innovative high-tech high-growth ventures. We pride ourselves in delivering dedicated web tools, business strategy and technology innovation advisory, experiential training, deep industry expertise and networks in supporting the growth of the next Silicon Valley in Southeast Asia.",
-  "location": "Singapore",
-  "founded": "2003",
-  "facebook": "https://www.facebook.com/ExparaSG/",
-  "linkedin": "https://www.linkedin.com/company/expara/",
-  "crunchbase": "https://www.crunchbase.com/organization/expara-idm-ventures",
-  "portfolio": "https://www.expara.com/portfolio"
-}
+{"name": "Expara", "slug": "expara", "type": "Venture Capital", "website": "https://www.expara.com/", "description": "Leading venture creation in Singapore since 2003, Expara takes pride in the ethos embodied in our logo - we help you turn risk into opportunities for success. Douglas Abrams, the company's founder and CEO is a venture capitalist, entrepreneur, angel investor and educator who has been investing, venturing, and teaching in Singapore since 2000. \n\nWe work alongside entrepreneurs and leaders in public and private organizations to create entrepreneurial successes through innovative high-tech high-growth ventures. We pride ourselves in delivering dedicated web tools, business strategy and technology innovation advisory, experiential training, deep industry expertise and networks in supporting the growth of the next Silicon Valley in Southeast Asia.", "location": "Singapore", "founded": "2003", "facebook": "https://www.facebook.com/ExparaSG/", "linkedin": "https://www.linkedin.com/company/expara/", "crunchbase": "https://www.crunchbase.com/organization/expara-idm-ventures", "portfolio": "https://www.expara.com/portfolio", "logoUrl": "/img/investor/expara-avatar.png"}

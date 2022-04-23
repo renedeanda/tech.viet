@@ -1,16 +1,1 @@
-{
-  "name": "Memori",
-  "slug": "memori",
-  "website": "memori.vn",
-  "industry": "Software",
-  "tagline": "A mobile app for relationship management",
-  "logoUrl": "",
-  "description": "Tidy up your contact memory!\n\nNo more clutter in your contact memory. Simply capture a name card, Memori will digitize your contact and store them in your directory exactly. You can even categorize and share them across different applications!\n\nMemori will ease your way of connecting. ",
-  "facebook": "facebook.com/Memori.ConnectWithEase",
-  "linkedin": "linkedin.com/company/memori-connect-with-ease",
-  "blogUrl": "",
-  "androidUrl": "https://play.google.com/store/apps/details?id=com.fpo.memori",
-  "iosUrl": "https://apps.apple.com/vn/app/memori-connect-with-ease/id1548861680",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Memori", "slug": "memori", "website": "memori.vn", "industry": "Software", "tagline": "A mobile app for relationship management", "logoUrl": "/img/company/memori-avatar.png", "description": "Tidy up your contact memory!\n\nNo more clutter in your contact memory. Simply capture a name card, Memori will digitize your contact and store them in your directory exactly. You can even categorize and share them across different applications!\n\nMemori will ease your way of connecting. ", "facebook": "facebook.com/Memori.ConnectWithEase", "linkedin": "linkedin.com/company/memori-connect-with-ease", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.fpo.memori", "iosUrl": "https://apps.apple.com/vn/app/memori-connect-with-ease/id1548861680", "demoUrl": "", "hiring": true}

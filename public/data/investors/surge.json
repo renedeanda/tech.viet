@@ -1,13 +1,1 @@
-{
-  "name": "Surge",
-  "slug": "surge",
-  "type": "Accelerator / Incubator",
-  "website": "https://www.surgeahead.com/",
-  "description": "Surge is a rapid-scale up program by Sequoia Capital India for early-stage startups in India and Southeast Asia.\n\nSurge combines $1 million to $2 million of seed capital with company-building workshops, global immersion trips and support from a community of exceptional founders.\n\nOur Goal:\nTo supercharge your startup. And give you an unfair advantage, right out of the gate.",
-  "location": "Singapore",
-  "founded": "2019",
-  "facebook": "https://www.facebook.com/GetReadyToSurge/",
-  "linkedin": "https://www.linkedin.com/company/surgeahead/",
-  "crunchbase": "https://www.crunchbase.com/organization/surge-ahead",
-  "portfolio": "https://www.surgeahead.com/startups/"
-}
+{"name": "Surge", "slug": "surge", "type": "Accelerator / Incubator", "website": "https://www.surgeahead.com/", "description": "Surge is a rapid-scale up program by Sequoia Capital India for early-stage startups in India and Southeast Asia.\n\nSurge combines $1 million to $2 million of seed capital with company-building workshops, global immersion trips and support from a community of exceptional founders.\n\nOur Goal:\nTo supercharge your startup. And give you an unfair advantage, right out of the gate.", "location": "Singapore", "founded": "2019", "facebook": "https://www.facebook.com/GetReadyToSurge/", "linkedin": "https://www.linkedin.com/company/surgeahead/", "crunchbase": "https://www.crunchbase.com/organization/surge-ahead", "portfolio": "https://www.surgeahead.com/startups/", "logoUrl": "/img/investor/surge-avatar.png"}

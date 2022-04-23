@@ -1,13 +1,1 @@
-{
-  "name": "VinaCapital Ventures",
-  "slug": "vinacapital-ventures",
-  "type": "Venture Capital",
-  "website": "https://ventures.vinacapital.com/",
-  "description": "Seeded by VinaCapital Group, VinaCapital Ventures is a USD100 million Vietnam-focused venture capital platform focused on investing in and building world-class technology companies and incorporating them into a full digital ecosystem. Our mission is to support entrepreneurs with big ideas and to help them build companies that make a significant impact on the lives of people in Vietnam and beyond. We partner with entrepreneurs and empower them with capital, access to our extensive business network, and local know-how from our years of experience in Vietnam and Southeast Asia.",
-  "location": "Vietnam",
-  "founded": "2018",
-  "facebook": "",
-  "linkedin": "https://www.linkedin.com/company/vincapitalventures/",
-  "crunchbase": "https://www.crunchbase.com/organization/vinacapital-ventures",
-  "portfolio": "https://ventures.vinacapital.com/portfolio/"
-}
+{"name": "VinaCapital Ventures", "slug": "vinacapital-ventures", "type": "Venture Capital", "website": "https://ventures.vinacapital.com/", "description": "Seeded by VinaCapital Group, VinaCapital Ventures is a USD100 million Vietnam-focused venture capital platform focused on investing in and building world-class technology companies and incorporating them into a full digital ecosystem. Our mission is to support entrepreneurs with big ideas and to help them build companies that make a significant impact on the lives of people in Vietnam and beyond. We partner with entrepreneurs and empower them with capital, access to our extensive business network, and local know-how from our years of experience in Vietnam and Southeast Asia.", "location": "Vietnam", "founded": "2018", "facebook": "", "linkedin": "https://www.linkedin.com/company/vincapitalventures/", "crunchbase": "https://www.crunchbase.com/organization/vinacapital-ventures", "portfolio": "https://ventures.vinacapital.com/portfolio/", "logoUrl": "/img/investor/vinacapital-ventures-avatar.png"}

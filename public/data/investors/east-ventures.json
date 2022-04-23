@@ -1,13 +1,1 @@
-{
-  "name": "East Ventures",
-  "slug": "east-ventures",
-  "type": "Venture Capital",
-  "website": "https://east.vc/",
-  "description": "East Ventures is a leading and pioneering sector-agnostic venture capital firm in Singapore and Indonesia. Founded in 2009, East Ventures has transformed into a holistic platform that provides multi-stage investments, including Seed and Growth, for over 200 companies in Southeast Asia, especially in Indonesia.\n\nAn early believer in the startup ecosystem in Indonesia, East Ventures is the first investor of Indonesia's unicorn companies, namely Tokopedia and Traveloka. Other notable companies in the portfolio include Ruangguru, Warung Pintar, Kudo (acquired by Grab), Loket (acquired by Gojek), Tech in Asia, Xendit, IDN Media, MokaPOS (acquired by Gojek), ShopBack, KoinWorks, Waresix, and Sociolla.\n\nEast Ventures was named the most consistent top performing VC fund globally by Preqin, and the most active investor in SEA and Indonesia.",
-  "location": "Singapore",
-  "founded": "2009",
-  "facebook": "https://www.facebook.com/eastventuresofficial/",
-  "linkedin": "https://www.linkedin.com/company/eastventures/",
-  "crunchbase": "https://www.crunchbase.com/organization/east-ventures",
-  "portfolio": "https://east.vc/c/vietnam/"
-}
+{"name": "East Ventures", "slug": "east-ventures", "type": "Venture Capital", "website": "https://east.vc/", "description": "East Ventures is a leading and pioneering sector-agnostic venture capital firm in Singapore and Indonesia. Founded in 2009, East Ventures has transformed into a holistic platform that provides multi-stage investments, including Seed and Growth, for over 200 companies in Southeast Asia, especially in Indonesia.\n\nAn early believer in the startup ecosystem in Indonesia, East Ventures is the first investor of Indonesia's unicorn companies, namely Tokopedia and Traveloka. Other notable companies in the portfolio include Ruangguru, Warung Pintar, Kudo (acquired by Grab), Loket (acquired by Gojek), Tech in Asia, Xendit, IDN Media, MokaPOS (acquired by Gojek), ShopBack, KoinWorks, Waresix, and Sociolla.\n\nEast Ventures was named the most consistent top performing VC fund globally by Preqin, and the most active investor in SEA and Indonesia.", "location": "Singapore", "founded": "2009", "facebook": "https://www.facebook.com/eastventuresofficial/", "linkedin": "https://www.linkedin.com/company/eastventures/", "crunchbase": "https://www.crunchbase.com/organization/east-ventures", "portfolio": "https://east.vc/c/vietnam/", "logoUrl": "/img/investor/east-ventures-avatar.png"}

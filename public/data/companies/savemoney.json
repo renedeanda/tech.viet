@@ -1,16 +1,1 @@
-{
-  "name": "SaveMoney",
-  "slug": "savemoney",
-  "website": "savemoney.vn",
-  "industry": "Insurance",
-  "tagline": "Innovating Digital Insurance and Financial Services",
-  "logoUrl": "",
-  "description": "SaveMoney is a leading InsurTech company in Vietnam. SaveMoney is enabling retail distribution partners (Digital Banks, Telco, Airline, Social Media, Retail Stores and Mobile Money) to sell digital embedded insurance products to their million customers. In terms of products, SaveMoney is working with different insurers to underwrite the risks and is also providing online claim services.",
-  "facebook": "fb.com/savemoneyvn",
-  "linkedin": "https://www.linkedin.com/company/save-money-corporation",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "SaveMoney", "slug": "savemoney", "website": "savemoney.vn", "industry": "Insurance", "tagline": "Innovating Digital Insurance and Financial Services", "logoUrl": "/img/company/savemoney-avatar.png", "description": "SaveMoney is a leading InsurTech company in Vietnam. SaveMoney is enabling retail distribution partners (Digital Banks, Telco, Airline, Social Media, Retail Stores and Mobile Money) to sell digital embedded insurance products to their million customers. In terms of products, SaveMoney is working with different insurers to underwrite the risks and is also providing online claim services.", "facebook": "fb.com/savemoneyvn", "linkedin": "https://www.linkedin.com/company/save-money-corporation", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

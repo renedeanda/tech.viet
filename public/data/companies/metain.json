@@ -1,16 +1,1 @@
-{
-  "name": "Metain",
-  "slug": "metain",
-  "website": "metain.io",
-  "industry": "Finance",
-  "tagline": "Equal investment opportunity for all.",
-  "logoUrl": "",
-  "description": "METAIN platform provides investors with Non-Fungible-Token (NFT) that represents a dividend of property on a secure and decentralized platform via Smart Contract. Each share is backed by an NFT compliant with the ERC-721 standard of the Binance Smart Chain network, which is valid forever and non-interchangeable. Thus, this allows the permanent integrity of the assets.\n\nBy breaking down ownership of prestigious real estate assets into tokens, METAIN opens up opportunities to invest in real estate in a surprisingly simple way. This fresh approach is to reimagine real estate investment like buying stocks in the stock market.",
-  "facebook": "fb.com/MetainOfficial",
-  "linkedin": "https://www.linkedin.com/company/metain-io",
-  "blogUrl": "https://metain.medium.com",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Metain", "slug": "metain", "website": "metain.io", "industry": "Finance", "tagline": "Equal investment opportunity for all.", "logoUrl": "/img/company/metain-avatar.png", "description": "METAIN platform provides investors with Non-Fungible-Token (NFT) that represents a dividend of property on a secure and decentralized platform via Smart Contract. Each share is backed by an NFT compliant with the ERC-721 standard of the Binance Smart Chain network, which is valid forever and non-interchangeable. Thus, this allows the permanent integrity of the assets.\n\nBy breaking down ownership of prestigious real estate assets into tokens, METAIN opens up opportunities to invest in real estate in a surprisingly simple way. This fresh approach is to reimagine real estate investment like buying stocks in the stock market.", "facebook": "fb.com/MetainOfficial", "linkedin": "https://www.linkedin.com/company/metain-io", "blogUrl": "https://metain.medium.com", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

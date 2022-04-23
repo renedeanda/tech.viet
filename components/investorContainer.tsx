@@ -17,7 +17,7 @@ export default function InvestorContainer({ investor, modal }: {
 }) {
 
   // Load local image file if exists
-  const avatarSrc = investor.facebook ? `/img/investor/${investor.slug}-avatar.png` : '/company.png'
+  const avatarSrc = investor.logoUrl ? investor.logoUrl : '/company.png'
 
   const gFormLink = `https://docs.google.com/forms/d/e/1FAIpQLSdosIZ09MqBJhvoQPQx3isiTCS1C1PiXmIynVVmpHBwISlg-w/viewform?usp=pp_url&entry.2005620554=${investor.name}&entry.650199451=${investor.type}&entry.1692157935=${investor.website}&entry.171074559=${investor.description}&entry.885563122=${investor.location}&entry.2113193133=${investor.founded}&entry.1166974658=${investor.facebook}&entry.361763259=${investor.linkedin}`;
 

@@ -1,13 +1,1 @@
-{
-  "name": "iSeed SEA",
-  "slug": "iseed-sea",
-  "type": "Venture Capital",
-  "website": "https://www.iseed.vc/",
-  "description": "iSeed SEA is a venture capital firm that invests in founders building software and technology-enabled companies across Southeast Asia.",
-  "location": "Singapore",
-  "founded": "2020",
-  "facebook": "https://www.facebook.com/iSeedVC",
-  "linkedin": "https://www.linkedin.com/company/iseed-sea/",
-  "crunchbase": "https://www.crunchbase.com/organization/iseed-fund",
-  "portfolio": "https://www.iseed.vc/portfolio-investments"
-}
+{"name": "iSeed SEA", "slug": "iseed-sea", "type": "Venture Capital", "website": "https://www.iseed.vc/", "description": "iSeed SEA is a venture capital firm that invests in founders building software and technology-enabled companies across Southeast Asia.", "location": "Singapore", "founded": "2020", "facebook": "https://www.facebook.com/iSeedVC", "linkedin": "https://www.linkedin.com/company/iseed-sea/", "crunchbase": "https://www.crunchbase.com/organization/iseed-fund", "portfolio": "https://www.iseed.vc/portfolio-investments", "logoUrl": "/img/investor/iseed-sea-avatar.png"}

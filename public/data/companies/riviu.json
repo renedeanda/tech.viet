@@ -1,16 +1,1 @@
-{
-  "name": "Riviu",
-  "slug": "riviu",
-  "website": "riviu.vn",
-  "industry": "Food & Beverage",
-  "tagline": "Eat Better and Live Better",
-  "logoUrl": "",
-  "description": "Our mission is to help people eat better and live better. Riviu provides a platform for food/travel lovers to share and discover high quality reviews for their next adventure.",
-  "facebook": "fb.com/Riviu.Official",
-  "linkedin": "linkedin.com/company/riviu",
-  "blogUrl": "",
-  "androidUrl": "https://play.google.com/store/apps/details?id=com.opencheck.client",
-  "iosUrl": "https://apps.apple.com/vn/app/lixi/id1206197078",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Riviu", "slug": "riviu", "website": "riviu.vn", "industry": "Food & Beverage", "tagline": "Eat Better and Live Better", "logoUrl": "/img/company/riviu-avatar.png", "description": "Our mission is to help people eat better and live better. Riviu provides a platform for food/travel lovers to share and discover high quality reviews for their next adventure.", "facebook": "fb.com/Riviu.Official", "linkedin": "linkedin.com/company/riviu", "blogUrl": "", "androidUrl": "https://play.google.com/store/apps/details?id=com.opencheck.client", "iosUrl": "https://apps.apple.com/vn/app/lixi/id1206197078", "demoUrl": "", "hiring": false}

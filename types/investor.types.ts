@@ -10,4 +10,5 @@ export interface Investor {
     linkedin: string;
     crunchbase: string;
     portfolio: string;
+    logoUrl: string;
 }

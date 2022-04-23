@@ -1,16 +1,1 @@
-{
-  "name": "Deepview",
-  "slug": "deepview",
-  "website": "deepview.win",
-  "industry": "Education",
-  "tagline": "",
-  "logoUrl": "",
-  "description": "",
-  "facebook": "fb.com/ilovedeepview",
-  "linkedin": "",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Deepview", "slug": "deepview", "website": "deepview.win", "industry": "Education", "tagline": "", "logoUrl": "/img/company/deepview-avatar.png", "description": "", "facebook": "fb.com/ilovedeepview", "linkedin": "", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

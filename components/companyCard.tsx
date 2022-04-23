@@ -12,7 +12,7 @@ export default function CompanyCard({ company, setIndustry, openCompany }: {
 }) {
 
   // Load local image file if exists
-  const avatarSrc = company.facebook ? `/img/company/${company.slug}-avatar.png` : '/company.png'
+  const avatarSrc = company.logoUrl ? company.logoUrl : '/company.png'
   const screenSrc = `/img/company/${company.slug}-screenshot.png`
 
   return (

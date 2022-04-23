@@ -12,7 +12,7 @@ export default function InvestorCard({ investor, setInvType, openInvestor }: {
 }) {
 
   // Load local image file if exists
-  const avatarSrc = investor.facebook ? `/img/investor/${investor.slug}-avatar.png` : '/company.png'
+  const avatarSrc = investor.logoUrl ? investor.logoUrl : '/company.png'
 
   return (
     <Card

@@ -1,16 +1,1 @@
-{
-  "name": "Piktina",
-  "slug": "piktina",
-  "website": "piktina.com",
-  "industry": "Ecommerce",
-  "tagline": "Not New, Just Original",
-  "logoUrl": "",
-  "description": "Pioneering in sustainable fashion in Vietnam, we are HOME for those like-minded fashion lovers to share, connect, make money and earn other valuable benefits from re-selling, re-loving & re-styling.",
-  "facebook": "fb.com/piktinavietnam",
-  "linkedin": "https://www.linkedin.com/company/piktina",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Piktina", "slug": "piktina", "website": "piktina.com", "industry": "Ecommerce", "tagline": "Not New, Just Original", "logoUrl": "/img/company/piktina-avatar.png", "description": "Pioneering in sustainable fashion in Vietnam, we are HOME for those like-minded fashion lovers to share, connect, make money and earn other valuable benefits from re-selling, re-loving & re-styling.", "facebook": "fb.com/piktinavietnam", "linkedin": "https://www.linkedin.com/company/piktina", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

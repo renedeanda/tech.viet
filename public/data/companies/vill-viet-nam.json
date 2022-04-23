@@ -1,16 +1,1 @@
-{
-  "name": "VILL VIET NAM",
-  "slug": "vill-viet-nam",
-  "website": "vill.vn",
-  "industry": "Logistics / Transport",
-  "tagline": "VILL - Delivery application, fast food delivery in cities of Vietnam.",
-  "logoUrl": "https://drive.google.com/drive/folders/1bES79nb2OxyoMfUY6FPWfkFngn2PoRZi?usp=sharing",
-  "description": "VILL - Delivery application, fast food delivery in cities of Vietnam.",
-  "facebook": "fb.com/villship",
-  "linkedin": "",
-  "blogUrl": "https://vill.vn/villblog/",
-  "androidUrl": "https://play.google.com/store/apps/details?id=s1.vn.villship",
-  "iosUrl": "https://apps.apple.com/vn/app/vill-%E1%BB%A9ng-d%E1%BB%A5ng-giao-%C4%91%E1%BB%93-%C4%83n/id1506703946",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "VILL VIET NAM", "slug": "vill-viet-nam", "website": "vill.vn", "industry": "Logistics / Transport", "tagline": "VILL - Delivery application, fast food delivery in cities of Vietnam.", "logoUrl": "/img/company/vill-viet-nam-avatar.png", "description": "VILL - Delivery application, fast food delivery in cities of Vietnam.", "facebook": "fb.com/villship", "linkedin": "", "blogUrl": "https://vill.vn/villblog/", "androidUrl": "https://play.google.com/store/apps/details?id=s1.vn.villship", "iosUrl": "https://apps.apple.com/vn/app/vill-%E1%BB%A9ng-d%E1%BB%A5ng-giao-%C4%91%E1%BB%93-%C4%83n/id1506703946", "demoUrl": "", "hiring": false}
