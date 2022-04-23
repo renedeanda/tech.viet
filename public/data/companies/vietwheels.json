@@ -1,16 +1,1 @@
-{
-  "name": "VietWheels",
-  "slug": "vietwheels",
-  "website": "vietwheels.com",
-  "industry": "Automotive",
-  "tagline": "",
-  "logoUrl": "",
-  "description": "",
-  "facebook": "fb.com/vietwheels",
-  "linkedin": "",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "VietWheels", "slug": "vietwheels", "website": "vietwheels.com", "industry": "Automotive", "tagline": "", "logoUrl": "/img/company/vietwheels-avatar.png", "description": "", "facebook": "fb.com/vietwheels", "linkedin": "", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

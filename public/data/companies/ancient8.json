@@ -1,16 +1,1 @@
-{
-  "name": "Ancient8",
-  "slug": "ancient8",
-  "website": "ancient8.gg",
-  "industry": "Gaming",
-  "tagline": "Democratize social and financial access in the Metaverse. Ancient8 is the largest blockchain gaming guild in Vietnam",
-  "logoUrl": "",
-  "description": "Ancient8 is creating a Decentralized Autonomous Organization (DAO) that develops a platform to enable everyone to play and build the metaverse while earning rewards. \n\nIncubated by 3twelve Capital (Ex-FTX), Coin98 Labs, Kyros Ventures, and Coin68 Media, Ancient8 is the largest blockchain gaming guild in Vietnam and has helped and managed more than 1,000 blockchain game players with scholarships in Vietnam.",
-  "facebook": "fb.com/Ancient8.gg",
-  "linkedin": "linkedin.com/company/ancient8",
-  "blogUrl": "https://blog.ancient8.gg",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Ancient8", "slug": "ancient8", "website": "ancient8.gg", "industry": "Gaming", "tagline": "Democratize social and financial access in the Metaverse. Ancient8 is the largest blockchain gaming guild in Vietnam", "logoUrl": "/img/company/ancient8-avatar.png", "description": "Ancient8 is creating a Decentralized Autonomous Organization (DAO) that develops a platform to enable everyone to play and build the metaverse while earning rewards. \n\nIncubated by 3twelve Capital (Ex-FTX), Coin98 Labs, Kyros Ventures, and Coin68 Media, Ancient8 is the largest blockchain gaming guild in Vietnam and has helped and managed more than 1,000 blockchain game players with scholarships in Vietnam.", "facebook": "fb.com/Ancient8.gg", "linkedin": "linkedin.com/company/ancient8", "blogUrl": "https://blog.ancient8.gg", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

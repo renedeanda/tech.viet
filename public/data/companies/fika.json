@@ -1,16 +1,1 @@
-{
-  "name": "Fika",
-  "slug": "fika",
-  "website": "fikaconnects.com",
-  "industry": "Social",
-  "tagline": "The female-focused AI social & dating app",
-  "logoUrl": "",
-  "description": "Fika is Vietnam's fastest-growing AI social & dating app, ranking #1 Best Free Dating App on Google Play and #4 Lifestyle App on App Store in Vietnam and has since pre-launch in November 2020 gained over 1 million downloads. Fika closed the first funding round of $1.6M in October 2021, backed by leading global VCs and angel investors.\nFika is not like other dating apps, but takes a full-journey approach in 4 steps:\n1. Knowing yourself (through Fika's self-growth feature)\n2. Knowing what you want (through Fika's compatibility feature and content)\n3. Finding the person in a safe, authentic environment in Fika - with 100% verified users\n4. Continue the relationship in Fika's Couples Version\nWanna know more? Download Fika",
-  "facebook": "fb.com/fikaconnects",
-  "linkedin": "https://www.linkedin.com/company/fikaconnects",
-  "blogUrl": "https://fikaconnects.com/vi/news",
-  "androidUrl": "https://play.google.com/store/apps/details?id=com.meetai.dating.android",
-  "iosUrl": "https://apps.apple.com/vn/app/id1528449006",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Fika", "slug": "fika", "website": "fikaconnects.com", "industry": "Social", "tagline": "The female-focused AI social & dating app", "logoUrl": "/img/company/fika-avatar.png", "description": "Fika is Vietnam's fastest-growing AI social & dating app, ranking #1 Best Free Dating App on Google Play and #4 Lifestyle App on App Store in Vietnam and has since pre-launch in November 2020 gained over 1 million downloads. Fika closed the first funding round of $1.6M in October 2021, backed by leading global VCs and angel investors.\nFika is not like other dating apps, but takes a full-journey approach in 4 steps:\n1. Knowing yourself (through Fika's self-growth feature)\n2. Knowing what you want (through Fika's compatibility feature and content)\n3. Finding the person in a safe, authentic environment in Fika - with 100% verified users\n4. Continue the relationship in Fika's Couples Version\nWanna know more? Download Fika", "facebook": "fb.com/fikaconnects", "linkedin": "https://www.linkedin.com/company/fikaconnects", "blogUrl": "https://fikaconnects.com/vi/news", "androidUrl": "https://play.google.com/store/apps/details?id=com.meetai.dating.android", "iosUrl": "https://apps.apple.com/vn/app/id1528449006", "demoUrl": "", "hiring": true}

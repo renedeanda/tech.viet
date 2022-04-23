@@ -1,16 +1,1 @@
-{
-  "name": "Papaya",
-  "slug": "papaya",
-  "website": "papaya.asia",
-  "industry": "HR / Recruitment",
-  "tagline": "Healthcare & Wellness One-Stop-Shop for Employee Benefits.",
-  "logoUrl": "",
-  "description": "Papaya is created to improve health and happiness of the employees, while simplify benefits administration for Corporate. We are focused on pioneering new employee benefits strategy, by giving the employees the power to make personalized healthcare choices through our Papaya App, and Benefits Administration Portal for Corporate to manage all Employee Benefits aspects, from enrolling employee, adding dependent, to picking the right benefits.\n\nPapaya is backed by global funds and strong partnerships with top tier insurers & wellness providers.",
-  "facebook": "fb.com/papayavietnam",
-  "linkedin": "linkedin.com/company/papaya-insurtech",
-  "blogUrl": "https://www.papaya.asia/blog",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Papaya", "slug": "papaya", "website": "papaya.asia", "industry": "HR / Recruitment", "tagline": "Healthcare & Wellness One-Stop-Shop for Employee Benefits.", "logoUrl": "/img/company/papaya-avatar.png", "description": "Papaya is created to improve health and happiness of the employees, while simplify benefits administration for Corporate. We are focused on pioneering new employee benefits strategy, by giving the employees the power to make personalized healthcare choices through our Papaya App, and Benefits Administration Portal for Corporate to manage all Employee Benefits aspects, from enrolling employee, adding dependent, to picking the right benefits.\n\nPapaya is backed by global funds and strong partnerships with top tier insurers & wellness providers.", "facebook": "fb.com/papayavietnam", "linkedin": "linkedin.com/company/papaya-insurtech", "blogUrl": "https://www.papaya.asia/blog", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

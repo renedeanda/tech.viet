@@ -1,16 +1,1 @@
-{
-  "name": "Mimosatek",
-  "slug": "mimosatek",
-  "website": "mimosatek.com",
-  "industry": "Agtech",
-  "tagline": "",
-  "logoUrl": "",
-  "description": "Mimosa Technology specializes in agriculture technology. Our vision is to create an information platform to improve the lives and livelihood of farmers, by transforming farming from experienced-based into information-driven.",
-  "facebook": "fb.com/mimosatechnology",
-  "linkedin": "linkedin.com/company/mimosa-technology-ltd",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Mimosatek", "slug": "mimosatek", "website": "mimosatek.com", "industry": "Agtech", "tagline": "", "logoUrl": "/img/company/mimosatek-avatar.png", "description": "Mimosa Technology specializes in agriculture technology. Our vision is to create an information platform to improve the lives and livelihood of farmers, by transforming farming from experienced-based into information-driven.", "facebook": "fb.com/mimosatechnology", "linkedin": "linkedin.com/company/mimosa-technology-ltd", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}

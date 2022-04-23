@@ -1,16 +1,1 @@
-{
-  "name": "Bave",
-  "slug": "bave",
-  "website": "bave.io",
-  "industry": "Automotive",
-  "tagline": "A Better Avenue for Car Services!",
-  "logoUrl": "",
-  "description": "Bave stands for A Better Avenue!\n\nOur mission is to provide a better way for people to own, maintain and service their cars.\n\nBave's vision is to be the most trusted partner where people go to have their mobility need satisfied in Vietnam and South East Asia.",
-  "facebook": "fb.com/303603006898255",
-  "linkedin": "https://www.linkedin.com/company/bavetech",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Bave", "slug": "bave", "website": "bave.io", "industry": "Automotive", "tagline": "A Better Avenue for Car Services!", "logoUrl": "/img/company/bave-avatar.png", "description": "Bave stands for A Better Avenue!\n\nOur mission is to provide a better way for people to own, maintain and service their cars.\n\nBave's vision is to be the most trusted partner where people go to have their mobility need satisfied in Vietnam and South East Asia.", "facebook": "fb.com/303603006898255", "linkedin": "https://www.linkedin.com/company/bavetech", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": true}

@@ -1,16 +1,1 @@
-{
-  "name": "Space Falcon",
-  "slug": "space-falcon",
-  "website": "spacefalcon.io",
-  "industry": "Gaming",
-  "tagline": "Intergalactic metaverse",
-  "logoUrl": "",
-  "description": "Space Falcon is a next-gen Intergalactic metaverse featuring the classic space shooter game and premium Sci-Fi NFTs from cosmos and beyond. \n\nBuilt on Solana Ecosystem for fast and low cost transactions to ensure lightning fast experience for your space adventures.",
-  "facebook": "fb.com/spacefalcon.io",
-  "linkedin": "https://www.linkedin.com/company/space-falcon",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": true
-}
+{"name": "Space Falcon", "slug": "space-falcon", "website": "spacefalcon.io", "industry": "Gaming", "tagline": "Intergalactic metaverse", "logoUrl": "/img/company/space-falcon-avatar.png", "description": "Space Falcon is a next-gen Intergalactic metaverse featuring the classic space shooter game and premium Sci-Fi NFTs from cosmos and beyond. \n\nBuilt on Solana Ecosystem for fast and low cost transactions to ensure lightning fast experience for your space adventures.", "facebook": "fb.com/spacefalcon.io", "linkedin": "https://www.linkedin.com/company/space-falcon", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": true}

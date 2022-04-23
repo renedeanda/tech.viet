@@ -18,7 +18,7 @@ export default function CompanyContainer({ company, modal }: {
 }) {
 
   // Load local image file if exists
-  const avatarSrc = company.facebook ? `/img/company/${company.slug}-avatar.png` : '/company.png'
+  const avatarSrc = company.logoUrl ? company.logoUrl : '/company.png'
 
   const hiringText = company.hiring ? "Yes" : "No";
   const gFormLink = `https://docs.google.com/forms/d/e/1FAIpQLSelgDTevZ0xCrTv9SsWnlpE-vw4gofE-2s-c_tKaYo7HJwVUw/viewform?usp=pp_url&entry.2005620554=${company.name}&entry.1692157935=${company.website}&entry.1045781291=${company.industry}&entry.1065046570=${company.tagline}&entry.564514234=${company.logoUrl}&entry.171074559=${company.description}&entry.1166974658=${company.facebook}&entry.361763259=${company.linkedin}&entry.839337160=${company.blogUrl}&entry.2015302511=${company.androidUrl}&entry.302652646=${company.iosUrl}&entry.1200097343=${company.demoUrl}&entry.190791171=${hiringText}`;

@@ -1,16 +1,1 @@
-{
-  "name": "Aemi",
-  "slug": "aemi",
-  "website": "aemibeauty.com",
-  "industry": "Ecommerce",
-  "tagline": "B2B marketplace for beauty products",
-  "logoUrl": "",
-  "description": "Aemi is a B2B online marketplace for beauty products, connecting social commerce entrepreneurs directly with beauty brands across Southeast Asia. Our mission is to empower a new generation of beauty merchants through authentic supply of products and digital tools that support their business growth.",
-  "facebook": "fb.com/aemibeauty",
-  "linkedin": "https://www.linkedin.com/company/aemibeauty",
-  "blogUrl": "",
-  "androidUrl": "",
-  "iosUrl": "",
-  "demoUrl": "",
-  "hiring": false
-}
+{"name": "Aemi", "slug": "aemi", "website": "aemibeauty.com", "industry": "Ecommerce", "tagline": "B2B marketplace for beauty products", "logoUrl": "/img/company/aemi-avatar.png", "description": "Aemi is a B2B online marketplace for beauty products, connecting social commerce entrepreneurs directly with beauty brands across Southeast Asia. Our mission is to empower a new generation of beauty merchants through authentic supply of products and digital tools that support their business growth.", "facebook": "fb.com/aemibeauty", "linkedin": "https://www.linkedin.com/company/aemibeauty", "blogUrl": "", "androidUrl": "", "iosUrl": "", "demoUrl": "", "hiring": false}
