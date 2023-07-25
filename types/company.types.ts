@@ -12,5 +12,4 @@ export interface Company {
     androidUrl: string;
     iosUrl: string;
     demoUrl: string;
-    hiring: boolean;
 }

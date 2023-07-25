@@ -38,6 +38,5 @@
     "androidUrl": "play.google.com/store/apps/details?id=MY_APP_ID",
     "iosUrl": " https://apps.apple.com/vn/app/myproduct/ID",
     "demoUrl": "https://mywebsite.com/demo",
-    "hiring": null | true | false,
     "businessType": "Agency" | "Product" | "Both"
 }

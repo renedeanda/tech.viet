@@ -57,8 +57,7 @@ function createJson(value) {
         "blogUrl": value[10],
         "androidUrl": value[11],
         "iosUrl": value[12],
-        "demoUrl": value[13],
-        "hiring": value[14] == 'Yes'
+        "demoUrl": value[13]
     }
 }
 
