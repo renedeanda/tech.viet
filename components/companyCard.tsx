@@ -13,7 +13,6 @@ export default function CompanyCard({ company, setIndustry, openCompany }: {
 
   // Load local image file if exists
   const avatarSrc = company.logoUrl ? company.logoUrl : '/company.png'
-  const screenSrc = `/img/company/${company.slug}-screenshot.png`
 
   return (
     <Card
@@ -26,15 +25,8 @@ export default function CompanyCard({ company, setIndustry, openCompany }: {
       link
       color='yellow'
       style={{ maxWidth: '360px', margin: '0.5em' }}>
-      <Image
-        quality={60}
-        alt={company.name}
-        height={160}
-        width={360}
-        src={screenSrc}
-        className='card-image-header' />
       <Card.Content textAlign='left'>
-        <div className='card-avatar' style={{ marginTop: '-50px' }}>
+        <div className='card-avatar'>
           {avatarSrc ?
             <Image
               quality={60}
