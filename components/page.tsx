@@ -26,24 +26,6 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://forms.gle/Y75CegGFRp6tzdn67'
-            target='_blank'
-            rel="noopener">
-            <div
-              style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='plus' />Add Company</div>
-          </Menu.Item>
-          <Menu.Item
-            as='a'
-            href='https://forms.gle/QYmZC4HctQZSSR9x6'
-            target='_blank'
-            rel="noopener">
-            <div
-              style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='plus' />Add Investor</div>
-          </Menu.Item>
-          <Menu.Item
-            as='a'
             href='https://github.com/renedeanda/Tech.Viet'
             target='_blank'
             rel="noopener">
@@ -69,7 +51,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://www.linkedin.com/company/vietio'
+            href='https://www.linkedin.com/in/renedeanda'
             target='_blank'
             rel="noopener">
             <div
@@ -78,16 +60,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://rede.io/why-vietnam-tech-viet/'
-            target='_blank'
-            rel="noopener">
-            <div
-              style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='external' />Why Vietnam?</div>
-          </Menu.Item>
-          <Menu.Item
-            as='a'
-            href='https://www.linkedin.com/in/renedeanda'
+            href='https://rene.makr.io'
             target='_blank'
             rel="noopener">
             <div
