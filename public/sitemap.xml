@@ -1118,6 +1118,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/investors/masan-group</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/investors/megala-ventures</loc>
                       </url>
                   
@@ -1202,6 +1206,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/investors/theventures</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/investors/thinkzone-ventures</loc>
                       </url>
                   
@@ -1218,6 +1226,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/investors/trihill-capital</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/investors/venturra-capital</loc>
                       </url>
                   
@@ -1227,6 +1239,10 @@
                   
                       <url>
                           <loc>https://localhost:3000/investors/viet-capital-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/vietnam-investments-group</loc>
                       </url>
                   
                       <url>
@@ -1247,6 +1263,10 @@
                   
                       <url>
                           <loc>https://localhost:3000/investors/vulpes-ventures</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/investors/warburg-pincus</loc>
                       </url>
                   
                       <url>
