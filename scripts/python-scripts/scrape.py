@@ -8,6 +8,7 @@ import time
 import json  # for reading json file
 from glob import glob  # for reading folder of json files
 from urllib.parse import urlparse
+from selenium.webdriver.chrome.service import Service
 
 
 def scrape_page_metadata():
@@ -164,6 +165,8 @@ def get_screenshots():
     path = '/usr/local/bin/chromedriver'
     companies = read_json_files()
 
+    # new selenium version changed argument structure
+    service = Service(executable_path='/usr/local/bin/chromedriver')
     options = webdriver.ChromeOptions()
     # switch to "headful" for sites that block web crawlers or have captchas
     options.add_argument("headless")
@@ -175,7 +178,7 @@ def get_screenshots():
     options.add_argument("--no-sandbox")  # Bypass OS security model
     options.add_argument("--hide-scrollbars")  # hide scrollbars in screenshot
 
-    with webdriver.Chrome(path, options=options) as driver:
+    with webdriver.Chrome(service=service, options=options) as driver:
         # these values represent the sizes of the entire browser window and not the viewport.
         path = os.path.abspath("../../public/img/company")
         for co in companies:
@@ -304,7 +307,7 @@ def read_inv_json_files():
 
 
 # uncomment to produce screenshots for all Viet.io companies
-# get_screenshots()
+get_screenshots()
 
 # get_create_one_image("URL", "SLUG", "favicon")
 # get_create_one_image("URL", "SLUG", "share")
