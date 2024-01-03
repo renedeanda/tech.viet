@@ -1,4 +1,5 @@
 module.exports = {
+    output: 'export',
     webpack: function (config, { isServer }) {
         config.module.rules.push({
             test: /\.md$/,
