@@ -26,23 +26,7 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/aemi</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/agrivietorg</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/ai-health</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/alada</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/alotrip</loc>
                       </url>
                   
                       <url>
@@ -55,10 +39,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/anfin</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/angisoft.vn</loc>
                       </url>
                   
                       <url>
@@ -110,10 +90,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/beematie</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/bepos</loc>
                       </url>
                   
@@ -127,10 +103,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/bizzi</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/bonbanh.com_kypernet_vietnam</loc>
                       </url>
                   
                       <url>
@@ -151,18 +123,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/bvnex</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/caris</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/carrect</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/carus</loc>
                       </url>
                   
                       <url>
@@ -195,10 +155,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/coin98-finance</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/cricket-one</loc>
                       </url>
                   
                       <url>
@@ -242,10 +198,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/doctor-bear</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/drobebox</loc>
                       </url>
                   
@@ -267,10 +219,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/edumall</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/ei-industrial</loc>
                       </url>
                   
                       <url>
@@ -298,14 +246,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/ezycommerce</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/f99-vietnam</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/fibo</loc>
                       </url>
                   
@@ -315,10 +255,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/finhay</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/finrei</loc>
                       </url>
                   
                       <url>
@@ -347,10 +283,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/fundiin</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/gamejam</loc>
                       </url>
                   
                       <url>
@@ -438,10 +370,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/hottab</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/houselink-jsc</loc>
                       </url>
                   
@@ -526,23 +454,11 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/kyber-network</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/lina-network</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/litextension</loc>
                       </url>
                   
                       <url>
                           <loc>https://localhost:3000/company/lozi</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/luxstay</loc>
                       </url>
                   
                       <url>
@@ -571,14 +487,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/medigo</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/memori</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/metain</loc>
                       </url>
                   
                       <url>
@@ -638,10 +546,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/newee</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/nganluong.vn</loc>
                       </url>
                   
@@ -654,19 +558,11 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/nook</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/ohana</loc>
                       </url>
                   
                       <url>
                           <loc>https://localhost:3000/company/on-group</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/one-on-one-english</loc>
                       </url>
                   
                       <url>
@@ -714,19 +610,7 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/poko</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/pops-worldwide</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/poriverse</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/propzy</loc>
                       </url>
                   
                       <url>
@@ -735,10 +619,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/recruitery</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/ree-pay</loc>
                       </url>
                   
                       <url>
@@ -751,14 +631,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/rfox</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/ric_co._ltd</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/rino</loc>
                       </url>
                   
                       <url>
@@ -806,10 +678,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/sellde</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/selly</loc>
                       </url>
                   
@@ -843,10 +711,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/sship</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/starbots</loc>
                       </url>
                   
                       <url>
@@ -894,15 +758,7 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/thi_truong_si</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/thuocsivn</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/tidyvn</loc>
                       </url>
                   
                       <url>
@@ -919,10 +775,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/tinhvan-group</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/tomochain</loc>
                       </url>
                   
                       <url>
@@ -947,10 +799,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/triphunter</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/ubank</loc>
                       </url>
                   
                       <url>
@@ -1050,10 +898,6 @@
                       </url>
                   
                       <url>
-                          <loc>https://localhost:3000/company/vnbooking</loc>
-                      </url>
-                  
-                      <url>
                           <loc>https://localhost:3000/company/vndirect</loc>
                       </url>
                   
@@ -1079,10 +923,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/voiz-fm</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/vttechsolution</loc>
                       </url>
                   
                       <url>
