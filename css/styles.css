@@ -1,3 +1,7 @@
+html {
+    font-family: var(--font-nunito);
+}
+
 .card-link {
     color: #555B66;
     font-family: Nunito;
