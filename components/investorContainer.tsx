@@ -35,7 +35,7 @@ export default function InvestorContainer({ investor, modal }: {
             <Container fluid style={{ paddingTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
               <ShareMenu url={`${process.env.PUBLIC_URL}/investors/${investor.slug}`} />
             </Container>
-            <div className='card-avatar-big'>
+            <div>
               {avatarSrc ?
                 <Image
                   quality={60}

@@ -45,7 +45,7 @@ export default function CompanyContainer({ company, modal }: {
             <Container fluid style={{ paddingTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
               <ShareMenu url={`${process.env.PUBLIC_URL}/company/${company.slug}`} />
             </Container>
-            <div className='card-avatar-big' style={{ marginTop: '-100px' }}>
+            <div style={{ marginTop: '-100px' }}>
               {avatarSrc ?
                 <Image
                   quality={60}

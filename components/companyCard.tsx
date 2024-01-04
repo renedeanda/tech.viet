@@ -26,7 +26,7 @@ export default function CompanyCard({ company, setIndustry, openCompany }: {
       color='yellow'
       style={{ maxWidth: '360px', margin: '0.5em' }}>
       <Card.Content textAlign='left'>
-        <div className='card-avatar'>
+        <div>
           {avatarSrc ?
             <Image
               quality={60}
