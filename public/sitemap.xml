@@ -126,6 +126,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/carota</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/cho-tot</loc>
                       </url>
                   
@@ -206,7 +210,15 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/easygop</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/ecotruck</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/edoctor</loc>
                       </url>
                   
                       <url>
@@ -458,6 +470,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/logivan</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/lozi</loc>
                       </url>
                   
@@ -542,6 +558,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/neoloka</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/nganluong.vn</loc>
                       </url>
                   
@@ -610,6 +630,14 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/prep</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/primedata</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/rainbowsvn</loc>
                       </url>
                   
@@ -619,6 +647,10 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/resident</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/reti</loc>
                       </url>
                   
                       <url>
@@ -634,11 +666,19 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/rootopia</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/s3co.vn</loc>
                       </url>
                   
                       <url>
                           <loc>https://localhost:3000/company/saigoneer</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/saladin</loc>
                       </url>
                   
                       <url>
@@ -663,10 +703,6 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/schola</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://localhost:3000/company/scommerce</loc>
                       </url>
                   
                       <url>
@@ -774,6 +810,10 @@
                       </url>
                   
                       <url>
+                          <loc>https://localhost:3000/company/tititada</loc>
+                      </url>
+                  
+                      <url>
                           <loc>https://localhost:3000/company/topcv</loc>
                       </url>
                   
@@ -795,6 +835,10 @@
                   
                       <url>
                           <loc>https://localhost:3000/company/triphunter</loc>
+                      </url>
+                  
+                      <url>
+                          <loc>https://localhost:3000/company/trusting-social</loc>
                       </url>
                   
                       <url>
