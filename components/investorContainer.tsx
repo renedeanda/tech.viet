@@ -33,18 +33,9 @@ export default function InvestorContainer({ investor, modal }: {
             textAlign='left'
             style={{ padding: '0px 22px 100px 22px' }}>
             <Container fluid style={{ paddingTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
-              <Button
-                as='a'
-                title='Google Forms Edit Button'
-                basic
-                href={gFormLink}
-                target="_blank"
-                rel="noopener"
-                icon='pencil'
-                circular />
               <ShareMenu url={`${process.env.PUBLIC_URL}/investors/${investor.slug}`} />
             </Container>
-            <div className='card-avatar-big'>
+            <div>
               {avatarSrc ?
                 <Image
                   quality={60}

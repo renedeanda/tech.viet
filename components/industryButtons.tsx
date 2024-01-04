@@ -4,7 +4,6 @@ import { Button } from 'semantic-ui-react';
 const industryOptions = [
   { key: "All", text: "All", value: "All" },
   { key: "Adtech", text: "Adtech", value: "Adtech" },
-  { key: "Agtech", text: "Agtech", value: "Agtech" },
   { key: "Automotive", text: "Automotive", value: "Automotive" },
   { key: "Biotech", text: "Biotech", value: "Biotech" },
   { key: "Construction", text: "Construction", value: "Construction" },
