@@ -1,7 +1,6 @@
 import {
   Header,
   Container,
-  Button,
   Label,
   Card,
   Icon
@@ -20,8 +19,6 @@ export default function CompanyContainer({ company, modal }: {
   // Load local image file if exists
   const avatarSrc = company.logoUrl ? company.logoUrl : '/company.png'
 
-  const gFormLink = `https://docs.google.com/forms/d/e/1FAIpQLSelgDTevZ0xCrTv9SsWnlpE-vw4gofE-2s-c_tKaYo7HJwVUw/viewform?usp=pp_url&entry.2005620554=${company.name}&entry.1692157935=${company.website}&entry.1045781291=${company.industry}&entry.1065046570=${company.tagline}&entry.564514234=${company.logoUrl}&entry.171074559=${company.description}&entry.1166974658=${company.facebook}&entry.361763259=${company.linkedin}&entry.839337160=${company.blogUrl}&entry.2015302511=${company.androidUrl}&entry.302652646=${company.iosUrl}&entry.1200097343=${company.demoUrl}`;
-
   const screenSrc = `/img/company/${company.slug}-screenshot.png`
 
   const contPadding = modal ? '3em 0 0.5em 0' : '5em 0 0.5em 0'
@@ -32,15 +29,16 @@ export default function CompanyContainer({ company, modal }: {
         <Card
           fluid
           style={{ maxWidth: 720 }}>
-
-          <Image
-            quality={60}
-            alt={company.name}
-            height={300}
-            width={720}
-            src={screenSrc}
-            className='card-image-header'
-          />
+          <div className="image">
+            <Image
+              quality={60}
+              alt={company.name}
+              height={300}
+              width={720}
+              src={screenSrc}
+              className='card-image-header'
+            />
+          </div>
           <Card.Content
             textAlign='left'
             style={{ padding: '0px 22px 100px 22px' }}>
