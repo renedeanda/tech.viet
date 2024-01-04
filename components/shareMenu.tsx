@@ -36,13 +36,6 @@ export default function ShareMenu({ url }: { url: string }) {
           rel="noopener"
           icon={{ name: 'linkedin' }}
           text='Share on LinkedIn' />
-        <Dropdown.Item
-          as='a'
-          href={`https://twitter.com/intent/tweet/?text=Check out this Viet.io page&url=${url}`}
-          target="_blank"
-          rel="noopener"
-          icon={{ name: 'twitter' }}
-          text='Share on Twitter' />
       </Dropdown.Menu>
     </Dropdown>
   )

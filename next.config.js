@@ -1,4 +1,6 @@
 module.exports = {
+    output: 'export',
+    images: { unoptimized: true },
     webpack: function (config, { isServer }) {
         config.module.rules.push({
             test: /\.md$/,

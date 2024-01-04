@@ -9,7 +9,7 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
       <Menu secondary style={{ width: '100vw' }}>
         <Container>
           <Menu.Item className='main-item'>
-            <Link href='/'>
+            <Link legacyBehavior href='/'>
               <a className='navbar-text'>Viet.io</a>
             </Link>
           </Menu.Item>
