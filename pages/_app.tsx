@@ -3,7 +3,12 @@ import '../semantic/dist/semantic.min.css';
 import { AppProps } from 'next/app';
 import { Nunito } from 'next/font/google'
 
-const nunito = Nunito({ subsets: ['latin'] })
+export const nunito = Nunito({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

@@ -1,5 +1,7 @@
 html {
     font-family: var(--font-nunito);
+    font-style: normal;
+    font-weight: 400;
 }
 
 .card-link {
