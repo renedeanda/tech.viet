@@ -51,21 +51,20 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://www.linkedin.com/in/renedeanda'
-            target='_blank'
-            rel="noopener">
-            <div
-              style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='linkedin' />LinkedIn</div>
-          </Menu.Item>
-          <Menu.Item
-            as='a'
             href='https://rene.makr.io'
-            target='_blank'
-            rel="noopener">
+            target='_blank'>
             <div
               style={{ padding: '0.5em' }}
               className='navbar-text2'><Icon name='linkify' />Project by René</div>
+          </Menu.Item>
+          <Menu.Item
+            as='a'
+            href='https://www.buymeacoffee.com/rede'
+            target='_blank'
+            rel="noreferrer">
+            <div
+              style={{ padding: '0.5em' }}
+              className='navbar-text2'>☕ Buy me a coffee</div>
           </Menu.Item>
         </Sidebar>
       </main>
