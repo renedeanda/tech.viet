@@ -22,7 +22,7 @@ export default function Footer(
             <a
               style={{ color: inverted ? '#BEBEFF' : null, fontSize: '1.2em' }}
               className='card-link'
-              href='https://rene.makr.io' target='_blank'>
+              href='https://www.renedeanda.com' target='_blank'>
               {`© ${new Date().getFullYear()} Open-source Project by `}<b>René DeAnda</b></a>
           </Container>
         </Segment>
