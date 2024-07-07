@@ -51,7 +51,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           </Menu.Item>
           <Menu.Item
             as='a'
-            href='https://rene.makr.io'
+            href='https://www.renedeanda.com'
             target='_blank'>
             <div
               style={{ padding: '0.5em' }}
