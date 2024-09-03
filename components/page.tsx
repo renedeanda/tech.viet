@@ -12,6 +12,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
         <Navbar
           openDrawer={() => visible ? setVisible(false) : setVisible(true)} />
         <div style={{
+          marginTop: '56px',
           padding: '0.5em 1em',
           backgroundColor: '#f7fafc',
           color: '#1a202c',
