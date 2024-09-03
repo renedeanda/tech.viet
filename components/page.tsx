@@ -6,11 +6,38 @@ import { Menu, Icon, Sidebar } from 'semantic-ui-react';
 export default function Page({ children, inverted, footerHidden }: { children: React.ReactNode, inverted?: boolean, footerHidden?: boolean }) {
   const [visible, setVisible] = useState(false);
 
+  const bannerStyle = {
+    padding: '0.5em 1em',
+    textAlign: 'center' as const,
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: '#f7fafc',
+    color: '#1a202c',
+    fontSize: '14px',
+  };
+
+  const linkStyle = {
+    fontWeight: 'bold',
+    textDecoration: 'none',
+    color: 'inherit',
+  };
+
   return (
     <>
       <main style={{ backgroundColor: inverted ? 'transparent' : '#F5F5F7' }}>
         <Navbar
           openDrawer={() => visible ? setVisible(false) : setVisible(true)} />
+        <div style={bannerStyle}>
+          <a 
+            href="https://rede.io/?utm_source=Viet.io" 
+            style={linkStyle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check out 📚 Rede.io for your daily tech newsletter!
+          </a>
+        </div>
         {children}
         <Sidebar
           className='sidebar-menu'
